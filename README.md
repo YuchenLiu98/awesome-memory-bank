@@ -386,4 +386,4 @@ See [WORKFLOW.md](WORKFLOW.md) for how the daily automation works.
 
 CC0 1.0 — the paper metadata in this repository is free to reuse.
 
-<sub>Generated from `data/papers.yaml` · [your-name/awesome-llm-vlm-vla-papers](https://github.com/your-name/awesome-llm-vlm-vla-papers)</sub>
+<sub>Generated from `data/papers.yaml` · [YuchenLiu98/awesome-llm-vlm-vla-papers](https://github.com/YuchenLiu98/awesome-llm-vlm-vla-papers)</sub>
