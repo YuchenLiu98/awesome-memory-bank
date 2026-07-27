@@ -1,0 +1,1256 @@
+# The paper database. This file is the single source of truth for README.md,
+# TIMELINE.md and BY_INSTITUTION.md -- never edit those by hand.
+#
+# Minimal entry (title / date / url are filled in by scripts/sync_metadata.py):
+#
+#   - arxiv: "2410.24164"
+#     institution: "Physical Intelligence"
+#     section: vla            # llm | vlm | vla
+#     subcategory: robot-arch # must exist in data/categories.yaml
+#     summary: "One line on why this paper matters."
+#
+# Optional: code, project, venue, tags, star (true = highlighted in README).
+
+papers:
+  # ==========================================================
+  # I. LLM & Agent
+  # ==========================================================
+  - arxiv: '2210.03629'
+    title: 'ReAct: Synergizing Reasoning and Acting in Language Models'
+    institution: Princeton, Google
+    date: 2022-10
+    url: https://arxiv.org/abs/2210.03629
+    section: llm
+    subcategory: agent
+    star: true
+    summary: Interleaving thought and action traces; still the backbone loop of most agent frameworks.
+
+  - arxiv: '2302.04761'
+    title: 'Toolformer: Language Models Can Teach Themselves to Use Tools'
+    institution: Meta
+    date: 2023-02
+    url: https://arxiv.org/abs/2302.04761
+    section: llm
+    subcategory: agent
+    summary: Self-supervised discovery of when to call an API, without human tool-use annotations.
+
+  - arxiv: '2303.11366'
+    title: 'Reflexion: Language Agents with Verbal Reinforcement Learning'
+    institution: Northeastern, MIT
+    date: 2023-03
+    url: https://arxiv.org/abs/2303.11366
+    section: llm
+    subcategory: agent
+    summary: Turns failure feedback into natural-language memory instead of gradient updates.
+
+  - arxiv: '2304.03442'
+    title: 'Generative Agents: Interactive Simulacra of Human Behavior'
+    institution: Stanford, Google
+    date: 2023-04
+    url: https://arxiv.org/abs/2304.03442
+    section: llm
+    subcategory: agent
+    summary: Memory stream plus reflection and planning; the reference architecture for believable agent societies.
+
+  - arxiv: '2305.16291'
+    title: 'Voyager: An Open-Ended Embodied Agent with Large Language Models'
+    institution: NVIDIA, Caltech, Stanford
+    date: 2023-05
+    url: https://arxiv.org/abs/2305.16291
+    section: llm
+    subcategory: agent
+    summary: Lifelong skill library growth in Minecraft; an early demonstration of self-directed curriculum.
+
+  - arxiv: '2308.08155'
+    title: 'AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation'
+    institution: Microsoft
+    date: 2023-08
+    url: https://arxiv.org/abs/2308.08155
+    section: llm
+    subcategory: agent
+    summary: Conversation as the programming model for composing agents and tools.
+
+  - arxiv: '2310.06770'
+    title: 'SWE-bench: Can Language Models Resolve Real-World GitHub Issues?'
+    institution: Princeton, Chicago
+    date: 2023-10
+    url: https://arxiv.org/abs/2310.06770
+    section: llm
+    subcategory: agent
+    star: true
+    summary: The benchmark that reoriented agent research toward verifiable software engineering tasks.
+
+  - arxiv: '2405.15793'
+    title: 'SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering'
+    institution: Princeton, Stanford
+    date: 2024-05
+    url: https://arxiv.org/abs/2405.15793
+    section: llm
+    subcategory: agent
+    summary: Showed that interface design for the agent matters as much as the underlying model.
+
+  - arxiv: '2106.09685'
+    title: 'LoRA: Low-Rank Adaptation of Large Language Models'
+    institution: Microsoft
+    date: 2021-06
+    url: https://arxiv.org/abs/2106.09685
+    section: llm
+    subcategory: efficiency
+    star: true
+    summary: Low-rank adapters; the default fine-tuning method across every modality in this list.
+
+  - arxiv: '2205.14135'
+    title: 'FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness'
+    institution: Stanford
+    date: 2022-05
+    url: https://arxiv.org/abs/2205.14135
+    section: llm
+    subcategory: efficiency
+    star: true
+    summary: IO-aware attention kernel; the single largest practical speedup in transformer training.
+
+  - arxiv: '2211.17192'
+    title: Fast Inference from Transformers via Speculative Decoding
+    institution: Google
+    date: 2022-11
+    url: https://arxiv.org/abs/2211.17192
+    section: llm
+    subcategory: efficiency
+    summary: Draft-and-verify decoding; the basis for nearly all latency work that followed.
+
+  - arxiv: '2309.06180'
+    title: Efficient Memory Management for Large Language Model Serving with PagedAttention
+    institution: UC Berkeley
+    date: 2023-09
+    url: https://arxiv.org/abs/2309.06180
+    section: llm
+    subcategory: efficiency
+    summary: vLLM's paged KV cache, now the standard serving substrate.
+
+  - arxiv: '2009.03300'
+    title: Measuring Massive Multitask Language Understanding
+    institution: UC Berkeley
+    date: 2020-09
+    url: https://arxiv.org/abs/2009.03300
+    section: llm
+    subcategory: eval
+    summary: MMLU, the benchmark that defined the first generation of LLM leaderboards.
+
+  - arxiv: '2306.05685'
+    title: Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena
+    institution: UC Berkeley, Stanford, CMU
+    date: 2023-06
+    url: https://arxiv.org/abs/2306.05685
+    section: llm
+    subcategory: eval
+    star: true
+    summary: Established both LLM-as-judge and pairwise arena evaluation as accepted methodology.
+
+  - arxiv: '2311.12022'
+    title: 'GPQA: A Graduate-Level Google-Proof Q&A Benchmark'
+    institution: NYU, Anthropic
+    date: 2023-11
+    url: https://arxiv.org/abs/2311.12022
+    section: llm
+    subcategory: eval
+    summary: Expert-written questions that survive web search; a key reasoning-era benchmark.
+
+  - arxiv: '2302.13971'
+    title: 'LLaMA: Open and Efficient Foundation Language Models'
+    institution: Meta
+    date: 2023-02
+    url: https://arxiv.org/abs/2302.13971
+    section: llm
+    subcategory: foundation
+    star: true
+    summary: Showed that small models trained on far more tokens beat larger ones; started the open-weight ecosystem.
+
+  - arxiv: '2303.08774'
+    title: GPT-4 Technical Report
+    institution: OpenAI
+    date: 2023-03
+    url: https://arxiv.org/abs/2303.08774
+    section: llm
+    subcategory: foundation
+    star: true
+    summary: The report that set the scaling-plus-RLHF template every later frontier model followed.
+
+  - arxiv: '2312.00752'
+    title: 'Mamba: Linear-Time Sequence Modeling with Selective State Spaces'
+    institution: CMU, Princeton
+    date: 2023-12
+    url: https://arxiv.org/abs/2312.00752
+    section: llm
+    subcategory: foundation
+    summary: Selective state spaces as a linear-time alternative to attention; the root of most hybrid-architecture work.
+
+  - arxiv: '2401.04088'
+    title: Mixtral of Experts
+    institution: Mistral AI
+    date: 2024-01
+    url: https://arxiv.org/abs/2401.04088
+    section: llm
+    subcategory: foundation
+    summary: Sparse MoE with 8 experts; the reference open implementation of routed sparsity.
+
+  - arxiv: '2407.21783'
+    title: The Llama 3 Herd of Models
+    institution: Meta
+    date: 2024-07
+    url: https://arxiv.org/abs/2407.21783
+    section: llm
+    subcategory: foundation
+    summary: Unusually detailed account of data curation, pre-training infrastructure and post-training for a 405B model.
+
+  - arxiv: '2412.19437'
+    title: DeepSeek-V3 Technical Report
+    institution: DeepSeek
+    date: 2024-12
+    url: https://arxiv.org/abs/2412.19437
+    section: llm
+    subcategory: foundation
+    star: true
+    summary: MoE with multi-head latent attention and FP8 training; frontier quality at roughly a tenth of the usual compute bill.
+
+  - arxiv: '2412.15115'
+    title: Qwen2.5 Technical Report
+    institution: Alibaba
+    date: 2024-12
+    url: https://arxiv.org/abs/2412.15115
+    section: llm
+    subcategory: foundation
+    summary: The open-weight family that most Chinese VLM and VLA work now builds on.
+
+  - arxiv: '2505.09388'
+    title: Qwen3 Technical Report
+    institution: Alibaba
+    date: 2025-05
+    url: https://arxiv.org/abs/2505.09388
+    section: llm
+    subcategory: foundation
+    summary: Unifies thinking and non-thinking modes in one model with a controllable thinking budget.
+
+  - arxiv: '2005.11401'
+    title: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
+    institution: Meta, UCL, NYU
+    date: 2020-05
+    url: https://arxiv.org/abs/2005.11401
+    section: llm
+    subcategory: memory
+    star: true
+    summary: The original RAG formulation, still the standard way to attach external knowledge.
+
+  - arxiv: '2307.03172'
+    title: 'Lost in the Middle: How Language Models Use Long Contexts'
+    institution: Stanford, UC Berkeley
+    date: 2023-07
+    url: https://arxiv.org/abs/2307.03172
+    section: llm
+    subcategory: memory
+    summary: Documented the U-shaped position bias that motivates most long-context evaluation work.
+
+  - arxiv: '2404.07143'
+    title: 'Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention'
+    institution: Google
+    date: 2024-04
+    url: https://arxiv.org/abs/2404.07143
+    section: llm
+    subcategory: memory
+    summary: Compressive memory inside the attention layer for unbounded context at bounded cost.
+
+  - arxiv: '2307.07924'
+    title: 'ChatDev: Communicative Agents for Software Development'
+    institution: Tsinghua, BUPT
+    date: 2023-07
+    url: https://arxiv.org/abs/2307.07924
+    section: llm
+    subcategory: multiagent
+    summary: A virtual software company where agents hold waterfall-stage dialogues.
+
+  - arxiv: '2308.00352'
+    title: 'MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework'
+    institution: DeepWisdom, KAUST
+    date: 2023-08
+    url: https://arxiv.org/abs/2308.00352
+    section: llm
+    subcategory: multiagent
+    summary: Encodes SOP-style role division so multi-agent output stays structured.
+
+  - arxiv: '2308.10848'
+    title: 'AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors'
+    institution: Tsinghua, BUPT
+    date: 2023-08
+    url: https://arxiv.org/abs/2308.10848
+    section: llm
+    subcategory: multiagent
+    summary: A framework for dynamically recruiting agent groups and studying emergent behaviour.
+
+  - arxiv: '2203.02155'
+    title: Training language models to follow instructions with human feedback
+    institution: OpenAI
+    date: 2022-03
+    url: https://arxiv.org/abs/2203.02155
+    section: llm
+    subcategory: posttrain
+    star: true
+    summary: 'InstructGPT: the paper that made RLHF the default alignment recipe.'
+
+  - arxiv: '2212.08073'
+    title: 'Constitutional AI: Harmlessness from AI Feedback'
+    institution: Anthropic
+    date: 2022-12
+    url: https://arxiv.org/abs/2212.08073
+    section: llm
+    subcategory: posttrain
+    summary: Replaces human harmlessness labels with a written constitution and model self-critique.
+
+  - arxiv: '2305.18290'
+    title: 'Direct Preference Optimization: Your Language Model is Secretly a Reward Model'
+    institution: Stanford
+    date: 2023-05
+    url: https://arxiv.org/abs/2305.18290
+    section: llm
+    subcategory: posttrain
+    star: true
+    summary: Removes the reward model and PPO loop from preference tuning; now the default cheap alignment baseline.
+
+  - arxiv: '2402.03300'
+    title: 'DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models'
+    institution: DeepSeek
+    date: 2024-02
+    url: https://arxiv.org/abs/2402.03300
+    section: llm
+    subcategory: posttrain
+    star: true
+    summary: Introduced GRPO, the critic-free policy optimizer now used across LLM, VLM and VLA post-training.
+
+  - arxiv: '2503.14476'
+    title: 'DAPO: An Open-Source LLM Reinforcement Learning System at Scale'
+    institution: ByteDance Seed, Tsinghua
+    date: 2025-03
+    url: https://arxiv.org/abs/2503.14476
+    section: llm
+    subcategory: posttrain
+    summary: Decoupled clipping and dynamic sampling; a reproducible large-scale RL recipe with released code.
+
+  - arxiv: '2201.11903'
+    title: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+    institution: Google
+    date: 2022-01
+    url: https://arxiv.org/abs/2201.11903
+    section: llm
+    subcategory: reasoning
+    star: true
+    summary: The original observation that asking for intermediate steps unlocks reasoning at scale.
+
+  - arxiv: '2203.11171'
+    title: Self-Consistency Improves Chain of Thought Reasoning in Language Models
+    institution: Google
+    date: 2022-03
+    url: https://arxiv.org/abs/2203.11171
+    section: llm
+    subcategory: reasoning
+    summary: Sample many chains and majority-vote; the simplest test-time scaling method that still works.
+
+  - arxiv: '2305.10601'
+    title: 'Tree of Thoughts: Deliberate Problem Solving with Large Language Models'
+    institution: Princeton, Google DeepMind
+    date: 2023-05
+    url: https://arxiv.org/abs/2305.10601
+    section: llm
+    subcategory: reasoning
+    summary: Search over a tree of partial thoughts instead of a single linear chain.
+
+  - arxiv: '2408.03314'
+    title: Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters
+    institution: UC Berkeley, Google DeepMind
+    date: 2024-08
+    url: https://arxiv.org/abs/2408.03314
+    section: llm
+    subcategory: reasoning
+    star: true
+    summary: Quantified the trade between inference compute and parameters; the analytical basis for reasoning models.
+
+  - arxiv: '2412.06769'
+    title: Training Large Language Models to Reason in a Continuous Latent Space
+    institution: Meta
+    date: 2024-12
+    url: https://arxiv.org/abs/2412.06769
+    section: llm
+    subcategory: reasoning
+    summary: 'Coconut: feed the last hidden state back as the next input, reasoning without emitting tokens.'
+
+  - arxiv: '2501.12948'
+    title: 'DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning'
+    institution: DeepSeek
+    date: 2025-01
+    url: https://arxiv.org/abs/2501.12948
+    section: llm
+    subcategory: reasoning
+    star: true
+    summary: Pure RL with verifiable rewards produces long chain-of-thought without any reasoning SFT data.
+
+  - arxiv: '2501.12599'
+    title: 'Kimi k1.5: Scaling Reinforcement Learning with LLMs'
+    institution: Moonshot AI
+    date: 2025-01
+    url: https://arxiv.org/abs/2501.12599
+    section: llm
+    subcategory: reasoning
+    summary: Long-context RL recipe with length penalties and long-to-short distillation.
+
+  - arxiv: '2303.18223'
+    title: A Survey of Large Language Models
+    institution: Renmin University
+    date: 2023-03
+    url: https://arxiv.org/abs/2303.18223
+    section: llm
+    subcategory: survey
+    summary: The most frequently updated general LLM survey; good entry point for newcomers.
+
+  - arxiv: '2308.11432'
+    title: A Survey on Large Language Model based Autonomous Agents
+    institution: Renmin University
+    date: 2023-08
+    url: https://arxiv.org/abs/2308.11432
+    section: llm
+    subcategory: survey
+    summary: Organizes agent work by construction, application and evaluation.
+
+  - arxiv: '2309.07864'
+    title: 'The Rise and Potential of Large Language Model Based Agents: A Survey'
+    institution: Fudan
+    date: 2023-09
+    url: https://arxiv.org/abs/2309.07864
+    section: llm
+    subcategory: survey
+    summary: Brain-perception-action framing of LLM agents with a broad literature map.
+
+  # ==========================================================
+  # II. VLM
+  # ==========================================================
+  - arxiv: '2103.00020'
+    title: Learning Transferable Visual Models From Natural Language Supervision
+    institution: OpenAI
+    date: 2021-03
+    url: https://arxiv.org/abs/2103.00020
+    section: vlm
+    subcategory: arch
+    star: true
+    summary: 'CLIP: contrastive image-text pre-training; still the vision encoder behind most VLMs.'
+
+  - arxiv: '2204.14198'
+    title: 'Flamingo: a Visual Language Model for Few-Shot Learning'
+    institution: Google DeepMind
+    date: 2022-04
+    url: https://arxiv.org/abs/2204.14198
+    section: vlm
+    subcategory: arch
+    summary: Cross-attention adapters bridging a frozen vision encoder and a frozen LLM.
+
+  - arxiv: '2301.12597'
+    title: 'BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models'
+    institution: Salesforce
+    date: 2023-01
+    url: https://arxiv.org/abs/2301.12597
+    section: vlm
+    subcategory: arch
+    summary: 'The Q-Former: a query-based bridge that made frozen-encoder VLM training cheap.'
+
+  - arxiv: '2303.15343'
+    title: Sigmoid Loss for Language Image Pre-Training
+    institution: Google DeepMind
+    date: 2023-03
+    url: https://arxiv.org/abs/2303.15343
+    section: vlm
+    subcategory: arch
+    summary: 'SigLIP: pairwise sigmoid loss removes the global softmax, enabling small-batch contrastive training.'
+
+  - arxiv: '2304.08485'
+    title: Visual Instruction Tuning
+    institution: UW-Madison, Microsoft
+    date: 2023-04
+    url: https://arxiv.org/abs/2304.08485
+    section: vlm
+    subcategory: arch
+    star: true
+    summary: 'LLaVA: a linear projector plus GPT-generated instruction data; the recipe everyone copied.'
+
+  - arxiv: '2308.12966'
+    title: 'Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond'
+    institution: Alibaba
+    date: 2023-08
+    url: https://arxiv.org/abs/2308.12966
+    section: vlm
+    subcategory: arch
+    summary: Added grounding and OCR as first-class pre-training objectives.
+
+  - arxiv: '2310.03744'
+    title: Improved Baselines with Visual Instruction Tuning
+    institution: UW-Madison, Microsoft
+    date: 2023-10
+    url: https://arxiv.org/abs/2310.03744
+    section: vlm
+    subcategory: arch
+    summary: 'LLaVA-1.5: MLP projector and academic-task data, a strong reproducible baseline.'
+
+  - arxiv: '2312.14238'
+    title: 'InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks'
+    institution: Shanghai AI Lab
+    date: 2023-12
+    url: https://arxiv.org/abs/2312.14238
+    section: vlm
+    subcategory: arch
+    summary: Scaled the vision encoder to 6B to rebalance it against the LLM.
+
+  - arxiv: '2403.05530'
+    title: 'Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context'
+    institution: Google DeepMind
+    date: 2024-03
+    url: https://arxiv.org/abs/2403.05530
+    section: vlm
+    subcategory: arch
+    summary: Million-token multimodal context; reset expectations for long video and document understanding.
+
+  - arxiv: '2409.12191'
+    title: 'Qwen2-VL: Enhancing Vision-Language Model''s Perception of the World at Any Resolution'
+    institution: Alibaba
+    date: 2024-09
+    url: https://arxiv.org/abs/2409.12191
+    section: vlm
+    subcategory: arch
+    star: true
+    summary: Naive dynamic resolution and M-RoPE; the backbone of a large share of current VLA models.
+
+  - arxiv: '2409.17146'
+    title: 'Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models'
+    institution: Allen Institute for AI
+    date: 2024-09
+    url: https://arxiv.org/abs/2409.17146
+    section: vlm
+    subcategory: arch
+    summary: Fully open data pipeline built on human speech descriptions rather than GPT distillation.
+
+  - arxiv: '2412.05271'
+    title: Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling
+    institution: Shanghai AI Lab
+    date: 2024-12
+    url: https://arxiv.org/abs/2412.05271
+    section: vlm
+    subcategory: arch
+    summary: 'InternVL 2.5: a careful ablation of where multimodal scaling actually pays off.'
+
+  - arxiv: '2502.13923'
+    title: Qwen2.5-VL Technical Report
+    institution: Alibaba
+    date: 2025-02
+    url: https://arxiv.org/abs/2502.13923
+    section: vlm
+    subcategory: arch
+    star: true
+    summary: Strong document parsing, long video and agent grounding in one open family.
+
+  - arxiv: '2312.16886'
+    title: 'MobileVLM: A Fast, Strong and Open Vision Language Assistant for Mobile Devices'
+    institution: Meituan, Zhejiang University
+    date: 2023-12
+    url: https://arxiv.org/abs/2312.16886
+    section: vlm
+    subcategory: efficiency
+    summary: A full mobile-deployable VLM stack with a lightweight downsample projector.
+
+  - arxiv: '2403.06764'
+    title: 'An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models'
+    institution: PKU, Alibaba
+    date: 2024-03
+    url: https://arxiv.org/abs/2403.06764
+    section: vlm
+    subcategory: efficiency
+    summary: 'FastV: attention to visual tokens collapses after early layers, so prune them there.'
+
+  - arxiv: '2403.15388'
+    title: 'LLaVA-PruMerge: Adaptive Token Reduction for Efficient Large Multimodal Models'
+    institution: UW-Madison, Cleveland Clinic
+    date: 2024-03
+    url: https://arxiv.org/abs/2403.15388
+    section: vlm
+    subcategory: efficiency
+    summary: Prune then merge visual tokens using attention sparsity, keeping accuracy at a fraction of the tokens.
+
+  - arxiv: '2305.10355'
+    title: Evaluating Object Hallucination in Large Vision-Language Models
+    institution: Renmin University
+    date: 2023-05
+    url: https://arxiv.org/abs/2305.10355
+    section: vlm
+    subcategory: eval
+    summary: 'POPE: polling-based object probing, the first widely used hallucination metric.'
+
+  - arxiv: '2307.06281'
+    title: 'MMBench: Is Your Multi-modal Model an All-around Player?'
+    institution: Shanghai AI Lab
+    date: 2023-07
+    url: https://arxiv.org/abs/2307.06281
+    section: vlm
+    subcategory: eval
+    summary: CircularEval with shuffled options to remove position bias from multiple choice.
+
+  - arxiv: '2310.02255'
+    title: 'MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts'
+    institution: UCLA, Microsoft
+    date: 2023-10
+    url: https://arxiv.org/abs/2310.02255
+    section: vlm
+    subcategory: eval
+    summary: The standard visual-mathematics benchmark for multimodal reasoning.
+
+  - arxiv: '2311.16502'
+    title: 'MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI'
+    institution: IN.AI, Waterloo, OSU
+    date: 2023-11
+    url: https://arxiv.org/abs/2311.16502
+    section: vlm
+    subcategory: eval
+    star: true
+    summary: College-level multi-discipline questions; the headline multimodal leaderboard.
+
+  - arxiv: '2404.12390'
+    title: 'BLINK: Multimodal Large Language Models Can See but Not Perceive'
+    institution: UPenn, Allen Institute for AI, Washington
+    date: 2024-04
+    url: https://arxiv.org/abs/2404.12390
+    section: vlm
+    subcategory: eval
+    summary: Tasks humans solve in a blink but VLMs fail, exposing the perception-versus-knowledge gap.
+
+  - arxiv: '2303.05499'
+    title: 'Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection'
+    institution: IDEA Research
+    date: 2023-03
+    url: https://arxiv.org/abs/2303.05499
+    section: vlm
+    subcategory: grounding
+    summary: The open-vocabulary detector most multimodal data pipelines rely on for auto-labelling.
+
+  - arxiv: '2304.02643'
+    title: Segment Anything
+    institution: Meta
+    date: 2023-04
+    url: https://arxiv.org/abs/2304.02643
+    section: vlm
+    subcategory: grounding
+    star: true
+    summary: Promptable segmentation with a billion-mask dataset; a universal perception primitive.
+
+  - arxiv: '2306.14824'
+    title: 'Kosmos-2: Grounding Multimodal Large Language Models to the World'
+    institution: Microsoft
+    date: 2023-06
+    url: https://arxiv.org/abs/2306.14824
+    section: vlm
+    subcategory: grounding
+    summary: Bounding boxes as location tokens interleaved directly in the text stream.
+
+  - arxiv: '2312.08914'
+    title: 'CogAgent: A Visual Language Model for GUI Agents'
+    institution: Tsinghua, Zhipu AI
+    date: 2023-12
+    url: https://arxiv.org/abs/2312.08914
+    section: vlm
+    subcategory: guiagent
+    star: true
+    summary: High-resolution cross-module for reading small GUI text; the first serious screenshot-only agent.
+
+  - arxiv: '2401.10935'
+    title: 'SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents'
+    institution: Nanjing University, Alibaba
+    date: 2024-01
+    url: https://arxiv.org/abs/2401.10935
+    section: vlm
+    subcategory: guiagent
+    summary: Isolated GUI grounding as the core bottleneck and released ScreenSpot.
+
+  - arxiv: '2410.23218'
+    title: 'OS-ATLAS: A Foundation Action Model for Generalist GUI Agents'
+    institution: Shanghai AI Lab
+    date: 2024-10
+    url: https://arxiv.org/abs/2410.23218
+    section: vlm
+    subcategory: guiagent
+    summary: Cross-platform GUI grounding corpus with a unified action space.
+
+  - arxiv: '2501.12326'
+    title: 'UI-TARS: Pioneering Automated GUI Interaction with Native Agents'
+    institution: ByteDance, Tsinghua
+    date: 2025-01
+    url: https://arxiv.org/abs/2501.12326
+    section: vlm
+    subcategory: guiagent
+    star: true
+    summary: End-to-end native GUI agent with system-2 reasoning and reflective online traces.
+
+  - arxiv: '2211.11559'
+    title: 'Visual Programming: Compositional visual reasoning without training'
+    institution: Allen Institute for AI
+    date: 2022-11
+    url: https://arxiv.org/abs/2211.11559
+    section: vlm
+    subcategory: reasoning
+    summary: Compose vision modules by generating a program; training-free compositional reasoning.
+
+  - arxiv: '2303.11381'
+    title: 'MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action'
+    institution: Microsoft
+    date: 2023-03
+    url: https://arxiv.org/abs/2303.11381
+    section: vlm
+    subcategory: reasoning
+    summary: Early demonstration of an LLM orchestrating vision experts as tools.
+
+  - arxiv: '2411.10440'
+    title: 'LLaVA-CoT: Let Vision Language Models Reason Step-by-Step'
+    institution: PKU, Tsinghua
+    date: 2024-11
+    url: https://arxiv.org/abs/2411.10440
+    section: vlm
+    subcategory: reasoning
+    summary: Structured summary-caption-reasoning-conclusion stages with stage-level beam search.
+
+  - arxiv: '2401.12168'
+    title: 'SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities'
+    institution: Google DeepMind
+    date: 2024-01
+    url: https://arxiv.org/abs/2401.12168
+    section: vlm
+    subcategory: spatial
+    star: true
+    summary: Synthesized 3D spatial VQA at internet scale; the origin of the spatial-VQA data recipe.
+
+  - arxiv: '2406.01584'
+    title: 'SpatialRGPT: Grounded Spatial Reasoning in Vision Language Models'
+    institution: NVIDIA, UCSD
+    date: 2024-06
+    url: https://arxiv.org/abs/2406.01584
+    section: vlm
+    subcategory: spatial
+    summary: Region-level depth-aware reasoning with a plug-in depth channel.
+
+  - arxiv: '2412.14171'
+    title: 'Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces'
+    institution: NYU, Yale, Stanford
+    date: 2024-12
+    url: https://arxiv.org/abs/2412.14171
+    section: vlm
+    subcategory: spatial
+    star: true
+    summary: VSI-Bench showed that strong VLMs still lack usable cognitive maps from video.
+
+  - arxiv: '2306.13549'
+    title: A Survey on Multimodal Large Language Models
+    institution: USTC, Tencent
+    date: 2023-06
+    url: https://arxiv.org/abs/2306.13549
+    section: vlm
+    subcategory: survey
+    summary: The continuously maintained MLLM survey with a companion paper list.
+
+  - arxiv: '2405.09818'
+    title: 'Chameleon: Mixed-Modal Early-Fusion Foundation Models'
+    institution: Meta
+    date: 2024-05
+    url: https://arxiv.org/abs/2405.09818
+    section: vlm
+    subcategory: unified
+    summary: Early-fusion token-based model handling interleaved image and text generation.
+
+  - arxiv: '2408.12528'
+    title: 'Show-o: One Single Transformer to Unify Multimodal Understanding and Generation'
+    institution: NUS, ByteDance
+    date: 2024-08
+    url: https://arxiv.org/abs/2408.12528
+    section: vlm
+    subcategory: unified
+    summary: Autoregressive text with discrete diffusion images inside one transformer.
+
+  - arxiv: '2409.18869'
+    title: 'Emu3: Next-Token Prediction is All You Need'
+    institution: BAAI
+    date: 2024-09
+    url: https://arxiv.org/abs/2409.18869
+    section: vlm
+    subcategory: unified
+    summary: Pure next-token prediction over discretized video, image and text.
+
+  - arxiv: '2501.17811'
+    title: 'Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling'
+    institution: DeepSeek
+    date: 2025-01
+    url: https://arxiv.org/abs/2501.17811
+    section: vlm
+    subcategory: unified
+    summary: Decouples the visual encoding paths for understanding and generation.
+
+  - arxiv: '2306.02858'
+    title: 'Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding'
+    institution: Alibaba DAMO
+    date: 2023-06
+    url: https://arxiv.org/abs/2306.02858
+    section: vlm
+    subcategory: video
+    summary: One of the first open video-language assistants with joint audio-visual branches.
+
+  - arxiv: '2408.03326'
+    title: 'LLaVA-OneVision: Easy Visual Task Transfer'
+    institution: ByteDance, NTU
+    date: 2024-08
+    url: https://arxiv.org/abs/2408.03326
+    section: vlm
+    subcategory: video
+    star: true
+    summary: Single-image, multi-image and video in one model, with strong image-to-video transfer.
+
+  - arxiv: '2410.02713'
+    title: Video Instruction Tuning With Synthetic Data
+    institution: ByteDance, NTU
+    date: 2024-10
+    url: https://arxiv.org/abs/2410.02713
+    section: vlm
+    subcategory: video
+    summary: 'LLaVA-Video-178K: synthetic dense video instruction data at scale.'
+
+  - arxiv: '2501.13106'
+    title: 'VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding'
+    institution: Alibaba DAMO
+    date: 2025-01
+    url: https://arxiv.org/abs/2501.13106
+    section: vlm
+    subcategory: video
+    summary: Vision-centric training with adaptive video token compression.
+
+  # ==========================================================
+  # III. VLA
+  # ==========================================================
+  - arxiv: '2303.04137'
+    title: 'Diffusion Policy: Visuomotor Policy Learning via Action Diffusion'
+    institution: Columbia, TRI, MIT
+    date: 2023-03
+    url: https://arxiv.org/abs/2303.04137
+    section: vla
+    subcategory: action-token
+    star: true
+    summary: Denoising diffusion over action sequences; the multimodality fix that action chunking still builds on.
+
+  - arxiv: '2304.13705'
+    title: Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware
+    institution: Stanford
+    date: 2023-04
+    url: https://arxiv.org/abs/2304.13705
+    section: vla
+    subcategory: action-token
+    star: true
+    summary: 'ACT and ALOHA: action chunking with temporal ensembling on cheap teleoperation hardware.'
+
+  - arxiv: '2403.03181'
+    title: Behavior Generation with Latent Actions
+    institution: NYU
+    date: 2024-03
+    url: https://arxiv.org/abs/2403.03181
+    section: vla
+    subcategory: action-token
+    summary: 'VQ-BeT: residual VQ over action sequences to model multimodal behaviour.'
+
+  - arxiv: '2410.11758'
+    title: Latent Action Pretraining from Videos
+    institution: KAIST, UW, NVIDIA, AI2
+    date: 2024-10
+    url: https://arxiv.org/abs/2410.11758
+    section: vla
+    subcategory: action-token
+    star: true
+    summary: 'LAPA: learn latent actions from action-free human video, then map them to real robot actions.'
+
+  - arxiv: '2501.09747'
+    title: 'FAST: Efficient Action Tokenization for Vision-Language-Action Models'
+    institution: Physical Intelligence, Stanford, UC Berkeley
+    date: 2025-01
+    url: https://arxiv.org/abs/2501.09747
+    section: vla
+    subcategory: action-token
+    star: true
+    summary: DCT plus BPE compression of action chunks, making autoregressive VLAs viable at high frequency.
+
+  - arxiv: '2308.12952'
+    title: 'BridgeData V2: A Dataset for Robot Learning at Scale'
+    institution: UC Berkeley, Stanford, Google DeepMind, CMU
+    date: 2023-08
+    url: https://arxiv.org/abs/2308.12952
+    section: vla
+    subcategory: data
+    summary: 60k trajectories across 24 environments; a long-running skill-generalization testbed.
+
+  - arxiv: '2310.08864'
+    title: 'Open X-Embodiment: Robotic Learning Datasets and RT-X Models'
+    institution: Google DeepMind and 30+ institutions
+    date: 2023-10
+    url: https://arxiv.org/abs/2310.08864
+    section: vla
+    subcategory: data
+    star: true
+    summary: Pooled 22 embodiments into one dataset and showed positive cross-embodiment transfer.
+
+  - arxiv: '2403.12945'
+    title: 'DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset'
+    institution: Stanford, UC Berkeley, TRI and 13 institutions
+    date: 2024-03
+    url: https://arxiv.org/abs/2403.12945
+    section: vla
+    subcategory: data
+    summary: 76k in-the-wild teleoperated trajectories on a standardized hardware setup.
+
+  - arxiv: '2310.01412'
+    title: 'DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model'
+    institution: HKU, Zhejiang University, Huawei
+    date: 2023-10
+    url: https://arxiv.org/abs/2310.01412
+    section: vla
+    subcategory: driving
+    summary: Predicts control signals while explaining them in natural language.
+
+  - arxiv: '2312.07488'
+    title: 'LMDrive: Closed-Loop End-to-End Driving with Large Language Models'
+    institution: CUHK MMLab, Shanghai AI Lab
+    date: 2023-12
+    url: https://arxiv.org/abs/2312.07488
+    section: vla
+    subcategory: driving
+    summary: The first closed-loop language-instructed driving agent evaluated in CARLA.
+
+  - arxiv: '2402.12289'
+    title: 'DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models'
+    institution: Tsinghua, Li Auto
+    date: 2024-02
+    url: https://arxiv.org/abs/2402.12289
+    section: vla
+    subcategory: driving
+    star: true
+    summary: Slow VLM reasoning fused with a fast conventional pipeline; an early deployed dual-system design.
+
+  - arxiv: '2410.23262'
+    title: 'EMMA: End-to-End Multimodal Model for Autonomous Driving'
+    institution: Waymo
+    date: 2024-10
+    url: https://arxiv.org/abs/2410.23262
+    section: vla
+    subcategory: driving
+    star: true
+    summary: Everything as text on top of Gemini, including trajectories, with strong multi-task transfer.
+
+  - arxiv: '2410.22313'
+    title: 'Senna: Bridging Large Vision-Language Models and End-to-End Autonomous Driving'
+    institution: HUST, Horizon Robotics
+    date: 2024-10
+    url: https://arxiv.org/abs/2410.22313
+    section: vla
+    subcategory: driving
+    summary: VLM outputs meta-actions in language while an end-to-end model handles trajectory precision.
+
+  - arxiv: '2503.19755'
+    title: 'ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation'
+    institution: HUST, Xiaomi
+    date: 2025-03
+    url: https://arxiv.org/abs/2503.19755
+    section: vla
+    subcategory: driving
+    summary: Aligns the reasoning space with the action space via a generative planner.
+
+  - arxiv: '2506.08052'
+    title: 'ReCogDrive: A Reinforced Cognitive Framework for End-to-End Autonomous Driving'
+    institution: HUST, Xiaomi
+    date: 2025-06
+    url: https://arxiv.org/abs/2506.08052
+    section: vla
+    subcategory: driving
+    summary: Three-stage VLM-plus-diffusion-planner pipeline refined with simulation-based RL.
+
+  - arxiv: '2112.03227'
+    title: 'CALVIN: A Benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks'
+    institution: University of Freiburg
+    date: 2021-12
+    url: https://arxiv.org/abs/2112.03227
+    section: vla
+    subcategory: eval
+    summary: Long-horizon language-conditioned chains; still a common ablation ground.
+
+  - arxiv: '2306.03310'
+    title: 'LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning'
+    institution: UT Austin, Sony AI
+    date: 2023-06
+    url: https://arxiv.org/abs/2306.03310
+    section: vla
+    subcategory: eval
+    star: true
+    summary: The standard 130-task suite for measuring VLA generalization along four axes.
+
+  - arxiv: '2405.05941'
+    title: Evaluating Real-World Robot Manipulation Policies in Simulation
+    institution: UCSD, Stanford, UC Berkeley, Google DeepMind
+    date: 2024-05
+    url: https://arxiv.org/abs/2405.05941
+    section: vla
+    subcategory: eval
+    star: true
+    summary: 'SIMPLER: simulated evaluation that actually correlates with real-robot success rates.'
+
+  - arxiv: '2402.15852'
+    title: 'NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation'
+    institution: PKU, Beijing Academy of AI
+    date: 2024-02
+    url: https://arxiv.org/abs/2402.15852
+    section: vla
+    subcategory: nav
+    summary: RGB-video-only navigation with no maps, depth or odometry.
+
+  - arxiv: '2406.10454'
+    title: 'HumanPlus: Humanoid Shadowing and Imitation from Humans'
+    institution: Stanford
+    date: 2024-06
+    url: https://arxiv.org/abs/2406.10454
+    section: vla
+    subcategory: nav
+    summary: Real-time whole-body shadowing of human motion, then imitation from the collected data.
+
+  - arxiv: '2406.08858'
+    title: 'OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning'
+    institution: CMU
+    date: 2024-06
+    url: https://arxiv.org/abs/2406.08858
+    section: vla
+    subcategory: nav
+    summary: Universal whole-body teleoperation interface enabling humanoid autonomy data collection.
+
+  - arxiv: '2412.03572'
+    title: Navigation World Models
+    institution: Meta, NYU, Berkeley
+    date: 2024-12
+    url: https://arxiv.org/abs/2412.03572
+    section: vla
+    subcategory: nav
+    star: true
+    summary: Plan by simulating future observations conditioned on candidate navigation actions.
+
+  - arxiv: '2401.16013'
+    title: 'SERL: A Software Suite for Sample-Efficient Robotic Reinforcement Learning'
+    institution: UC Berkeley
+    date: 2024-01
+    url: https://arxiv.org/abs/2401.16013
+    section: vla
+    subcategory: rl
+    summary: Made real-world robot RL reproducible in an afternoon rather than a PhD.
+
+  - arxiv: '2410.21845'
+    title: Precise and Dexterous Robotic Manipulation via Human-in-the-Loop Reinforcement Learning
+    institution: UC Berkeley
+    date: 2024-10
+    url: https://arxiv.org/abs/2410.21845
+    section: vla
+    subcategory: rl
+    star: true
+    summary: 'HIL-SERL: near-perfect success on contact-rich tasks within a couple of hours of human-corrected RL.'
+
+  - arxiv: '2509.16117'
+    title: 'DiffusionNFT: Online Diffusion Reinforcement with Forward Process'
+    institution: Tsinghua, NVIDIA, Stanford
+    date: 2025-09
+    url: https://arxiv.org/abs/2509.16117
+    section: vla
+    subcategory: rl
+    summary: Likelihood-free online RL for diffusion models, applicable to flow-based action experts.
+
+  - arxiv: '2212.06817'
+    title: 'RT-1: Robotics Transformer for Real-World Control at Scale'
+    institution: Google
+    date: 2022-12
+    url: https://arxiv.org/abs/2212.06817
+    section: vla
+    subcategory: robot-arch
+    star: true
+    summary: Discretized action tokens over 130k demonstrations; the start of the modern VLA line.
+
+  - arxiv: '2307.15818'
+    title: 'RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control'
+    institution: Google DeepMind
+    date: 2023-07
+    url: https://arxiv.org/abs/2307.15818
+    section: vla
+    subcategory: robot-arch
+    star: true
+    summary: Co-fine-tuning a web-scale VLM with robot data; the paper that named the VLA category.
+
+  - arxiv: '2405.12213'
+    title: 'Octo: An Open-Source Generalist Robot Policy'
+    institution: UC Berkeley, Stanford, CMU
+    date: 2024-05
+    url: https://arxiv.org/abs/2405.12213
+    section: vla
+    subcategory: robot-arch
+    summary: Transformer policy with a diffusion head and flexible observation/action interfaces.
+
+  - arxiv: '2406.09246'
+    title: 'OpenVLA: An Open-Source Vision-Language-Action Model'
+    institution: Stanford, UC Berkeley, TRI, Google DeepMind
+    date: 2024-06
+    url: https://arxiv.org/abs/2406.09246
+    section: vla
+    subcategory: robot-arch
+    star: true
+    summary: 7B open VLA on Open-X; the default academic baseline for manipulation.
+
+  - arxiv: '2410.24164'
+    title: 'π0: A Vision-Language-Action Flow Model for General Robot Control'
+    institution: Physical Intelligence
+    date: 2024-10
+    url: https://arxiv.org/abs/2410.24164
+    section: vla
+    subcategory: robot-arch
+    star: true
+    summary: Flow-matching action expert bolted onto a VLM; the reference architecture for high-frequency control.
+
+  - arxiv: '2410.07864'
+    title: 'RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation'
+    institution: Tsinghua
+    date: 2024-10
+    url: https://arxiv.org/abs/2410.07864
+    section: vla
+    subcategory: robot-arch
+    summary: 1B diffusion transformer with a unified action space for bimanual robots.
+
+  - arxiv: '2411.19650'
+    title: 'CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation'
+    institution: Microsoft Research Asia, Tsinghua
+    date: 2024-11
+    url: https://arxiv.org/abs/2411.19650
+    section: vla
+    subcategory: robot-arch
+    summary: Componentized cognition and action modules with a diffusion action transformer.
+
+  - arxiv: '2502.19417'
+    title: 'Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models'
+    institution: Physical Intelligence, Stanford
+    date: 2025-02
+    url: https://arxiv.org/abs/2502.19417
+    section: vla
+    subcategory: robot-arch
+    summary: A high-level VLM issues language subgoals to a low-level VLA, handling interactive corrections.
+
+  - arxiv: '2503.14734'
+    title: 'GR00T N1: An Open Foundation Model for Generalist Humanoid Robots'
+    institution: NVIDIA
+    date: 2025-03
+    url: https://arxiv.org/abs/2503.14734
+    section: vla
+    subcategory: robot-arch
+    star: true
+    summary: Dual-system humanoid foundation model trained on a mix of real, synthetic and human video.
+
+  - arxiv: '2503.20020'
+    title: 'Gemini Robotics: Bringing AI into the Physical World'
+    institution: Google DeepMind
+    date: 2025-03
+    url: https://arxiv.org/abs/2503.20020
+    section: vla
+    subcategory: robot-arch
+    star: true
+    summary: Gemini-based embodied reasoning plus a low-latency action model for dexterous tasks.
+
+  - arxiv: '2504.16054'
+    title: 'π0.5: a Vision-Language-Action Model with Open-World Generalization'
+    institution: Physical Intelligence
+    date: 2025-04
+    url: https://arxiv.org/abs/2504.16054
+    section: vla
+    subcategory: robot-arch
+    star: true
+    summary: Heterogeneous co-training with high-level subtask prediction; generalizes to unseen homes.
+
+  - arxiv: '2405.14093'
+    title: A Survey on Vision-Language-Action Models for Embodied AI
+    institution: CUHK, Huawei Noah's Ark Lab
+    date: 2024-05
+    url: https://arxiv.org/abs/2405.14093
+    section: vla
+    subcategory: survey
+    summary: Organizes VLA work into components, control policies and high-level task planners.
+
+  - arxiv: '2505.04769'
+    title: 'Vision-Language-Action Models: Concepts, Progress, Applications and Challenges'
+    institution: Cornell, University of Washington
+    date: 2025-05
+    url: https://arxiv.org/abs/2505.04769
+    section: vla
+    subcategory: survey
+    summary: Broad and recent VLA survey spanning robotics, driving and humanoid applications.
+
+  - arxiv: '2302.00111'
+    title: Learning Universal Policies via Text-Guided Video Generation
+    institution: MIT, Google DeepMind
+    date: 2023-02
+    url: https://arxiv.org/abs/2302.00111
+    section: vla
+    subcategory: worldmodel
+    summary: 'UniPi: plan by generating video, then extract actions with an inverse dynamics model.'
+
+  - arxiv: '2309.17080'
+    title: 'GAIA-1: A Generative World Model for Autonomous Driving'
+    institution: Wayve
+    date: 2023-09
+    url: https://arxiv.org/abs/2309.17080
+    section: vla
+    subcategory: worldmodel
+    summary: Video, text and action conditioned generative driving world model.
+
+  - arxiv: '2309.09777'
+    title: 'DriveDreamer: Towards Real-world-Driven World Models for Autonomous Driving'
+    institution: GigaAI, Tsinghua
+    date: 2023-09
+    url: https://arxiv.org/abs/2309.09777
+    section: vla
+    subcategory: worldmodel
+    summary: Structured traffic priors to keep generated driving video physically plausible.
+
+  - arxiv: '2402.15391'
+    title: 'Genie: Generative Interactive Environments'
+    institution: Google DeepMind
+    date: 2024-02
+    url: https://arxiv.org/abs/2402.15391
+    section: vla
+    subcategory: worldmodel
+    star: true
+    summary: Latent action space learned unsupervised from video, yielding a controllable world model.
+
+  - arxiv: '2405.17398'
+    title: 'Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability'
+    institution: GigaAI, CASIA
+    date: 2024-05
+    url: https://arxiv.org/abs/2405.17398
+    section: vla
+    subcategory: worldmodel
+    summary: High-resolution driving world model with multiple action-control interfaces.
+
+  - arxiv: '2501.03575'
+    title: Cosmos World Foundation Model Platform for Physical AI
+    institution: NVIDIA
+    date: 2025-01
+    url: https://arxiv.org/abs/2501.03575
+    section: vla
+    subcategory: worldmodel
+    star: true
+    summary: An open world-model platform with tokenizers, data pipeline and post-training recipes.
+
+  - arxiv: '2506.21539'
+    title: 'WorldVLA: Towards Autoregressive Action World Model'
+    institution: Alibaba DAMO, Zhejiang University
+    date: 2025-06
+    url: https://arxiv.org/abs/2506.21539
+    section: vla
+    subcategory: worldmodel
+    summary: One autoregressive model that both predicts future frames and emits actions.

@@ -1,0 +1,46 @@
+name: Daily arXiv update
+
+on:
+  schedule:
+    # 01:00 UTC == 09:00 Beijing time, after the arXiv overnight announcement.
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Look-back window in days"
+        required: false
+        default: "2"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Crawl arXiv
+        run: python scripts/fetch_arxiv.py --days "${{ github.event.inputs.days || 2 }}"
+
+      - name: Regenerate views
+        run: python scripts/generate_readme.py
+
+      - name: Commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A daily data README.md TIMELINE.md BY_INSTITUTION.md
+          if git diff --cached --quiet; then
+            echo "nothing new today"
+          else
+            git commit -m "chore: daily arXiv update $(date -u +%Y-%m-%d)"
+            git push
+          fi

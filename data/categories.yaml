@@ -1,0 +1,401 @@
+# Taxonomy for Awesome-LLM-VLM-VLA-Papers
+#
+# This file is the single source of truth for:
+#   1. the section / subcategory structure rendered into README.md
+#   2. the keyword lists used by scripts/fetch_arxiv.py to auto-classify
+#      newly crawled arXiv papers
+#
+# Adding a subcategory here is enough: the generator and the crawler pick it
+# up automatically. `keywords` are matched case-insensitively against the
+# title + abstract; `weight` boosts a subcategory when several ones match.
+
+meta:
+  title: Awesome LLM / VLM / VLA Papers
+  subtitle: >-
+    A curated, auto-updated collection of papers across three tiers of
+    foundation models: language-only LLMs & agents, vision-language models,
+    and vision-language-action models.
+  repo: your-name/awesome-llm-vlm-vla-papers
+  license: CC0 1.0
+
+sections:
+  - id: llm
+    numeral: I
+    title: LLM & Agent
+    title_zh: 纯语言模型与智能体
+    short: LLM
+    description: >-
+      Language-only foundation models, their training recipes, reasoning
+      abilities, and the agent systems built on top of them.
+    subcategories:
+      - id: foundation
+        title: Foundation Models & Architecture
+        keywords:
+          - large language model
+          - technical report
+          - mixture-of-experts
+          - pretraining
+          - transformer architecture
+          - state space model
+          - linear attention
+      - id: reasoning
+        title: Reasoning & Chain-of-Thought
+        keywords:
+          - chain-of-thought
+          - chain of thought
+          - reasoning model
+          - step-by-step reasoning
+          - self-consistency
+          - test-time compute
+          - test-time scaling
+          - latent reasoning
+          - process reward
+        weight: 1.2
+      - id: posttrain
+        title: Post-training, RLHF & RLVR
+        keywords:
+          - rlhf
+          - reinforcement learning from human feedback
+          - dpo
+          - direct preference optimization
+          - grpo
+          - verifiable reward
+          - instruction tuning
+          - alignment
+          - preference optimization
+        weight: 1.2
+      - id: agent
+        title: Agent Frameworks & Tool Use
+        keywords:
+          - llm agent
+          - autonomous agent
+          - tool use
+          - tool calling
+          - function calling
+          - agentic
+          - computer use
+          - software engineering agent
+          - deep research
+        weight: 1.3
+      - id: multiagent
+        title: Multi-Agent Systems
+        keywords:
+          - multi-agent
+          - multi agent collaboration
+          - agent society
+          - role-playing agents
+        weight: 1.3
+      - id: memory
+        title: Memory, Context & Retrieval
+        keywords:
+          - long context
+          - context window
+          - retrieval-augmented
+          - rag
+          - memory mechanism
+          - kv cache
+          - context compression
+      - id: efficiency
+        title: Efficient Training & Inference
+        keywords:
+          - quantization
+          - speculative decoding
+          - parameter-efficient
+          - lora
+          - inference acceleration
+          - serving system
+          - flash attention
+          - distillation
+      - id: eval
+        title: Evaluation & Benchmarks
+        keywords:
+          - benchmark
+          - evaluation suite
+          - leaderboard
+          - contamination
+          - llm-as-a-judge
+      - id: survey
+        title: Surveys
+        keywords:
+          - survey
+          - systematic review
+          - position paper
+        weight: 1.5
+
+  - id: vlm
+    numeral: II
+    title: VLM
+    title_zh: 视觉语言模型
+    short: VLM
+    description: >-
+      Multimodal models that consume pixels and produce language: perception,
+      grounding, video understanding, unified generation, and GUI agents.
+    subcategories:
+      - id: arch
+        title: Architecture & Pre-training
+        keywords:
+          - vision-language model
+          - multimodal large language model
+          - vision encoder
+          - visual instruction tuning
+          - image-text pretraining
+          - contrastive language-image
+          - projector
+        weight: 1.1
+      - id: reasoning
+        title: Multimodal Reasoning
+        keywords:
+          - multimodal reasoning
+          - multimodal chain-of-thought
+          - visual reasoning
+          - visual chain-of-thought
+          - multimodal rl
+          - thinking with images
+        weight: 1.2
+      - id: video
+        title: Video & Long-Horizon Understanding
+        keywords:
+          - video understanding
+          - video llm
+          - long video
+          - temporal grounding
+          - streaming video
+        weight: 1.3
+      - id: spatial
+        title: Spatial Intelligence & 3D/4D
+        keywords:
+          - spatial reasoning
+          - spatial intelligence
+          - 3d scene understanding
+          - point cloud language
+          - depth estimation
+          - 4d reconstruction
+          - visual geometry
+        weight: 1.3
+      - id: grounding
+        title: Grounding, Detection & Segmentation
+        keywords:
+          - visual grounding
+          - referring expression
+          - open-vocabulary detection
+          - segmentation
+          - region-level
+          - pixel grounding
+        weight: 1.2
+      - id: unified
+        title: Unified Understanding & Generation
+        keywords:
+          - unified understanding and generation
+          - any-to-any
+          - autoregressive image generation
+          - interleaved generation
+          - image tokenizer
+          - diffusion language model
+        weight: 1.2
+      - id: guiagent
+        title: GUI & Multimodal Agents
+        keywords:
+          - gui agent
+          - gui grounding
+          - screen understanding
+          - web agent
+          - mobile agent
+          - os agent
+        weight: 1.4
+      - id: efficiency
+        title: Efficient VLM
+        keywords:
+          - token pruning
+          - visual token compression
+          - efficient multimodal
+          - lightweight vlm
+          - token merging
+      - id: eval
+        title: Benchmarks & Hallucination
+        keywords:
+          - multimodal benchmark
+          - hallucination
+          - vqa benchmark
+          - perception benchmark
+          - multimodal evaluation
+      - id: survey
+        title: Surveys
+        keywords:
+          - survey
+          - systematic review
+        weight: 1.5
+
+  - id: vla
+    numeral: III
+    title: VLA
+    title_zh: 视觉语言动作模型
+    short: VLA
+    description: >-
+      Models that close the loop from perception and language to physical
+      action, covering robot manipulation, autonomous driving and world models.
+    subcategories:
+      - id: robot-arch
+        title: Robotics VLA Architecture
+        keywords:
+          - vision-language-action
+          - vla model
+          - robot manipulation policy
+          - generalist robot policy
+          - robot foundation model
+          - embodied foundation model
+          - dual-system
+        weight: 1.2
+      - id: driving
+        title: Autonomous Driving VLA
+        keywords:
+          - autonomous driving
+          - end-to-end driving
+          - driving vla
+          - trajectory planning
+          - driving with language
+          - closed-loop driving
+        weight: 1.4
+      - id: action-token
+        title: Action Tokenization & Representation
+        keywords:
+          - action tokenizer
+          - action tokenization
+          - latent action
+          - action chunking
+          - action representation
+          - flow matching action
+        weight: 1.4
+      - id: worldmodel
+        title: World Models & Policy Co-learning
+        keywords:
+          - world model
+          - video prediction policy
+          - dreamer
+          - imagination
+          - world action model
+          - neural simulator
+        weight: 1.3
+      - id: rl
+        title: RL & Policy Optimization
+        keywords:
+          - reinforcement learning
+          - policy optimization
+          - online rl
+          - reward model
+          - self-improvement
+          - residual policy
+        weight: 1.1
+      - id: data
+        title: Data, Pre-training & Simulation
+        keywords:
+          - robot dataset
+          - teleoperation
+          - cross-embodiment
+          - human video
+          - simulation benchmark
+          - data scaling
+          - sim-to-real
+        weight: 1.2
+      - id: nav
+        title: Navigation & Humanoid
+        keywords:
+          - vision-language navigation
+          - embodied navigation
+          - humanoid
+          - locomotion
+          - whole-body control
+        weight: 1.3
+      - id: eval
+        title: Benchmarks & Safety
+        keywords:
+          - robot benchmark
+          - safety
+          - evaluation protocol
+          - generalization benchmark
+          - failure recovery
+      - id: survey
+        title: Surveys
+        keywords:
+          - survey
+          - systematic review
+        weight: 1.5
+
+# Search configuration for scripts/fetch_arxiv.py.
+#
+# One query per track keeps each request small enough for the arXiv API while
+# still covering the three tracks independently. Edit these to widen or narrow
+# the daily crawl.
+arxiv:
+  queries:
+    - id: llm
+      query: >-
+        (cat:cs.CL OR cat:cs.AI) AND (abs:"large language model" OR abs:"LLM agent"
+        OR abs:"agentic" OR abs:"chain-of-thought" OR abs:"reasoning model"
+        OR abs:"test-time scaling" OR abs:"tool use" OR abs:"multi-agent")
+    - id: vlm
+      query: >-
+        (cat:cs.CV OR cat:cs.CL) AND (abs:"vision-language model"
+        OR abs:"multimodal large language model" OR abs:"MLLM"
+        OR abs:"visual instruction" OR abs:"video understanding"
+        OR abs:"GUI agent" OR abs:"spatial reasoning")
+    - id: vla
+      query: >-
+        (cat:cs.RO OR cat:cs.CV OR cat:cs.LG) AND (abs:"vision-language-action"
+        OR abs:"robot manipulation" OR abs:"embodied agent" OR abs:"robot policy"
+        OR abs:"autonomous driving" OR abs:"world model" OR abs:"humanoid")
+  categories:
+    - cs.AI
+    - cs.CL
+    - cs.CV
+    - cs.LG
+    - cs.RO
+  # A paper must match at least one of these to enter the candidate queue.
+  gate_keywords:
+    - large language model
+    - language model
+    - llm
+    - vision-language
+    - vision language
+    - multimodal
+    - mllm
+    - vlm
+    - vla
+    - vision-language-action
+    - embodied
+    - agent
+    - robot
+    - autonomous driving
+    - world model
+    - reasoning
+  # Papers whose title matches these are dropped as noise.
+  block_keywords:
+    - federated learning
+    - medical image segmentation
+    - recommendation system
+    - time series forecasting
+    - protein
+    - speech enhancement
+
+# Institutions worth highlighting in the daily digest and reports.
+watch_institutions:
+  - OpenAI
+  - Google DeepMind
+  - Anthropic
+  - Meta
+  - NVIDIA
+  - Microsoft
+  - Physical Intelligence
+  - Alibaba
+  - DeepSeek
+  - ByteDance
+  - Tencent
+  - Xiaomi
+  - Moonshot AI
+  - Shanghai AI Lab
+  - Tsinghua
+  - PKU
+  - SJTU
+  - Stanford
+  - UC Berkeley
+  - MIT
+  - CMU
