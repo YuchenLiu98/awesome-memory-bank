@@ -20,6 +20,12 @@ import sys
 import common
 
 
+def _queued_value(queued: dict | None, field: str) -> str | None:
+    """Read a field from the review queue, ignoring the 'unsorted' placeholder."""
+    value = (queued or {}).get(field)
+    return None if value in (None, "unsorted") else value
+
+
 def normalize_id(value: str) -> str:
     value = value.strip()
     match = re.search(r"(\d{4}\.\d{4,5})", value)
@@ -57,11 +63,16 @@ def main() -> int:
     candidates = common.load_candidates()
     queued = next((c for c in candidates if str(c.get("arxiv")).strip() == arxiv_id), None)
 
-    section = args.section or (queued or {}).get("section")
-    subcategory = args.subcategory or (queued or {}).get("subcategory")
+    section = args.section or _queued_value(queued, "section")
+    subcategory = args.subcategory or _queued_value(queued, "subcategory")
     if not section or not subcategory:
         classify = common.build_classifier(categories)
         section, subcategory, score = classify(entry["title"], entry["abstract"])
+        if not section:
+            print("Could not classify this paper automatically.")
+            print("Re-run with --section and --subcategory, for example:")
+            print(f"  python scripts/add_paper.py {arxiv_id} --section vla --subcategory robot-arch")
+            return 1
         print(f"Auto-classified as {section}/{subcategory} (confidence {score:.1f})")
 
     valid = common.subcategory_index(categories)

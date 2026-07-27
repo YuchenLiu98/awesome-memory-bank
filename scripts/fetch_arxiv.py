@@ -23,6 +23,7 @@ from typing import Any
 import common
 
 SNIPPET_CHARS = 200
+UNSORTED = "unsorted"
 
 
 def matches_gate(entry: dict[str, Any], gate: list[str], block: list[str]) -> bool:
@@ -73,8 +74,8 @@ def collect(categories: dict[str, Any], days: int, per_query: int) -> list[dict[
                 "title": entry["title"],
                 "date": entry["published"],
                 "url": entry["url"],
-                "section": section,
-                "subcategory": subcategory,
+                "section": section or UNSORTED,
+                "subcategory": subcategory or UNSORTED,
                 "score": round(score, 1),
                 "arxiv_categories": entry["categories"][:3],
                 "abstract": snippet(entry["abstract"], 400),
@@ -111,11 +112,20 @@ def build_digest(
         out += ["_Nothing matched today._", ""]
         return "\n".join(out)
 
-    for section in categories["sections"]:
-        rows = sorted(by_section.get(section["id"], []), key=lambda p: -p["score"])
+    ordered = [(s["id"], section_titles[s["id"]]) for s in categories["sections"]]
+    ordered.append((UNSORTED, "Unsorted"))
+
+    for section_id, heading in ordered:
+        rows = sorted(by_section.get(section_id, []), key=lambda p: -p["score"])
         if not rows:
             continue
-        out += [f"## {section_titles[section['id']]} ({len(rows)})", ""]
+        out += [f"## {heading} ({len(rows)})", ""]
+        if section_id == UNSORTED:
+            out += [
+                "_Matched the search queries but no subcategory keywords. "
+                "Usually noise; occasionally a genuinely new topic worth a category._",
+                "",
+            ]
         for item in rows:
             sub = sub_titles.get((item["section"], item["subcategory"]), item["subcategory"])
             out += [

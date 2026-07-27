@@ -351,7 +351,12 @@ def search(query: str, max_results: int = 200, page_size: int = 100) -> list[dic
 # classification
 # --------------------------------------------------------------------------
 def build_classifier(categories: dict[str, Any]):
-    """Return classify(title, abstract) -> (section_id, subcategory_id, score)."""
+    """Return classify(title, abstract) -> (section_id, subcategory_id, score).
+
+    Section and subcategory are None when nothing matched, so unrelated papers
+    end up in an explicit "unsorted" bucket instead of silently landing in
+    whichever category happens to be first.
+    """
     rules = []
     for section in categories["sections"]:
         for sub in section["subcategories"]:
@@ -359,10 +364,10 @@ def build_classifier(categories: dict[str, Any]):
             keywords = [k.lower() for k in sub.get("keywords", [])]
             rules.append((section["id"], sub["id"], weight, keywords))
 
-    def classify(title: str, abstract: str = "") -> tuple[str, str, float]:
+    def classify(title: str, abstract: str = "") -> tuple[str | None, str | None, float]:
         title_l = title.lower()
         abstract_l = abstract.lower()
-        best = ("llm", "foundation", 0.0)
+        best: tuple[str | None, str | None, float] = (None, None, 0.0)
         for section_id, sub_id, weight, keywords in rules:
             score = 0.0
             for keyword in keywords:

@@ -42,24 +42,24 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Sep 2025 | [DiffusionNFT: Online Diffusion Reinforcement with Forward Process](https://arxiv.org/abs/2509.16117) | `VLA` |
-| Feb 2025 | [Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models](https://arxiv.org/abs/2502.19417) | `VLA` |
-| Jan 2025 | ⭐ [FAST: Efficient Action Tokenization for Vision-Language-Action Models](https://arxiv.org/abs/2501.09747) | `VLA` |
-| Dec 2024 | ⭐ [Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces](https://arxiv.org/abs/2412.14171) | `VLM` |
-| Jun 2024 | ⭐ [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) | `VLA` |
-| Jun 2024 | [HumanPlus: Humanoid Shadowing and Imitation from Humans](https://arxiv.org/abs/2406.10454) | `VLA` |
-| May 2024 | [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering](https://arxiv.org/abs/2405.15793) | `LLM` |
-| May 2024 | [Octo: An Open-Source Generalist Robot Policy](https://arxiv.org/abs/2405.12213) | `VLA` |
-| May 2024 | ⭐ [Evaluating Real-World Robot Manipulation Policies in Simulation](https://arxiv.org/abs/2405.05941) | `VLA` |
-| Mar 2024 | [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](https://arxiv.org/abs/2403.12945) | `VLA` |
-| Aug 2023 | [BridgeData V2: A Dataset for Robot Learning at Scale](https://arxiv.org/abs/2308.12952) | `VLA` |
-| Jul 2023 | [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) | `LLM` |
-| Jun 2023 | ⭐ [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685) | `LLM` |
-| May 2023 | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) | `LLM` |
-| May 2023 | ⭐ [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290) | `LLM` |
-| Apr 2023 | ⭐ [Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](https://arxiv.org/abs/2304.13705) | `VLA` |
-| Apr 2023 | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | `LLM` |
-| May 2022 | ⭐ [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) | `LLM` |
+| Sep 19, 2025 | [DiffusionNFT: Online Diffusion Reinforcement with Forward Process](https://arxiv.org/abs/2509.16117) | `VLA` |
+| Feb 26, 2025 | [Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models](https://arxiv.org/abs/2502.19417) | `VLA` |
+| Jan 16, 2025 | ⭐ [FAST: Efficient Action Tokenization for Vision-Language-Action Models](https://arxiv.org/abs/2501.09747) | `VLA` |
+| Dec 18, 2024 | ⭐ [Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces](https://arxiv.org/abs/2412.14171) | `VLM` |
+| Jun 15, 2024 | [HumanPlus: Humanoid Shadowing and Imitation from Humans](https://arxiv.org/abs/2406.10454) | `VLA` |
+| Jun 13, 2024 | ⭐ [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) | `VLA` |
+| May 20, 2024 | [Octo: An Open-Source Generalist Robot Policy](https://arxiv.org/abs/2405.12213) | `VLA` |
+| May 9, 2024 | ⭐ [Evaluating Real-World Robot Manipulation Policies in Simulation](https://arxiv.org/abs/2405.05941) | `VLA` |
+| May 6, 2024 | [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering](https://arxiv.org/abs/2405.15793) | `LLM` |
+| Mar 19, 2024 | [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](https://arxiv.org/abs/2403.12945) | `VLA` |
+| Aug 24, 2023 | [BridgeData V2: A Dataset for Robot Learning at Scale](https://arxiv.org/abs/2308.12952) | `VLA` |
+| Jul 6, 2023 | [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) | `LLM` |
+| Jun 9, 2023 | ⭐ [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685) | `LLM` |
+| May 29, 2023 | ⭐ [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290) | `LLM` |
+| May 25, 2023 | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) | `LLM` |
+| Apr 23, 2023 | ⭐ [Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](https://arxiv.org/abs/2304.13705) | `VLA` |
+| Apr 7, 2023 | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | `LLM` |
+| May 27, 2022 | ⭐ [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) | `LLM` |
 
 ## Google DeepMind
 
@@ -67,20 +67,20 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Mar 2025 | ⭐ [Gemini Robotics: Bringing AI into the Physical World](https://arxiv.org/abs/2503.20020) | `VLA` |
-| Aug 2024 | ⭐ [Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters](https://arxiv.org/abs/2408.03314) | `LLM` |
-| Jun 2024 | ⭐ [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) | `VLA` |
-| May 2024 | ⭐ [Evaluating Real-World Robot Manipulation Policies in Simulation](https://arxiv.org/abs/2405.05941) | `VLA` |
-| Mar 2024 | [Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context](https://arxiv.org/abs/2403.05530) | `VLM` |
-| Feb 2024 | ⭐ [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391) | `VLA` |
-| Jan 2024 | ⭐ [SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities](https://arxiv.org/abs/2401.12168) | `VLM` |
-| Oct 2023 | ⭐ [Open X-Embodiment: Robotic Learning Datasets and RT-X Models](https://arxiv.org/abs/2310.08864) | `VLA` |
-| Aug 2023 | [BridgeData V2: A Dataset for Robot Learning at Scale](https://arxiv.org/abs/2308.12952) | `VLA` |
-| Jul 2023 | ⭐ [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://arxiv.org/abs/2307.15818) | `VLA` |
-| May 2023 | [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) | `LLM` |
-| Mar 2023 | [Sigmoid Loss for Language Image Pre-Training](https://arxiv.org/abs/2303.15343) | `VLM` |
-| Feb 2023 | [Learning Universal Policies via Text-Guided Video Generation](https://arxiv.org/abs/2302.00111) | `VLA` |
-| Apr 2022 | [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) | `VLM` |
+| Mar 25, 2025 | ⭐ [Gemini Robotics: Bringing AI into the Physical World](https://arxiv.org/abs/2503.20020) | `VLA` |
+| Aug 6, 2024 | ⭐ [Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters](https://arxiv.org/abs/2408.03314) | `LLM` |
+| Jun 13, 2024 | ⭐ [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) | `VLA` |
+| May 9, 2024 | ⭐ [Evaluating Real-World Robot Manipulation Policies in Simulation](https://arxiv.org/abs/2405.05941) | `VLA` |
+| Mar 8, 2024 | [Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context](https://arxiv.org/abs/2403.05530) | `VLM` |
+| Feb 23, 2024 | ⭐ [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391) | `VLA` |
+| Jan 22, 2024 | ⭐ [SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities](https://arxiv.org/abs/2401.12168) | `VLM` |
+| Oct 13, 2023 | ⭐ [Open X-Embodiment: Robotic Learning Datasets and RT-X Models](https://arxiv.org/abs/2310.08864) | `VLA` |
+| Aug 24, 2023 | [BridgeData V2: A Dataset for Robot Learning at Scale](https://arxiv.org/abs/2308.12952) | `VLA` |
+| Jul 28, 2023 | ⭐ [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://arxiv.org/abs/2307.15818) | `VLA` |
+| May 17, 2023 | [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) | `LLM` |
+| Mar 27, 2023 | [Sigmoid Loss for Language Image Pre-Training](https://arxiv.org/abs/2303.15343) | `VLM` |
+| Jan 31, 2023 | [Learning Universal Policies via Text-Guided Video Generation](https://arxiv.org/abs/2302.00111) | `VLA` |
+| Apr 29, 2022 | [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) | `VLM` |
 
 ## UC Berkeley
 
@@ -88,20 +88,20 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jan 2025 | ⭐ [FAST: Efficient Action Tokenization for Vision-Language-Action Models](https://arxiv.org/abs/2501.09747) | `VLA` |
-| Dec 2024 | ⭐ [Navigation World Models](https://arxiv.org/abs/2412.03572) | `VLA` |
-| Oct 2024 | ⭐ [Precise and Dexterous Robotic Manipulation via Human-in-the-Loop Reinforcement Learning](https://arxiv.org/abs/2410.21845) | `VLA` |
-| Aug 2024 | ⭐ [Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters](https://arxiv.org/abs/2408.03314) | `LLM` |
-| Jun 2024 | ⭐ [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) | `VLA` |
-| May 2024 | [Octo: An Open-Source Generalist Robot Policy](https://arxiv.org/abs/2405.12213) | `VLA` |
-| May 2024 | ⭐ [Evaluating Real-World Robot Manipulation Policies in Simulation](https://arxiv.org/abs/2405.05941) | `VLA` |
-| Mar 2024 | [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](https://arxiv.org/abs/2403.12945) | `VLA` |
-| Jan 2024 | [SERL: A Software Suite for Sample-Efficient Robotic Reinforcement Learning](https://arxiv.org/abs/2401.16013) | `VLA` |
-| Sep 2023 | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180) | `LLM` |
-| Aug 2023 | [BridgeData V2: A Dataset for Robot Learning at Scale](https://arxiv.org/abs/2308.12952) | `VLA` |
-| Jul 2023 | [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) | `LLM` |
-| Jun 2023 | ⭐ [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685) | `LLM` |
-| Sep 2020 | [Measuring Massive Multitask Language Understanding](https://arxiv.org/abs/2009.03300) | `LLM` |
+| Jan 16, 2025 | ⭐ [FAST: Efficient Action Tokenization for Vision-Language-Action Models](https://arxiv.org/abs/2501.09747) | `VLA` |
+| Dec 4, 2024 | ⭐ [Navigation World Models](https://arxiv.org/abs/2412.03572) | `VLA` |
+| Oct 29, 2024 | ⭐ [Precise and Dexterous Robotic Manipulation via Human-in-the-Loop Reinforcement Learning](https://arxiv.org/abs/2410.21845) | `VLA` |
+| Aug 6, 2024 | ⭐ [Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters](https://arxiv.org/abs/2408.03314) | `LLM` |
+| Jun 13, 2024 | ⭐ [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) | `VLA` |
+| May 20, 2024 | [Octo: An Open-Source Generalist Robot Policy](https://arxiv.org/abs/2405.12213) | `VLA` |
+| May 9, 2024 | ⭐ [Evaluating Real-World Robot Manipulation Policies in Simulation](https://arxiv.org/abs/2405.05941) | `VLA` |
+| Mar 19, 2024 | [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](https://arxiv.org/abs/2403.12945) | `VLA` |
+| Jan 29, 2024 | [SERL: A Software Suite for Sample-Efficient Robotic Reinforcement Learning](https://arxiv.org/abs/2401.16013) | `VLA` |
+| Sep 12, 2023 | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180) | `LLM` |
+| Aug 24, 2023 | [BridgeData V2: A Dataset for Robot Learning at Scale](https://arxiv.org/abs/2308.12952) | `VLA` |
+| Jul 6, 2023 | [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) | `LLM` |
+| Jun 9, 2023 | ⭐ [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685) | `LLM` |
+| Sep 7, 2020 | [Measuring Massive Multitask Language Understanding](https://arxiv.org/abs/2009.03300) | `LLM` |
 
 ## Tsinghua
 
@@ -109,17 +109,17 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Sep 2025 | [DiffusionNFT: Online Diffusion Reinforcement with Forward Process](https://arxiv.org/abs/2509.16117) | `VLA` |
-| Mar 2025 | [DAPO: An Open-Source LLM Reinforcement Learning System at Scale](https://arxiv.org/abs/2503.14476) | `LLM` |
-| Jan 2025 | ⭐ [UI-TARS: Pioneering Automated GUI Interaction with Native Agents](https://arxiv.org/abs/2501.12326) | `VLM` |
-| Nov 2024 | [LLaVA-CoT: Let Vision Language Models Reason Step-by-Step](https://arxiv.org/abs/2411.10440) | `VLM` |
-| Nov 2024 | [CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation](https://arxiv.org/abs/2411.19650) | `VLA` |
-| Oct 2024 | [RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation](https://arxiv.org/abs/2410.07864) | `VLA` |
-| Feb 2024 | ⭐ [DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models](https://arxiv.org/abs/2402.12289) | `VLA` |
-| Dec 2023 | ⭐ [CogAgent: A Visual Language Model for GUI Agents](https://arxiv.org/abs/2312.08914) | `VLM` |
-| Sep 2023 | [DriveDreamer: Towards Real-world-Driven World Models for Autonomous Driving](https://arxiv.org/abs/2309.09777) | `VLA` |
-| Aug 2023 | [AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors](https://arxiv.org/abs/2308.10848) | `LLM` |
-| Jul 2023 | [ChatDev: Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924) | `LLM` |
+| Sep 19, 2025 | [DiffusionNFT: Online Diffusion Reinforcement with Forward Process](https://arxiv.org/abs/2509.16117) | `VLA` |
+| Mar 18, 2025 | [DAPO: An Open-Source LLM Reinforcement Learning System at Scale](https://arxiv.org/abs/2503.14476) | `LLM` |
+| Jan 21, 2025 | ⭐ [UI-TARS: Pioneering Automated GUI Interaction with Native Agents](https://arxiv.org/abs/2501.12326) | `VLM` |
+| Nov 29, 2024 | [CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation](https://arxiv.org/abs/2411.19650) | `VLA` |
+| Nov 15, 2024 | [LLaVA-CoT: Let Vision Language Models Reason Step-by-Step](https://arxiv.org/abs/2411.10440) | `VLM` |
+| Oct 10, 2024 | [RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation](https://arxiv.org/abs/2410.07864) | `VLA` |
+| Feb 19, 2024 | ⭐ [DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models](https://arxiv.org/abs/2402.12289) | `VLA` |
+| Dec 14, 2023 | ⭐ [CogAgent: A Visual Language Model for GUI Agents](https://arxiv.org/abs/2312.08914) | `VLM` |
+| Sep 18, 2023 | [DriveDreamer: Towards Real-world-Driven World Models for Autonomous Driving](https://arxiv.org/abs/2309.09777) | `VLA` |
+| Aug 21, 2023 | [AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors](https://arxiv.org/abs/2308.10848) | `LLM` |
+| Jul 16, 2023 | [ChatDev: Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924) | `LLM` |
 
 ## Meta
 
@@ -127,14 +127,14 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Dec 2024 | [Training Large Language Models to Reason in a Continuous Latent Space](https://arxiv.org/abs/2412.06769) | `LLM` |
-| Dec 2024 | ⭐ [Navigation World Models](https://arxiv.org/abs/2412.03572) | `VLA` |
-| Jul 2024 | [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) | `LLM` |
-| May 2024 | [Chameleon: Mixed-Modal Early-Fusion Foundation Models](https://arxiv.org/abs/2405.09818) | `VLM` |
-| Apr 2023 | ⭐ [Segment Anything](https://arxiv.org/abs/2304.02643) | `VLM` |
-| Feb 2023 | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761) | `LLM` |
-| Feb 2023 | ⭐ [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) | `LLM` |
-| May 2020 | ⭐ [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | `LLM` |
+| Dec 9, 2024 | [Training Large Language Models to Reason in a Continuous Latent Space](https://arxiv.org/abs/2412.06769) | `LLM` |
+| Dec 4, 2024 | ⭐ [Navigation World Models](https://arxiv.org/abs/2412.03572) | `VLA` |
+| Jul 31, 2024 | [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) | `LLM` |
+| May 16, 2024 | [Chameleon: Mixed-Modal Early-Fusion Foundation Models](https://arxiv.org/abs/2405.09818) | `VLM` |
+| Apr 5, 2023 | ⭐ [Segment Anything](https://arxiv.org/abs/2304.02643) | `VLM` |
+| Feb 27, 2023 | ⭐ [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) | `LLM` |
+| Feb 9, 2023 | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761) | `LLM` |
+| May 22, 2020 | ⭐ [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | `LLM` |
 
 ## Alibaba
 
@@ -142,13 +142,13 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| May 2025 | [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) | `LLM` |
-| Feb 2025 | ⭐ [Qwen2.5-VL Technical Report](https://arxiv.org/abs/2502.13923) | `VLM` |
-| Dec 2024 | [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) | `LLM` |
-| Sep 2024 | ⭐ [Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://arxiv.org/abs/2409.12191) | `VLM` |
-| Mar 2024 | [An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models](https://arxiv.org/abs/2403.06764) | `VLM` |
-| Jan 2024 | [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://arxiv.org/abs/2401.10935) | `VLM` |
-| Aug 2023 | [Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/abs/2308.12966) | `VLM` |
+| May 14, 2025 | [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) | `LLM` |
+| Feb 19, 2025 | ⭐ [Qwen2.5-VL Technical Report](https://arxiv.org/abs/2502.13923) | `VLM` |
+| Dec 19, 2024 | [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) | `LLM` |
+| Sep 18, 2024 | ⭐ [Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://arxiv.org/abs/2409.12191) | `VLM` |
+| Mar 11, 2024 | [An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models](https://arxiv.org/abs/2403.06764) | `VLM` |
+| Jan 17, 2024 | [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://arxiv.org/abs/2401.10935) | `VLM` |
+| Aug 24, 2023 | [Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/abs/2308.12966) | `VLM` |
 
 ## Google
 
@@ -156,13 +156,13 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Apr 2024 | [Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](https://arxiv.org/abs/2404.07143) | `LLM` |
-| Apr 2023 | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | `LLM` |
-| Dec 2022 | ⭐ [RT-1: Robotics Transformer for Real-World Control at Scale](https://arxiv.org/abs/2212.06817) | `VLA` |
-| Nov 2022 | [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192) | `LLM` |
-| Oct 2022 | ⭐ [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) | `LLM` |
-| Mar 2022 | [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171) | `LLM` |
-| Jan 2022 | ⭐ [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) | `LLM` |
+| Apr 10, 2024 | [Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](https://arxiv.org/abs/2404.07143) | `LLM` |
+| Apr 7, 2023 | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | `LLM` |
+| Dec 13, 2022 | ⭐ [RT-1: Robotics Transformer for Real-World Control at Scale](https://arxiv.org/abs/2212.06817) | `VLA` |
+| Nov 30, 2022 | [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192) | `LLM` |
+| Oct 6, 2022 | ⭐ [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) | `LLM` |
+| Mar 21, 2022 | [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171) | `LLM` |
+| Jan 28, 2022 | ⭐ [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) | `LLM` |
 
 ## Microsoft
 
@@ -170,13 +170,13 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Oct 2023 | [MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts](https://arxiv.org/abs/2310.02255) | `VLM` |
-| Oct 2023 | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744) | `VLM` |
-| Aug 2023 | [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155) | `LLM` |
-| Jun 2023 | [Kosmos-2: Grounding Multimodal Large Language Models to the World](https://arxiv.org/abs/2306.14824) | `VLM` |
-| Apr 2023 | ⭐ [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485) | `VLM` |
-| Mar 2023 | [MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action](https://arxiv.org/abs/2303.11381) | `VLM` |
-| Jun 2021 | ⭐ [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) | `LLM` |
+| Oct 5, 2023 | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744) | `VLM` |
+| Oct 3, 2023 | [MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts](https://arxiv.org/abs/2310.02255) | `VLM` |
+| Aug 16, 2023 | [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155) | `LLM` |
+| Jun 26, 2023 | [Kosmos-2: Grounding Multimodal Large Language Models to the World](https://arxiv.org/abs/2306.14824) | `VLM` |
+| Apr 17, 2023 | ⭐ [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485) | `VLM` |
+| Mar 20, 2023 | [MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action](https://arxiv.org/abs/2303.11381) | `VLM` |
+| Jun 17, 2021 | ⭐ [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) | `LLM` |
 
 ## NVIDIA
 
@@ -184,12 +184,12 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Sep 2025 | [DiffusionNFT: Online Diffusion Reinforcement with Forward Process](https://arxiv.org/abs/2509.16117) | `VLA` |
-| Mar 2025 | ⭐ [GR00T N1: An Open Foundation Model for Generalist Humanoid Robots](https://arxiv.org/abs/2503.14734) | `VLA` |
-| Jan 2025 | ⭐ [Cosmos World Foundation Model Platform for Physical AI](https://arxiv.org/abs/2501.03575) | `VLA` |
-| Oct 2024 | ⭐ [Latent Action Pretraining from Videos](https://arxiv.org/abs/2410.11758) | `VLA` |
-| Jun 2024 | [SpatialRGPT: Grounded Spatial Reasoning in Vision Language Models](https://arxiv.org/abs/2406.01584) | `VLM` |
-| May 2023 | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) | `LLM` |
+| Sep 19, 2025 | [DiffusionNFT: Online Diffusion Reinforcement with Forward Process](https://arxiv.org/abs/2509.16117) | `VLA` |
+| Mar 18, 2025 | ⭐ [GR00T N1: An Open Foundation Model for Generalist Humanoid Robots](https://arxiv.org/abs/2503.14734) | `VLA` |
+| Jan 7, 2025 | ⭐ [Cosmos World Foundation Model Platform for Physical AI](https://arxiv.org/abs/2501.03575) | `VLA` |
+| Oct 15, 2024 | ⭐ [Latent Action Pretraining from Videos](https://arxiv.org/abs/2410.11758) | `VLA` |
+| Jun 3, 2024 | [SpatialRGPT: Grounded Spatial Reasoning in Vision Language Models](https://arxiv.org/abs/2406.01584) | `VLM` |
+| May 25, 2023 | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) | `LLM` |
 
 ## ByteDance
 
@@ -197,11 +197,11 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Mar 2025 | [DAPO: An Open-Source LLM Reinforcement Learning System at Scale](https://arxiv.org/abs/2503.14476) | `LLM` |
-| Jan 2025 | ⭐ [UI-TARS: Pioneering Automated GUI Interaction with Native Agents](https://arxiv.org/abs/2501.12326) | `VLM` |
-| Oct 2024 | [Video Instruction Tuning With Synthetic Data](https://arxiv.org/abs/2410.02713) | `VLM` |
-| Aug 2024 | [Show-o: One Single Transformer to Unify Multimodal Understanding and Generation](https://arxiv.org/abs/2408.12528) | `VLM` |
-| Aug 2024 | ⭐ [LLaVA-OneVision: Easy Visual Task Transfer](https://arxiv.org/abs/2408.03326) | `VLM` |
+| Mar 18, 2025 | [DAPO: An Open-Source LLM Reinforcement Learning System at Scale](https://arxiv.org/abs/2503.14476) | `LLM` |
+| Jan 21, 2025 | ⭐ [UI-TARS: Pioneering Automated GUI Interaction with Native Agents](https://arxiv.org/abs/2501.12326) | `VLM` |
+| Oct 3, 2024 | [Video Instruction Tuning With Synthetic Data](https://arxiv.org/abs/2410.02713) | `VLM` |
+| Aug 22, 2024 | [Show-o: One Single Transformer to Unify Multimodal Understanding and Generation](https://arxiv.org/abs/2408.12528) | `VLM` |
+| Aug 6, 2024 | ⭐ [LLaVA-OneVision: Easy Visual Task Transfer](https://arxiv.org/abs/2408.03326) | `VLM` |
 
 ## CMU
 
@@ -209,11 +209,11 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jun 2024 | [OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning](https://arxiv.org/abs/2406.08858) | `VLA` |
-| May 2024 | [Octo: An Open-Source Generalist Robot Policy](https://arxiv.org/abs/2405.12213) | `VLA` |
-| Dec 2023 | [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) | `LLM` |
-| Aug 2023 | [BridgeData V2: A Dataset for Robot Learning at Scale](https://arxiv.org/abs/2308.12952) | `VLA` |
-| Jun 2023 | ⭐ [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685) | `LLM` |
+| Jun 13, 2024 | [OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning](https://arxiv.org/abs/2406.08858) | `VLA` |
+| May 20, 2024 | [Octo: An Open-Source Generalist Robot Policy](https://arxiv.org/abs/2405.12213) | `VLA` |
+| Dec 1, 2023 | [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) | `LLM` |
+| Aug 24, 2023 | [BridgeData V2: A Dataset for Robot Learning at Scale](https://arxiv.org/abs/2308.12952) | `VLA` |
+| Jun 9, 2023 | ⭐ [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685) | `LLM` |
 
 ## NYU
 
@@ -221,11 +221,11 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Dec 2024 | ⭐ [Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces](https://arxiv.org/abs/2412.14171) | `VLM` |
-| Dec 2024 | ⭐ [Navigation World Models](https://arxiv.org/abs/2412.03572) | `VLA` |
-| Mar 2024 | [Behavior Generation with Latent Actions](https://arxiv.org/abs/2403.03181) | `VLA` |
-| Nov 2023 | [GPQA: A Graduate-Level Google-Proof Q&A Benchmark](https://arxiv.org/abs/2311.12022) | `LLM` |
-| May 2020 | ⭐ [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | `LLM` |
+| Dec 18, 2024 | ⭐ [Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces](https://arxiv.org/abs/2412.14171) | `VLM` |
+| Dec 4, 2024 | ⭐ [Navigation World Models](https://arxiv.org/abs/2412.03572) | `VLA` |
+| Mar 5, 2024 | [Behavior Generation with Latent Actions](https://arxiv.org/abs/2403.03181) | `VLA` |
+| Nov 20, 2023 | [GPQA: A Graduate-Level Google-Proof Q&A Benchmark](https://arxiv.org/abs/2311.12022) | `LLM` |
+| May 22, 2020 | ⭐ [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | `LLM` |
 
 ## Princeton
 
@@ -233,11 +233,11 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| May 2024 | [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering](https://arxiv.org/abs/2405.15793) | `LLM` |
-| Dec 2023 | [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) | `LLM` |
-| Oct 2023 | ⭐ [SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770) | `LLM` |
-| May 2023 | [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) | `LLM` |
-| Oct 2022 | ⭐ [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) | `LLM` |
+| May 6, 2024 | [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering](https://arxiv.org/abs/2405.15793) | `LLM` |
+| Dec 1, 2023 | [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) | `LLM` |
+| Oct 10, 2023 | ⭐ [SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770) | `LLM` |
+| May 17, 2023 | [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) | `LLM` |
+| Oct 6, 2022 | ⭐ [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) | `LLM` |
 
 ## Shanghai AI Lab
 
@@ -245,11 +245,11 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Dec 2024 | [Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling](https://arxiv.org/abs/2412.05271) | `VLM` |
-| Oct 2024 | [OS-ATLAS: A Foundation Action Model for Generalist GUI Agents](https://arxiv.org/abs/2410.23218) | `VLM` |
-| Dec 2023 | [LMDrive: Closed-Loop End-to-End Driving with Large Language Models](https://arxiv.org/abs/2312.07488) | `VLA` |
-| Dec 2023 | [InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks](https://arxiv.org/abs/2312.14238) | `VLM` |
-| Jul 2023 | [MMBench: Is Your Multi-modal Model an All-around Player?](https://arxiv.org/abs/2307.06281) | `VLM` |
+| Dec 6, 2024 | [Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling](https://arxiv.org/abs/2412.05271) | `VLM` |
+| Oct 30, 2024 | [OS-ATLAS: A Foundation Action Model for Generalist GUI Agents](https://arxiv.org/abs/2410.23218) | `VLM` |
+| Dec 21, 2023 | [InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks](https://arxiv.org/abs/2312.14238) | `VLM` |
+| Dec 12, 2023 | [LMDrive: Closed-Loop End-to-End Driving with Large Language Models](https://arxiv.org/abs/2312.07488) | `VLA` |
+| Jul 12, 2023 | [MMBench: Is Your Multi-modal Model an All-around Player?](https://arxiv.org/abs/2307.06281) | `VLM` |
 
 ## Allen Institute for AI
 
@@ -257,10 +257,10 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Oct 2024 | ⭐ [Latent Action Pretraining from Videos](https://arxiv.org/abs/2410.11758) | `VLA` |
-| Sep 2024 | [Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models](https://arxiv.org/abs/2409.17146) | `VLM` |
-| Apr 2024 | [BLINK: Multimodal Large Language Models Can See but Not Perceive](https://arxiv.org/abs/2404.12390) | `VLM` |
-| Nov 2022 | [Visual Programming: Compositional visual reasoning without training](https://arxiv.org/abs/2211.11559) | `VLM` |
+| Oct 15, 2024 | ⭐ [Latent Action Pretraining from Videos](https://arxiv.org/abs/2410.11758) | `VLA` |
+| Sep 25, 2024 | [Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models](https://arxiv.org/abs/2409.17146) | `VLM` |
+| Apr 18, 2024 | [BLINK: Multimodal Large Language Models Can See but Not Perceive](https://arxiv.org/abs/2404.12390) | `VLM` |
+| Nov 18, 2022 | [Visual Programming: Compositional visual reasoning without training](https://arxiv.org/abs/2211.11559) | `VLM` |
 
 ## DeepSeek
 
@@ -268,10 +268,10 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jan 2025 | [Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling](https://arxiv.org/abs/2501.17811) | `VLM` |
-| Jan 2025 | ⭐ [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) | `LLM` |
-| Dec 2024 | ⭐ [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437) | `LLM` |
-| Feb 2024 | ⭐ [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/abs/2402.03300) | `LLM` |
+| Jan 29, 2025 | [Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling](https://arxiv.org/abs/2501.17811) | `VLM` |
+| Jan 22, 2025 | ⭐ [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) | `LLM` |
+| Dec 27, 2024 | ⭐ [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437) | `LLM` |
+| Feb 5, 2024 | ⭐ [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/abs/2402.03300) | `LLM` |
 
 ## Physical Intelligence
 
@@ -279,10 +279,10 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Apr 2025 | ⭐ [π0.5: a Vision-Language-Action Model with Open-World Generalization](https://arxiv.org/abs/2504.16054) | `VLA` |
-| Feb 2025 | [Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models](https://arxiv.org/abs/2502.19417) | `VLA` |
-| Jan 2025 | ⭐ [FAST: Efficient Action Tokenization for Vision-Language-Action Models](https://arxiv.org/abs/2501.09747) | `VLA` |
-| Oct 2024 | ⭐ [π0: A Vision-Language-Action Flow Model for General Robot Control](https://arxiv.org/abs/2410.24164) | `VLA` |
+| Apr 22, 2025 | ⭐ [π0.5: a Vision-Language-Action Model with Open-World Generalization](https://arxiv.org/abs/2504.16054) | `VLA` |
+| Feb 26, 2025 | [Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models](https://arxiv.org/abs/2502.19417) | `VLA` |
+| Jan 16, 2025 | ⭐ [FAST: Efficient Action Tokenization for Vision-Language-Action Models](https://arxiv.org/abs/2501.09747) | `VLA` |
+| Oct 31, 2024 | ⭐ [π0: A Vision-Language-Action Flow Model for General Robot Control](https://arxiv.org/abs/2410.24164) | `VLA` |
 
 ## Alibaba DAMO
 
@@ -290,9 +290,9 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jun 2025 | [WorldVLA: Towards Autoregressive Action World Model](https://arxiv.org/abs/2506.21539) | `VLA` |
-| Jan 2025 | [VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding](https://arxiv.org/abs/2501.13106) | `VLM` |
-| Jun 2023 | [Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding](https://arxiv.org/abs/2306.02858) | `VLM` |
+| Jun 26, 2025 | [WorldVLA: Towards Autoregressive Action World Model](https://arxiv.org/abs/2506.21539) | `VLA` |
+| Jan 22, 2025 | [VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding](https://arxiv.org/abs/2501.13106) | `VLM` |
+| Jun 5, 2023 | [Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding](https://arxiv.org/abs/2306.02858) | `VLM` |
 
 ## HUST
 
@@ -300,9 +300,9 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jun 2025 | [ReCogDrive: A Reinforced Cognitive Framework for End-to-End Autonomous Driving](https://arxiv.org/abs/2506.08052) | `VLA` |
-| Mar 2025 | [ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation](https://arxiv.org/abs/2503.19755) | `VLA` |
-| Oct 2024 | [Senna: Bridging Large Vision-Language Models and End-to-End Autonomous Driving](https://arxiv.org/abs/2410.22313) | `VLA` |
+| Jun 9, 2025 | [ReCogDrive: A Reinforced Cognitive Framework for End-to-End Autonomous Driving](https://arxiv.org/abs/2506.08052) | `VLA` |
+| Mar 25, 2025 | [ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation](https://arxiv.org/abs/2503.19755) | `VLA` |
+| Oct 29, 2024 | [Senna: Bridging Large Vision-Language Models and End-to-End Autonomous Driving](https://arxiv.org/abs/2410.22313) | `VLA` |
 
 ## MIT
 
@@ -310,9 +310,9 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Mar 2023 | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | `LLM` |
-| Mar 2023 | ⭐ [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](https://arxiv.org/abs/2303.04137) | `VLA` |
-| Feb 2023 | [Learning Universal Policies via Text-Guided Video Generation](https://arxiv.org/abs/2302.00111) | `VLA` |
+| Mar 20, 2023 | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | `LLM` |
+| Mar 7, 2023 | ⭐ [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](https://arxiv.org/abs/2303.04137) | `VLA` |
+| Jan 31, 2023 | [Learning Universal Policies via Text-Guided Video Generation](https://arxiv.org/abs/2302.00111) | `VLA` |
 
 ## OpenAI
 
@@ -320,9 +320,9 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Mar 2023 | ⭐ [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) | `LLM` |
-| Mar 2022 | ⭐ [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) | `LLM` |
-| Mar 2021 | ⭐ [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) | `VLM` |
+| Mar 15, 2023 | ⭐ [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) | `LLM` |
+| Mar 4, 2022 | ⭐ [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) | `LLM` |
+| Feb 26, 2021 | ⭐ [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) | `VLM` |
 
 ## PKU
 
@@ -330,9 +330,9 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Nov 2024 | [LLaVA-CoT: Let Vision Language Models Reason Step-by-Step](https://arxiv.org/abs/2411.10440) | `VLM` |
-| Mar 2024 | [An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models](https://arxiv.org/abs/2403.06764) | `VLM` |
-| Feb 2024 | [NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation](https://arxiv.org/abs/2402.15852) | `VLA` |
+| Nov 15, 2024 | [LLaVA-CoT: Let Vision Language Models Reason Step-by-Step](https://arxiv.org/abs/2411.10440) | `VLM` |
+| Mar 11, 2024 | [An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models](https://arxiv.org/abs/2403.06764) | `VLM` |
+| Feb 24, 2024 | [NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation](https://arxiv.org/abs/2402.15852) | `VLA` |
 
 ## Renmin University
 
@@ -340,9 +340,9 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Aug 2023 | [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432) | `LLM` |
-| May 2023 | [Evaluating Object Hallucination in Large Vision-Language Models](https://arxiv.org/abs/2305.10355) | `VLM` |
-| Mar 2023 | [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223) | `LLM` |
+| Aug 22, 2023 | [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432) | `LLM` |
+| May 17, 2023 | [Evaluating Object Hallucination in Large Vision-Language Models](https://arxiv.org/abs/2305.10355) | `VLM` |
+| Mar 31, 2023 | [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223) | `LLM` |
 
 ## TRI
 
@@ -350,9 +350,9 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jun 2024 | ⭐ [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) | `VLA` |
-| Mar 2024 | [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](https://arxiv.org/abs/2403.12945) | `VLA` |
-| Mar 2023 | ⭐ [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](https://arxiv.org/abs/2303.04137) | `VLA` |
+| Jun 13, 2024 | ⭐ [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) | `VLA` |
+| Mar 19, 2024 | [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](https://arxiv.org/abs/2403.12945) | `VLA` |
+| Mar 7, 2023 | ⭐ [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](https://arxiv.org/abs/2303.04137) | `VLA` |
 
 ## University of Washington
 
@@ -360,9 +360,9 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| May 2025 | [Vision-Language-Action Models: Concepts, Progress, Applications and Challenges](https://arxiv.org/abs/2505.04769) | `VLA` |
-| Oct 2024 | ⭐ [Latent Action Pretraining from Videos](https://arxiv.org/abs/2410.11758) | `VLA` |
-| Apr 2024 | [BLINK: Multimodal Large Language Models Can See but Not Perceive](https://arxiv.org/abs/2404.12390) | `VLM` |
+| May 7, 2025 | [Vision-Language-Action Models: Concepts, Progress, Applications and Challenges](https://arxiv.org/abs/2505.04769) | `VLA` |
+| Oct 15, 2024 | ⭐ [Latent Action Pretraining from Videos](https://arxiv.org/abs/2410.11758) | `VLA` |
+| Apr 18, 2024 | [BLINK: Multimodal Large Language Models Can See but Not Perceive](https://arxiv.org/abs/2404.12390) | `VLM` |
 
 ## UW-Madison
 
@@ -370,9 +370,9 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Mar 2024 | [LLaVA-PruMerge: Adaptive Token Reduction for Efficient Large Multimodal Models](https://arxiv.org/abs/2403.15388) | `VLM` |
-| Oct 2023 | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744) | `VLM` |
-| Apr 2023 | ⭐ [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485) | `VLM` |
+| Mar 22, 2024 | [LLaVA-PruMerge: Adaptive Token Reduction for Efficient Large Multimodal Models](https://arxiv.org/abs/2403.15388) | `VLM` |
+| Oct 5, 2023 | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744) | `VLM` |
+| Apr 17, 2023 | ⭐ [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485) | `VLM` |
 
 ## ZJU
 
@@ -380,9 +380,9 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jun 2025 | [WorldVLA: Towards Autoregressive Action World Model](https://arxiv.org/abs/2506.21539) | `VLA` |
-| Dec 2023 | [MobileVLM: A Fast, Strong and Open Vision Language Assistant for Mobile Devices](https://arxiv.org/abs/2312.16886) | `VLM` |
-| Oct 2023 | [DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model](https://arxiv.org/abs/2310.01412) | `VLA` |
+| Jun 26, 2025 | [WorldVLA: Towards Autoregressive Action World Model](https://arxiv.org/abs/2506.21539) | `VLA` |
+| Dec 28, 2023 | [MobileVLM: A Fast, Strong and Open Vision Language Assistant for Mobile Devices](https://arxiv.org/abs/2312.16886) | `VLM` |
+| Oct 2, 2023 | [DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model](https://arxiv.org/abs/2310.01412) | `VLA` |
 
 ## Anthropic
 
@@ -390,8 +390,8 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Nov 2023 | [GPQA: A Graduate-Level Google-Proof Q&A Benchmark](https://arxiv.org/abs/2311.12022) | `LLM` |
-| Dec 2022 | [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) | `LLM` |
+| Nov 20, 2023 | [GPQA: A Graduate-Level Google-Proof Q&A Benchmark](https://arxiv.org/abs/2311.12022) | `LLM` |
+| Dec 15, 2022 | [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) | `LLM` |
 
 ## BUPT
 
@@ -399,8 +399,8 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Aug 2023 | [AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors](https://arxiv.org/abs/2308.10848) | `LLM` |
-| Jul 2023 | [ChatDev: Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924) | `LLM` |
+| Aug 21, 2023 | [AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors](https://arxiv.org/abs/2308.10848) | `LLM` |
+| Jul 16, 2023 | [ChatDev: Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924) | `LLM` |
 
 ## GigaAI
 
@@ -408,8 +408,8 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| May 2024 | [Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability](https://arxiv.org/abs/2405.17398) | `VLA` |
-| Sep 2023 | [DriveDreamer: Towards Real-world-Driven World Models for Autonomous Driving](https://arxiv.org/abs/2309.09777) | `VLA` |
+| May 27, 2024 | [Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability](https://arxiv.org/abs/2405.17398) | `VLA` |
+| Sep 18, 2023 | [DriveDreamer: Towards Real-world-Driven World Models for Autonomous Driving](https://arxiv.org/abs/2309.09777) | `VLA` |
 
 ## NTU
 
@@ -417,8 +417,8 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Oct 2024 | [Video Instruction Tuning With Synthetic Data](https://arxiv.org/abs/2410.02713) | `VLM` |
-| Aug 2024 | ⭐ [LLaVA-OneVision: Easy Visual Task Transfer](https://arxiv.org/abs/2408.03326) | `VLM` |
+| Oct 3, 2024 | [Video Instruction Tuning With Synthetic Data](https://arxiv.org/abs/2410.02713) | `VLM` |
+| Aug 6, 2024 | ⭐ [LLaVA-OneVision: Easy Visual Task Transfer](https://arxiv.org/abs/2408.03326) | `VLM` |
 
 ## UCSD
 
@@ -426,8 +426,8 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jun 2024 | [SpatialRGPT: Grounded Spatial Reasoning in Vision Language Models](https://arxiv.org/abs/2406.01584) | `VLM` |
-| May 2024 | ⭐ [Evaluating Real-World Robot Manipulation Policies in Simulation](https://arxiv.org/abs/2405.05941) | `VLA` |
+| Jun 3, 2024 | [SpatialRGPT: Grounded Spatial Reasoning in Vision Language Models](https://arxiv.org/abs/2406.01584) | `VLM` |
+| May 9, 2024 | ⭐ [Evaluating Real-World Robot Manipulation Policies in Simulation](https://arxiv.org/abs/2405.05941) | `VLA` |
 
 ## Xiaomi
 
@@ -435,8 +435,8 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jun 2025 | [ReCogDrive: A Reinforced Cognitive Framework for End-to-End Autonomous Driving](https://arxiv.org/abs/2506.08052) | `VLA` |
-| Mar 2025 | [ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation](https://arxiv.org/abs/2503.19755) | `VLA` |
+| Jun 9, 2025 | [ReCogDrive: A Reinforced Cognitive Framework for End-to-End Autonomous Driving](https://arxiv.org/abs/2506.08052) | `VLA` |
+| Mar 25, 2025 | [ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation](https://arxiv.org/abs/2503.19755) | `VLA` |
 
 ## BAAI
 
@@ -444,7 +444,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Sep 2024 | [Emu3: Next-Token Prediction is All You Need](https://arxiv.org/abs/2409.18869) | `VLM` |
+| Sep 27, 2024 | [Emu3: Next-Token Prediction is All You Need](https://arxiv.org/abs/2409.18869) | `VLM` |
 
 ## Beijing Academy of AI
 
@@ -452,7 +452,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Feb 2024 | [NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation](https://arxiv.org/abs/2402.15852) | `VLA` |
+| Feb 24, 2024 | [NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation](https://arxiv.org/abs/2402.15852) | `VLA` |
 
 ## Caltech
 
@@ -460,7 +460,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| May 2023 | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) | `LLM` |
+| May 25, 2023 | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) | `LLM` |
 
 ## CASIA
 
@@ -468,7 +468,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| May 2024 | [Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability](https://arxiv.org/abs/2405.17398) | `VLA` |
+| May 27, 2024 | [Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability](https://arxiv.org/abs/2405.17398) | `VLA` |
 
 ## Chicago
 
@@ -476,7 +476,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Oct 2023 | ⭐ [SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770) | `LLM` |
+| Oct 10, 2023 | ⭐ [SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770) | `LLM` |
 
 ## Cleveland Clinic
 
@@ -484,7 +484,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Mar 2024 | [LLaVA-PruMerge: Adaptive Token Reduction for Efficient Large Multimodal Models](https://arxiv.org/abs/2403.15388) | `VLM` |
+| Mar 22, 2024 | [LLaVA-PruMerge: Adaptive Token Reduction for Efficient Large Multimodal Models](https://arxiv.org/abs/2403.15388) | `VLM` |
 
 ## Columbia
 
@@ -492,7 +492,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Mar 2023 | ⭐ [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](https://arxiv.org/abs/2303.04137) | `VLA` |
+| Mar 7, 2023 | ⭐ [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](https://arxiv.org/abs/2303.04137) | `VLA` |
 
 ## Cornell
 
@@ -500,7 +500,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| May 2025 | [Vision-Language-Action Models: Concepts, Progress, Applications and Challenges](https://arxiv.org/abs/2505.04769) | `VLA` |
+| May 7, 2025 | [Vision-Language-Action Models: Concepts, Progress, Applications and Challenges](https://arxiv.org/abs/2505.04769) | `VLA` |
 
 ## CUHK
 
@@ -508,7 +508,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| May 2024 | [A Survey on Vision-Language-Action Models for Embodied AI](https://arxiv.org/abs/2405.14093) | `VLA` |
+| May 23, 2024 | [A Survey on Vision-Language-Action Models for Embodied AI](https://arxiv.org/abs/2405.14093) | `VLA` |
 
 ## CUHK MMLab
 
@@ -516,7 +516,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Dec 2023 | [LMDrive: Closed-Loop End-to-End Driving with Large Language Models](https://arxiv.org/abs/2312.07488) | `VLA` |
+| Dec 12, 2023 | [LMDrive: Closed-Loop End-to-End Driving with Large Language Models](https://arxiv.org/abs/2312.07488) | `VLA` |
 
 ## DeepWisdom
 
@@ -524,7 +524,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Aug 2023 | [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](https://arxiv.org/abs/2308.00352) | `LLM` |
+| Aug 1, 2023 | [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](https://arxiv.org/abs/2308.00352) | `LLM` |
 
 ## Fudan
 
@@ -532,7 +532,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Sep 2023 | [The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/abs/2309.07864) | `LLM` |
+| Sep 14, 2023 | [The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/abs/2309.07864) | `LLM` |
 
 ## HKU
 
@@ -540,7 +540,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Oct 2023 | [DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model](https://arxiv.org/abs/2310.01412) | `VLA` |
+| Oct 2, 2023 | [DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model](https://arxiv.org/abs/2310.01412) | `VLA` |
 
 ## Horizon Robotics
 
@@ -548,7 +548,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Oct 2024 | [Senna: Bridging Large Vision-Language Models and End-to-End Autonomous Driving](https://arxiv.org/abs/2410.22313) | `VLA` |
+| Oct 29, 2024 | [Senna: Bridging Large Vision-Language Models and End-to-End Autonomous Driving](https://arxiv.org/abs/2410.22313) | `VLA` |
 
 ## Huawei
 
@@ -556,7 +556,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Oct 2023 | [DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model](https://arxiv.org/abs/2310.01412) | `VLA` |
+| Oct 2, 2023 | [DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model](https://arxiv.org/abs/2310.01412) | `VLA` |
 
 ## Huawei Noah's Ark Lab
 
@@ -564,7 +564,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| May 2024 | [A Survey on Vision-Language-Action Models for Embodied AI](https://arxiv.org/abs/2405.14093) | `VLA` |
+| May 23, 2024 | [A Survey on Vision-Language-Action Models for Embodied AI](https://arxiv.org/abs/2405.14093) | `VLA` |
 
 ## IDEA Research
 
@@ -572,7 +572,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Mar 2023 | [Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection](https://arxiv.org/abs/2303.05499) | `VLM` |
+| Mar 9, 2023 | [Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection](https://arxiv.org/abs/2303.05499) | `VLM` |
 
 ## IN.AI
 
@@ -580,7 +580,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Nov 2023 | ⭐ [MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI](https://arxiv.org/abs/2311.16502) | `VLM` |
+| Nov 27, 2023 | ⭐ [MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI](https://arxiv.org/abs/2311.16502) | `VLM` |
 
 ## KAIST
 
@@ -588,7 +588,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Oct 2024 | ⭐ [Latent Action Pretraining from Videos](https://arxiv.org/abs/2410.11758) | `VLA` |
+| Oct 15, 2024 | ⭐ [Latent Action Pretraining from Videos](https://arxiv.org/abs/2410.11758) | `VLA` |
 
 ## KAUST
 
@@ -596,7 +596,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Aug 2023 | [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](https://arxiv.org/abs/2308.00352) | `LLM` |
+| Aug 1, 2023 | [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](https://arxiv.org/abs/2308.00352) | `LLM` |
 
 ## Li Auto
 
@@ -604,7 +604,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Feb 2024 | ⭐ [DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models](https://arxiv.org/abs/2402.12289) | `VLA` |
+| Feb 19, 2024 | ⭐ [DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models](https://arxiv.org/abs/2402.12289) | `VLA` |
 
 ## Meituan
 
@@ -612,7 +612,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Dec 2023 | [MobileVLM: A Fast, Strong and Open Vision Language Assistant for Mobile Devices](https://arxiv.org/abs/2312.16886) | `VLM` |
+| Dec 28, 2023 | [MobileVLM: A Fast, Strong and Open Vision Language Assistant for Mobile Devices](https://arxiv.org/abs/2312.16886) | `VLM` |
 
 ## Microsoft Research Asia
 
@@ -620,7 +620,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Nov 2024 | [CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation](https://arxiv.org/abs/2411.19650) | `VLA` |
+| Nov 29, 2024 | [CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation](https://arxiv.org/abs/2411.19650) | `VLA` |
 
 ## Mistral AI
 
@@ -628,7 +628,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jan 2024 | [Mixtral of Experts](https://arxiv.org/abs/2401.04088) | `LLM` |
+| Jan 8, 2024 | [Mixtral of Experts](https://arxiv.org/abs/2401.04088) | `LLM` |
 
 ## Moonshot AI
 
@@ -636,7 +636,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jan 2025 | [Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/abs/2501.12599) | `LLM` |
+| Jan 22, 2025 | [Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/abs/2501.12599) | `LLM` |
 
 ## NJU
 
@@ -644,7 +644,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jan 2024 | [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://arxiv.org/abs/2401.10935) | `VLM` |
+| Jan 17, 2024 | [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://arxiv.org/abs/2401.10935) | `VLM` |
 
 ## Northeastern
 
@@ -652,7 +652,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Mar 2023 | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | `LLM` |
+| Mar 20, 2023 | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | `LLM` |
 
 ## NUS
 
@@ -660,7 +660,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Aug 2024 | [Show-o: One Single Transformer to Unify Multimodal Understanding and Generation](https://arxiv.org/abs/2408.12528) | `VLM` |
+| Aug 22, 2024 | [Show-o: One Single Transformer to Unify Multimodal Understanding and Generation](https://arxiv.org/abs/2408.12528) | `VLM` |
 
 ## OSU
 
@@ -668,7 +668,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Nov 2023 | ⭐ [MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI](https://arxiv.org/abs/2311.16502) | `VLM` |
+| Nov 27, 2023 | ⭐ [MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI](https://arxiv.org/abs/2311.16502) | `VLM` |
 
 ## Salesforce
 
@@ -676,7 +676,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jan 2023 | [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) | `VLM` |
+| Jan 30, 2023 | [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) | `VLM` |
 
 ## Sony AI
 
@@ -684,7 +684,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jun 2023 | ⭐ [LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning](https://arxiv.org/abs/2306.03310) | `VLA` |
+| Jun 5, 2023 | ⭐ [LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning](https://arxiv.org/abs/2306.03310) | `VLA` |
 
 ## Tencent
 
@@ -692,7 +692,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jun 2023 | [A Survey on Multimodal Large Language Models](https://arxiv.org/abs/2306.13549) | `VLM` |
+| Jun 23, 2023 | [A Survey on Multimodal Large Language Models](https://arxiv.org/abs/2306.13549) | `VLM` |
 
 ## UCL
 
@@ -700,7 +700,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| May 2020 | ⭐ [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | `LLM` |
+| May 22, 2020 | ⭐ [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | `LLM` |
 
 ## UCLA
 
@@ -708,7 +708,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Oct 2023 | [MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts](https://arxiv.org/abs/2310.02255) | `VLM` |
+| Oct 3, 2023 | [MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts](https://arxiv.org/abs/2310.02255) | `VLM` |
 
 ## University of Freiburg
 
@@ -716,7 +716,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Dec 2021 | [CALVIN: A Benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks](https://arxiv.org/abs/2112.03227) | `VLA` |
+| Dec 6, 2021 | [CALVIN: A Benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks](https://arxiv.org/abs/2112.03227) | `VLA` |
 
 ## UPenn
 
@@ -724,7 +724,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Apr 2024 | [BLINK: Multimodal Large Language Models Can See but Not Perceive](https://arxiv.org/abs/2404.12390) | `VLM` |
+| Apr 18, 2024 | [BLINK: Multimodal Large Language Models Can See but Not Perceive](https://arxiv.org/abs/2404.12390) | `VLM` |
 
 ## USTC
 
@@ -732,7 +732,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jun 2023 | [A Survey on Multimodal Large Language Models](https://arxiv.org/abs/2306.13549) | `VLM` |
+| Jun 23, 2023 | [A Survey on Multimodal Large Language Models](https://arxiv.org/abs/2306.13549) | `VLM` |
 
 ## UT Austin
 
@@ -740,7 +740,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jun 2023 | ⭐ [LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning](https://arxiv.org/abs/2306.03310) | `VLA` |
+| Jun 5, 2023 | ⭐ [LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning](https://arxiv.org/abs/2306.03310) | `VLA` |
 
 ## Waterloo
 
@@ -748,7 +748,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Nov 2023 | ⭐ [MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI](https://arxiv.org/abs/2311.16502) | `VLM` |
+| Nov 27, 2023 | ⭐ [MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI](https://arxiv.org/abs/2311.16502) | `VLM` |
 
 ## Waymo
 
@@ -756,7 +756,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Oct 2024 | ⭐ [EMMA: End-to-End Multimodal Model for Autonomous Driving](https://arxiv.org/abs/2410.23262) | `VLA` |
+| Oct 30, 2024 | ⭐ [EMMA: End-to-End Multimodal Model for Autonomous Driving](https://arxiv.org/abs/2410.23262) | `VLA` |
 
 ## Wayve
 
@@ -764,7 +764,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Sep 2023 | [GAIA-1: A Generative World Model for Autonomous Driving](https://arxiv.org/abs/2309.17080) | `VLA` |
+| Sep 29, 2023 | [GAIA-1: A Generative World Model for Autonomous Driving](https://arxiv.org/abs/2309.17080) | `VLA` |
 
 ## Yale
 
@@ -772,7 +772,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Dec 2024 | ⭐ [Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces](https://arxiv.org/abs/2412.14171) | `VLM` |
+| Dec 18, 2024 | ⭐ [Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces](https://arxiv.org/abs/2412.14171) | `VLM` |
 
 ## Zhipu AI
 
@@ -780,4 +780,4 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Dec 2023 | ⭐ [CogAgent: A Visual Language Model for GUI Agents](https://arxiv.org/abs/2312.08914) | `VLM` |
+| Dec 14, 2023 | ⭐ [CogAgent: A Visual Language Model for GUI Agents](https://arxiv.org/abs/2312.08914) | `VLM` |

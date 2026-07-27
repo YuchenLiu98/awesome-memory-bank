@@ -275,15 +275,20 @@ sections:
           - world action model
           - neural simulator
         weight: 1.3
+      # Deliberately narrow: bare "reinforcement learning" would swallow every
+      # LLM post-training paper.
       - id: rl
         title: RL & Policy Optimization
         keywords:
-          - reinforcement learning
-          - policy optimization
-          - online rl
-          - reward model
-          - self-improvement
+          - robot reinforcement learning
+          - real-world reinforcement learning
+          - reinforcement learning for manipulation
+          - online rl fine-tuning
+          - human-in-the-loop reinforcement learning
+          - policy optimization for vla
+          - reward model for robot
           - residual policy
+          - self-improving policy
         weight: 1.1
       - id: data
         title: Data, Pre-training & Simulation

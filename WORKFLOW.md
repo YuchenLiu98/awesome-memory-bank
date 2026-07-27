@@ -56,7 +56,10 @@ after arXiv's overnight announcement:
    once, and each subcategory has an optional `weight` to break ties in favour
    of the more specific bucket.
 2. The results are written to `daily/YYYY-MM-DD.md` and appended to
-   `data/candidates.yaml`, capped at the newest 400 entries.
+   `data/candidates.yaml`, capped at the newest 400 entries. Papers that match
+   the queries but no subcategory keywords land in an **Unsorted** bucket
+   rather than being forced into the nearest category — that bucket is where
+   genuinely new topics show up first.
 3. `generate_readme.py` re-renders the three views.
 4. The Action commits only if something actually changed.
 
@@ -77,6 +80,22 @@ python scripts/add_paper.py 2604.01234 \
 The script pulls the title and date from arXiv, removes the entry from the
 review queue, and regenerates the views. Omit `--section` and the keyword
 classifier guesses — always check what it printed.
+
+## Tuning the classifier
+
+Keyword lists drift out of date faster than the papers do. After editing
+`data/categories.yaml`:
+
+```bash
+python scripts/reclassify.py           # preview the moves
+python scripts/reclassify.py --write   # apply and rebuild today's digest
+```
+
+Two rules keep the buckets clean. Keep keywords **specific to their track** — a
+bare `reinforcement learning` under VLA swallows every LLM post-training paper,
+whereas `robot reinforcement learning` does not. And raise `weight` only on the
+narrow subcategories that keep losing to broader ones, since a title hit is
+already worth three abstract hits.
 
 ## Verifying the data
 
