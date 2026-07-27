@@ -18,7 +18,8 @@ Nothing enters the curated list without a human promoting it.
                             |    data/candidates.yaml     (review queue, auto)
                             |
                     add_paper.py  (human promotes)
-                            |
+                            |  \
+                            |   `-- inst_utils.py  (affiliations from the PDF)
                             v
                     data/papers.yaml     (curated source of truth)
                             |
@@ -66,11 +67,18 @@ the generator and the crawler pick it up on the next run.
 `.github/workflows/daily-update.yml` runs at 01:00 UTC (09:00 Beijing), just
 after arXiv's overnight announcement:
 
-1. `fetch_arxiv.py --days 2` runs one search per track and applies the memory
-   gate above, then the track gate, then scores each survivor against every
-   subcategory's keyword list. Title hits count triple, abstract hits count
-   once, and each subcategory has an optional `weight` to break ties in favour
-   of the more specific bucket.
+1. `fetch_arxiv.py --days 2` runs one broad query per arXiv category —
+   `cat:cs.CL AND abs:"memory"` and its four siblings — and does the real
+   filtering locally: primary-category allowlist, then the memory gate above,
+   then the track gate. Survivors are scored against every subcategory's
+   keyword list, where title hits count triple, abstract hits count once, and
+   each subcategory has an optional `weight` to break ties in favour of the
+   more specific bucket.
+
+   Casting a wide net and filtering locally beats enumerating phrases at the
+   API, which always misses papers whose wording nobody anticipated. On a 2026
+   backfill the category queries surfaced 839 memory papers where a hand-tuned
+   phrase list had found a few dozen.
 2. The results are written to `daily/YYYY-MM-DD.md` and appended to
    `data/candidates.yaml`, capped at the newest 400 entries. Papers that match
    the queries but no subcategory keywords land in an **Unsorted** bucket
@@ -112,6 +120,35 @@ bare `memory module` under VLA swallows every LLM agent paper, whereas
 `embodied memory` does not. And raise `weight` only on the narrow subcategories
 that keep losing to broader ones, since a title hit is already worth three
 abstract hits.
+
+## Where institutions come from
+
+The arXiv API does not expose affiliations, so `scripts/inst_utils.py` reads
+them off page one of the PDF and matches against roughly 200 institution
+patterns. It also maps well-known model and product names to their parent
+organisation, so a `Qwen`-branded paper is credited to Alibaba.
+
+The difficulty is not reading the PDF but reading little enough of it. Only two
+zones are searched:
+
+- the **author block**, from below the title to the abstract, capped at 14
+  lines and cut short by a figure or section heading
+- the **footnote zone**, the last 20 lines, filtered down to lines that
+  actually contain an affiliation keyword and truncated at 160 characters
+
+Body text, figure captions and related work are never searched. That exclusion
+is the whole point: "we compare against LLaMA" must not make a paper come from
+Meta, and a related-work paragraph must not credit every lab it cites.
+
+```bash
+python scripts/inst_utils.py 2508.19236   # what does the PDF say?
+make inst                                 # audit papers.yaml against the PDFs
+```
+
+`add_paper.py` calls this automatically when you omit `--institution`. Treat
+the result as a first draft: two-column layouts and image-only PDFs defeat it,
+and it prints what it found so you can correct it. Extracted text is cached in
+`.pdf_cache/` (git-ignored), so an audit re-run costs no downloads.
 
 ## Verifying the data
 

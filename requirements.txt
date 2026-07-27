@@ -1,1 +1,5 @@
 PyYAML>=6.0
+
+# Affiliation extraction from PDF first pages (scripts/inst_utils.py). Optional:
+# everything except institution lookup works without it.
+pdfminer.six>=20240706

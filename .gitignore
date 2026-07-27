@@ -8,3 +8,6 @@ venv/
 
 # Local arXiv response cache, safe to delete at any time.
 data/.arxiv_cache.json
+
+# Extracted PDF first pages, used only for affiliation lookup.
+.pdf_cache/

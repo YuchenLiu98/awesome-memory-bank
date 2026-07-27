@@ -83,10 +83,17 @@ def main() -> int:
             print(f"  {sec}/{sub}")
         return 1
 
+    institution = args.institution
+    if not institution:
+        # arXiv does not expose affiliations, so read them off the PDF.
+        import inst_utils
+
+        institution = inst_utils.as_field(arxiv_id, verbose=True)
+
     paper = {
         "arxiv": arxiv_id,
         "title": entry["title"],
-        "institution": args.institution or "—",
+        "institution": institution or "—",
         "date": entry["published"],
         "url": entry["url"],
         "venue": f"arXiv {entry['published'][:4]}",
@@ -110,7 +117,10 @@ def main() -> int:
     print(f"Added {arxiv_id} -> {section}/{subcategory}")
     print(f"  {entry['title']}")
     if not args.institution:
-        print("  note: institution left as '—', arXiv does not expose affiliations")
+        if institution:
+            print(f"  institution from PDF: {institution} — check it")
+        else:
+            print("  note: institution left as '—', nothing matched on the PDF first page")
     if not args.summary:
         print("  note: no summary yet, add one in data/papers.yaml")
 

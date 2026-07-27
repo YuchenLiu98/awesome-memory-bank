@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-103-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--07--27-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--07--27-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**103 papers** · **LLM: 54** · **VLM: 23** · **VLA: 26** · Last updated: **2026-07-27**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-07-27**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -18,29 +18,31 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 ## Table of Contents
 
-- [I. LLM & Agent Memory](#i-llm--agent-memory) （语言模型与智能体的记忆, 54）
-  - [Memory Architectures & Memory OS](#memory-architectures--memory-os-6) (6)
-  - [Long-Term & Personalized Memory](#long-term--personalized-memory-6) (6)
-  - [Retrieval-Augmented Memory](#retrieval-augmented-memory-8) (8)
-  - [Parametric Memory & Knowledge Editing](#parametric-memory--knowledge-editing-6) (6)
-  - [KV Cache & Context Memory Compression](#kv-cache--context-memory-compression-7) (7)
-  - [Recurrent & Compressive Memory Models](#recurrent--compressive-memory-models-10) (10)
-  - [Agent Experience & Skill Memory](#agent-experience--skill-memory-4) (4)
-  - [Memory Benchmarks & Analysis](#memory-benchmarks--analysis-5) (5)
-  - [Surveys](#surveys-2) (2)
-- [II. VLM Memory](#ii-vlm-memory) （视觉语言模型的记忆, 23）
-  - [Multimodal Memory Architectures](#multimodal-memory-architectures-2) (2)
-  - [Long Video & Streaming Memory](#long-video--streaming-memory-7) (7)
+- [I. LLM & Agent Memory](#i-llm--agent-memory) （语言模型与智能体的记忆, 79）
+  - [Memory Architectures & Memory OS](#memory-architectures--memory-os-14) (14)
+  - [Long-Term & Personalized Memory](#long-term--personalized-memory-14) (14)
+  - [Retrieval-Augmented Memory](#retrieval-augmented-memory-7) (7)
+  - [Parametric Memory & Knowledge Editing](#parametric-memory--knowledge-editing-3) (3)
+  - [KV Cache & Context Memory Compression](#kv-cache--context-memory-compression-11) (11)
+  - [Recurrent & Compressive Memory Models](#recurrent--compressive-memory-models-4) (4)
+  - [Agent Experience & Skill Memory](#agent-experience--skill-memory-7) (7)
+  - [Multi-Agent & Shared Memory](#multi-agent--shared-memory-2) (2)
+  - [Memory Benchmarks & Analysis](#memory-benchmarks--analysis-12) (12)
+  - [Surveys](#surveys-5) (5)
+- [II. VLM Memory](#ii-vlm-memory) （视觉语言模型的记忆, 46）
+  - [Multimodal Memory Architectures](#multimodal-memory-architectures-8) (8)
+  - [Long Video & Streaming Memory](#long-video--streaming-memory-14) (14)
   - [Episodic & Personalized Visual Memory](#episodic--personalized-visual-memory-6) (6)
-  - [Visual Context & Token Memory Compression](#visual-context--token-memory-compression-2) (2)
-  - [GUI & Web Agent Memory](#gui--web-agent-memory-3) (3)
-  - [Benchmarks & Analysis](#benchmarks--analysis-3) (3)
-- [III. VLA & Embodied Memory](#iii-vla--embodied-memory) （视觉语言动作与具身记忆, 26）
-  - [VLA Memory Architectures](#vla-memory-architectures-3) (3)
-  - [Spatial & Semantic Scene Memory](#spatial--semantic-scene-memory-9) (9)
-  - [Navigation Memory](#navigation-memory-6) (6)
-  - [World Models & Long-Horizon Memory](#world-models--long-horizon-memory-4) (4)
-  - [Robot Skill & Experience Memory](#robot-skill--experience-memory-4) (4)
+  - [Visual Context & Token Memory Compression](#visual-context--token-memory-compression-3) (3)
+  - [GUI & Web Agent Memory](#gui--web-agent-memory-4) (4)
+  - [Benchmarks & Analysis](#benchmarks--analysis-11) (11)
+- [III. VLA & Embodied Memory](#iii-vla--embodied-memory) （视觉语言动作与具身记忆, 47）
+  - [VLA Memory Architectures](#vla-memory-architectures-11) (11)
+  - [Spatial & Semantic Scene Memory](#spatial--semantic-scene-memory-14) (14)
+  - [Navigation Memory](#navigation-memory-9) (9)
+  - [World Models & Long-Horizon Memory](#world-models--long-horizon-memory-7) (7)
+  - [Robot Skill & Experience Memory](#robot-skill--experience-memory-5) (5)
+  - [Benchmarks & Analysis](#benchmarks--analysis-1) (1)
 
 ---
 
@@ -48,16 +50,16 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
-| ⭐ **MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation** | Shanghai AI Lab, Tsinghua | ![Aug 26, 2025](https://img.shields.io/badge/Aug_26%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2508.19236) |
-| ⭐ **Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory** | ByteDance, Zhejiang University | ![Aug 13, 2025](https://img.shields.io/badge/Aug_13%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2508.09736) |
-| **Video World Models with Long-term Spatial Memory** | Stanford, HKUST, Adobe | ![Jun 5, 2025](https://img.shields.io/badge/Jun_5%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2506.05284) |
-| **Context as Memory: Scene-Consistent Interactive Long Video Generation with Memory Retrieval** | Zhejiang University, Kuaishou | ![Jun 3, 2025](https://img.shields.io/badge/Jun_3%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2506.03141) |
-| **Long-Context State-Space Video World Models** | Stanford, Adobe | ![May 26, 2025](https://img.shields.io/badge/May_26%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2505.20171) |
-| **Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory** | Mem0 | ![Apr 28, 2025](https://img.shields.io/badge/Apr_28%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2504.19413) |
-| **From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs** | Renmin University | ![Apr 22, 2025](https://img.shields.io/badge/Apr_22%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2504.15965) |
-| ⭐ **WORLDMEM: Long-term Consistent World Simulation with Memory** | Nanyang Technological University, Peking University | ![Apr 16, 2025](https://img.shields.io/badge/Apr_16%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2504.12369) |
-| **EgoLife: Towards Egocentric Life Assistant** | Nanyang Technological University, S-Lab | ![Mar 5, 2025](https://img.shields.io/badge/Mar_5%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2503.03803) |
-| **From RAG to Memory: Non-Parametric Continual Learning for Large Language Models** | Ohio State University | ![Feb 20, 2025](https://img.shields.io/badge/Feb_20%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2502.14802) |
+| **Ground Truth First: A Longitudinal Evaluation Instrument for Agent Memory, and the Tenure Crossover in Memory-Architecture Rankings** | — | ![Jul 24, 2026](https://img.shields.io/badge/Jul_24%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.21962) |
+| **MemTools: A Unified Research Framework for Interoperable Agent Memory** | — | ![Jul 23, 2026](https://img.shields.io/badge/Jul_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.21404) |
+| **AttriMem: Attribution-Guided Process Feedback for Agent Memory Learning** | — | ![Jul 23, 2026](https://img.shields.io/badge/Jul_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.21106) |
+| **Memory-Augmented Multimodal Large Language Models for Small Object Understanding in Streaming Aerial Videos** | — | ![Jul 22, 2026](https://img.shields.io/badge/Jul_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19857) |
+| **Supra Cognitive Modes: A Routed Architecture for Agent Memory** | — | ![Jul 21, 2026](https://img.shields.io/badge/Jul_21%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19096) |
+| **VLN-AVP: Zero-Shot Vision-Language Navigation with Hybrid Long-Short-Term Memory for Autonomous Valet Parking** | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17767) |
+| **SALT: Salience-Aware Lexical Trie for Long-Context Compression** | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17486) |
+| **Retain or Consolidate? Budget-Dependent Operator Selection for Language Agent Memory** | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17545) |
+| **Mechanistic Attention Guidance for Agent Memory Refinement** | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17621) |
+| **Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long-term Memory** | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17879) |
 
 ---
 
@@ -65,102 +67,132 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 *语言模型与智能体的记忆 — Memory in language-only systems: memory operating systems, long-term and personalized memory, parametric memory editing, context compression, and the experience stores that let agents improve over time.*
 
-### Memory Architectures & Memory OS (6)
+### Memory Architectures & Memory OS (14)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| **MemTools: A Unified Research Framework for Interoperable Agent Memory**<br><sub>Decouples the memory lifecycle stages so competing designs can finally be compared.</sub> | — | ![Jul 23, 2026](https://img.shields.io/badge/Jul_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.21404) |
+| **Supra Cognitive Modes: A Routed Architecture for Agent Memory**<br><sub>Routes lookup, relational reasoning and synthesis queries to different memory mechanisms.</sub> | — | ![Jul 21, 2026](https://img.shields.io/badge/Jul_21%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19096) |
+| ⭐ **Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents**<br><sub>Learns when to read and write memory rather than accessing it on a fixed schedule.</sub> | — | ![Jul 15, 2026](https://img.shields.io/badge/Jul_15%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.13591) |
+| **Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents**<br><sub>Treats agent memory as database infrastructure, with the durability guarantees that implies.</sub> | — | ![Jul 14, 2026](https://img.shields.io/badge/Jul_14%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.13157) |
+| **Memory-Orchestrated Semantic System (MOSS): An Auditable Agentic Memory Architecture**<br><sub>Replaces opaque embedding search with an auditable semantic store you can inspect after the fact.</sub> | — | ![Jul 5, 2026](https://img.shields.io/badge/Jul_5%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.04391) |
+| **From Signals to Structure: How Memory Architecture Drives Language Emergence in LLM Agents**<br><sub>Shows the memory architecture, not the channel, determines what shared language two agents invent.</sub> | — | ![Jun 30, 2026](https://img.shields.io/badge/Jun_30%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.00233) |
+| ⭐ **Are We Ready For An Agent-Native Memory System?**<br><sub>Argues agent memory has become a data management system and asks what it still lacks.</sub> | — | ![Jun 23, 2026](https://img.shields.io/badge/Jun_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.24775) |
+| **MemRefine: LLM-Guided Compression for Long-Term Agent Memory**<br><sub>Uses the model itself to decide what in the memory store can be safely compressed.</sub> | — | ![Jun 11, 2026](https://img.shields.io/badge/Jun_11%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.13177) |
+| **G-Long: Graph-Enhanced Memory Management for Efficient Long-Term Dialogue Agents**<br><sub>Graph-structured memory management that keeps long dialogues consistent without reprocessing them.</sub> | — | ![Jun 11, 2026](https://img.shields.io/badge/Jun_11%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.13115) |
+| **MemPro: Agentic Memory Systems as Evolvable Programs**<br><sub>Represents the memory system as a program the agent can rewrite as its needs change.</sub> | — | ![May 30, 2026](https://img.shields.io/badge/May_30%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.00619) |
 | **Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory**<br><sub>Extract-and-consolidate pipeline with a graph variant; one of the few memory layers deployed at scale.</sub> | Mem0 | ![Apr 28, 2025](https://img.shields.io/badge/Apr_28%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2504.19413) |
 | ⭐ **A-MEM: Agentic Memory for LLM Agents**<br><sub>Zettelkasten-style notes that the agent links and revises itself, instead of a fixed memory schema.</sub> | Rutgers, Independent | ![Feb 17, 2025](https://img.shields.io/badge/Feb_17%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2502.12110) |
 | **Larimar: Large Language Models with Episodic Memory Control**<br><sub>A distributed episodic memory module supporting one-shot write and selective forgetting.</sub> | IBM Research, Princeton | ![Mar 18, 2024](https://img.shields.io/badge/Mar_18%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2403.11901) |
 | **MEMORYLLM: Towards Self-Updatable Large Language Models**<br><sub>A fixed pool of memory tokens inside every layer that absorbs new knowledge without retraining.</sub> | UC San Diego | ![Feb 7, 2024](https://img.shields.io/badge/Feb_7%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2402.04624) |
-| ⭐ **MemGPT: Towards LLMs as Operating Systems**<br><sub>Treats context as paged virtual memory and lets the model swap its own pages; the origin of the memory-OS framing.</sub> | UC Berkeley | ![Oct 12, 2023](https://img.shields.io/badge/Oct_12%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2310.08560) |
-| ⭐ **Cognitive Architectures for Language Agents**<br><sub>CoALA: the working/episodic/semantic/procedural vocabulary that most later agent-memory papers adopt.</sub> | Princeton | ![Sep 5, 2023](https://img.shields.io/badge/Sep_5%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2309.02427) |
 
-### Long-Term & Personalized Memory (6)
+### Long-Term & Personalized Memory (14)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
-| **Think-in-Memory: Recalling and Post-thinking Enable LLMs with Long-Term Memory**<br><sub>Stores conclusions rather than raw history, avoiding repeated reasoning over the same past turns.</sub> | Huawei | ![Nov 15, 2023](https://img.shields.io/badge/Nov_15%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2311.08719) |
-| **Recursively Summarizing Enables Long-Term Dialogue Memory in Large Language Models**<br><sub>Recursive summarisation as a cheap memory that survives arbitrarily long conversations.</sub> | Tencent AI Lab | ![Aug 29, 2023](https://img.shields.io/badge/Aug_29%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2308.15022) |
-| **MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation**<br><sub>Write-retrieve-respond memos that keep long conversations self-consistent.</sub> | Tencent | ![Aug 16, 2023](https://img.shields.io/badge/Aug_16%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2308.08239) |
-| ⭐ **MemoryBank: Enhancing Large Language Models with Long-Term Memory**<br><sub>Ebbinghaus-curve forgetting applied to stored dialogues, so old memories decay unless reinforced.</sub> | Zhejiang University, Westlake University | ![May 17, 2023](https://img.shields.io/badge/May_17%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2305.10250) |
-| **Enhancing Large Language Model with Self-Controlled Memory Framework**<br><sub>Lets the model itself decide when to pull an archived memory into context.</sub> | CAS, Alibaba | ![Apr 26, 2023](https://img.shields.io/badge/Apr_26%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2304.13343) |
-| **Beyond Goldfish Memory: Long-Term Open-Domain Conversation**<br><sub>The pre-LLM paper that framed long-term conversational memory as a task at all.</sub> | Meta | ![Jul 15, 2021](https://img.shields.io/badge/Jul_15%2C_2021-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2107.07567) |
+| **Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long-term Memory**<br><sub>A recall-reflect-assimilate cycle that adapts retrieval to what the query actually needs.</sub> | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17879) |
+| ⭐ **CMI-Mem: Toward Generalizable Long-Term Memory Management via CMI-Augmented Reinforcement Learning**<br><sub>Scores a memory by conditional mutual information instead of a downstream reader's guess.</sub> | — | ![Jul 15, 2026](https://img.shields.io/badge/Jul_15%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.20553) |
+| **A-TMA: Decoupling State-Aware Memory Failures in Long-Term Agent Memory**<br><sub>Names and isolates ghost memory: the agent recalls a fact that used to be true.</sub> | — | ![Jul 2, 2026](https://img.shields.io/badge/Jul_2%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.01935) |
+| **TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory**<br><sub>Consolidation that will not silently corrupt what it rewrites.</sub> | — | ![Jun 23, 2026](https://img.shields.io/badge/Jun_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.25161) |
+| **MEMPROBE: Probing Long-Term Agent Memory via Hidden User-State Recovery**<br><sub>Probes whether the agent actually models the user, rather than scoring downstream answers.</sub> | — | ![Jun 23, 2026](https://img.shields.io/badge/Jun_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.24595) |
+| **When Does Belief-Based Agent Memory Help? Reliability-Conditional Updating and Provenance-Capped Poisoning Defense**<br><sub>Probabilistic beliefs per entity-attribute pair, with provenance limiting poisoning damage.</sub> | — | ![Jun 20, 2026](https://img.shields.io/badge/Jun_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.22030) |
+| **Learning What Not to Forget: Long-Horizon Agent Memory from a Few Kilobytes of Learning**<br><sub>A tiny learned eviction policy beats heuristics at keeping the load-bearing detail.</sub> | — | ![Jun 18, 2026](https://img.shields.io/badge/Jun_18%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.20954) |
+| **MemTrace: Probing What Final Accuracy Misses in Long-Term Memory**<br><sub>Row-level accuracy hides memory failures that compound; this traces them instead.</sub> | — | ![Jun 15, 2026](https://img.shields.io/badge/Jun_15%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.17328) |
+| **Knowledge Graph Enhanced Memory-Augmented Retrieval for Long Context Modeling**<br><sub>Tracks entity state across a long context, which semantic similarity alone misses.</sub> | — | ![Jun 12, 2026](https://img.shields.io/badge/Jun_12%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.14047) |
+| **REAL: A Reasoning-Enhanced Graph Framework for Long-Term Memory Management of LLMs**<br><sub>Reasoning over a memory graph decides what to keep, merge or drop.</sub> | — | ![Jun 9, 2026](https://img.shields.io/badge/Jun_9%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.10694) |
+| **Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory**<br><sub>Maintains topic documents rather than isolated records, so changing facts stay coherent.</sub> | — | ![Jun 9, 2026](https://img.shields.io/badge/Jun_9%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.10677) |
+| **Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving LLM Agents**<br><sub>Separates belief revision from retrieval, which a single similarity surface cannot do.</sub> | — | ![Jun 8, 2026](https://img.shields.io/badge/Jun_8%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.09483) |
+| **Training-Free Lexical-Dense Fusion for Conversational-Memory Retrieval**<br><sub>A strong training-free retrieval baseline on LoCoMo and LongMemEval.</sub> | — | ![Jun 2, 2026](https://img.shields.io/badge/Jun_2%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.04194) |
+| **Memory Retrieval for Changing Preferences**<br><sub>Decides both when to consult memory and which history is still valid after preferences shift.</sub> | — | ![Jun 2, 2026](https://img.shields.io/badge/Jun_2%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.02976) |
 
-### Retrieval-Augmented Memory (8)
+### Retrieval-Augmented Memory (7)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| **Memory in the Loop: In-Process Retrieval as Extended Working Memory for Language Agents**<br><sub>Retrieval during generation, not before it, acting as extended working memory.</sub> | — | ![Jul 6, 2026](https://img.shields.io/badge/Jul_6%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.05690) |
+| **Reasoning as Attractor Dynamics: Latent Memory Retrieval via Gibbs-Weighted Energy Minimization**<br><sub>Reads the LLM as a dense associative memory and recovers reasoning as attractor dynamics.</sub> | — | ![Jun 23, 2026](https://img.shields.io/badge/Jun_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.24543) |
+| **Towards Root Memories: Benchmarking and Enhancing Implicit Logical Memory Retrieval for Personalized LLMs**<br><sub>Semantic similarity misses logically necessary memories; this benchmarks that gap.</sub> | — | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23283) |
 | **From RAG to Memory: Non-Parametric Continual Learning for Large Language Models**<br><sub>HippoRAG 2: pushes graph memory past standard RAG on associative and sense-making recall.</sub> | Ohio State University | ![Feb 20, 2025](https://img.shields.io/badge/Feb_20%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2502.14802) |
-| **MemoRAG: Boosting Long Context Processing with Global Memory-Inspired Retrieval Augmentation**<br><sub>A light global memory drafts clues that guide retrieval, helping when the query is vague.</sub> | BAAI, Renmin University | ![Sep 9, 2024](https://img.shields.io/badge/Sep_9%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2409.05591) |
+| **MemoRAG: Boosting Long Context Processing with Global Memory-Enhanced Retrieval Augmentation**<br><sub>A light global memory drafts clues that guide retrieval, helping when the query is vague.</sub> | BAAI, Renmin University | ![Sep 9, 2024](https://img.shields.io/badge/Sep_9%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2409.05591) |
 | ⭐ **HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models**<br><sub>Hippocampal indexing theory as a knowledge graph plus PageRank, enabling multi-hop recall in one step.</sub> | Ohio State University | ![May 23, 2024](https://img.shields.io/badge/May_23%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2405.14831) |
 | **From Local to Global: A Graph RAG Approach to Query-Focused Summarization**<br><sub>GraphRAG: community summaries over an entity graph, for questions no single chunk can answer.</sub> | Microsoft | ![Apr 24, 2024](https://img.shields.io/badge/Apr_24%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2404.16130) |
-| **Improving language models by retrieving from trillions of tokens**<br><sub>RETRO: chunked cross-attention over a 2-trillion-token database, trading parameters for retrieval.</sub> | Google DeepMind | ![Dec 8, 2021](https://img.shields.io/badge/Dec_8%2C_2021-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2112.04426) |
-| ⭐ **Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks**<br><sub>The original parametric-plus-non-parametric memory formulation behind every RAG system.</sub> | Meta, UCL, NYU | ![May 22, 2020](https://img.shields.io/badge/May_22%2C_2020-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2005.11401) |
-| **REALM: Retrieval-Augmented Language Model Pre-Training**<br><sub>Learns the retriever during pre-training so the external memory is optimised, not bolted on.</sub> | Google | ![Feb 10, 2020](https://img.shields.io/badge/Feb_10%2C_2020-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2002.08909) |
-| ⭐ **Generalization through Memorization: Nearest Neighbor Language Models**<br><sub>kNN-LM: interpolating with an explicit datastore, the cleanest evidence that memory beats parameters for rare facts.</sub> | Stanford, Meta | ![Nov 1, 2019](https://img.shields.io/badge/Nov_1%2C_2019-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/1911.00172) |
 
-### Parametric Memory & Knowledge Editing (6)
+### Parametric Memory & Knowledge Editing (3)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| **Evaluating and Understanding Model Editing for Medical Vision Language Models**<br><sub>Tests whether editing techniques survive contact with a high-stakes multimodal domain.</sub> | — | ![Jul 6, 2026](https://img.shields.io/badge/Jul_6%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.05310) |
+| **BrainSurgery: Reproducible and Reliable Declarative Weight Manipulations for Model Editing and Upcycling**<br><sub>Declarative, reproducible weight edits, in place of one-off surgery scripts.</sub> | — | ![Jun 8, 2026](https://img.shields.io/badge/Jun_8%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.09707) |
 | **A Comprehensive Study of Knowledge Editing for Large Language Models**<br><sub>KnowEdit benchmark plus a systematic comparison of editing families.</sub> | Zhejiang University | ![Jan 2, 2024](https://img.shields.io/badge/Jan_2%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2401.01286) |
-| ⭐ **Mass-Editing Memory in a Transformer**<br><sub>MEMIT: scales direct weight editing from one fact to thousands at a time.</sub> | Northeastern, MIT | ![Oct 13, 2022](https://img.shields.io/badge/Oct_13%2C_2022-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2210.07229) |
-| ⭐ **Locating and Editing Factual Associations in GPT**<br><sub>ROME: causal tracing localises facts to mid-layer MLPs, making weights an editable memory store.</sub> | MIT, Northeastern | ![Feb 10, 2022](https://img.shields.io/badge/Feb_10%2C_2022-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2202.05262) |
-| **Fast Model Editing at Scale**<br><sub>MEND: a hypernetwork that turns one gradient into a local, non-destructive edit.</sub> | Stanford | ![Oct 21, 2021](https://img.shields.io/badge/Oct_21%2C_2021-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2110.11309) |
-| **Knowledge Neurons in Pretrained Transformers**<br><sub>Identifies individual neurons that store a given fact and edits them directly.</sub> | PKU, Microsoft | ![Apr 18, 2021](https://img.shields.io/badge/Apr_18%2C_2021-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2104.08696) |
-| ⭐ **Transformer Feed-Forward Layers Are Key-Value Memories**<br><sub>The interpretability result that reframed FFN layers as an addressable memory, enabling all later editing work.</sub> | Allen Institute for AI, Cornell, Tel Aviv University | ![Dec 29, 2020](https://img.shields.io/badge/Dec_29%2C_2020-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2012.14913) |
 
-### KV Cache & Context Memory Compression (7)
+### KV Cache & Context Memory Compression (11)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| **SALT: Salience-Aware Lexical Trie for Long-Context Compression**<br><sub>A lexical trie over the context, giving compression an explicit index to reason about.</sub> | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17486) |
+| **VarRate: Training-Free Variable-Rate KV Cache Compression for Long-Context LLMs**<br><sub>Varies the compression rate per token instead of assuming one budget fits the context.</sub> | — | ![Jul 16, 2026](https://img.shields.io/badge/Jul_16%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.15498) |
+| **PReM: Learning What to Preserve and When to Refresh for Context Compression**<br><sub>Compression that revisits its own decisions as generation proceeds.</sub> | — | ![Jul 15, 2026](https://img.shields.io/badge/Jul_15%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.14327) |
+| **Adaptive Filtering of the KV Cache: Diagnosing and Correcting Structural-Role Bias in LLM Inference**<br><sub>Shows attention-mass eviction is systematically biased by a token's structural role.</sub> | — | ![Jul 14, 2026](https://img.shields.io/badge/Jul_14%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.13205) |
+| **MemDecay: Region-Aware KV Cache Eviction for Efficient LLM Agent Inference**<br><sub>Treats instructions, tool output and reasoning as regions deserving different retention.</sub> | — | ![Jul 12, 2026](https://img.shields.io/badge/Jul_12%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.10582) |
+| **SeKV: Resolution-Adaptive KV Cache with Hierarchical Semantic Memory for Long-Context LLM Inference**<br><sub>A semantic hierarchy over the cache, retrieving at whatever resolution the query needs.</sub> | — | ![Jun 30, 2026](https://img.shields.io/badge/Jun_30%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.31145) |
+| **End-to-End Context Compression at Scale**<br><sub>Context compression trained end-to-end rather than bolted on at inference.</sub> | — | ![Jun 8, 2026](https://img.shields.io/badge/Jun_8%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.09659) |
+| **Cartridges at Scale: Training Modular KV Caches over Large Document Collections**<br><sub>Distils a document collection into a reusable cache, so prefill is paid once.</sub> | — | ![Jun 3, 2026](https://img.shields.io/badge/Jun_3%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.04557) |
+| **Value-Aware Stochastic KV Cache Eviction for Reasoning Models**<br><sub>Long chains of thought need a different eviction rule than long prompts.</sub> | — | ![Jun 2, 2026](https://img.shields.io/badge/Jun_2%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.03928) |
 | **SnapKV: LLM Knows What You are Looking for Before Generation**<br><sub>Uses the prompt's own attention pattern to pick which keys to keep before decoding starts.</sub> | UIUC, Cohere | ![Apr 22, 2024](https://img.shields.io/badge/Apr_22%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2404.14469) |
 | **Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention**<br><sub>A compressive memory inside the attention layer, giving unbounded context at bounded state size.</sub> | Google | ![Apr 10, 2024](https://img.shields.io/badge/Apr_10%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2404.07143) |
-| **LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models**<br><sub>Budget-controlled prompt compression that keeps the tokens the model actually attends to.</sub> | Microsoft | ![Oct 9, 2023](https://img.shields.io/badge/Oct_9%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2310.05736) |
-| **Model Tells You What to Discard: Adaptive KV Cache Compression for LLMs**<br><sub>FastGen: profiles each attention head and applies a compression policy matched to its behaviour.</sub> | Microsoft, University of Illinois | ![Oct 3, 2023](https://img.shields.io/badge/Oct_3%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2310.01801) |
-| ⭐ **Efficient Streaming Language Models with Attention Sinks**<br><sub>StreamingLLM: keeping a few sink tokens lets a rolling cache run to millions of tokens without collapse.</sub> | MIT, Meta, CMU, NVIDIA | ![Sep 29, 2023](https://img.shields.io/badge/Sep_29%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2309.17453) |
-| ⭐ **H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models**<br><sub>A small set of heavy-hitter tokens carries most attention mass, so the rest of the cache can be dropped.</sub> | UT Austin, Stanford, CMU | ![Jun 24, 2023](https://img.shields.io/badge/Jun_24%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2306.14048) |
-| **Landmark Attention: Random-Access Infinite Context Length for Transformers**<br><sub>Landmark tokens index blocks of past context so attention can random-access them.</sub> | EPFL | ![May 25, 2023](https://img.shields.io/badge/May_25%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2305.16300) |
 
-### Recurrent & Compressive Memory Models (10)
+### Recurrent & Compressive Memory Models (4)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| **Neural Subspace Reallocation: Continual Learning as Retrieval-Based Subspace Memory Management**<br><sub>Reframes continual learning as managing a memory of parameter subspaces.</sub> | — | ![Jun 29, 2026](https://img.shields.io/badge/Jun_29%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.30067) |
+| **Why Limit the Residual Stream to Layers and Not Tokens? Persistent Memory for Continuous Latent Reasoning**<br><sub>Extends the residual stream across tokens, giving latent reasoning a persistent scratchpad.</sub> | — | ![Jun 5, 2026](https://img.shields.io/badge/Jun_5%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.07720) |
 | ⭐ **Titans: Learning to Memorize at Test Time**<br><sub>A neural long-term memory trained online at inference, with surprise-driven writes and decay.</sub> | Google | ![Dec 31, 2024](https://img.shields.io/badge/Dec_31%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2501.00663) |
 | **Memory Layers at Scale**<br><sub>Trainable key-value memory layers that add factual capacity without adding FLOPs.</sub> | Meta | ![Dec 12, 2024](https://img.shields.io/badge/Dec_12%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2412.09764) |
-| **Scaling Transformer to 1M tokens and beyond with RMT**<br><sub>Shows recurrent memory tokens scaling to a million-token context on synthetic recall tasks.</sub> | AIRI, Moscow Institute of Physics and Technology | ![Apr 19, 2023](https://img.shields.io/badge/Apr_19%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2304.11062) |
-| **Recurrent Memory Transformer**<br><sub>Special memory tokens passed between segments, turning a transformer into a recurrent one.</sub> | AIRI, Moscow Institute of Physics and Technology | ![Jul 14, 2022](https://img.shields.io/badge/Jul_14%2C_2022-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2207.06881) |
-| ⭐ **Memorizing Transformers**<br><sub>A non-differentiable kNN memory of past key-values that the model can read at inference time.</sub> | Google | ![Mar 16, 2022](https://img.shields.io/badge/Mar_16%2C_2022-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2203.08913) |
-| **Compressive Transformers for Long-Range Sequence Modelling**<br><sub>Compresses old activations into a coarser secondary memory rather than discarding them.</sub> | Google DeepMind | ![Nov 13, 2019](https://img.shields.io/badge/Nov_13%2C_2019-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/1911.05507) |
-| ⭐ **Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context**<br><sub>Segment-level recurrence: the first practical carry-over memory between transformer windows.</sub> | CMU, Google | ![Jan 9, 2019](https://img.shields.io/badge/Jan_9%2C_2019-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/1901.02860) |
-| **End-To-End Memory Networks**<br><sub>Made memory networks trainable end-to-end with soft attention over multiple hops.</sub> | Meta, NYU | ![Mar 31, 2015](https://img.shields.io/badge/Mar_31%2C_2015-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/1503.08895) |
-| ⭐ **Neural Turing Machines**<br><sub>The paper that gave neural networks an addressable external memory with differentiable read/write.</sub> | Google DeepMind | ![Oct 20, 2014](https://img.shields.io/badge/Oct_20%2C_2014-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/1410.5401) |
-| ⭐ **Memory Networks**<br><sub>The original memory-network formulation; every later memory module is a descendant.</sub> | Meta | ![Oct 15, 2014](https://img.shields.io/badge/Oct_15%2C_2014-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/1410.3916) |
 
-### Agent Experience & Skill Memory (4)
+### Agent Experience & Skill Memory (7)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
-| **ExpeL: LLM Agents Are Experiential Learners**<br><sub>Distils cross-task insights from past trials into a reusable experience pool.</sub> | Nanyang Technological University | ![Aug 20, 2023](https://img.shields.io/badge/Aug_20%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2308.10144) |
-| **Voyager: An Open-Ended Embodied Agent with Large Language Models**<br><sub>An ever-growing skill library of executable code: procedural memory that compounds.</sub> | NVIDIA, Caltech, Stanford | ![May 25, 2023](https://img.shields.io/badge/May_25%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2305.16291) |
-| ⭐ **Generative Agents: Interactive Simulacra of Human Behavior**<br><sub>The memory stream with recency-importance-relevance retrieval and reflection; the reference agent memory design.</sub> | Stanford, Google | ![Apr 7, 2023](https://img.shields.io/badge/Apr_7%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2304.03442) |
-| ⭐ **Reflexion: Language Agents with Verbal Reinforcement Learning**<br><sub>Stores failures as natural-language lessons in an episodic buffer instead of updating weights.</sub> | Northeastern, MIT, Princeton | ![Mar 20, 2023](https://img.shields.io/badge/Mar_20%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2303.11366) |
+| **AttriMem: Attribution-Guided Process Feedback for Agent Memory Learning**<br><sub>Attributes outcomes back to individual memories so the store can be corrected.</sub> | — | ![Jul 23, 2026](https://img.shields.io/badge/Jul_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.21106) |
+| **Retain or Consolidate? Budget-Dependent Operator Selection for Language Agent Memory**<br><sub>The retain-versus-consolidate choice depends on budget; picking per-case beats either policy.</sub> | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17545) |
+| **Mechanistic Attention Guidance for Agent Memory Refinement**<br><sub>Uses attention evidence to decide which stored memories deserve refinement.</sub> | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17621) |
+| **Procedural Memory Distillation: Online Reflection for Self-Improving Language Models**<br><sub>Distils the reasoning inside a rollout into procedural memory, not just its reward.</sub> | — | ![Jul 1, 2026](https://img.shields.io/badge/Jul_1%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.01480) |
+| **Neural Procedural Memory: Empowering LLM Agents with Implicit Activation Steering**<br><sub>Stores procedures as activation steering directions rather than as retrievable text.</sub> | — | ![Jun 29, 2026](https://img.shields.io/badge/Jun_29%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.29824) |
+| ⭐ **Managing Procedural Memory in LLM Agents: Control, Adaptation, and Evaluation**<br><sub>AFTER benchmark: asks whether procedural memory really yields reusable skills.</sub> | — | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23127) |
+| ⭐ **Are Online Skill and Memory Modules Always Worth Their Tokens? A Budget-Constrained Study of Web Agents**<br><sub>Counts the token cost of memory modules, which papers proposing them rarely report.</sub> | — | ![Jun 12, 2026](https://img.shields.io/badge/Jun_12%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.15017) |
 
-### Memory Benchmarks & Analysis (5)
+### Multi-Agent & Shared Memory (2)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| **Shared Selective Persistent Memory for Agentic LLM Systems**<br><sub>Persistent shared memory so a coding agent does not restart from zero each session.</sub> | — | ![Jul 10, 2026](https://img.shields.io/badge/Jul_10%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.09493) |
+| **Memory Contagion: Cross-Temporal Propagation of Evaluator Bias via Agent Memory**<br><sub>A biased judgement written once propagates through everything the agent later recalls.</sub> | — | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23195) |
+
+### Memory Benchmarks & Analysis (12)
+
+| Paper | Institution | Date | Links |
+| --- | --- | --- | --- |
+| **Ground Truth First: A Longitudinal Evaluation Instrument for Agent Memory, and the Tenure Crossover in Memory-Architecture Rankings**<br><sub>Builds the answer key before the conversation, avoiding the label errors that plague memory benchmarks.</sub> | — | ![Jul 24, 2026](https://img.shields.io/badge/Jul_24%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.21962) |
+| ⭐ **RECON: Benchmarking Agent Memory for Compositional Reasoning over Long Contexts**<br><sub>Tests memory that must be composed across sessions, not just retrieved.</sub> | — | ![Jul 18, 2026](https://img.shields.io/badge/Jul_18%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.16716) |
+| ⭐ **MemPoison: Uncovering Persistent Memory Threats and Structural Blind Spots in LLM Agents**<br><sub>Poisoned memories persist across sessions, a failure mode stateless red-teaming cannot find.</sub> | — | ![Jul 16, 2026](https://img.shields.io/badge/Jul_16%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.14651) |
+| **Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents**<br><sub>Explicit working memory over hypotheses is what makes multi-hop reasoning scale.</sub> | — | ![Jul 14, 2026](https://img.shields.io/badge/Jul_14%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.12267) |
+| **Context by Distinct Information: An Auditable Dirichlet-Process Working Memory for Long, Redundant Context Streams**<br><sub>A nonparametric working memory that keeps distinct information and drops redundancy.</sub> | — | ![Jul 11, 2026](https://img.shields.io/badge/Jul_11%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.10441) |
+| **Your Agent's Memories Are Not Its Own: Forged Reasoning Attacks on LLM Agent Memory and Defenses**<br><sub>Forged reasoning traces written into memory hijack the agent's later decisions.</sub> | — | ![Jul 6, 2026](https://img.shields.io/badge/Jul_6%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.05029) |
+| **MemSyco-Bench: Benchmarking Sycophancy in Agent Memory**<br><sub>Retrieved memories make models agree with the user even when the memory is wrong.</sub> | — | ![Jul 1, 2026](https://img.shields.io/badge/Jul_1%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.01071) |
+| ⭐ **MemDelta: Controlled Baselines and Hidden Confounds in Agent Memory Evaluation**<br><sub>Reported memory gains often come from the backbone, not the memory; this separates them.</sub> | — | ![Jun 29, 2026](https://img.shields.io/badge/Jun_29%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.29914) |
+| **Forensic Trajectory Signatures for Agent Memory Poisoning Detection**<br><sub>Detects memory poisoning from the trajectory signature it leaves behind.</sub> | — | ![Jun 29, 2026](https://img.shields.io/badge/Jun_29%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.30566) |
+| **StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance**<br><sub>Evaluates memory by whether it helps next, not by whether it can be recited.</sub> | — | ![Jun 12, 2026](https://img.shields.io/badge/Jun_12%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.14571) |
 | ⭐ **LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory**<br><sub>Separates five memory abilities and shows a 30% accuracy drop on sustained interaction.</sub> | Salesforce, University of Illinois | ![Oct 14, 2024](https://img.shields.io/badge/Oct_14%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2410.10813) |
 | ⭐ **Evaluating Very Long-Term Conversational Memory of LLM Agents**<br><sub>LoCoMo: 300-turn conversations that expose how quickly assistants lose the thread.</sub> | USC, Snap, Google | ![Feb 27, 2024](https://img.shields.io/badge/Feb_27%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2402.17753) |
-| **Lost in the Middle: How Language Models Use Long Contexts**<br><sub>The U-shaped position bias: having context is not the same as remembering it.</sub> | Stanford, UC Berkeley, Samaya AI | ![Jul 6, 2023](https://img.shields.io/badge/Jul_6%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2307.03172) |
-| **Quantifying Memorization Across Neural Language Models**<br><sub>Memorization scales log-linearly with model size and duplication; the reference measurement study.</sub> | Google, ETH Zurich, Princeton | ![Feb 15, 2022](https://img.shields.io/badge/Feb_15%2C_2022-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2202.07646) |
-| **Extracting Training Data from Large Language Models**<br><sub>Showed verbatim memorization is extractable, turning it into a privacy problem.</sub> | Google, Stanford, UC Berkeley | ![Dec 14, 2020](https://img.shields.io/badge/Dec_14%2C_2020-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2012.07805) |
 
-### Surveys (2)
+### Surveys (5)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| **Towards Efficient Large Language Model Serving: A Survey on System-Aware KV Cache Optimization**<br><sub>The systems-side companion: how KV cache is actually managed in production serving.</sub> | — | ![Jul 9, 2026](https://img.shields.io/badge/Jul_9%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.08057) |
+| **From Tensor Buffer to Distributed Memory Hierarchy: A Survey of KV Cache Management for LLM Serving**<br><sub>Traces the KV cache from a tensor buffer to a distributed memory hierarchy.</sub> | — | ![Jun 30, 2026](https://img.shields.io/badge/Jun_30%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.02574) |
+| ⭐ **Always-On Agents: A Survey of Persistent Memory, State, and Governance in LLM Agents**<br><sub>Surveys persistent state broadly: memories, ledgers and the governance they need.</sub> | — | ![Jun 29, 2026](https://img.shields.io/badge/Jun_29%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.30306) |
 | **From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs**<br><sub>Organizes AI memory along object, form and time axes borrowed from cognitive science.</sub> | Renmin University | ![Apr 22, 2025](https://img.shields.io/badge/Apr_22%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2504.15965) |
 | ⭐ **A Survey on the Memory Mechanism of Large Language Model based Agents**<br><sub>The best entry point: covers why agents need memory, how it is written, read and managed.</sub> | Renmin University, Huawei | ![Apr 21, 2024](https://img.shields.io/badge/Apr_21%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2404.13501) |
 
@@ -170,58 +202,81 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 *视觉语言模型的记忆 — Memory for models that see: memory banks for hour-long and streaming video, episodic visual memory, personalized multimodal memory, and compression of visual context.*
 
-### Multimodal Memory Architectures (2)
+### Multimodal Memory Architectures (8)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| **Memory-Augmented Multimodal Large Language Models for Small Object Understanding in Streaming Aerial Videos**<br><sub>Memory lets a UAV keep track of tiny targets it can no longer resolve in the current frame.</sub> | — | ![Jul 22, 2026](https://img.shields.io/badge/Jul_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19857) |
+| ⭐ **ReflectWorld-MM: An Entity-Oriented Multimodal Memory System for Open-Ended Video Streams**<br><sub>Organizes multimodal memory around entities, so recall survives an open-ended stream.</sub> | — | ![Jul 6, 2026](https://img.shields.io/badge/Jul_6%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.09759) |
+| **Towards a Dynamic and Fixed-budget Memory Bank for Efficient Streaming Video Understanding**<br><sub>A fixed-budget memory bank that handles unpredictable query timing in a live stream.</sub> | — | ![Jun 24, 2026](https://img.shields.io/badge/Jun_24%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.25658) |
+| **Beyond Visual Memory: Mechanistic Diagnostics of Latent Visual Reasoning**<br><sub>Checks whether latent visual tokens really store visual evidence, and finds the story is more complicated.</sub> | — | ![May 31, 2026](https://img.shields.io/badge/May_31%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.01287) |
+| **Personal Visual Memory from Explicit and Implicit Evidence**<br><sub>Personal memory built from what the images imply, not only what the user stated.</sub> | — | ![May 27, 2026](https://img.shields.io/badge/May_27%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.28806) |
+| **O-MARC: Omni Memory-Augmented Compression Distillation for Efficient Video Understanding**<br><sub>Joint audio-visual memory compression for omnimodal models.</sub> | — | ![May 26, 2026](https://img.shields.io/badge/May_26%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.26584) |
 | ⭐ **Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory**<br><sub>M3-Agent: builds an entity-centric multimodal long-term memory while watching and listening in real time.</sub> | ByteDance, Zhejiang University | ![Aug 13, 2025](https://img.shields.io/badge/Aug_13%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2508.09736) |
 | ⭐ **MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding**<br><sub>An online visual and query memory bank that lets a frozen LLM process video frame by frame.</sub> | University of Maryland, Meta | ![Apr 8, 2024](https://img.shields.io/badge/Apr_8%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2404.05726) |
 
-### Long Video & Streaming Memory (7)
+### Long Video & Streaming Memory (14)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| ⭐ **FOLIO: Focused Semantic Memory for Streaming Video Understanding**<br><sub>Semantic rather than frame-level memory, so an unbounded stream stays queryable.</sub> | — | ![Jul 14, 2026](https://img.shields.io/badge/Jul_14%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.13298) |
+| **Imprint: Online Memory Compression for Long-Horizon Egocentric QA**<br><sub>Compresses days of egocentric video into memory that is still worth retrieving from.</sub> | — | ![Jul 1, 2026](https://img.shields.io/badge/Jul_1%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.00696) |
+| **Compression and Retrieval: Implicit Memory Retrieval for Video World Models**<br><sub>Implicit retrieval keeps a video world model consistent without an explicit frame bank.</sub> | — | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23105) |
+| **FadeMem: Distance-Aware Memory Consolidation for Autoregressive Video Diffusion**<br><sub>Consolidates the KV history by temporal distance, giving long video generation bounded memory.</sub> | — | ![Jun 9, 2026](https://img.shields.io/badge/Jun_9%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.10671) |
+| **LongLive-RAG: A General Retrieval-Augmented Framework for Long Video Generation**<br><sub>Retrieval over generated history to stop identity drift in long autoregressive video.</sub> | — | ![Jun 1, 2026](https://img.shields.io/badge/Jun_1%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.02553) |
+| ⭐ **Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents**<br><sub>Offline consolidation, the analogue of sleep, turning session logs into reusable knowledge.</sub> | — | ![May 20, 2026](https://img.shields.io/badge/May_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.20616) |
+| **RecMem: Recurrence-based Memory Consolidation for Efficient and Effective Long-Running LLM Agents**<br><sub>Recurrent consolidation avoids invoking the LLM every time memory must be updated.</sub> | — | ![May 15, 2026](https://img.shields.io/badge/May_15%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.16045) |
+| **Mela: Test-Time Memory Consolidation based on Transformation Hypothesis**<br><sub>Brings the consolidation-as-transformation view from neuroscience to test-time adaptation.</sub> | — | ![May 11, 2026](https://img.shields.io/badge/May_11%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.10537) |
 | **VideoLLM-online: Online Video Large Language Model for Streaming Video**<br><sub>Learns when to speak during a live stream, with a cache that keeps latency bounded.</sub> | National University of Singapore, Meta | ![Jun 17, 2024](https://img.shields.io/badge/Jun_17%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2406.11816) |
 | ⭐ **Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams**<br><sub>A STAR memory with four components serving real-time queries over an unbounded stream.</sub> | Tsinghua, ByteDance | ![Jun 12, 2024](https://img.shields.io/badge/Jun_12%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2406.08085) |
 | **Streaming Long Video Understanding with Large Language Models**<br><sub>VideoStreaming: memory-propagated encoding so cost stays constant as the video grows.</sub> | CUHK, Shanghai AI Lab | ![May 25, 2024](https://img.shields.io/badge/May_25%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2405.16009) |
 | **MovieChat+: Question-aware Sparse Memory for Long Video Question Answering**<br><sub>Makes memory consolidation question-aware so relevant frames survive compression.</sub> | Zhejiang University, Alibaba | ![Apr 26, 2024](https://img.shields.io/badge/Apr_26%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2404.17176) |
 | **VideoAgent: Long-form Video Understanding with Large Language Model as Agent**<br><sub>Treats the video as a memory to be searched iteratively rather than a sequence to be encoded once.</sub> | Stanford | ![Mar 15, 2024](https://img.shields.io/badge/Mar_15%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2403.10517) |
 | **Memory Consolidation Enables Long-Context Video Understanding**<br><sub>Consolidates past activations into a compact memory, extending context without retraining the backbone.</sub> | Google DeepMind, University of Oxford | ![Feb 8, 2024](https://img.shields.io/badge/Feb_8%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2402.05861) |
-| ⭐ **MovieChat: From Dense Token to Sparse Memory for Long Video Understanding**<br><sub>Short- and long-term memory with token merging; the first credible hour-long video assistant.</sub> | Zhejiang University, Microsoft, University of Washington | ![Jul 31, 2023](https://img.shields.io/badge/Jul_31%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2307.16449) |
 
 ### Episodic & Personalized Visual Memory (6)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| **DYNA: Dynamic Episodic Memory Networks for Augmenting Large Language Models with Temporal Knowledge Graphs in Continuous Learning**<br><sub>A temporal knowledge graph as episodic memory, letting a frozen model absorb new events.</sub> | — | ![Jun 14, 2026](https://img.shields.io/badge/Jun_14%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.15778) |
+| **OSGNet with MLLM Reranking @ Ego4D Episodic Memory Challenge 2026**<br><sub>The 2026 Ego4D episodic memory winner for natural-language queries and GoalStep.</sub> | — | ![May 20, 2026](https://img.shields.io/badge/May_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.20818) |
 | **EgoLife: Towards Egocentric Life Assistant**<br><sub>A week of multi-person egocentric recording with EgoRAG memory for ultra-long-term recall.</sub> | Nanyang Technological University, S-Lab | ![Mar 5, 2025](https://img.shields.io/badge/Mar_5%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2503.03803) |
 | **RAP: Retrieval-Augmented Personalization for Multimodal Large Language Models**<br><sub>An editable external database of user-specific concepts, avoiding per-user fine-tuning.</sub> | Tsinghua, Alibaba | ![Oct 17, 2024](https://img.shields.io/badge/Oct_17%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2410.13360) |
 | **Yo'LLaVA: Your Personalized Language and Vision Assistant**<br><sub>Learns personalized concept tokens so the assistant remembers your dog across conversations.</sub> | University of Wisconsin-Madison, Allen Institute for AI | ![Jun 13, 2024](https://img.shields.io/badge/Jun_13%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2406.09400) |
 | **MyVLM: Personalizing VLMs for User-Specific Queries**<br><sub>Teaches a VLM specific people and objects from a handful of images, a personal visual memory.</sub> | Tel Aviv University, Snap | ![Mar 21, 2024](https://img.shields.io/badge/Mar_21%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2403.14599) |
-| **Episodic Memory Question Answering**<br><sub>Asks an agent to answer questions about its own past experience, grounded in 3D space.</sub> | Meta, Georgia Tech | ![May 3, 2022](https://img.shields.io/badge/May_3%2C_2022-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2205.01652) |
-| ⭐ **Ego4D: Around the World in 3,000 Hours of Egocentric Video**<br><sub>Defined the episodic-memory task family for egocentric video and supplied the data for it.</sub> | Meta, 88 institutions | ![Oct 13, 2021](https://img.shields.io/badge/Oct_13%2C_2021-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2110.07058) |
 
-### Visual Context & Token Memory Compression (2)
+### Visual Context & Token Memory Compression (3)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| **STaR-KV: Spatio-Temporal Adaptive Re-weighting for KV Cache Compression in GUI Vision-Language Models**<br><sub>GUI agents accumulate cache per interaction step; this reweights it spatio-temporally.</sub> | — | ![Jun 1, 2026](https://img.shields.io/badge/Jun_1%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.01790) |
 | **Efficient Inference of Vision Instruction-Following Models with Elastic Cache**<br><sub>Separate cache strategies for the instruction and generation phases of a VLM.</sub> | Tsinghua, NVIDIA | ![Jul 25, 2024](https://img.shields.io/badge/Jul_25%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2407.18121) |
 | **LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference**<br><sub>Text-prioritised KV eviction: multimodal caches can drop image keys far more aggressively.</sub> | Ohio State University, University of Rochester | ![Jun 26, 2024](https://img.shields.io/badge/Jun_26%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2406.18139) |
 
-### GUI & Web Agent Memory (3)
+### GUI & Web Agent Memory (4)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| ⭐ **Naive Visual Memory is Not Enough: A Failure-Mode Study of GUI Agents**<br><sub>Catalogues how experiential memory actually fails GUI agents in practice.</sub> | — | ![Jun 12, 2026](https://img.shields.io/badge/Jun_12%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.14106) |
+| ⭐ **MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents**<br><sub>Learned memory control keeps GUI agents oriented across many interface transitions.</sub> | — | ![May 18, 2026](https://img.shields.io/badge/May_18%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.18652) |
 | **Agent S: An Open Agentic Framework that Uses Computers Like a Human**<br><sub>Combines narrative and episodic memory with web knowledge for long-horizon desktop tasks.</sub> | Simular Research | ![Oct 10, 2024](https://img.shields.io/badge/Oct_10%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2410.08164) |
 | ⭐ **Agent Workflow Memory**<br><sub>Induces reusable workflows from past browsing traces; procedural memory for web agents.</sub> | CMU, Meta | ![Sep 11, 2024](https://img.shields.io/badge/Sep_11%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2409.07429) |
-| **Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control**<br><sub>An exemplar memory of past trajectories retrieved to guide new GUI tasks.</sub> | Nanyang Technological University, Microsoft | ![Jun 13, 2023](https://img.shields.io/badge/Jun_13%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2306.07863) |
 
-### Benchmarks & Analysis (3)
+### Benchmarks & Analysis (11)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| **Do Agents Dream of False Memories? Black-box Visual Attacks on Long-term Memory in Multimodal AI Agents**<br><sub>Images can write false memories into a multimodal agent, entirely black-box.</sub> | — | ![Jul 17, 2026](https://img.shields.io/badge/Jul_17%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.15657) |
+| ⭐ **S-EMBER: A Large-Scale Benchmark for Streaming Egocentric Memory Retrieval**<br><sub>Streaming rather than offline episodic memory evaluation, which is the realistic setting.</sub> | — | ![Jul 2, 2026](https://img.shields.io/badge/Jul_2%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.02689) |
+| **MemLeak: Diagnosing Information Leaks in Multimodal Agent Memory**<br><sub>Multimodal memory leaks information across users and sessions in ways text-only audits miss.</sub> | — | ![Jun 29, 2026](https://img.shields.io/badge/Jun_29%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.29788) |
+| **DMV-Bench: Diagnosing Long-Horizon Multimodal Agents' Visual Memory with Incidental Cue Injection**<br><sub>Injects incidental visual cues to test when an agent must remember what it saw, not what it wrote.</sub> | — | ![Jun 25, 2026](https://img.shields.io/badge/Jun_25%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.27499) |
+| **M3Exam: Benchmarking Multimodal Memory for Realistic User-Agent Interactions**<br><sub>Authentic multimodal interaction histories instead of synthetic human-human transcripts.</sub> | — | ![Jun 5, 2026](https://img.shields.io/badge/Jun_5%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.07402) |
+| **EGOSTREAM: A Diagnostic Benchmark for Streaming Episodic Memory in Egocentric Vision**<br><sub>Diagnoses what a model remembers and for how long, instead of scoring one final answer.</sub> | — | ![May 29, 2026](https://img.shields.io/badge/May_29%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.31557) |
+| **WorldMemArena: Evaluating Multimodal Agent Memory Through Action-World Interaction**<br><sub>Memory must track an evolving world and revise stale entries, not merely recall.</sub> | — | ![May 28, 2026](https://img.shields.io/badge/May_28%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.29341) |
+| **SMMBench: A Benchmark for Source-Distributed Multimodal Agent Memory**<br><sub>Evidence spread across independent sources, rather than pre-assembled into one context.</sub> | — | ![May 15, 2026](https://img.shields.io/badge/May_15%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.15710) |
+| **MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory**<br><sub>Most visually grounded memory questions are answerable from text alone; this closes that loophole.</sub> | — | ![May 14, 2026](https://img.shields.io/badge/May_14%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.15128) |
 | **Needle In A Video Haystack: A Scalable Synthetic Evaluator for Video MLLMs**<br><sub>Inserts synthetic needles into arbitrary video so recall can be measured at any length.</sub> | CUHK, Shanghai AI Lab | ![Jun 13, 2024](https://img.shields.io/badge/Jun_13%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2406.09367) |
 | **MLVU: Benchmarking Multi-task Long Video Understanding**<br><sub>Long-video tasks spanning three minutes to two hours, with holistic and detail recall split out.</sub> | BAAI, Renmin University | ![Jun 6, 2024](https://img.shields.io/badge/Jun_6%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2406.04264) |
-| **EgoSchema: A Diagnostic Benchmark for Very Long-form Video Language Understanding**<br><sub>Certificate-length filtering guarantees questions genuinely require minutes of recall.</sub> | UC Berkeley, Meta | ![Aug 17, 2023](https://img.shields.io/badge/Aug_17%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2308.09126) |
 
 ---
 
@@ -229,56 +284,82 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 *视觉语言动作与具身记忆 — Memory for systems that act: perceptual-cognitive memory inside VLA policies, spatial and semantic scene memory, navigation memory, and the long-horizon consistency that world models need.*
 
-### VLA Memory Architectures (3)
+### VLA Memory Architectures (11)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| **NativeMEM: Native Memory Compression for Long-Horizon Robotic Manipulation**<br><sub>Compresses visual history inside the VLA rather than bolting an external memory on.</sub> | — | ![Jul 7, 2026](https://img.shields.io/badge/Jul_7%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.06678) |
+| ⭐ **HiMe: Hierarchical Embodied Memory for Long-Horizon Vision-Language-Action Control**<br><sub>Hierarchical memory that lets a VLA policy handle genuinely non-Markovian tasks.</sub> | — | ![Jul 3, 2026](https://img.shields.io/badge/Jul_3%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.03449) |
+| **Memory Retrieval in Visuomotor Policies for Long-Horizon Robot Control**<br><sub>Studies what a home robot actually needs to recall: where things were put, what was asked.</sub> | — | ![Jun 23, 2026](https://img.shields.io/badge/Jun_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.25136) |
+| **Worth Remembering: Surprise-Gated Robot Episodic Memory**<br><sub>Surprise decides what gets written, so the robot can answer questions about notable past events.</sub> | — | ![Jun 2, 2026](https://img.shields.io/badge/Jun_2%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.03787) |
+| ⭐ **Learning to Forget: Hierarchical Episodic Memory for Lifelong Robot Deployment**<br><sub>Lifelong episodic memory outgrows storage; forgetting well is the actual problem.</sub> | — | ![Apr 13, 2026](https://img.shields.io/badge/Apr_13%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2604.11306) |
+| **VPWEM: Non-Markovian Visuomotor Policy with Working and Episodic Memory**<br><sub>Adds both working and episodic memory to a visuomotor policy conditioned on single steps.</sub> | — | ![Mar 5, 2026](https://img.shields.io/badge/Mar_5%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2603.04910) |
+| ⭐ **MEM: Multi-Scale Embodied Memory for Vision Language Action Models**<br><sub>Past events matter at different timescales; a single observation stack cannot express that.</sub> | — | ![Mar 4, 2026](https://img.shields.io/badge/Mar_4%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2603.03596) |
+| **STaR: Scalable Task-Conditioned Retrieval for Long-Horizon Multimodal Robot Memory**<br><sub>Task-conditioned retrieval over long deployments, indoor and outdoor.</sub> | — | ![Feb 9, 2026](https://img.shields.io/badge/Feb_9%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2602.09255) |
 | ⭐ **MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation**<br><sub>A Hippocampus-inspired perceptual-cognitive memory bank that gives VLA policies genuine temporal context.</sub> | Shanghai AI Lab, Tsinghua | ![Aug 26, 2025](https://img.shields.io/badge/Aug_26%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2508.19236) |
 | ⭐ **SAM2Act: Integrating Visual Foundation Model with A Memory Architecture for Robotic Manipulation**<br><sub>Adds a memory bank on top of SAM2 so a manipulation policy can solve tasks that require recalling earlier steps.</sub> | University of Washington, Allen Institute for AI, NVIDIA | ![Jan 30, 2025](https://img.shields.io/badge/Jan_30%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2501.18564) |
 | **Embodied-RAG: General Non-parametric Embodied Memory for Retrieval and Generation**<br><sub>A hierarchical semantic forest of the environment, retrievable at any level from object to region.</sub> | CMU | ![Sep 26, 2024](https://img.shields.io/badge/Sep_26%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2409.18313) |
 
-### Spatial & Semantic Scene Memory (9)
+### Spatial & Semantic Scene Memory (14)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| **HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory**<br><sub>Carries the digital agent loop into the physical world by grounding it in 3D memory.</sub> | — | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23565) |
+| **FARM: Find Anything using Relational Spatial Memory**<br><sub>Object-level memory is not enough when many objects match; relations disambiguate.</sub> | — | ![Jun 13, 2026](https://img.shields.io/badge/Jun_13%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.15476) |
+| ⭐ **What Spatial Memory Must Store: Occlusion as the Test for Language-Agent Memory**<br><sub>Makes the memory-palace intuition testable, and finds geometry earns its place only under occlusion.</sub> | — | ![Jun 9, 2026](https://img.shields.io/badge/Jun_9%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.10299) |
+| **LongSpace: Exploring Long-Horizon Spatial Memory from Perception to Recall in Video**<br><sub>Separates perceiving space from recalling it, and shows MLLMs are far better at the first.</sub> | — | ![Jun 4, 2026](https://img.shields.io/badge/Jun_4%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.05677) |
+| ⭐ **eMEM: A Hybrid Spatio-Temporal Memory System For Embodied Agents**<br><sub>Argues text-stream memory designs like MemGPT and A-MEM do not transfer to physical agents.</sub> | — | ![Jun 2, 2026](https://img.shields.io/badge/Jun_2%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.03374) |
+| ⭐ **Spatial Memory for Out-of-Vision Manipulation in Vision-Language-Action**<br><sub>SOMA: VLAs assume the target is visible; spatial memory is what fixes that.</sub> | — | ![May 21, 2026](https://img.shields.io/badge/May_21%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.22283) |
+| **Grounding by Remembering: Cross-Scene and In-Scene Memory for 3D Functional Affordances**<br><sub>Remembering affordances seen elsewhere is what makes training-free grounding work.</sub> | — | ![May 12, 2026](https://img.shields.io/badge/May_12%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.11616) |
+| **EmbodiedLGR: Integrating Lightweight Graph Representation and Retrieval for Semantic-Spatial Memory in Robotic Agents**<br><sub>A lightweight graph memory sized for robots that must run it continuously.</sub> | — | ![Apr 20, 2026](https://img.shields.io/badge/Apr_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2604.18271) |
+| **ESCAPE: Episodic Spatial Memory and Adaptive Execution Policy for Long-Horizon Mobile Manipulation**<br><sub>Episodic spatial memory against the catastrophic forgetting that long horizons cause.</sub> | — | ![Apr 15, 2026](https://img.shields.io/badge/Apr_15%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2604.13633) |
+| **3D-Anchored Lookahead Planning for Persistent Robotic Scene Memory via World-Model-Based MCTS**<br><sub>Persistent scene memory as the rollout oracle for search-based manipulation planning.</sub> | — | ![Apr 13, 2026](https://img.shields.io/badge/Apr_13%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2604.11302) |
+| **GSMem: 3D Gaussian Splatting as Persistent Spatial Memory for Zero-Shot Embodied Exploration and Reasoning**<br><sub>Gaussian splats as scene memory, allowing re-observation from viewpoints never visited.</sub> | — | ![Mar 19, 2026](https://img.shields.io/badge/Mar_19%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2603.19137) |
+| **AsyncMDE: Real-Time Monocular Depth Estimation via Asynchronous Spatial Memory**<br><sub>Reuses spatial memory across frames so depth estimation fits on an edge robot.</sub> | — | ![Mar 11, 2026](https://img.shields.io/badge/Mar_11%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2603.10438) |
 | ⭐ **3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning**<br><sub>Memory snapshots of informative views instead of a dense map, keeping exploration decisions tractable.</sub> | UC San Diego, Stanford | ![Nov 23, 2024](https://img.shields.io/badge/Nov_23%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2411.17735) |
 | **RoboEXP: Action-Conditioned Scene Graph via Interactive Exploration for Robotic Manipulation**<br><sub>Memory that records what actions revealed, not just what was seen, enabling interactive discovery.</sub> | UC San Diego, Tsinghua | ![Feb 23, 2024](https://img.shields.io/badge/Feb_23%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2402.15487) |
-| ⭐ **ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning**<br><sub>Builds an open-vocabulary 3D scene graph as persistent, queryable spatial memory for planning.</sub> | MIT, University of Montreal, Mila | ![Sep 28, 2023](https://img.shields.io/badge/Sep_28%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2309.16650) |
-| **Visual Language Maps for Robot Navigation**<br><sub>VLMaps: fuses language features into a persistent spatial map the robot can query by open-vocabulary phrase.</sub> | University of Freiburg, Google | ![Oct 11, 2022](https://img.shields.io/badge/Oct_11%2C_2022-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2210.05714) |
-| **CLIP-Fields: Weakly Supervised Semantic Fields for Robotic Memory**<br><sub>A learned implicit field serving as a queryable semantic memory of the whole scene.</sub> | NYU, Meta | ![Oct 11, 2022](https://img.shields.io/badge/Oct_11%2C_2022-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2210.05663) |
-| **Structured Scene Memory for Vision-Language Navigation**<br><sub>A geometry-aware memory of visited views that supports revisiting and backtracking.</sub> | Beijing Institute of Technology, Inception Institute of AI | ![Mar 5, 2021](https://img.shields.io/badge/Mar_5%2C_2021-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2103.03454) |
-| **Semantic MapNet: Building Allocentric Semantic Maps and Representations from Egocentric Views**<br><sub>Projects egocentric observations into a persistent top-down semantic memory of the environment.</sub> | Georgia Tech, Meta | ![Oct 2, 2020](https://img.shields.io/badge/Oct_2%2C_2020-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2010.01191) |
-| **Scene Memory Transformer for Embodied Agents in Long-Horizon Tasks**<br><sub>The first transformer over an embodied agent's full observation history rather than a fixed window.</sub> | Google, UC Berkeley | ![Mar 9, 2019](https://img.shields.io/badge/Mar_9%2C_2019-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/1903.03878) |
-| **Neural Map: Structured Memory for Deep Reinforcement Learning**<br><sub>A spatially structured 2D memory that an agent writes to as it moves; the ancestor of map-memory work.</sub> | CMU, Microsoft | ![Feb 27, 2017](https://img.shields.io/badge/Feb_27%2C_2017-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/1702.08360) |
 
-### Navigation Memory (6)
+### Navigation Memory (9)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| **VLN-AVP: Zero-Shot Vision-Language Navigation with Hybrid Long-Short-Term Memory for Autonomous Valet Parking**<br><sub>Long- and short-term memory replaces the pre-built map in autonomous valet parking.</sub> | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17767) |
+| ⭐ **VTM-Nav: Harnessing Cross-Episode Experience for Object-Goal Navigation with Hierarchical Visual-Topological Memory**<br><sub>Keeps what was learned about a scene instead of discarding it after each request.</sub> | — | ![Jul 16, 2026](https://img.shields.io/badge/Jul_16%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.14514) |
+| **Parse, Search, and Confirmation: Training-Free Aerial Vision-and-Dialog Navigation with Chain-of-Thought Reasoning and Structured Spatial Memory**<br><sub>Structured spatial memory makes training-free UAV dialog navigation reliable enough to use.</sub> | — | ![Jul 13, 2026](https://img.shields.io/badge/Jul_13%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.11529) |
+| **CLOSER-VLN: Closed-Loop Self-Verified Retrieval-Augmented Reasoning for Aerial Vision-Language Navigation**<br><sub>Self-verification over retrieved experience for zero-shot aerial navigation.</sub> | — | ![Jun 24, 2026](https://img.shields.io/badge/Jun_24%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.28397) |
+| **TARIC: Memory-Augmented Traversability-Aware Outdoor VLN under Interrupted Semantic Cues**<br><sub>Memory carries the agent through the stretches where goal cues disappear entirely.</sub> | — | ![May 29, 2026](https://img.shields.io/badge/May_29%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.31121) |
+| **ReMemNav: A Rethinking and Memory-Augmented Framework for Zero-Shot Object Navigation**<br><sub>Revisits what memory zero-shot object navigation actually needs.</sub> | — | ![Mar 25, 2026](https://img.shields.io/badge/Mar_25%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2603.26788) |
+| **HiMemVLN: Enhancing Reliability of Open-Source Zero-Shot Vision-and-Language Navigation with Hierarchical Memory System**<br><sub>Hierarchical memory closes much of the gap between open- and closed-source navigators.</sub> | — | ![Mar 16, 2026](https://img.shields.io/badge/Mar_16%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2603.14807) |
 | ⭐ **MemoNav: Working Memory Model for Visual Navigation**<br><sub>Splits short-term, long-term and working memory to keep only goal-relevant nodes during navigation.</sub> | PKU, Beijing Academy of AI | ![Feb 29, 2024](https://img.shields.io/badge/Feb_29%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2402.19161) |
 | **NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation**<br><sub>Treats the full observation video as implicit memory, needing no map, depth or odometry.</sub> | PKU, Beijing Academy of AI | ![Feb 24, 2024](https://img.shields.io/badge/Feb_24%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2402.15852) |
-| **Topological Semantic Graph Memory for Image-Goal Navigation**<br><sub>A topological graph of places and objects built online, avoiding metric map drift.</sub> | Seoul National University | ![Sep 17, 2022](https://img.shields.io/badge/Sep_17%2C_2022-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2209.08274) |
-| **Memory-Augmented Reinforcement Learning for Image-Goal Navigation**<br><sub>Attention over a buffer of past observations replaces an explicit map for goal-driven navigation.</sub> | Inria, Naver Labs Europe | ![Jan 13, 2021](https://img.shields.io/badge/Jan_13%2C_2021-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2101.05181) |
-| ⭐ **Neural Topological SLAM for Visual Navigation**<br><sub>Learned topological memory that supports long-range goal-directed navigation without metric maps.</sub> | CMU, Meta, UIUC | ![May 25, 2020](https://img.shields.io/badge/May_25%2C_2020-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2005.12256) |
-| ⭐ **Learning To Explore Using Active Neural SLAM**<br><sub>A differentiable spatial memory map built online and used for long-horizon exploration.</sub> | CMU, Meta, UIUC | ![Apr 10, 2020](https://img.shields.io/badge/Apr_10%2C_2020-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2004.05155) |
 
-### World Models & Long-Horizon Memory (4)
+### World Models & Long-Horizon Memory (7)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| **MemoryWAM: Efficient World Action Modeling with Persistent Memory**<br><sub>Persistent memory in a world action model, for horizons a rolling window cannot cover.</sub> | — | ![Jun 18, 2026](https://img.shields.io/badge/Jun_18%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.20562) |
+| **Latent Spatial Memory for Video World Models**<br><sub>Latent spatial memory replaces explicit point clouds, at a fraction of the cost.</sub> | — | ![Jun 8, 2026](https://img.shields.io/badge/Jun_8%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.09828) |
+| **Echo-Forcing: A Scene Memory Framework for Interactive Long Video Generation**<br><sub>Scene memory keeps interactive long video coherent across prompt changes.</sub> | — | ![May 15, 2026](https://img.shields.io/badge/May_15%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.16003) |
 | **Video World Models with Long-term Spatial Memory**<br><sub>Geometry-grounded long-term memory that fixes the forgetting problem in long video world models.</sub> | Stanford, HKUST, Adobe | ![Jun 5, 2025](https://img.shields.io/badge/Jun_5%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2506.05284) |
 | **Context as Memory: Scene-Consistent Interactive Long Video Generation with Memory Retrieval**<br><sub>Retrieves historical context by field-of-view overlap, keeping generated scenes coherent over time.</sub> | Zhejiang University, Kuaishou | ![Jun 3, 2025](https://img.shields.io/badge/Jun_3%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2506.03141) |
 | **Long-Context State-Space Video World Models**<br><sub>State-space layers give a video world model long-term memory at linear cost.</sub> | Stanford, Adobe | ![May 26, 2025](https://img.shields.io/badge/May_26%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2505.20171) |
-| ⭐ **WORLDMEM: Long-term Consistent World Simulation with Memory**<br><sub>A memory bank of past frames and poses so a generated world stays consistent when you look back.</sub> | Nanyang Technological University, Peking University | ![Apr 16, 2025](https://img.shields.io/badge/Apr_16%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2504.12369) |
+| ⭐ **WorldMem: Long-term Consistent World Simulation with Memory**<br><sub>A memory bank of past frames and poses so a generated world stays consistent when you look back.</sub> | Nanyang Technological University, Peking University | ![Apr 16, 2025](https://img.shields.io/badge/Apr_16%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2504.12369) |
 
-### Robot Skill & Experience Memory (4)
+### Robot Skill & Experience Memory (5)
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
+| **PHASER: Phase-Aware and Semantic Experience Replay for Vision-Language-Action Models**<br><sub>Experience replay tuned to manipulation phases, so new skills do not erase old ones.</sub> | — | ![Jun 2, 2026](https://img.shields.io/badge/Jun_2%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.03598) |
+| **Learning From Failures: Efficient Reinforcement Learning Control with Episodic Memory**<br><sub>Episodic memory of early terminations turns wasted rollouts into training signal.</sub> | — | ![Mar 7, 2026](https://img.shields.io/badge/Mar_7%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2603.07110) |
 | **STRAP: Robot Sub-Trajectory Retrieval for Augmented Policy Learning**<br><sub>Sub-trajectory level retrieval from large robot datasets, a practical experience memory for policies.</sub> | UT Austin, Stanford | ![Dec 19, 2024](https://img.shields.io/badge/Dec_19%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2412.15182) |
 | **Retrieval-Augmented Decision Transformer: External Memory for In-context RL**<br><sub>An external memory of past sub-trajectories, letting a decision transformer do in-context RL.</sub> | Johannes Kepler University Linz | ![Oct 9, 2024](https://img.shields.io/badge/Oct_9%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2410.07071) |
 | **Retrieval-Augmented Embodied Agents**<br><sub>Gives embodied agents a policy memory to query rather than relearning known behaviours.</sub> | Purdue, University of Michigan | ![Apr 17, 2024](https://img.shields.io/badge/Apr_17%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2404.11699) |
-| **Behavior Retrieval: Few-Shot Imitation Learning by Querying Unlabeled Datasets**<br><sub>Retrieves relevant prior behaviour from unlabelled data instead of collecting new demonstrations.</sub> | Stanford | ![Apr 18, 2023](https://img.shields.io/badge/Apr_18%2C_2023-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2304.08742) |
+
+### Benchmarks & Analysis (1)
+
+| Paper | Institution | Date | Links |
+| --- | --- | --- | --- |
+| ⭐ **Benchmarking Robot Memory Under Interference**<br><sub>Sessions that actively interfere with each other, which is how deployment really looks.</sub> | — | ![Jun 21, 2026](https://img.shields.io/badge/Jun_21%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.22338) |
 
 ---
 

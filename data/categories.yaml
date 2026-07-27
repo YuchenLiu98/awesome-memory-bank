@@ -285,31 +285,37 @@ sections:
         weight: 1.5
 
 # Search configuration for scripts/fetch_arxiv.py.
+#
+# One broad query per arXiv category rather than a hand-tuned phrase list per
+# track. Enumerating phrases at the API always loses papers that use wording
+# nobody thought of; casting `abs:"memory"` over a whole category and doing the
+# real filtering locally does not. On a 2026 backfill this returned 839 memory
+# papers where the phrase-based queries had found a few dozen.
 arxiv:
   queries:
-    - id: llm
-      query: >-
-        (cat:cs.CL OR cat:cs.AI) AND (abs:"long-term memory" OR abs:"memory module"
-        OR abs:"agent memory" OR abs:"memory-augmented" OR abs:"episodic memory"
-        OR abs:"memory mechanism" OR abs:"memory bank" OR abs:"knowledge editing"
-        OR abs:"kv cache" OR abs:"context compression")
-    - id: vlm
-      query: >-
-        cat:cs.CV AND (abs:"memory bank" OR abs:"long-term memory"
-        OR abs:"memory-augmented" OR abs:"episodic memory" OR abs:"visual memory"
-        OR abs:"memory module" OR abs:"streaming video" OR abs:"memory consolidation")
-    - id: vla
-      query: >-
-        (cat:cs.RO OR cat:cs.AI) AND (abs:"spatial memory" OR abs:"scene memory"
-        OR abs:"embodied memory" OR abs:"robot memory" OR abs:"navigation memory"
-        OR abs:"memory-augmented policy" OR abs:"topological memory"
-        OR abs:"working memory")
-  categories:
+    - id: cs.CL
+      query: 'cat:cs.CL AND abs:"memory"'
+    - id: cs.CV
+      query: 'cat:cs.CV AND abs:"memory"'
+    - id: cs.RO
+      query: 'cat:cs.RO AND abs:"memory"'
+    - id: cs.AI
+      query: 'cat:cs.AI AND abs:"memory"'
+    - id: cs.LG
+      query: 'cat:cs.LG AND abs:"memory"'
+
+  # A paper's *primary* category must be one of these. arXiv cross-lists
+  # liberally, and without this a statistical-mechanics paper on associative
+  # memory or an acoustic anomaly detector lands in the digest.
+  primary_categories:
     - cs.AI
     - cs.CL
     - cs.CV
     - cs.LG
     - cs.RO
+    - cs.MA
+    - cs.IR
+    - cs.HC
 
   # ---------------------------------------------------------------------
   # The memory gate. This is what keeps the list on-topic.
@@ -404,19 +410,38 @@ arxiv:
     - foundation model
     - transformer
 
-  # Papers whose title matches these are dropped as noise.
+  # Applied-domain papers that use a memory module as a component. They are
+  # real work, but a reader here is looking for memory research, not for the
+  # latest MRI synthesis method that happens to have a memory bank in it.
   block_keywords:
     - federated learning
     - medical image segmentation
+    - mri
+    - radiolog
+    - clinical
+    - electronic health
+    - protein
+    - molecul
+    - drug discovery
     - recommendation system
     - time series forecasting
-    - protein
+    - stock
+    - financial market
+    - photovoltaic
+    - power grid
+    - anomalous sound
     - speech enhancement
+    - essay scoring
+    - remote sensing
+    - green-space
+    - bridge diagnos
+    - crop
     - memristor
     - in-memory computing
     - dram
     - cache coherence
     - hardware accelerator
+    - spiking neural
 
 # Institution names collapse to a canonical form in BY_INSTITUTION.md, so a lab
 # does not get split across several spellings. Keys are matched exactly.

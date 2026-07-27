@@ -2,67 +2,43 @@
 
 # By Institution
 
-75 institutions across 103 papers. A paper with several affiliations is counted under each of them. Back to the [README](README.md).
+49 institutions across 172 papers. A paper with several affiliations is counted under each of them. Back to the [README](README.md).
 
 ## Leaderboard
 
 | # | Institution | Papers | LLM | VLM | VLA |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [Meta](#meta) | 17 | 7 | 6 | 4 |
-| 2 | [Stanford](#stanford) | 13 | 7 | 1 | 5 |
-| 3 | [Google](#google) | 11 | 9 | 0 | 2 |
-| 4 | [CMU](#cmu) | 8 | 3 | 1 | 4 |
-| 5 | [Microsoft](#microsoft) | 7 | 4 | 2 | 1 |
-| 6 | [ZJU](#zju) | 6 | 2 | 3 | 1 |
-| 7 | [MIT](#mit) | 5 | 4 | 0 | 1 |
-| 8 | [Tsinghua](#tsinghua) | 5 | 0 | 3 | 2 |
-| 9 | [UC Berkeley](#uc-berkeley) | 5 | 3 | 1 | 1 |
-| 10 | [Google DeepMind](#google-deepmind) | 4 | 3 | 1 | 0 |
-| 11 | [Nanyang Technological University](#nanyang-technological-university) | 4 | 1 | 2 | 1 |
-| 12 | [NVIDIA](#nvidia) | 4 | 2 | 1 | 1 |
-| 13 | [PKU](#pku) | 4 | 1 | 0 | 3 |
-| 14 | [Princeton](#princeton) | 4 | 4 | 0 | 0 |
-| 15 | [Renmin University](#renmin-university) | 4 | 3 | 1 | 0 |
-| 16 | [Alibaba](#alibaba) | 3 | 1 | 2 | 0 |
-| 17 | [Allen Institute for AI](#allen-institute-for-ai) | 3 | 1 | 1 | 1 |
-| 18 | [Northeastern](#northeastern) | 3 | 3 | 0 | 0 |
-| 19 | [NYU](#nyu) | 3 | 2 | 0 | 1 |
-| 20 | [Ohio State University](#ohio-state-university) | 3 | 2 | 1 | 0 |
-| 21 | [Shanghai AI Lab](#shanghai-ai-lab) | 3 | 0 | 2 | 1 |
-| 22 | [UC San Diego](#uc-san-diego) | 3 | 1 | 0 | 2 |
-| 23 | [UIUC](#uiuc) | 3 | 1 | 0 | 2 |
-| 24 | [Adobe](#adobe) | 2 | 0 | 0 | 2 |
-| 25 | [AIRI](#airi) | 2 | 2 | 0 | 0 |
+| 1 | [Stanford](#stanford) | 5 | 0 | 1 | 4 |
+| 2 | [Tsinghua](#tsinghua) | 5 | 0 | 3 | 2 |
+| 3 | [Meta](#meta) | 4 | 1 | 3 | 0 |
+| 4 | [Renmin University](#renmin-university) | 4 | 3 | 1 | 0 |
+| 5 | [ZJU](#zju) | 4 | 1 | 2 | 1 |
+| 6 | [Google](#google) | 3 | 3 | 0 | 0 |
+| 7 | [Ohio State University](#ohio-state-university) | 3 | 2 | 1 | 0 |
+| 8 | [PKU](#pku) | 3 | 0 | 0 | 3 |
+| 9 | [Shanghai AI Lab](#shanghai-ai-lab) | 3 | 0 | 2 | 1 |
+| 10 | [UC San Diego](#uc-san-diego) | 3 | 1 | 0 | 2 |
+| 11 | [Adobe](#adobe) | 2 | 0 | 0 | 2 |
+| 12 | [Alibaba](#alibaba) | 2 | 0 | 2 | 0 |
+| 13 | [Allen Institute for AI](#allen-institute-for-ai) | 2 | 0 | 1 | 1 |
+| 14 | [BAAI](#baai) | 2 | 1 | 1 | 0 |
+| 15 | [Beijing Academy of AI](#beijing-academy-of-ai) | 2 | 0 | 0 | 2 |
+| 16 | [ByteDance](#bytedance) | 2 | 0 | 2 | 0 |
+| 17 | [CMU](#cmu) | 2 | 0 | 1 | 1 |
+| 18 | [CUHK](#cuhk) | 2 | 0 | 2 | 0 |
+| 19 | [Nanyang Technological University](#nanyang-technological-university) | 2 | 0 | 1 | 1 |
+| 20 | [NVIDIA](#nvidia) | 2 | 0 | 1 | 1 |
+| 21 | [Snap](#snap) | 2 | 1 | 1 | 0 |
+| 22 | [Cohere](#cohere) | 1 | 1 | 0 | 0 |
+| 23 | [Google DeepMind](#google-deepmind) | 1 | 0 | 1 | 0 |
+| 24 | [HKUST](#hkust) | 1 | 0 | 0 | 1 |
+| 25 | [Huawei](#huawei) | 1 | 1 | 0 | 0 |
 
 ---
 
-## Meta
-
-17 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Dec 12, 2024 | [Memory Layers at Scale](https://arxiv.org/abs/2412.09764) | `LLM` |
-| Sep 11, 2024 | ⭐ [Agent Workflow Memory](https://arxiv.org/abs/2409.07429) | `VLM` |
-| Jun 17, 2024 | [VideoLLM-online: Online Video Large Language Model for Streaming Video](https://arxiv.org/abs/2406.11816) | `VLM` |
-| Apr 8, 2024 | ⭐ [MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding](https://arxiv.org/abs/2404.05726) | `VLM` |
-| Sep 29, 2023 | ⭐ [Efficient Streaming Language Models with Attention Sinks](https://arxiv.org/abs/2309.17453) | `LLM` |
-| Aug 17, 2023 | [EgoSchema: A Diagnostic Benchmark for Very Long-form Video Language Understanding](https://arxiv.org/abs/2308.09126) | `VLM` |
-| Oct 11, 2022 | [CLIP-Fields: Weakly Supervised Semantic Fields for Robotic Memory](https://arxiv.org/abs/2210.05663) | `VLA` |
-| May 3, 2022 | [Episodic Memory Question Answering](https://arxiv.org/abs/2205.01652) | `VLM` |
-| Oct 13, 2021 | ⭐ [Ego4D: Around the World in 3,000 Hours of Egocentric Video](https://arxiv.org/abs/2110.07058) | `VLM` |
-| Jul 15, 2021 | [Beyond Goldfish Memory: Long-Term Open-Domain Conversation](https://arxiv.org/abs/2107.07567) | `LLM` |
-| Oct 2, 2020 | [Semantic MapNet: Building Allocentric Semantic Maps and Representations from Egocentric Views](https://arxiv.org/abs/2010.01191) | `VLA` |
-| May 25, 2020 | ⭐ [Neural Topological SLAM for Visual Navigation](https://arxiv.org/abs/2005.12256) | `VLA` |
-| May 22, 2020 | ⭐ [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | `LLM` |
-| Apr 10, 2020 | ⭐ [Learning To Explore Using Active Neural SLAM](https://arxiv.org/abs/2004.05155) | `VLA` |
-| Nov 1, 2019 | ⭐ [Generalization through Memorization: Nearest Neighbor Language Models](https://arxiv.org/abs/1911.00172) | `LLM` |
-| Mar 31, 2015 | [End-To-End Memory Networks](https://arxiv.org/abs/1503.08895) | `LLM` |
-| Oct 15, 2014 | ⭐ [Memory Networks](https://arxiv.org/abs/1410.3916) | `LLM` |
-
 ## Stanford
 
-13 paper(s)
+5 paper(s)
 
 | Date | Paper | Track |
 | --- | --- | --- |
@@ -71,86 +47,6 @@
 | Dec 19, 2024 | [STRAP: Robot Sub-Trajectory Retrieval for Augmented Policy Learning](https://arxiv.org/abs/2412.15182) | `VLA` |
 | Nov 23, 2024 | ⭐ [3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning](https://arxiv.org/abs/2411.17735) | `VLA` |
 | Mar 15, 2024 | [VideoAgent: Long-form Video Understanding with Large Language Model as Agent](https://arxiv.org/abs/2403.10517) | `VLM` |
-| Jul 6, 2023 | [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) | `LLM` |
-| Jun 24, 2023 | ⭐ [H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models](https://arxiv.org/abs/2306.14048) | `LLM` |
-| May 25, 2023 | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) | `LLM` |
-| Apr 18, 2023 | [Behavior Retrieval: Few-Shot Imitation Learning by Querying Unlabeled Datasets](https://arxiv.org/abs/2304.08742) | `VLA` |
-| Apr 7, 2023 | ⭐ [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | `LLM` |
-| Oct 21, 2021 | [Fast Model Editing at Scale](https://arxiv.org/abs/2110.11309) | `LLM` |
-| Dec 14, 2020 | [Extracting Training Data from Large Language Models](https://arxiv.org/abs/2012.07805) | `LLM` |
-| Nov 1, 2019 | ⭐ [Generalization through Memorization: Nearest Neighbor Language Models](https://arxiv.org/abs/1911.00172) | `LLM` |
-
-## Google
-
-11 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Dec 31, 2024 | ⭐ [Titans: Learning to Memorize at Test Time](https://arxiv.org/abs/2501.00663) | `LLM` |
-| Apr 10, 2024 | [Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](https://arxiv.org/abs/2404.07143) | `LLM` |
-| Feb 27, 2024 | ⭐ [Evaluating Very Long-Term Conversational Memory of LLM Agents](https://arxiv.org/abs/2402.17753) | `LLM` |
-| Apr 7, 2023 | ⭐ [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | `LLM` |
-| Oct 11, 2022 | [Visual Language Maps for Robot Navigation](https://arxiv.org/abs/2210.05714) | `VLA` |
-| Mar 16, 2022 | ⭐ [Memorizing Transformers](https://arxiv.org/abs/2203.08913) | `LLM` |
-| Feb 15, 2022 | [Quantifying Memorization Across Neural Language Models](https://arxiv.org/abs/2202.07646) | `LLM` |
-| Dec 14, 2020 | [Extracting Training Data from Large Language Models](https://arxiv.org/abs/2012.07805) | `LLM` |
-| Feb 10, 2020 | [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/abs/2002.08909) | `LLM` |
-| Mar 9, 2019 | [Scene Memory Transformer for Embodied Agents in Long-Horizon Tasks](https://arxiv.org/abs/1903.03878) | `VLA` |
-| Jan 9, 2019 | ⭐ [Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/abs/1901.02860) | `LLM` |
-
-## CMU
-
-8 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Sep 26, 2024 | [Embodied-RAG: General Non-parametric Embodied Memory for Retrieval and Generation](https://arxiv.org/abs/2409.18313) | `VLA` |
-| Sep 11, 2024 | ⭐ [Agent Workflow Memory](https://arxiv.org/abs/2409.07429) | `VLM` |
-| Sep 29, 2023 | ⭐ [Efficient Streaming Language Models with Attention Sinks](https://arxiv.org/abs/2309.17453) | `LLM` |
-| Jun 24, 2023 | ⭐ [H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models](https://arxiv.org/abs/2306.14048) | `LLM` |
-| May 25, 2020 | ⭐ [Neural Topological SLAM for Visual Navigation](https://arxiv.org/abs/2005.12256) | `VLA` |
-| Apr 10, 2020 | ⭐ [Learning To Explore Using Active Neural SLAM](https://arxiv.org/abs/2004.05155) | `VLA` |
-| Jan 9, 2019 | ⭐ [Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/abs/1901.02860) | `LLM` |
-| Feb 27, 2017 | [Neural Map: Structured Memory for Deep Reinforcement Learning](https://arxiv.org/abs/1702.08360) | `VLA` |
-
-## Microsoft
-
-7 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Apr 24, 2024 | [From Local to Global: A Graph RAG Approach to Query-Focused Summarization](https://arxiv.org/abs/2404.16130) | `LLM` |
-| Oct 9, 2023 | [LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models](https://arxiv.org/abs/2310.05736) | `LLM` |
-| Oct 3, 2023 | [Model Tells You What to Discard: Adaptive KV Cache Compression for LLMs](https://arxiv.org/abs/2310.01801) | `LLM` |
-| Jul 31, 2023 | ⭐ [MovieChat: From Dense Token to Sparse Memory for Long Video Understanding](https://arxiv.org/abs/2307.16449) | `VLM` |
-| Jun 13, 2023 | [Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control](https://arxiv.org/abs/2306.07863) | `VLM` |
-| Apr 18, 2021 | [Knowledge Neurons in Pretrained Transformers](https://arxiv.org/abs/2104.08696) | `LLM` |
-| Feb 27, 2017 | [Neural Map: Structured Memory for Deep Reinforcement Learning](https://arxiv.org/abs/1702.08360) | `VLA` |
-
-## ZJU
-
-6 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Aug 13, 2025 | ⭐ [Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory](https://arxiv.org/abs/2508.09736) | `VLM` |
-| Jun 3, 2025 | [Context as Memory: Scene-Consistent Interactive Long Video Generation with Memory Retrieval](https://arxiv.org/abs/2506.03141) | `VLA` |
-| Apr 26, 2024 | [MovieChat+: Question-aware Sparse Memory for Long Video Question Answering](https://arxiv.org/abs/2404.17176) | `VLM` |
-| Jan 2, 2024 | [A Comprehensive Study of Knowledge Editing for Large Language Models](https://arxiv.org/abs/2401.01286) | `LLM` |
-| Jul 31, 2023 | ⭐ [MovieChat: From Dense Token to Sparse Memory for Long Video Understanding](https://arxiv.org/abs/2307.16449) | `VLM` |
-| May 17, 2023 | ⭐ [MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://arxiv.org/abs/2305.10250) | `LLM` |
-
-## MIT
-
-5 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Sep 29, 2023 | ⭐ [Efficient Streaming Language Models with Attention Sinks](https://arxiv.org/abs/2309.17453) | `LLM` |
-| Sep 28, 2023 | ⭐ [ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning](https://arxiv.org/abs/2309.16650) | `VLA` |
-| Mar 20, 2023 | ⭐ [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | `LLM` |
-| Oct 13, 2022 | ⭐ [Mass-Editing Memory in a Transformer](https://arxiv.org/abs/2210.07229) | `LLM` |
-| Feb 10, 2022 | ⭐ [Locating and Editing Factual Associations in GPT](https://arxiv.org/abs/2202.05262) | `LLM` |
 
 ## Tsinghua
 
@@ -164,72 +60,16 @@
 | Jun 12, 2024 | ⭐ [Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams](https://arxiv.org/abs/2406.08085) | `VLM` |
 | Feb 23, 2024 | [RoboEXP: Action-Conditioned Scene Graph via Interactive Exploration for Robotic Manipulation](https://arxiv.org/abs/2402.15487) | `VLA` |
 
-## UC Berkeley
-
-5 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Oct 12, 2023 | ⭐ [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560) | `LLM` |
-| Aug 17, 2023 | [EgoSchema: A Diagnostic Benchmark for Very Long-form Video Language Understanding](https://arxiv.org/abs/2308.09126) | `VLM` |
-| Jul 6, 2023 | [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) | `LLM` |
-| Dec 14, 2020 | [Extracting Training Data from Large Language Models](https://arxiv.org/abs/2012.07805) | `LLM` |
-| Mar 9, 2019 | [Scene Memory Transformer for Embodied Agents in Long-Horizon Tasks](https://arxiv.org/abs/1903.03878) | `VLA` |
-
-## Google DeepMind
+## Meta
 
 4 paper(s)
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Feb 8, 2024 | [Memory Consolidation Enables Long-Context Video Understanding](https://arxiv.org/abs/2402.05861) | `VLM` |
-| Dec 8, 2021 | [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426) | `LLM` |
-| Nov 13, 2019 | [Compressive Transformers for Long-Range Sequence Modelling](https://arxiv.org/abs/1911.05507) | `LLM` |
-| Oct 20, 2014 | ⭐ [Neural Turing Machines](https://arxiv.org/abs/1410.5401) | `LLM` |
-
-## Nanyang Technological University
-
-4 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Apr 16, 2025 | ⭐ [WORLDMEM: Long-term Consistent World Simulation with Memory](https://arxiv.org/abs/2504.12369) | `VLA` |
-| Mar 5, 2025 | [EgoLife: Towards Egocentric Life Assistant](https://arxiv.org/abs/2503.03803) | `VLM` |
-| Aug 20, 2023 | [ExpeL: LLM Agents Are Experiential Learners](https://arxiv.org/abs/2308.10144) | `LLM` |
-| Jun 13, 2023 | [Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control](https://arxiv.org/abs/2306.07863) | `VLM` |
-
-## NVIDIA
-
-4 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Jan 30, 2025 | ⭐ [SAM2Act: Integrating Visual Foundation Model with A Memory Architecture for Robotic Manipulation](https://arxiv.org/abs/2501.18564) | `VLA` |
-| Jul 25, 2024 | [Efficient Inference of Vision Instruction-Following Models with Elastic Cache](https://arxiv.org/abs/2407.18121) | `VLM` |
-| Sep 29, 2023 | ⭐ [Efficient Streaming Language Models with Attention Sinks](https://arxiv.org/abs/2309.17453) | `LLM` |
-| May 25, 2023 | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) | `LLM` |
-
-## PKU
-
-4 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Apr 16, 2025 | ⭐ [WORLDMEM: Long-term Consistent World Simulation with Memory](https://arxiv.org/abs/2504.12369) | `VLA` |
-| Feb 29, 2024 | ⭐ [MemoNav: Working Memory Model for Visual Navigation](https://arxiv.org/abs/2402.19161) | `VLA` |
-| Feb 24, 2024 | [NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation](https://arxiv.org/abs/2402.15852) | `VLA` |
-| Apr 18, 2021 | [Knowledge Neurons in Pretrained Transformers](https://arxiv.org/abs/2104.08696) | `LLM` |
-
-## Princeton
-
-4 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Mar 18, 2024 | [Larimar: Large Language Models with Episodic Memory Control](https://arxiv.org/abs/2403.11901) | `LLM` |
-| Sep 5, 2023 | ⭐ [Cognitive Architectures for Language Agents](https://arxiv.org/abs/2309.02427) | `LLM` |
-| Mar 20, 2023 | ⭐ [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | `LLM` |
-| Feb 15, 2022 | [Quantifying Memorization Across Neural Language Models](https://arxiv.org/abs/2202.07646) | `LLM` |
+| Dec 12, 2024 | [Memory Layers at Scale](https://arxiv.org/abs/2412.09764) | `LLM` |
+| Sep 11, 2024 | ⭐ [Agent Workflow Memory](https://arxiv.org/abs/2409.07429) | `VLM` |
+| Jun 17, 2024 | [VideoLLM-online: Online Video Large Language Model for Streaming Video](https://arxiv.org/abs/2406.11816) | `VLM` |
+| Apr 8, 2024 | ⭐ [MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding](https://arxiv.org/abs/2404.05726) | `VLM` |
 
 ## Renmin University
 
@@ -238,49 +78,30 @@
 | Date | Paper | Track |
 | --- | --- | --- |
 | Apr 22, 2025 | [From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs](https://arxiv.org/abs/2504.15965) | `LLM` |
-| Sep 9, 2024 | [MemoRAG: Boosting Long Context Processing with Global Memory-Inspired Retrieval Augmentation](https://arxiv.org/abs/2409.05591) | `LLM` |
+| Sep 9, 2024 | [MemoRAG: Boosting Long Context Processing with Global Memory-Enhanced Retrieval Augmentation](https://arxiv.org/abs/2409.05591) | `LLM` |
 | Jun 6, 2024 | [MLVU: Benchmarking Multi-task Long Video Understanding](https://arxiv.org/abs/2406.04264) | `VLM` |
 | Apr 21, 2024 | ⭐ [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501) | `LLM` |
 
-## Alibaba
+## ZJU
 
-3 paper(s)
+4 paper(s)
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Oct 17, 2024 | [RAP: Retrieval-Augmented Personalization for Multimodal Large Language Models](https://arxiv.org/abs/2410.13360) | `VLM` |
+| Aug 13, 2025 | ⭐ [Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory](https://arxiv.org/abs/2508.09736) | `VLM` |
+| Jun 3, 2025 | [Context as Memory: Scene-Consistent Interactive Long Video Generation with Memory Retrieval](https://arxiv.org/abs/2506.03141) | `VLA` |
 | Apr 26, 2024 | [MovieChat+: Question-aware Sparse Memory for Long Video Question Answering](https://arxiv.org/abs/2404.17176) | `VLM` |
-| Apr 26, 2023 | [Enhancing Large Language Model with Self-Controlled Memory Framework](https://arxiv.org/abs/2304.13343) | `LLM` |
+| Jan 2, 2024 | [A Comprehensive Study of Knowledge Editing for Large Language Models](https://arxiv.org/abs/2401.01286) | `LLM` |
 
-## Allen Institute for AI
-
-3 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Jan 30, 2025 | ⭐ [SAM2Act: Integrating Visual Foundation Model with A Memory Architecture for Robotic Manipulation](https://arxiv.org/abs/2501.18564) | `VLA` |
-| Jun 13, 2024 | [Yo'LLaVA: Your Personalized Language and Vision Assistant](https://arxiv.org/abs/2406.09400) | `VLM` |
-| Dec 29, 2020 | ⭐ [Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913) | `LLM` |
-
-## Northeastern
+## Google
 
 3 paper(s)
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Mar 20, 2023 | ⭐ [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | `LLM` |
-| Oct 13, 2022 | ⭐ [Mass-Editing Memory in a Transformer](https://arxiv.org/abs/2210.07229) | `LLM` |
-| Feb 10, 2022 | ⭐ [Locating and Editing Factual Associations in GPT](https://arxiv.org/abs/2202.05262) | `LLM` |
-
-## NYU
-
-3 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Oct 11, 2022 | [CLIP-Fields: Weakly Supervised Semantic Fields for Robotic Memory](https://arxiv.org/abs/2210.05663) | `VLA` |
-| May 22, 2020 | ⭐ [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | `LLM` |
-| Mar 31, 2015 | [End-To-End Memory Networks](https://arxiv.org/abs/1503.08895) | `LLM` |
+| Dec 31, 2024 | ⭐ [Titans: Learning to Memorize at Test Time](https://arxiv.org/abs/2501.00663) | `LLM` |
+| Apr 10, 2024 | [Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](https://arxiv.org/abs/2404.07143) | `LLM` |
+| Feb 27, 2024 | ⭐ [Evaluating Very Long-Term Conversational Memory of LLM Agents](https://arxiv.org/abs/2402.17753) | `LLM` |
 
 ## Ohio State University
 
@@ -291,6 +112,16 @@
 | Feb 20, 2025 | [From RAG to Memory: Non-Parametric Continual Learning for Large Language Models](https://arxiv.org/abs/2502.14802) | `LLM` |
 | Jun 26, 2024 | [LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference](https://arxiv.org/abs/2406.18139) | `VLM` |
 | May 23, 2024 | ⭐ [HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models](https://arxiv.org/abs/2405.14831) | `LLM` |
+
+## PKU
+
+3 paper(s)
+
+| Date | Paper | Track |
+| --- | --- | --- |
+| Apr 16, 2025 | ⭐ [WorldMem: Long-term Consistent World Simulation with Memory](https://arxiv.org/abs/2504.12369) | `VLA` |
+| Feb 29, 2024 | ⭐ [MemoNav: Working Memory Model for Visual Navigation](https://arxiv.org/abs/2402.19161) | `VLA` |
+| Feb 24, 2024 | [NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation](https://arxiv.org/abs/2402.15852) | `VLA` |
 
 ## Shanghai AI Lab
 
@@ -312,16 +143,6 @@
 | Feb 23, 2024 | [RoboEXP: Action-Conditioned Scene Graph via Interactive Exploration for Robotic Manipulation](https://arxiv.org/abs/2402.15487) | `VLA` |
 | Feb 7, 2024 | [MEMORYLLM: Towards Self-Updatable Large Language Models](https://arxiv.org/abs/2402.04624) | `LLM` |
 
-## UIUC
-
-3 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Apr 22, 2024 | [SnapKV: LLM Knows What You are Looking for Before Generation](https://arxiv.org/abs/2404.14469) | `LLM` |
-| May 25, 2020 | ⭐ [Neural Topological SLAM for Visual Navigation](https://arxiv.org/abs/2005.12256) | `VLA` |
-| Apr 10, 2020 | ⭐ [Learning To Explore Using Active Neural SLAM](https://arxiv.org/abs/2004.05155) | `VLA` |
-
 ## Adobe
 
 2 paper(s)
@@ -331,14 +152,23 @@
 | Jun 5, 2025 | [Video World Models with Long-term Spatial Memory](https://arxiv.org/abs/2506.05284) | `VLA` |
 | May 26, 2025 | [Long-Context State-Space Video World Models](https://arxiv.org/abs/2505.20171) | `VLA` |
 
-## AIRI
+## Alibaba
 
 2 paper(s)
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Apr 19, 2023 | [Scaling Transformer to 1M tokens and beyond with RMT](https://arxiv.org/abs/2304.11062) | `LLM` |
-| Jul 14, 2022 | [Recurrent Memory Transformer](https://arxiv.org/abs/2207.06881) | `LLM` |
+| Oct 17, 2024 | [RAP: Retrieval-Augmented Personalization for Multimodal Large Language Models](https://arxiv.org/abs/2410.13360) | `VLM` |
+| Apr 26, 2024 | [MovieChat+: Question-aware Sparse Memory for Long Video Question Answering](https://arxiv.org/abs/2404.17176) | `VLM` |
+
+## Allen Institute for AI
+
+2 paper(s)
+
+| Date | Paper | Track |
+| --- | --- | --- |
+| Jan 30, 2025 | ⭐ [SAM2Act: Integrating Visual Foundation Model with A Memory Architecture for Robotic Manipulation](https://arxiv.org/abs/2501.18564) | `VLA` |
+| Jun 13, 2024 | [Yo'LLaVA: Your Personalized Language and Vision Assistant](https://arxiv.org/abs/2406.09400) | `VLM` |
 
 ## BAAI
 
@@ -346,7 +176,7 @@
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Sep 9, 2024 | [MemoRAG: Boosting Long Context Processing with Global Memory-Inspired Retrieval Augmentation](https://arxiv.org/abs/2409.05591) | `LLM` |
+| Sep 9, 2024 | [MemoRAG: Boosting Long Context Processing with Global Memory-Enhanced Retrieval Augmentation](https://arxiv.org/abs/2409.05591) | `LLM` |
 | Jun 6, 2024 | [MLVU: Benchmarking Multi-task Long Video Understanding](https://arxiv.org/abs/2406.04264) | `VLM` |
 
 ## Beijing Academy of AI
@@ -367,6 +197,15 @@
 | Aug 13, 2025 | ⭐ [Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory](https://arxiv.org/abs/2508.09736) | `VLM` |
 | Jun 12, 2024 | ⭐ [Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams](https://arxiv.org/abs/2406.08085) | `VLM` |
 
+## CMU
+
+2 paper(s)
+
+| Date | Paper | Track |
+| --- | --- | --- |
+| Sep 26, 2024 | [Embodied-RAG: General Non-parametric Embodied Memory for Retrieval and Generation](https://arxiv.org/abs/2409.18313) | `VLA` |
+| Sep 11, 2024 | ⭐ [Agent Workflow Memory](https://arxiv.org/abs/2409.07429) | `VLM` |
+
 ## CUHK
 
 2 paper(s)
@@ -376,32 +215,23 @@
 | Jun 13, 2024 | [Needle In A Video Haystack: A Scalable Synthetic Evaluator for Video MLLMs](https://arxiv.org/abs/2406.09367) | `VLM` |
 | May 25, 2024 | [Streaming Long Video Understanding with Large Language Models](https://arxiv.org/abs/2405.16009) | `VLM` |
 
-## Georgia Tech
+## Nanyang Technological University
 
 2 paper(s)
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| May 3, 2022 | [Episodic Memory Question Answering](https://arxiv.org/abs/2205.01652) | `VLM` |
-| Oct 2, 2020 | [Semantic MapNet: Building Allocentric Semantic Maps and Representations from Egocentric Views](https://arxiv.org/abs/2010.01191) | `VLA` |
+| Apr 16, 2025 | ⭐ [WorldMem: Long-term Consistent World Simulation with Memory](https://arxiv.org/abs/2504.12369) | `VLA` |
+| Mar 5, 2025 | [EgoLife: Towards Egocentric Life Assistant](https://arxiv.org/abs/2503.03803) | `VLM` |
 
-## Huawei
-
-2 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Apr 21, 2024 | ⭐ [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501) | `LLM` |
-| Nov 15, 2023 | [Think-in-Memory: Recalling and Post-thinking Enable LLMs with Long-Term Memory](https://arxiv.org/abs/2311.08719) | `LLM` |
-
-## Moscow Institute of Physics
+## NVIDIA
 
 2 paper(s)
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Apr 19, 2023 | [Scaling Transformer to 1M tokens and beyond with RMT](https://arxiv.org/abs/2304.11062) | `LLM` |
-| Jul 14, 2022 | [Recurrent Memory Transformer](https://arxiv.org/abs/2207.06881) | `LLM` |
+| Jan 30, 2025 | ⭐ [SAM2Act: Integrating Visual Foundation Model with A Memory Architecture for Robotic Manipulation](https://arxiv.org/abs/2501.18564) | `VLA` |
+| Jul 25, 2024 | [Efficient Inference of Vision Instruction-Following Models with Elastic Cache](https://arxiv.org/abs/2407.18121) | `VLM` |
 
 ## Snap
 
@@ -412,75 +242,6 @@
 | Mar 21, 2024 | [MyVLM: Personalizing VLMs for User-Specific Queries](https://arxiv.org/abs/2403.14599) | `VLM` |
 | Feb 27, 2024 | ⭐ [Evaluating Very Long-Term Conversational Memory of LLM Agents](https://arxiv.org/abs/2402.17753) | `LLM` |
 
-## Technology
-
-2 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Apr 19, 2023 | [Scaling Transformer to 1M tokens and beyond with RMT](https://arxiv.org/abs/2304.11062) | `LLM` |
-| Jul 14, 2022 | [Recurrent Memory Transformer](https://arxiv.org/abs/2207.06881) | `LLM` |
-
-## Tel Aviv University
-
-2 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Mar 21, 2024 | [MyVLM: Personalizing VLMs for User-Specific Queries](https://arxiv.org/abs/2403.14599) | `VLM` |
-| Dec 29, 2020 | ⭐ [Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913) | `LLM` |
-
-## University of Illinois
-
-2 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Oct 14, 2024 | ⭐ [LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory](https://arxiv.org/abs/2410.10813) | `LLM` |
-| Oct 3, 2023 | [Model Tells You What to Discard: Adaptive KV Cache Compression for LLMs](https://arxiv.org/abs/2310.01801) | `LLM` |
-
-## University of Washington
-
-2 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Jan 30, 2025 | ⭐ [SAM2Act: Integrating Visual Foundation Model with A Memory Architecture for Robotic Manipulation](https://arxiv.org/abs/2501.18564) | `VLA` |
-| Jul 31, 2023 | ⭐ [MovieChat: From Dense Token to Sparse Memory for Long Video Understanding](https://arxiv.org/abs/2307.16449) | `VLM` |
-
-## UT Austin
-
-2 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Dec 19, 2024 | [STRAP: Robot Sub-Trajectory Retrieval for Augmented Policy Learning](https://arxiv.org/abs/2412.15182) | `VLA` |
-| Jun 24, 2023 | ⭐ [H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models](https://arxiv.org/abs/2306.14048) | `LLM` |
-
-## Beijing Institute of Technology
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Mar 5, 2021 | [Structured Scene Memory for Vision-Language Navigation](https://arxiv.org/abs/2103.03454) | `VLA` |
-
-## Caltech
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| May 25, 2023 | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) | `LLM` |
-
-## CAS
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Apr 26, 2023 | [Enhancing Large Language Model with Self-Controlled Memory Framework](https://arxiv.org/abs/2304.13343) | `LLM` |
-
 ## Cohere
 
 1 paper(s)
@@ -489,29 +250,13 @@
 | --- | --- | --- |
 | Apr 22, 2024 | [SnapKV: LLM Knows What You are Looking for Before Generation](https://arxiv.org/abs/2404.14469) | `LLM` |
 
-## Cornell
+## Google DeepMind
 
 1 paper(s)
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Dec 29, 2020 | ⭐ [Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913) | `LLM` |
-
-## EPFL
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| May 25, 2023 | [Landmark Attention: Random-Access Infinite Context Length for Transformers](https://arxiv.org/abs/2305.16300) | `LLM` |
-
-## ETH Zurich
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Feb 15, 2022 | [Quantifying Memorization Across Neural Language Models](https://arxiv.org/abs/2202.07646) | `LLM` |
+| Feb 8, 2024 | [Memory Consolidation Enables Long-Context Video Understanding](https://arxiv.org/abs/2402.05861) | `VLM` |
 
 ## HKUST
 
@@ -521,6 +266,14 @@
 | --- | --- | --- |
 | Jun 5, 2025 | [Video World Models with Long-term Spatial Memory](https://arxiv.org/abs/2506.05284) | `VLA` |
 
+## Huawei
+
+1 paper(s)
+
+| Date | Paper | Track |
+| --- | --- | --- |
+| Apr 21, 2024 | ⭐ [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501) | `LLM` |
+
 ## IBM Research
 
 1 paper(s)
@@ -529,14 +282,6 @@
 | --- | --- | --- |
 | Mar 18, 2024 | [Larimar: Large Language Models with Episodic Memory Control](https://arxiv.org/abs/2403.11901) | `LLM` |
 
-## Inception Institute of AI
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Mar 5, 2021 | [Structured Scene Memory for Vision-Language Navigation](https://arxiv.org/abs/2103.03454) | `VLA` |
-
 ## Independent
 
 1 paper(s)
@@ -544,14 +289,6 @@
 | Date | Paper | Track |
 | --- | --- | --- |
 | Feb 17, 2025 | ⭐ [A-MEM: Agentic Memory for LLM Agents](https://arxiv.org/abs/2502.12110) | `LLM` |
-
-## Inria
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Jan 13, 2021 | [Memory-Augmented Reinforcement Learning for Image-Goal Navigation](https://arxiv.org/abs/2101.05181) | `VLA` |
 
 ## Johannes Kepler University Linz
 
@@ -577,13 +314,13 @@
 | --- | --- | --- |
 | Apr 28, 2025 | [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/abs/2504.19413) | `LLM` |
 
-## Mila
+## Microsoft
 
 1 paper(s)
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Sep 28, 2023 | ⭐ [ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning](https://arxiv.org/abs/2309.16650) | `VLA` |
+| Apr 24, 2024 | [From Local to Global: A Graph RAG Approach to Query-Focused Summarization](https://arxiv.org/abs/2404.16130) | `LLM` |
 
 ## National University of Singapore
 
@@ -593,13 +330,13 @@
 | --- | --- | --- |
 | Jun 17, 2024 | [VideoLLM-online: Online Video Large Language Model for Streaming Video](https://arxiv.org/abs/2406.11816) | `VLM` |
 
-## Naver Labs Europe
+## Princeton
 
 1 paper(s)
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jan 13, 2021 | [Memory-Augmented Reinforcement Learning for Image-Goal Navigation](https://arxiv.org/abs/2101.05181) | `VLA` |
+| Mar 18, 2024 | [Larimar: Large Language Models with Episodic Memory Control](https://arxiv.org/abs/2403.11901) | `LLM` |
 
 ## Purdue
 
@@ -633,22 +370,6 @@
 | --- | --- | --- |
 | Oct 14, 2024 | ⭐ [LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory](https://arxiv.org/abs/2410.10813) | `LLM` |
 
-## Samaya AI
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Jul 6, 2023 | [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) | `LLM` |
-
-## Seoul National University
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Sep 17, 2022 | [Topological Semantic Graph Memory for Image-Goal Navigation](https://arxiv.org/abs/2209.08274) | `VLA` |
-
 ## Simular Research
 
 1 paper(s)
@@ -657,37 +378,29 @@
 | --- | --- | --- |
 | Oct 10, 2024 | [Agent S: An Open Agentic Framework that Uses Computers Like a Human](https://arxiv.org/abs/2410.08164) | `VLM` |
 
-## Tencent
+## Tel Aviv University
 
 1 paper(s)
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Aug 16, 2023 | [MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation](https://arxiv.org/abs/2308.08239) | `LLM` |
+| Mar 21, 2024 | [MyVLM: Personalizing VLMs for User-Specific Queries](https://arxiv.org/abs/2403.14599) | `VLM` |
 
-## Tencent AI Lab
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Aug 29, 2023 | [Recursively Summarizing Enables Long-Term Dialogue Memory in Large Language Models](https://arxiv.org/abs/2308.15022) | `LLM` |
-
-## UCL
+## UIUC
 
 1 paper(s)
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| May 22, 2020 | ⭐ [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | `LLM` |
+| Apr 22, 2024 | [SnapKV: LLM Knows What You are Looking for Before Generation](https://arxiv.org/abs/2404.14469) | `LLM` |
 
-## University of Freiburg
+## University of Illinois
 
 1 paper(s)
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Oct 11, 2022 | [Visual Language Maps for Robot Navigation](https://arxiv.org/abs/2210.05714) | `VLA` |
+| Oct 14, 2024 | ⭐ [LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory](https://arxiv.org/abs/2410.10813) | `LLM` |
 
 ## University of Maryland
 
@@ -705,14 +418,6 @@
 | --- | --- | --- |
 | Apr 17, 2024 | [Retrieval-Augmented Embodied Agents](https://arxiv.org/abs/2404.11699) | `VLA` |
 
-## University of Montreal
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Sep 28, 2023 | ⭐ [ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning](https://arxiv.org/abs/2309.16650) | `VLA` |
-
 ## University of Oxford
 
 1 paper(s)
@@ -728,6 +433,14 @@
 | Date | Paper | Track |
 | --- | --- | --- |
 | Jun 26, 2024 | [LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference](https://arxiv.org/abs/2406.18139) | `VLM` |
+
+## University of Washington
+
+1 paper(s)
+
+| Date | Paper | Track |
+| --- | --- | --- |
+| Jan 30, 2025 | ⭐ [SAM2Act: Integrating Visual Foundation Model with A Memory Architecture for Robotic Manipulation](https://arxiv.org/abs/2501.18564) | `VLA` |
 
 ## University of Wisconsin-Madison
 
@@ -745,10 +458,10 @@
 | --- | --- | --- |
 | Feb 27, 2024 | ⭐ [Evaluating Very Long-Term Conversational Memory of LLM Agents](https://arxiv.org/abs/2402.17753) | `LLM` |
 
-## Westlake University
+## UT Austin
 
 1 paper(s)
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| May 17, 2023 | ⭐ [MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://arxiv.org/abs/2305.10250) | `LLM` |
+| Dec 19, 2024 | [STRAP: Robot Sub-Trajectory Retrieval for Augmented Policy Learning](https://arxiv.org/abs/2412.15182) | `VLA` |

@@ -1,10 +1,11 @@
-.PHONY: help fetch build sync check add reclassify
+.PHONY: help fetch build sync check add reclassify inst
 
 help:
 	@echo "make fetch       crawl arXiv and write today's digest + review queue"
 	@echo "make build       regenerate README.md / TIMELINE.md / BY_INSTITUTION.md"
 	@echo "make sync        pull titles and dates from arXiv into data/papers.yaml"
 	@echo "make check       verify ids, taxonomy and duplicates (no writes)"
+	@echo "make inst        audit institutions against the paper PDFs"
 	@echo "make reclassify  re-sort the review queue after editing categories.yaml"
 	@echo "make add ID=2410.24164   add one paper by arXiv id"
 
@@ -19,6 +20,9 @@ sync:
 
 check:
 	python3 scripts/sync_metadata.py --check
+
+inst:
+	python3 scripts/inst_utils.py --check
 
 reclassify:
 	python3 scripts/reclassify.py --write

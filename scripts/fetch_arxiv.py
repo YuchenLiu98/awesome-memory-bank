@@ -44,8 +44,11 @@ def is_memory_paper(title: str, abstract: str, cfg: dict[str, Any]) -> bool:
 def matches_gate(entry: dict[str, Any], cfg: dict[str, Any]) -> bool:
     gate = [k.lower() for k in cfg.get("gate_keywords", [])]
     block = [k.lower() for k in cfg.get("block_keywords", [])]
+    primary = cfg.get("primary_categories")
     title_l = entry["title"].lower()
     haystack = (entry["title"] + " " + entry["abstract"]).lower()
+    if primary and entry.get("categories") and entry["categories"][0] not in primary:
+        return False
     if any(word in title_l for word in block):
         return False
     if not is_memory_paper(entry["title"], entry["abstract"], cfg):
