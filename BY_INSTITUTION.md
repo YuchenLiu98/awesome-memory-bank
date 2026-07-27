@@ -2,7 +2,7 @@
 
 # By Institution
 
-57 institutions across 172 papers. A paper with several affiliations is counted under each of them. Back to the [README](README.md).
+59 institutions across 172 papers. A paper with several affiliations is counted under each of them. Back to the [README](README.md).
 
 ## Leaderboard
 
@@ -31,8 +31,8 @@
 | 21 | [NVIDIA](#nvidia) | 2 | 0 | 1 | 1 |
 | 22 | [Salesforce](#salesforce) | 2 | 2 | 0 | 0 |
 | 23 | [Snap](#snap) | 2 | 1 | 1 | 0 |
-| 24 | [CAS](#cas) | 1 | 1 | 0 | 0 |
-| 25 | [CASIA](#casia) | 1 | 1 | 0 | 0 |
+| 24 | [University of Michigan](#university-of-michigan) | 2 | 1 | 0 | 1 |
+| 25 | [CAS](#cas) | 1 | 1 | 0 | 0 |
 
 ---
 
@@ -263,6 +263,15 @@
 | Mar 21, 2024 | [MyVLM: Personalizing VLMs for User-Specific Queries](https://arxiv.org/abs/2403.14599) | `VLM` |
 | Feb 27, 2024 | ⭐ [Evaluating Very Long-Term Conversational Memory of LLM Agents](https://arxiv.org/abs/2402.17753) | `LLM` |
 
+## University of Michigan
+
+2 paper(s)
+
+| Date | Paper | Track |
+| --- | --- | --- |
+| Jul 14, 2026 | [Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents](https://arxiv.org/abs/2607.12267) | `LLM` |
+| Apr 17, 2024 | [Retrieval-Augmented Embodied Agents](https://arxiv.org/abs/2404.11699) | `VLA` |
+
 ## CAS
 
 1 paper(s)
@@ -342,6 +351,14 @@
 | Date | Paper | Track |
 | --- | --- | --- |
 | Feb 17, 2025 | ⭐ [A-MEM: Agentic Memory for LLM Agents](https://arxiv.org/abs/2502.12110) | `LLM` |
+
+## Jilin University
+
+1 paper(s)
+
+| Date | Paper | Track |
+| --- | --- | --- |
+| Jul 1, 2026 | [MemSyco-Bench: Benchmarking Sycophancy in Agent Memory](https://arxiv.org/abs/2607.01071) | `LLM` |
 
 ## Johannes Kepler University Linz
 
@@ -479,14 +496,6 @@
 | --- | --- | --- |
 | Apr 8, 2024 | ⭐ [MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding](https://arxiv.org/abs/2404.05726) | `VLM` |
 
-## University of Michigan
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Apr 17, 2024 | [Retrieval-Augmented Embodied Agents](https://arxiv.org/abs/2404.11699) | `VLA` |
-
 ## University of Oxford
 
 1 paper(s)
@@ -534,3 +543,11 @@
 | Date | Paper | Track |
 | --- | --- | --- |
 | Dec 19, 2024 | [STRAP: Robot Sub-Trajectory Retrieval for Augmented Policy Learning](https://arxiv.org/abs/2412.15182) | `VLA` |
+
+## Xiamen University
+
+1 paper(s)
+
+| Date | Paper | Track |
+| --- | --- | --- |
+| Jul 1, 2026 | [MemSyco-Bench: Benchmarking Sycophancy in Agent Memory](https://arxiv.org/abs/2607.01071) | `LLM` |

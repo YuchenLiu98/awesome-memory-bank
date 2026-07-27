@@ -373,8 +373,20 @@ def _generic_orgs(zone_text: str) -> dict[str, int]:
     return found
 
 
+def _split_markers(text: str) -> str:
+    """Detach superscript affiliation markers from the name they precede.
+
+    pdfminer renders them inline, so "1Xiamen University" arrives as one token
+    and every pattern anchored on a word boundary silently fails to match it.
+    Numbered affiliation lists are the norm, so without this the extractor
+    misses roughly a third of all papers.
+    """
+    return re.sub(r"(?<=\d)(?=[A-Z])", " ", text)
+
+
 def match_institutions(zone_text: str, generic: bool = True) -> list[str]:
     """Canonical institution names appearing in the given zone, in page order."""
+    zone_text = _split_markers(zone_text)
     found: dict[str, int] = {}
     for name, patterns in _COMPILED.items():
         for pattern in patterns:

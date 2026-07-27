@@ -142,6 +142,7 @@ papers:
 
   - arxiv: '2607.01071'
     title: 'MemSyco-Bench: Benchmarking Sycophancy in Agent Memory'
+    institution: Xiamen University, Jilin University
     date: '2026-07-01'
     url: https://arxiv.org/abs/2607.01071
     venue: arXiv 2026
@@ -169,6 +170,7 @@ papers:
 
   - arxiv: '2607.12267'
     title: 'Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents'
+    institution: University of Michigan
     date: '2026-07-14'
     url: https://arxiv.org/abs/2607.12267
     venue: arXiv 2026

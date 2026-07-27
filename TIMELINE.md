@@ -26,7 +26,7 @@ All 172 papers in reverse chronological order (arXiv v1 date). Back to the [READ
 | Jul 15, 2026 | [PReM: Learning What to Preserve and When to Refresh for Context Compression](https://arxiv.org/abs/2607.14327) | `LLM` / KV Cache & Context Memory Compression | — |
 | Jul 15, 2026 | ⭐ [Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents](https://arxiv.org/abs/2607.13591) | `LLM` / Memory Architectures & Memory OS | — |
 | Jul 15, 2026 | ⭐ [CMI-Mem: Toward Generalizable Long-Term Memory Management via CMI-Augmented Reinforcement Learning](https://arxiv.org/abs/2607.20553) | `LLM` / Long-Term & Personalized Memory | — |
-| Jul 14, 2026 | [Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents](https://arxiv.org/abs/2607.12267) | `LLM` / Memory Benchmarks & Analysis | — |
+| Jul 14, 2026 | [Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents](https://arxiv.org/abs/2607.12267) | `LLM` / Memory Benchmarks & Analysis | University of Michigan |
 | Jul 14, 2026 | [Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents](https://arxiv.org/abs/2607.13157) | `LLM` / Memory Architectures & Memory OS | — |
 | Jul 14, 2026 | ⭐ [FOLIO: Focused Semantic Memory for Streaming Video Understanding](https://arxiv.org/abs/2607.13298) | `VLM` / Long Video & Streaming Memory | — |
 | Jul 14, 2026 | [Adaptive Filtering of the KV Cache: Diagnosing and Correcting Structural-Role Bias in LLM Inference](https://arxiv.org/abs/2607.13205) | `LLM` / KV Cache & Context Memory Compression | — |
@@ -45,7 +45,7 @@ All 172 papers in reverse chronological order (arXiv v1 date). Back to the [READ
 | Jul 2, 2026 | ⭐ [S-EMBER: A Large-Scale Benchmark for Streaming Egocentric Memory Retrieval](https://arxiv.org/abs/2607.02689) | `VLM` / Benchmarks & Analysis | — |
 | Jul 2, 2026 | [A-TMA: Decoupling State-Aware Memory Failures in Long-Term Agent Memory](https://arxiv.org/abs/2607.01935) | `LLM` / Long-Term & Personalized Memory | — |
 | Jul 1, 2026 | [Procedural Memory Distillation: Online Reflection for Self-Improving Language Models](https://arxiv.org/abs/2607.01480) | `LLM` / Agent Experience & Skill Memory | Salesforce |
-| Jul 1, 2026 | [MemSyco-Bench: Benchmarking Sycophancy in Agent Memory](https://arxiv.org/abs/2607.01071) | `LLM` / Memory Benchmarks & Analysis | — |
+| Jul 1, 2026 | [MemSyco-Bench: Benchmarking Sycophancy in Agent Memory](https://arxiv.org/abs/2607.01071) | `LLM` / Memory Benchmarks & Analysis | Xiamen University, Jilin University |
 | Jul 1, 2026 | [Imprint: Online Memory Compression for Long-Horizon Egocentric QA](https://arxiv.org/abs/2607.00696) | `VLM` / Long Video & Streaming Memory | — |
 
 ## June 2026 (55)
