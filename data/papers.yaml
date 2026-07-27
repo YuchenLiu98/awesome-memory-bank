@@ -20,6 +20,7 @@ papers:
   # ==========================================================
   - arxiv: '2606.15017'
     title: Are Online Skill and Memory Modules Always Worth Their Tokens? A Budget-Constrained Study of Web Agents
+    institution: ServiceNow, UBC, McGill
     date: '2026-06-12'
     url: https://arxiv.org/abs/2606.15017
     venue: arXiv 2026
@@ -40,6 +41,7 @@ papers:
 
   - arxiv: '2606.29824'
     title: 'Neural Procedural Memory: Empowering LLM Agents with Implicit Activation Steering'
+    institution: CASIA, CAS, BAAI
     date: '2026-06-29'
     url: https://arxiv.org/abs/2606.29824
     venue: arXiv 2026
@@ -49,6 +51,7 @@ papers:
 
   - arxiv: '2607.01480'
     title: 'Procedural Memory Distillation: Online Reflection for Self-Improving Language Models'
+    institution: Salesforce
     date: '2026-07-01'
     url: https://arxiv.org/abs/2607.01480
     venue: arXiv 2026
@@ -58,6 +61,7 @@ papers:
 
   - arxiv: '2607.17621'
     title: Mechanistic Attention Guidance for Agent Memory Refinement
+    institution: Tsinghua
     date: '2026-07-20'
     url: https://arxiv.org/abs/2607.17621
     venue: arXiv 2026
@@ -67,6 +71,7 @@ papers:
 
   - arxiv: '2607.17545'
     title: Retain or Consolidate? Budget-Dependent Operator Selection for Language Agent Memory
+    institution: Huawei, CityU, HKU
     date: '2026-07-20'
     url: https://arxiv.org/abs/2607.17545
     venue: arXiv 2026
@@ -76,6 +81,7 @@ papers:
 
   - arxiv: '2607.21106'
     title: 'AttriMem: Attribution-Guided Process Feedback for Agent Memory Learning'
+    institution: ZJU
     date: '2026-07-23'
     url: https://arxiv.org/abs/2607.21106
     venue: arXiv 2026
@@ -107,6 +113,7 @@ papers:
 
   - arxiv: '2606.14571'
     title: 'StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance'
+    institution: Fudan
     date: '2026-06-12'
     url: https://arxiv.org/abs/2606.14571
     venue: arXiv 2026
