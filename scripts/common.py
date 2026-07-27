@@ -377,16 +377,6 @@ def build_classifier(categories: dict[str, Any]):
     return classify
 
 
-def guess_institution(entry: dict[str, Any]) -> str:
-    """arXiv metadata has no affiliation field, so leave a placeholder."""
-    comment = entry.get("comment") or ""
-    match = re.search(r"(accepted|to appear).{0,40}?\b(CVPR|ICLR|NeurIPS|ICML|ICRA|IROS|CoRL|ACL|EMNLP)\b",
-                      comment, re.I)
-    if match:
-        return match.group(2).upper()
-    return "—"
-
-
 def subcategory_index(categories: dict[str, Any]) -> dict[tuple[str, str], dict[str, Any]]:
     index = {}
     for section in categories["sections"]:

@@ -130,7 +130,7 @@ def build_digest(
     return "\n".join(out)
 
 
-def update_digest_index(today: dt.date) -> None:
+def update_digest_index() -> None:
     files = sorted(
         (p for p in common.DAILY_DIR.glob("*.md") if p.name != "README.md"),
         reverse=True,
@@ -175,7 +175,7 @@ def main() -> int:
     common.DAILY_DIR.mkdir(exist_ok=True)
     digest_path = common.DAILY_DIR / f"{today.isoformat()}.md"
     digest_path.write_text(build_digest(categories, items, today, args.days), encoding="utf-8")
-    update_digest_index(today)
+    update_digest_index()
 
     candidates = common.load_candidates()
     for item in items:

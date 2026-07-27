@@ -376,6 +376,31 @@ arxiv:
     - protein
     - speech enhancement
 
+# Institution names collapse to a canonical form in BY_INSTITUTION.md, so a lab
+# does not get split across several spellings. Keys are matched exactly.
+institution_aliases:
+  AI2: Allen Institute for AI
+  Allen AI: Allen Institute for AI
+  UW: University of Washington
+  Washington: University of Washington
+  Berkeley: UC Berkeley
+  UC Berkeley (BAIR): UC Berkeley
+  MSRA: Microsoft Research Asia
+  Microsoft Research: Microsoft
+  Google Research: Google
+  DeepMind: Google DeepMind
+  Meta AI: Meta
+  FAIR: Meta
+  Tsinghua University: Tsinghua
+  Peking University: PKU
+  Shanghai Jiao Tong University: SJTU
+  Zhejiang University: ZJU
+  Fudan University: Fudan
+  Nanjing University: NJU
+  Alibaba Group: Alibaba
+  ByteDance Seed: ByteDance
+  Physical Intelligence (PI): Physical Intelligence
+
 # Institutions worth highlighting in the daily digest and reports.
 watch_institutions:
   - OpenAI

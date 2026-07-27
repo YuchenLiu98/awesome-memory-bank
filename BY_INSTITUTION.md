@@ -2,7 +2,7 @@
 
 # By Institution
 
-81 institutions across 132 papers. A paper with several affiliations is counted under each of them. Back to the [README](README.md).
+76 institutions across 132 papers. A paper with several affiliations is counted under each of them. Back to the [README](README.md).
 
 ## Leaderboard
 
@@ -10,29 +10,29 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | [Stanford](#stanford) | 18 | 7 | 1 | 10 |
 | 2 | [Google DeepMind](#google-deepmind) | 14 | 2 | 4 | 8 |
-| 3 | [UC Berkeley](#uc-berkeley) | 13 | 5 | 0 | 8 |
+| 3 | [UC Berkeley](#uc-berkeley) | 14 | 5 | 0 | 9 |
 | 4 | [Tsinghua](#tsinghua) | 11 | 3 | 3 | 5 |
 | 5 | [Meta](#meta) | 8 | 5 | 2 | 1 |
 | 6 | [Alibaba](#alibaba) | 7 | 2 | 5 | 0 |
 | 7 | [Google](#google) | 7 | 6 | 0 | 1 |
 | 8 | [Microsoft](#microsoft) | 7 | 2 | 5 | 0 |
 | 9 | [NVIDIA](#nvidia) | 6 | 1 | 1 | 4 |
-| 10 | [CMU](#cmu) | 5 | 2 | 0 | 3 |
-| 11 | [NYU](#nyu) | 5 | 2 | 1 | 2 |
-| 12 | [Princeton](#princeton) | 5 | 5 | 0 | 0 |
-| 13 | [Shanghai AI Lab](#shanghai-ai-lab) | 5 | 0 | 4 | 1 |
-| 14 | [ByteDance](#bytedance) | 4 | 0 | 4 | 0 |
-| 15 | [DeepSeek](#deepseek) | 4 | 3 | 1 | 0 |
-| 16 | [Physical Intelligence](#physical-intelligence) | 4 | 0 | 0 | 4 |
-| 17 | [Alibaba DAMO](#alibaba-damo) | 3 | 0 | 2 | 1 |
-| 18 | [Allen Institute for AI](#allen-institute-for-ai) | 3 | 0 | 3 | 0 |
+| 10 | [ByteDance](#bytedance) | 5 | 1 | 4 | 0 |
+| 11 | [CMU](#cmu) | 5 | 2 | 0 | 3 |
+| 12 | [NYU](#nyu) | 5 | 2 | 1 | 2 |
+| 13 | [Princeton](#princeton) | 5 | 5 | 0 | 0 |
+| 14 | [Shanghai AI Lab](#shanghai-ai-lab) | 5 | 0 | 4 | 1 |
+| 15 | [Allen Institute for AI](#allen-institute-for-ai) | 4 | 0 | 3 | 1 |
+| 16 | [DeepSeek](#deepseek) | 4 | 3 | 1 | 0 |
+| 17 | [Physical Intelligence](#physical-intelligence) | 4 | 0 | 0 | 4 |
+| 18 | [Alibaba DAMO](#alibaba-damo) | 3 | 0 | 2 | 1 |
 | 19 | [HUST](#hust) | 3 | 0 | 0 | 3 |
 | 20 | [MIT](#mit) | 3 | 1 | 0 | 2 |
 | 21 | [OpenAI](#openai) | 3 | 2 | 1 | 0 |
 | 22 | [PKU](#pku) | 3 | 0 | 2 | 1 |
 | 23 | [Renmin University](#renmin-university) | 3 | 2 | 1 | 0 |
 | 24 | [TRI](#tri) | 3 | 0 | 0 | 3 |
-| 25 | [UW-Madison](#uw-madison) | 3 | 0 | 3 | 0 |
+| 25 | [University of Washington](#university-of-washington) | 3 | 0 | 1 | 2 |
 
 ---
 
@@ -84,11 +84,12 @@
 
 ## UC Berkeley
 
-13 paper(s)
+14 paper(s)
 
 | Date | Paper | Track |
 | --- | --- | --- |
 | Jan 2025 | ⭐ [FAST: Efficient Action Tokenization for Vision-Language-Action Models](https://arxiv.org/abs/2501.09747) | `VLA` |
+| Dec 2024 | ⭐ [Navigation World Models](https://arxiv.org/abs/2412.03572) | `VLA` |
 | Oct 2024 | ⭐ [Precise and Dexterous Robotic Manipulation via Human-in-the-Loop Reinforcement Learning](https://arxiv.org/abs/2410.21845) | `VLA` |
 | Aug 2024 | ⭐ [Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters](https://arxiv.org/abs/2408.03314) | `LLM` |
 | Jun 2024 | ⭐ [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) | `VLA` |
@@ -190,6 +191,18 @@
 | Jun 2024 | [SpatialRGPT: Grounded Spatial Reasoning in Vision Language Models](https://arxiv.org/abs/2406.01584) | `VLM` |
 | May 2023 | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) | `LLM` |
 
+## ByteDance
+
+5 paper(s)
+
+| Date | Paper | Track |
+| --- | --- | --- |
+| Mar 2025 | [DAPO: An Open-Source LLM Reinforcement Learning System at Scale](https://arxiv.org/abs/2503.14476) | `LLM` |
+| Jan 2025 | ⭐ [UI-TARS: Pioneering Automated GUI Interaction with Native Agents](https://arxiv.org/abs/2501.12326) | `VLM` |
+| Oct 2024 | [Video Instruction Tuning With Synthetic Data](https://arxiv.org/abs/2410.02713) | `VLM` |
+| Aug 2024 | [Show-o: One Single Transformer to Unify Multimodal Understanding and Generation](https://arxiv.org/abs/2408.12528) | `VLM` |
+| Aug 2024 | ⭐ [LLaVA-OneVision: Easy Visual Task Transfer](https://arxiv.org/abs/2408.03326) | `VLM` |
+
 ## CMU
 
 5 paper(s)
@@ -238,16 +251,16 @@
 | Dec 2023 | [InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks](https://arxiv.org/abs/2312.14238) | `VLM` |
 | Jul 2023 | [MMBench: Is Your Multi-modal Model an All-around Player?](https://arxiv.org/abs/2307.06281) | `VLM` |
 
-## ByteDance
+## Allen Institute for AI
 
 4 paper(s)
 
 | Date | Paper | Track |
 | --- | --- | --- |
-| Jan 2025 | ⭐ [UI-TARS: Pioneering Automated GUI Interaction with Native Agents](https://arxiv.org/abs/2501.12326) | `VLM` |
-| Oct 2024 | [Video Instruction Tuning With Synthetic Data](https://arxiv.org/abs/2410.02713) | `VLM` |
-| Aug 2024 | [Show-o: One Single Transformer to Unify Multimodal Understanding and Generation](https://arxiv.org/abs/2408.12528) | `VLM` |
-| Aug 2024 | ⭐ [LLaVA-OneVision: Easy Visual Task Transfer](https://arxiv.org/abs/2408.03326) | `VLM` |
+| Oct 2024 | ⭐ [Latent Action Pretraining from Videos](https://arxiv.org/abs/2410.11758) | `VLA` |
+| Sep 2024 | [Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models](https://arxiv.org/abs/2409.17146) | `VLM` |
+| Apr 2024 | [BLINK: Multimodal Large Language Models Can See but Not Perceive](https://arxiv.org/abs/2404.12390) | `VLM` |
+| Nov 2022 | [Visual Programming: Compositional visual reasoning without training](https://arxiv.org/abs/2211.11559) | `VLM` |
 
 ## DeepSeek
 
@@ -280,16 +293,6 @@
 | Jun 2025 | [WorldVLA: Towards Autoregressive Action World Model](https://arxiv.org/abs/2506.21539) | `VLA` |
 | Jan 2025 | [VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding](https://arxiv.org/abs/2501.13106) | `VLM` |
 | Jun 2023 | [Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding](https://arxiv.org/abs/2306.02858) | `VLM` |
-
-## Allen Institute for AI
-
-3 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Sep 2024 | [Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models](https://arxiv.org/abs/2409.17146) | `VLM` |
-| Apr 2024 | [BLINK: Multimodal Large Language Models Can See but Not Perceive](https://arxiv.org/abs/2404.12390) | `VLM` |
-| Nov 2022 | [Visual Programming: Compositional visual reasoning without training](https://arxiv.org/abs/2211.11559) | `VLM` |
 
 ## HUST
 
@@ -351,6 +354,16 @@
 | Mar 2024 | [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](https://arxiv.org/abs/2403.12945) | `VLA` |
 | Mar 2023 | ⭐ [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](https://arxiv.org/abs/2303.04137) | `VLA` |
 
+## University of Washington
+
+3 paper(s)
+
+| Date | Paper | Track |
+| --- | --- | --- |
+| May 2025 | [Vision-Language-Action Models: Concepts, Progress, Applications and Challenges](https://arxiv.org/abs/2505.04769) | `VLA` |
+| Oct 2024 | ⭐ [Latent Action Pretraining from Videos](https://arxiv.org/abs/2410.11758) | `VLA` |
+| Apr 2024 | [BLINK: Multimodal Large Language Models Can See but Not Perceive](https://arxiv.org/abs/2404.12390) | `VLM` |
+
 ## UW-Madison
 
 3 paper(s)
@@ -361,7 +374,7 @@
 | Oct 2023 | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744) | `VLM` |
 | Apr 2023 | ⭐ [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485) | `VLM` |
 
-## Zhejiang University
+## ZJU
 
 3 paper(s)
 
@@ -425,14 +438,6 @@
 | Jun 2025 | [ReCogDrive: A Reinforced Cognitive Framework for End-to-End Autonomous Driving](https://arxiv.org/abs/2506.08052) | `VLA` |
 | Mar 2025 | [ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation](https://arxiv.org/abs/2503.19755) | `VLA` |
 
-## AI2
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Oct 2024 | ⭐ [Latent Action Pretraining from Videos](https://arxiv.org/abs/2410.11758) | `VLA` |
-
 ## BAAI
 
 1 paper(s)
@@ -448,22 +453,6 @@
 | Date | Paper | Track |
 | --- | --- | --- |
 | Feb 2024 | [NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation](https://arxiv.org/abs/2402.15852) | `VLA` |
-
-## Berkeley
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Dec 2024 | ⭐ [Navigation World Models](https://arxiv.org/abs/2412.03572) | `VLA` |
-
-## ByteDance Seed
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Mar 2025 | [DAPO: An Open-Source LLM Reinforcement Learning System at Scale](https://arxiv.org/abs/2503.14476) | `LLM` |
 
 ## Caltech
 
@@ -649,7 +638,7 @@
 | --- | --- | --- |
 | Jan 2025 | [Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/abs/2501.12599) | `LLM` |
 
-## Nanjing University
+## NJU
 
 1 paper(s)
 
@@ -729,14 +718,6 @@
 | --- | --- | --- |
 | Dec 2021 | [CALVIN: A Benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks](https://arxiv.org/abs/2112.03227) | `VLA` |
 
-## University of Washington
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| May 2025 | [Vision-Language-Action Models: Concepts, Progress, Applications and Challenges](https://arxiv.org/abs/2505.04769) | `VLA` |
-
 ## UPenn
 
 1 paper(s)
@@ -760,22 +741,6 @@
 | Date | Paper | Track |
 | --- | --- | --- |
 | Jun 2023 | ⭐ [LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning](https://arxiv.org/abs/2306.03310) | `VLA` |
-
-## UW
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Oct 2024 | ⭐ [Latent Action Pretraining from Videos](https://arxiv.org/abs/2410.11758) | `VLA` |
-
-## Washington
-
-1 paper(s)
-
-| Date | Paper | Track |
-| --- | --- | --- |
-| Apr 2024 | [BLINK: Multimodal Large Language Models Can See but Not Perceive](https://arxiv.org/abs/2404.12390) | `VLM` |
 
 ## Waterloo
 

@@ -258,16 +258,21 @@ def build_timeline(categories: dict[str, Any], papers: list[dict[str, Any]], tod
 # --------------------------------------------------------------------------
 # BY_INSTITUTION
 # --------------------------------------------------------------------------
-def split_institutions(value: str) -> list[str]:
+def split_institutions(value: str, aliases: dict[str, str] | None = None) -> list[str]:
+    """Split a comma-separated affiliation string and canonicalize each name."""
     if not value or value == "—":
         return []
+    aliases = aliases or {}
     parts = re.split(r",| and (?=[A-Z0-9])", value)
     cleaned = []
     for part in parts:
         part = part.strip(" .")
+        # Drop filler like "and 30+ institutions".
         if not part or re.fullmatch(r"\d+\+? institutions?", part, re.I):
             continue
-        cleaned.append(part)
+        canonical = aliases.get(part, part)
+        if canonical not in cleaned:
+            cleaned.append(canonical)
     return cleaned
 
 
@@ -275,9 +280,10 @@ def build_by_institution(
     categories: dict[str, Any], papers: list[dict[str, Any]], today: dt.date
 ) -> str:
     labels = {s["id"]: s["short"] for s in categories["sections"]}
+    aliases = categories.get("institution_aliases") or {}
     by_inst: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for paper in papers:
-        for inst in split_institutions(paper.get("institution", "")):
+        for inst in split_institutions(paper.get("institution", ""), aliases):
             by_inst[inst].append(paper)
 
     ranked = sorted(by_inst.items(), key=lambda kv: (-len(kv[1]), kv[0].lower()))
