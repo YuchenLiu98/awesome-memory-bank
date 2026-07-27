@@ -26,9 +26,29 @@ SNIPPET_CHARS = 200
 UNSORTED = "unsorted"
 
 
-def matches_gate(entry: dict[str, Any], gate: list[str], block: list[str]) -> bool:
+def is_memory_paper(title: str, abstract: str, cfg: dict[str, Any]) -> bool:
+    """The topic gate: does this paper study memory, or just use RAM?
+
+    Requires an explicit memory phrase such as "episodic memory" -- the bare
+    word "memory" is not enough, because in ML writing it far more often means
+    VRAM ("memory-efficient fine-tuning") than anything cognitive. Hardware
+    phrasing is masked out before matching so that a paper about reducing the
+    memory footprint cannot sneak in on the word alone.
+    """
+    haystack = f"{title} {abstract}".lower()
+    for phrase in cfg.get("hardware_memory_keywords", []):
+        haystack = haystack.replace(phrase.lower(), " ")
+    return any(phrase.lower() in haystack for phrase in cfg.get("memory_keywords", []))
+
+
+def matches_gate(entry: dict[str, Any], cfg: dict[str, Any]) -> bool:
+    gate = [k.lower() for k in cfg.get("gate_keywords", [])]
+    block = [k.lower() for k in cfg.get("block_keywords", [])]
+    title_l = entry["title"].lower()
     haystack = (entry["title"] + " " + entry["abstract"]).lower()
-    if any(word in entry["title"].lower() for word in block):
+    if any(word in title_l for word in block):
+        return False
+    if not is_memory_paper(entry["title"], entry["abstract"], cfg):
         return False
     return any(word in haystack for word in gate)
 
@@ -42,8 +62,6 @@ def snippet(text: str, limit: int = SNIPPET_CHARS) -> str:
 
 def collect(categories: dict[str, Any], days: int, per_query: int) -> list[dict[str, Any]]:
     cfg = categories["arxiv"]
-    gate = [k.lower() for k in cfg.get("gate_keywords", [])]
-    block = [k.lower() for k in cfg.get("block_keywords", [])]
     classify = common.build_classifier(categories)
     cutoff = dt.date.today() - dt.timedelta(days=days)
 
@@ -66,7 +84,7 @@ def collect(categories: dict[str, Any], days: int, per_query: int) -> list[dict[
                 continue
             if arxiv_id in known or arxiv_id in queued or arxiv_id in found:
                 continue
-            if not matches_gate(entry, gate, block):
+            if not matches_gate(entry, cfg):
                 continue
             section, subcategory, score = classify(entry["title"], entry["abstract"])
             found[arxiv_id] = {
@@ -151,6 +169,10 @@ def update_digest_index() -> None:
         "Auto-generated every morning by "
         "[`scripts/fetch_arxiv.py`](../scripts/fetch_arxiv.py). "
         "Back to the [README](../README.md).",
+        "",
+        "Each digest lists the previous day's arXiv papers that clear the memory "
+        "gate described in [WORKFLOW.md](../WORKFLOW.md) -- papers where memory is "
+        "the contribution, not papers that merely mention the word.",
         "",
     ]
     by_month: dict[str, list[str]] = defaultdict(list)

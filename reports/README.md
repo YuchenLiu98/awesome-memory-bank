@@ -8,7 +8,7 @@ scheme:
 
 ```
 reports/2026-07-monthly.md          # what happened this month
-reports/vla-action-tokenizers.md    # a topic deep-dive
+reports/agent-memory-designs.md     # a topic deep-dive
 ```
 
 Link back to the paper entries in [README.md](../README.md) so readers can jump

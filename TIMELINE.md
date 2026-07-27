@@ -2,351 +2,357 @@
 
 # Timeline
 
-All 132 papers in reverse chronological order (arXiv v1 date). Back to the [README](README.md).
+All 103 papers in reverse chronological order (arXiv v1 date). Back to the [README](README.md).
 
-## September 2025 (1)
+## August 2025 (2)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Sep 19, 2025 | [DiffusionNFT: Online Diffusion Reinforcement with Forward Process](https://arxiv.org/abs/2509.16117) | `VLA` / RL & Policy Optimization | Tsinghua, NVIDIA, Stanford |
+| Aug 26, 2025 | ⭐ [MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation](https://arxiv.org/abs/2508.19236) | `VLA` / VLA Memory Architectures | Shanghai AI Lab, Tsinghua |
+| Aug 13, 2025 | ⭐ [Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory](https://arxiv.org/abs/2508.09736) | `VLM` / Multimodal Memory Architectures | ByteDance, Zhejiang University |
 
 ## June 2025 (2)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Jun 26, 2025 | [WorldVLA: Towards Autoregressive Action World Model](https://arxiv.org/abs/2506.21539) | `VLA` / World Models & Policy Co-learning | Alibaba DAMO, Zhejiang University |
-| Jun 9, 2025 | [ReCogDrive: A Reinforced Cognitive Framework for End-to-End Autonomous Driving](https://arxiv.org/abs/2506.08052) | `VLA` / Autonomous Driving VLA | HUST, Xiaomi |
+| Jun 5, 2025 | [Video World Models with Long-term Spatial Memory](https://arxiv.org/abs/2506.05284) | `VLA` / World Models & Long-Horizon Memory | Stanford, HKUST, Adobe |
+| Jun 3, 2025 | [Context as Memory: Scene-Consistent Interactive Long Video Generation with Memory Retrieval](https://arxiv.org/abs/2506.03141) | `VLA` / World Models & Long-Horizon Memory | Zhejiang University, Kuaishou |
 
-## May 2025 (2)
-
-| Date | Paper | Track | Institution |
-| --- | --- | --- | --- |
-| May 14, 2025 | [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) | `LLM` / Foundation Models & Architecture | Alibaba |
-| May 7, 2025 | [Vision-Language-Action Models: Concepts, Progress, Applications and Challenges](https://arxiv.org/abs/2505.04769) | `VLA` / Surveys | Cornell, University of Washington |
-
-## April 2025 (1)
+## May 2025 (1)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Apr 22, 2025 | ⭐ [π0.5: a Vision-Language-Action Model with Open-World Generalization](https://arxiv.org/abs/2504.16054) | `VLA` / Robotics VLA Architecture | Physical Intelligence |
+| May 26, 2025 | [Long-Context State-Space Video World Models](https://arxiv.org/abs/2505.20171) | `VLA` / World Models & Long-Horizon Memory | Stanford, Adobe |
 
-## March 2025 (4)
+## April 2025 (3)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Mar 25, 2025 | [ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation](https://arxiv.org/abs/2503.19755) | `VLA` / Autonomous Driving VLA | HUST, Xiaomi |
-| Mar 25, 2025 | ⭐ [Gemini Robotics: Bringing AI into the Physical World](https://arxiv.org/abs/2503.20020) | `VLA` / Robotics VLA Architecture | Google DeepMind |
-| Mar 18, 2025 | ⭐ [GR00T N1: An Open Foundation Model for Generalist Humanoid Robots](https://arxiv.org/abs/2503.14734) | `VLA` / Robotics VLA Architecture | NVIDIA |
-| Mar 18, 2025 | [DAPO: An Open-Source LLM Reinforcement Learning System at Scale](https://arxiv.org/abs/2503.14476) | `LLM` / Post-training, RLHF & RLVR | ByteDance Seed, Tsinghua |
+| Apr 28, 2025 | [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/abs/2504.19413) | `LLM` / Memory Architectures & Memory OS | Mem0 |
+| Apr 22, 2025 | [From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs](https://arxiv.org/abs/2504.15965) | `LLM` / Surveys | Renmin University |
+| Apr 16, 2025 | ⭐ [WORLDMEM: Long-term Consistent World Simulation with Memory](https://arxiv.org/abs/2504.12369) | `VLA` / World Models & Long-Horizon Memory | Nanyang Technological University, Peking University |
+
+## March 2025 (1)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Mar 5, 2025 | [EgoLife: Towards Egocentric Life Assistant](https://arxiv.org/abs/2503.03803) | `VLM` / Episodic & Personalized Visual Memory | Nanyang Technological University, S-Lab |
 
 ## February 2025 (2)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Feb 26, 2025 | [Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models](https://arxiv.org/abs/2502.19417) | `VLA` / Robotics VLA Architecture | Physical Intelligence, Stanford |
-| Feb 19, 2025 | ⭐ [Qwen2.5-VL Technical Report](https://arxiv.org/abs/2502.13923) | `VLM` / Architecture & Pre-training | Alibaba |
+| Feb 20, 2025 | [From RAG to Memory: Non-Parametric Continual Learning for Large Language Models](https://arxiv.org/abs/2502.14802) | `LLM` / Retrieval-Augmented Memory | Ohio State University |
+| Feb 17, 2025 | ⭐ [A-MEM: Agentic Memory for LLM Agents](https://arxiv.org/abs/2502.12110) | `LLM` / Memory Architectures & Memory OS | Rutgers, Independent |
 
-## January 2025 (7)
-
-| Date | Paper | Track | Institution |
-| --- | --- | --- | --- |
-| Jan 29, 2025 | [Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling](https://arxiv.org/abs/2501.17811) | `VLM` / Unified Understanding & Generation | DeepSeek |
-| Jan 22, 2025 | [VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding](https://arxiv.org/abs/2501.13106) | `VLM` / Video & Long-Horizon Understanding | Alibaba DAMO |
-| Jan 22, 2025 | [Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/abs/2501.12599) | `LLM` / Reasoning & Chain-of-Thought | Moonshot AI |
-| Jan 22, 2025 | ⭐ [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) | `LLM` / Reasoning & Chain-of-Thought | DeepSeek |
-| Jan 21, 2025 | ⭐ [UI-TARS: Pioneering Automated GUI Interaction with Native Agents](https://arxiv.org/abs/2501.12326) | `VLM` / GUI & Multimodal Agents | ByteDance, Tsinghua |
-| Jan 16, 2025 | ⭐ [FAST: Efficient Action Tokenization for Vision-Language-Action Models](https://arxiv.org/abs/2501.09747) | `VLA` / Action Tokenization & Representation | Physical Intelligence, Stanford, UC Berkeley |
-| Jan 7, 2025 | ⭐ [Cosmos World Foundation Model Platform for Physical AI](https://arxiv.org/abs/2501.03575) | `VLA` / World Models & Policy Co-learning | NVIDIA |
-
-## December 2024 (6)
+## January 2025 (1)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Dec 27, 2024 | ⭐ [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437) | `LLM` / Foundation Models & Architecture | DeepSeek |
-| Dec 19, 2024 | [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) | `LLM` / Foundation Models & Architecture | Alibaba |
-| Dec 18, 2024 | ⭐ [Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces](https://arxiv.org/abs/2412.14171) | `VLM` / Spatial Intelligence & 3D/4D | NYU, Yale, Stanford |
-| Dec 9, 2024 | [Training Large Language Models to Reason in a Continuous Latent Space](https://arxiv.org/abs/2412.06769) | `LLM` / Reasoning & Chain-of-Thought | Meta |
-| Dec 6, 2024 | [Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling](https://arxiv.org/abs/2412.05271) | `VLM` / Architecture & Pre-training | Shanghai AI Lab |
-| Dec 4, 2024 | ⭐ [Navigation World Models](https://arxiv.org/abs/2412.03572) | `VLA` / Navigation & Humanoid | Meta, NYU, Berkeley |
+| Jan 30, 2025 | ⭐ [SAM2Act: Integrating Visual Foundation Model with A Memory Architecture for Robotic Manipulation](https://arxiv.org/abs/2501.18564) | `VLA` / VLA Memory Architectures | University of Washington, Allen Institute for AI, NVIDIA |
 
-## November 2024 (2)
+## December 2024 (3)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Nov 29, 2024 | [CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation](https://arxiv.org/abs/2411.19650) | `VLA` / Robotics VLA Architecture | Microsoft Research Asia, Tsinghua |
-| Nov 15, 2024 | [LLaVA-CoT: Let Vision Language Models Reason Step-by-Step](https://arxiv.org/abs/2411.10440) | `VLM` / Multimodal Reasoning | PKU, Tsinghua |
+| Dec 31, 2024 | ⭐ [Titans: Learning to Memorize at Test Time](https://arxiv.org/abs/2501.00663) | `LLM` / Recurrent & Compressive Memory Models | Google |
+| Dec 19, 2024 | [STRAP: Robot Sub-Trajectory Retrieval for Augmented Policy Learning](https://arxiv.org/abs/2412.15182) | `VLA` / Robot Skill & Experience Memory | UT Austin, Stanford |
+| Dec 12, 2024 | [Memory Layers at Scale](https://arxiv.org/abs/2412.09764) | `LLM` / Recurrent & Compressive Memory Models | Meta |
 
-## October 2024 (8)
+## November 2024 (1)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Oct 31, 2024 | ⭐ [π0: A Vision-Language-Action Flow Model for General Robot Control](https://arxiv.org/abs/2410.24164) | `VLA` / Robotics VLA Architecture | Physical Intelligence |
-| Oct 30, 2024 | [OS-ATLAS: A Foundation Action Model for Generalist GUI Agents](https://arxiv.org/abs/2410.23218) | `VLM` / GUI & Multimodal Agents | Shanghai AI Lab |
-| Oct 30, 2024 | ⭐ [EMMA: End-to-End Multimodal Model for Autonomous Driving](https://arxiv.org/abs/2410.23262) | `VLA` / Autonomous Driving VLA | Waymo |
-| Oct 29, 2024 | [Senna: Bridging Large Vision-Language Models and End-to-End Autonomous Driving](https://arxiv.org/abs/2410.22313) | `VLA` / Autonomous Driving VLA | HUST, Horizon Robotics |
-| Oct 29, 2024 | ⭐ [Precise and Dexterous Robotic Manipulation via Human-in-the-Loop Reinforcement Learning](https://arxiv.org/abs/2410.21845) | `VLA` / RL & Policy Optimization | UC Berkeley |
-| Oct 15, 2024 | ⭐ [Latent Action Pretraining from Videos](https://arxiv.org/abs/2410.11758) | `VLA` / Action Tokenization & Representation | KAIST, UW, NVIDIA, AI2 |
-| Oct 10, 2024 | [RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation](https://arxiv.org/abs/2410.07864) | `VLA` / Robotics VLA Architecture | Tsinghua |
-| Oct 3, 2024 | [Video Instruction Tuning With Synthetic Data](https://arxiv.org/abs/2410.02713) | `VLM` / Video & Long-Horizon Understanding | ByteDance, NTU |
+| Nov 23, 2024 | ⭐ [3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning](https://arxiv.org/abs/2411.17735) | `VLA` / Spatial & Semantic Scene Memory | UC San Diego, Stanford |
+
+## October 2024 (4)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Oct 17, 2024 | [RAP: Retrieval-Augmented Personalization for Multimodal Large Language Models](https://arxiv.org/abs/2410.13360) | `VLM` / Episodic & Personalized Visual Memory | Tsinghua, Alibaba |
+| Oct 14, 2024 | ⭐ [LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory](https://arxiv.org/abs/2410.10813) | `LLM` / Memory Benchmarks & Analysis | Salesforce, University of Illinois |
+| Oct 10, 2024 | [Agent S: An Open Agentic Framework that Uses Computers Like a Human](https://arxiv.org/abs/2410.08164) | `VLM` / GUI & Web Agent Memory | Simular Research |
+| Oct 9, 2024 | [Retrieval-Augmented Decision Transformer: External Memory for In-context RL](https://arxiv.org/abs/2410.07071) | `VLA` / Robot Skill & Experience Memory | Johannes Kepler University Linz |
 
 ## September 2024 (3)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Sep 27, 2024 | [Emu3: Next-Token Prediction is All You Need](https://arxiv.org/abs/2409.18869) | `VLM` / Unified Understanding & Generation | BAAI |
-| Sep 25, 2024 | [Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models](https://arxiv.org/abs/2409.17146) | `VLM` / Architecture & Pre-training | Allen Institute for AI |
-| Sep 18, 2024 | ⭐ [Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://arxiv.org/abs/2409.12191) | `VLM` / Architecture & Pre-training | Alibaba |
-
-## August 2024 (3)
-
-| Date | Paper | Track | Institution |
-| --- | --- | --- | --- |
-| Aug 22, 2024 | [Show-o: One Single Transformer to Unify Multimodal Understanding and Generation](https://arxiv.org/abs/2408.12528) | `VLM` / Unified Understanding & Generation | NUS, ByteDance |
-| Aug 6, 2024 | ⭐ [Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters](https://arxiv.org/abs/2408.03314) | `LLM` / Reasoning & Chain-of-Thought | UC Berkeley, Google DeepMind |
-| Aug 6, 2024 | ⭐ [LLaVA-OneVision: Easy Visual Task Transfer](https://arxiv.org/abs/2408.03326) | `VLM` / Video & Long-Horizon Understanding | ByteDance, NTU |
+| Sep 26, 2024 | [Embodied-RAG: General Non-parametric Embodied Memory for Retrieval and Generation](https://arxiv.org/abs/2409.18313) | `VLA` / VLA Memory Architectures | CMU |
+| Sep 11, 2024 | ⭐ [Agent Workflow Memory](https://arxiv.org/abs/2409.07429) | `VLM` / GUI & Web Agent Memory | CMU, Meta |
+| Sep 9, 2024 | [MemoRAG: Boosting Long Context Processing with Global Memory-Inspired Retrieval Augmentation](https://arxiv.org/abs/2409.05591) | `LLM` / Retrieval-Augmented Memory | BAAI, Renmin University |
 
 ## July 2024 (1)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Jul 31, 2024 | [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) | `LLM` / Foundation Models & Architecture | Meta |
+| Jul 25, 2024 | [Efficient Inference of Vision Instruction-Following Models with Elastic Cache](https://arxiv.org/abs/2407.18121) | `VLM` / Visual Context & Token Memory Compression | Tsinghua, NVIDIA |
 
-## June 2024 (4)
-
-| Date | Paper | Track | Institution |
-| --- | --- | --- | --- |
-| Jun 15, 2024 | [HumanPlus: Humanoid Shadowing and Imitation from Humans](https://arxiv.org/abs/2406.10454) | `VLA` / Navigation & Humanoid | Stanford |
-| Jun 13, 2024 | ⭐ [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) | `VLA` / Robotics VLA Architecture | Stanford, UC Berkeley, TRI, Google DeepMind |
-| Jun 13, 2024 | [OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning](https://arxiv.org/abs/2406.08858) | `VLA` / Navigation & Humanoid | CMU |
-| Jun 3, 2024 | [SpatialRGPT: Grounded Spatial Reasoning in Vision Language Models](https://arxiv.org/abs/2406.01584) | `VLM` / Spatial Intelligence & 3D/4D | NVIDIA, UCSD |
-
-## May 2024 (6)
+## June 2024 (6)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| May 27, 2024 | [Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability](https://arxiv.org/abs/2405.17398) | `VLA` / World Models & Policy Co-learning | GigaAI, CASIA |
-| May 23, 2024 | [A Survey on Vision-Language-Action Models for Embodied AI](https://arxiv.org/abs/2405.14093) | `VLA` / Surveys | CUHK, Huawei Noah's Ark Lab |
-| May 20, 2024 | [Octo: An Open-Source Generalist Robot Policy](https://arxiv.org/abs/2405.12213) | `VLA` / Robotics VLA Architecture | UC Berkeley, Stanford, CMU |
-| May 16, 2024 | [Chameleon: Mixed-Modal Early-Fusion Foundation Models](https://arxiv.org/abs/2405.09818) | `VLM` / Unified Understanding & Generation | Meta |
-| May 9, 2024 | ⭐ [Evaluating Real-World Robot Manipulation Policies in Simulation](https://arxiv.org/abs/2405.05941) | `VLA` / Benchmarks & Safety | UCSD, Stanford, UC Berkeley, Google DeepMind |
-| May 6, 2024 | [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering](https://arxiv.org/abs/2405.15793) | `LLM` / Agent Frameworks & Tool Use | Princeton, Stanford |
+| Jun 26, 2024 | [LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference](https://arxiv.org/abs/2406.18139) | `VLM` / Visual Context & Token Memory Compression | Ohio State University, University of Rochester |
+| Jun 17, 2024 | [VideoLLM-online: Online Video Large Language Model for Streaming Video](https://arxiv.org/abs/2406.11816) | `VLM` / Long Video & Streaming Memory | National University of Singapore, Meta |
+| Jun 13, 2024 | [Yo'LLaVA: Your Personalized Language and Vision Assistant](https://arxiv.org/abs/2406.09400) | `VLM` / Episodic & Personalized Visual Memory | University of Wisconsin-Madison, Allen Institute for AI |
+| Jun 13, 2024 | [Needle In A Video Haystack: A Scalable Synthetic Evaluator for Video MLLMs](https://arxiv.org/abs/2406.09367) | `VLM` / Benchmarks & Analysis | CUHK, Shanghai AI Lab |
+| Jun 12, 2024 | ⭐ [Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams](https://arxiv.org/abs/2406.08085) | `VLM` / Long Video & Streaming Memory | Tsinghua, ByteDance |
+| Jun 6, 2024 | [MLVU: Benchmarking Multi-task Long Video Understanding](https://arxiv.org/abs/2406.04264) | `VLM` / Benchmarks & Analysis | BAAI, Renmin University |
 
-## April 2024 (2)
-
-| Date | Paper | Track | Institution |
-| --- | --- | --- | --- |
-| Apr 18, 2024 | [BLINK: Multimodal Large Language Models Can See but Not Perceive](https://arxiv.org/abs/2404.12390) | `VLM` / Benchmarks & Hallucination | UPenn, Allen Institute for AI, Washington |
-| Apr 10, 2024 | [Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](https://arxiv.org/abs/2404.07143) | `LLM` / Memory, Context & Retrieval | Google |
-
-## March 2024 (5)
+## May 2024 (2)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Mar 22, 2024 | [LLaVA-PruMerge: Adaptive Token Reduction for Efficient Large Multimodal Models](https://arxiv.org/abs/2403.15388) | `VLM` / Efficient VLM | UW-Madison, Cleveland Clinic |
-| Mar 19, 2024 | [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](https://arxiv.org/abs/2403.12945) | `VLA` / Data, Pre-training & Simulation | Stanford, UC Berkeley, TRI and 13 institutions |
-| Mar 11, 2024 | [An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models](https://arxiv.org/abs/2403.06764) | `VLM` / Efficient VLM | PKU, Alibaba |
-| Mar 8, 2024 | [Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context](https://arxiv.org/abs/2403.05530) | `VLM` / Architecture & Pre-training | Google DeepMind |
-| Mar 5, 2024 | [Behavior Generation with Latent Actions](https://arxiv.org/abs/2403.03181) | `VLA` / Action Tokenization & Representation | NYU |
+| May 25, 2024 | [Streaming Long Video Understanding with Large Language Models](https://arxiv.org/abs/2405.16009) | `VLM` / Long Video & Streaming Memory | CUHK, Shanghai AI Lab |
+| May 23, 2024 | ⭐ [HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models](https://arxiv.org/abs/2405.14831) | `LLM` / Retrieval-Augmented Memory | Ohio State University |
 
-## February 2024 (4)
+## April 2024 (7)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Feb 24, 2024 | [NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation](https://arxiv.org/abs/2402.15852) | `VLA` / Navigation & Humanoid | PKU, Beijing Academy of AI |
-| Feb 23, 2024 | ⭐ [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391) | `VLA` / World Models & Policy Co-learning | Google DeepMind |
-| Feb 19, 2024 | ⭐ [DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models](https://arxiv.org/abs/2402.12289) | `VLA` / Autonomous Driving VLA | Tsinghua, Li Auto |
-| Feb 5, 2024 | ⭐ [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/abs/2402.03300) | `LLM` / Post-training, RLHF & RLVR | DeepSeek |
+| Apr 26, 2024 | [MovieChat+: Question-aware Sparse Memory for Long Video Question Answering](https://arxiv.org/abs/2404.17176) | `VLM` / Long Video & Streaming Memory | Zhejiang University, Alibaba |
+| Apr 24, 2024 | [From Local to Global: A Graph RAG Approach to Query-Focused Summarization](https://arxiv.org/abs/2404.16130) | `LLM` / Retrieval-Augmented Memory | Microsoft |
+| Apr 22, 2024 | [SnapKV: LLM Knows What You are Looking for Before Generation](https://arxiv.org/abs/2404.14469) | `LLM` / KV Cache & Context Memory Compression | UIUC, Cohere |
+| Apr 21, 2024 | ⭐ [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501) | `LLM` / Surveys | Renmin University, Huawei |
+| Apr 17, 2024 | [Retrieval-Augmented Embodied Agents](https://arxiv.org/abs/2404.11699) | `VLA` / Robot Skill & Experience Memory | Purdue, University of Michigan |
+| Apr 10, 2024 | [Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](https://arxiv.org/abs/2404.07143) | `LLM` / KV Cache & Context Memory Compression | Google |
+| Apr 8, 2024 | ⭐ [MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding](https://arxiv.org/abs/2404.05726) | `VLM` / Multimodal Memory Architectures | University of Maryland, Meta |
 
-## January 2024 (4)
-
-| Date | Paper | Track | Institution |
-| --- | --- | --- | --- |
-| Jan 29, 2024 | [SERL: A Software Suite for Sample-Efficient Robotic Reinforcement Learning](https://arxiv.org/abs/2401.16013) | `VLA` / RL & Policy Optimization | UC Berkeley |
-| Jan 22, 2024 | ⭐ [SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities](https://arxiv.org/abs/2401.12168) | `VLM` / Spatial Intelligence & 3D/4D | Google DeepMind |
-| Jan 17, 2024 | [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://arxiv.org/abs/2401.10935) | `VLM` / GUI & Multimodal Agents | Nanjing University, Alibaba |
-| Jan 8, 2024 | [Mixtral of Experts](https://arxiv.org/abs/2401.04088) | `LLM` / Foundation Models & Architecture | Mistral AI |
-
-## December 2023 (5)
+## March 2024 (3)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Dec 28, 2023 | [MobileVLM: A Fast, Strong and Open Vision Language Assistant for Mobile Devices](https://arxiv.org/abs/2312.16886) | `VLM` / Efficient VLM | Meituan, Zhejiang University |
-| Dec 21, 2023 | [InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks](https://arxiv.org/abs/2312.14238) | `VLM` / Architecture & Pre-training | Shanghai AI Lab |
-| Dec 14, 2023 | ⭐ [CogAgent: A Visual Language Model for GUI Agents](https://arxiv.org/abs/2312.08914) | `VLM` / GUI & Multimodal Agents | Tsinghua, Zhipu AI |
-| Dec 12, 2023 | [LMDrive: Closed-Loop End-to-End Driving with Large Language Models](https://arxiv.org/abs/2312.07488) | `VLA` / Autonomous Driving VLA | CUHK MMLab, Shanghai AI Lab |
-| Dec 1, 2023 | [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) | `LLM` / Foundation Models & Architecture | CMU, Princeton |
+| Mar 21, 2024 | [MyVLM: Personalizing VLMs for User-Specific Queries](https://arxiv.org/abs/2403.14599) | `VLM` / Episodic & Personalized Visual Memory | Tel Aviv University, Snap |
+| Mar 18, 2024 | [Larimar: Large Language Models with Episodic Memory Control](https://arxiv.org/abs/2403.11901) | `LLM` / Memory Architectures & Memory OS | IBM Research, Princeton |
+| Mar 15, 2024 | [VideoAgent: Long-form Video Understanding with Large Language Model as Agent](https://arxiv.org/abs/2403.10517) | `VLM` / Long Video & Streaming Memory | Stanford |
 
-## November 2023 (2)
+## February 2024 (6)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Nov 27, 2023 | ⭐ [MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI](https://arxiv.org/abs/2311.16502) | `VLM` / Benchmarks & Hallucination | IN.AI, Waterloo, OSU |
-| Nov 20, 2023 | [GPQA: A Graduate-Level Google-Proof Q&A Benchmark](https://arxiv.org/abs/2311.12022) | `LLM` / Evaluation & Benchmarks | NYU, Anthropic |
+| Feb 29, 2024 | ⭐ [MemoNav: Working Memory Model for Visual Navigation](https://arxiv.org/abs/2402.19161) | `VLA` / Navigation Memory | PKU, Beijing Academy of AI |
+| Feb 27, 2024 | ⭐ [Evaluating Very Long-Term Conversational Memory of LLM Agents](https://arxiv.org/abs/2402.17753) | `LLM` / Memory Benchmarks & Analysis | USC, Snap, Google |
+| Feb 24, 2024 | [NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation](https://arxiv.org/abs/2402.15852) | `VLA` / Navigation Memory | PKU, Beijing Academy of AI |
+| Feb 23, 2024 | [RoboEXP: Action-Conditioned Scene Graph via Interactive Exploration for Robotic Manipulation](https://arxiv.org/abs/2402.15487) | `VLA` / Spatial & Semantic Scene Memory | UC San Diego, Tsinghua |
+| Feb 8, 2024 | [Memory Consolidation Enables Long-Context Video Understanding](https://arxiv.org/abs/2402.05861) | `VLM` / Long Video & Streaming Memory | Google DeepMind, University of Oxford |
+| Feb 7, 2024 | [MEMORYLLM: Towards Self-Updatable Large Language Models](https://arxiv.org/abs/2402.04624) | `LLM` / Memory Architectures & Memory OS | UC San Diego |
 
-## October 2023 (5)
-
-| Date | Paper | Track | Institution |
-| --- | --- | --- | --- |
-| Oct 13, 2023 | ⭐ [Open X-Embodiment: Robotic Learning Datasets and RT-X Models](https://arxiv.org/abs/2310.08864) | `VLA` / Data, Pre-training & Simulation | Google DeepMind and 30+ institutions |
-| Oct 10, 2023 | ⭐ [SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770) | `LLM` / Agent Frameworks & Tool Use | Princeton, Chicago |
-| Oct 5, 2023 | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744) | `VLM` / Architecture & Pre-training | UW-Madison, Microsoft |
-| Oct 3, 2023 | [MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts](https://arxiv.org/abs/2310.02255) | `VLM` / Benchmarks & Hallucination | UCLA, Microsoft |
-| Oct 2, 2023 | [DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model](https://arxiv.org/abs/2310.01412) | `VLA` / Autonomous Driving VLA | HKU, Zhejiang University, Huawei |
-
-## September 2023 (4)
+## January 2024 (1)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Sep 29, 2023 | [GAIA-1: A Generative World Model for Autonomous Driving](https://arxiv.org/abs/2309.17080) | `VLA` / World Models & Policy Co-learning | Wayve |
-| Sep 18, 2023 | [DriveDreamer: Towards Real-world-Driven World Models for Autonomous Driving](https://arxiv.org/abs/2309.09777) | `VLA` / World Models & Policy Co-learning | GigaAI, Tsinghua |
-| Sep 14, 2023 | [The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/abs/2309.07864) | `LLM` / Surveys | Fudan |
-| Sep 12, 2023 | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180) | `LLM` / Efficient Training & Inference | UC Berkeley |
+| Jan 2, 2024 | [A Comprehensive Study of Knowledge Editing for Large Language Models](https://arxiv.org/abs/2401.01286) | `LLM` / Parametric Memory & Knowledge Editing | Zhejiang University |
 
-## August 2023 (6)
+## November 2023 (1)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Aug 24, 2023 | [Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/abs/2308.12966) | `VLM` / Architecture & Pre-training | Alibaba |
-| Aug 24, 2023 | [BridgeData V2: A Dataset for Robot Learning at Scale](https://arxiv.org/abs/2308.12952) | `VLA` / Data, Pre-training & Simulation | UC Berkeley, Stanford, Google DeepMind, CMU |
-| Aug 22, 2023 | [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432) | `LLM` / Surveys | Renmin University |
-| Aug 21, 2023 | [AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors](https://arxiv.org/abs/2308.10848) | `LLM` / Multi-Agent Systems | Tsinghua, BUPT |
-| Aug 16, 2023 | [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155) | `LLM` / Agent Frameworks & Tool Use | Microsoft |
-| Aug 1, 2023 | [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](https://arxiv.org/abs/2308.00352) | `LLM` / Multi-Agent Systems | DeepWisdom, KAUST |
+| Nov 15, 2023 | [Think-in-Memory: Recalling and Post-thinking Enable LLMs with Long-Term Memory](https://arxiv.org/abs/2311.08719) | `LLM` / Long-Term & Personalized Memory | Huawei |
 
-## July 2023 (4)
+## October 2023 (3)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Jul 28, 2023 | ⭐ [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://arxiv.org/abs/2307.15818) | `VLA` / Robotics VLA Architecture | Google DeepMind |
-| Jul 16, 2023 | [ChatDev: Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924) | `LLM` / Multi-Agent Systems | Tsinghua, BUPT |
-| Jul 12, 2023 | [MMBench: Is Your Multi-modal Model an All-around Player?](https://arxiv.org/abs/2307.06281) | `VLM` / Benchmarks & Hallucination | Shanghai AI Lab |
-| Jul 6, 2023 | [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) | `LLM` / Memory, Context & Retrieval | Stanford, UC Berkeley |
+| Oct 12, 2023 | ⭐ [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560) | `LLM` / Memory Architectures & Memory OS | UC Berkeley |
+| Oct 9, 2023 | [LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models](https://arxiv.org/abs/2310.05736) | `LLM` / KV Cache & Context Memory Compression | Microsoft |
+| Oct 3, 2023 | [Model Tells You What to Discard: Adaptive KV Cache Compression for LLMs](https://arxiv.org/abs/2310.01801) | `LLM` / KV Cache & Context Memory Compression | Microsoft, University of Illinois |
 
-## June 2023 (5)
-
-| Date | Paper | Track | Institution |
-| --- | --- | --- | --- |
-| Jun 26, 2023 | [Kosmos-2: Grounding Multimodal Large Language Models to the World](https://arxiv.org/abs/2306.14824) | `VLM` / Grounding, Detection & Segmentation | Microsoft |
-| Jun 23, 2023 | [A Survey on Multimodal Large Language Models](https://arxiv.org/abs/2306.13549) | `VLM` / Surveys | USTC, Tencent |
-| Jun 9, 2023 | ⭐ [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685) | `LLM` / Evaluation & Benchmarks | UC Berkeley, Stanford, CMU |
-| Jun 5, 2023 | [Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding](https://arxiv.org/abs/2306.02858) | `VLM` / Video & Long-Horizon Understanding | Alibaba DAMO |
-| Jun 5, 2023 | ⭐ [LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning](https://arxiv.org/abs/2306.03310) | `VLA` / Benchmarks & Safety | UT Austin, Sony AI |
-
-## May 2023 (4)
+## September 2023 (3)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| May 29, 2023 | ⭐ [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290) | `LLM` / Post-training, RLHF & RLVR | Stanford |
-| May 25, 2023 | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) | `LLM` / Agent Frameworks & Tool Use | NVIDIA, Caltech, Stanford |
-| May 17, 2023 | [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) | `LLM` / Reasoning & Chain-of-Thought | Princeton, Google DeepMind |
-| May 17, 2023 | [Evaluating Object Hallucination in Large Vision-Language Models](https://arxiv.org/abs/2305.10355) | `VLM` / Benchmarks & Hallucination | Renmin University |
+| Sep 29, 2023 | ⭐ [Efficient Streaming Language Models with Attention Sinks](https://arxiv.org/abs/2309.17453) | `LLM` / KV Cache & Context Memory Compression | MIT, Meta, CMU, NVIDIA |
+| Sep 28, 2023 | ⭐ [ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning](https://arxiv.org/abs/2309.16650) | `VLA` / Spatial & Semantic Scene Memory | MIT, University of Montreal, Mila |
+| Sep 5, 2023 | ⭐ [Cognitive Architectures for Language Agents](https://arxiv.org/abs/2309.02427) | `LLM` / Memory Architectures & Memory OS | Princeton |
+
+## August 2023 (4)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Aug 29, 2023 | [Recursively Summarizing Enables Long-Term Dialogue Memory in Large Language Models](https://arxiv.org/abs/2308.15022) | `LLM` / Long-Term & Personalized Memory | Tencent AI Lab |
+| Aug 20, 2023 | [ExpeL: LLM Agents Are Experiential Learners](https://arxiv.org/abs/2308.10144) | `LLM` / Agent Experience & Skill Memory | Nanyang Technological University |
+| Aug 17, 2023 | [EgoSchema: A Diagnostic Benchmark for Very Long-form Video Language Understanding](https://arxiv.org/abs/2308.09126) | `VLM` / Benchmarks & Analysis | UC Berkeley, Meta |
+| Aug 16, 2023 | [MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation](https://arxiv.org/abs/2308.08239) | `LLM` / Long-Term & Personalized Memory | Tencent |
+
+## July 2023 (2)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Jul 31, 2023 | ⭐ [MovieChat: From Dense Token to Sparse Memory for Long Video Understanding](https://arxiv.org/abs/2307.16449) | `VLM` / Long Video & Streaming Memory | Zhejiang University, Microsoft, University of Washington |
+| Jul 6, 2023 | [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) | `LLM` / Memory Benchmarks & Analysis | Stanford, UC Berkeley, Samaya AI |
+
+## June 2023 (2)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Jun 24, 2023 | ⭐ [H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models](https://arxiv.org/abs/2306.14048) | `LLM` / KV Cache & Context Memory Compression | UT Austin, Stanford, CMU |
+| Jun 13, 2023 | [Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control](https://arxiv.org/abs/2306.07863) | `VLM` / GUI & Web Agent Memory | Nanyang Technological University, Microsoft |
+
+## May 2023 (3)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| May 25, 2023 | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) | `LLM` / Agent Experience & Skill Memory | NVIDIA, Caltech, Stanford |
+| May 25, 2023 | [Landmark Attention: Random-Access Infinite Context Length for Transformers](https://arxiv.org/abs/2305.16300) | `LLM` / KV Cache & Context Memory Compression | EPFL |
+| May 17, 2023 | ⭐ [MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://arxiv.org/abs/2305.10250) | `LLM` / Long-Term & Personalized Memory | Zhejiang University, Westlake University |
 
 ## April 2023 (4)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Apr 23, 2023 | ⭐ [Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](https://arxiv.org/abs/2304.13705) | `VLA` / Action Tokenization & Representation | Stanford |
-| Apr 17, 2023 | ⭐ [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485) | `VLM` / Architecture & Pre-training | UW-Madison, Microsoft |
-| Apr 7, 2023 | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | `LLM` / Agent Frameworks & Tool Use | Stanford, Google |
-| Apr 5, 2023 | ⭐ [Segment Anything](https://arxiv.org/abs/2304.02643) | `VLM` / Grounding, Detection & Segmentation | Meta |
+| Apr 26, 2023 | [Enhancing Large Language Model with Self-Controlled Memory Framework](https://arxiv.org/abs/2304.13343) | `LLM` / Long-Term & Personalized Memory | CAS, Alibaba |
+| Apr 19, 2023 | [Scaling Transformer to 1M tokens and beyond with RMT](https://arxiv.org/abs/2304.11062) | `LLM` / Recurrent & Compressive Memory Models | AIRI, Moscow Institute of Physics and Technology |
+| Apr 18, 2023 | [Behavior Retrieval: Few-Shot Imitation Learning by Querying Unlabeled Datasets](https://arxiv.org/abs/2304.08742) | `VLA` / Robot Skill & Experience Memory | Stanford |
+| Apr 7, 2023 | ⭐ [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | `LLM` / Agent Experience & Skill Memory | Stanford, Google |
 
-## March 2023 (7)
-
-| Date | Paper | Track | Institution |
-| --- | --- | --- | --- |
-| Mar 31, 2023 | [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223) | `LLM` / Surveys | Renmin University |
-| Mar 27, 2023 | [Sigmoid Loss for Language Image Pre-Training](https://arxiv.org/abs/2303.15343) | `VLM` / Architecture & Pre-training | Google DeepMind |
-| Mar 20, 2023 | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | `LLM` / Agent Frameworks & Tool Use | Northeastern, MIT |
-| Mar 20, 2023 | [MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action](https://arxiv.org/abs/2303.11381) | `VLM` / Multimodal Reasoning | Microsoft |
-| Mar 15, 2023 | ⭐ [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) | `LLM` / Foundation Models & Architecture | OpenAI |
-| Mar 9, 2023 | [Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection](https://arxiv.org/abs/2303.05499) | `VLM` / Grounding, Detection & Segmentation | IDEA Research |
-| Mar 7, 2023 | ⭐ [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](https://arxiv.org/abs/2303.04137) | `VLA` / Action Tokenization & Representation | Columbia, TRI, MIT |
-
-## February 2023 (2)
+## March 2023 (1)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Feb 27, 2023 | ⭐ [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) | `LLM` / Foundation Models & Architecture | Meta |
-| Feb 9, 2023 | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761) | `LLM` / Agent Frameworks & Tool Use | Meta |
+| Mar 20, 2023 | ⭐ [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | `LLM` / Agent Experience & Skill Memory | Northeastern, MIT, Princeton |
 
-## January 2023 (2)
-
-| Date | Paper | Track | Institution |
-| --- | --- | --- | --- |
-| Jan 31, 2023 | [Learning Universal Policies via Text-Guided Video Generation](https://arxiv.org/abs/2302.00111) | `VLA` / World Models & Policy Co-learning | MIT, Google DeepMind |
-| Jan 30, 2023 | [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) | `VLM` / Architecture & Pre-training | Salesforce |
-
-## December 2022 (2)
+## October 2022 (3)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Dec 15, 2022 | [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) | `LLM` / Post-training, RLHF & RLVR | Anthropic |
-| Dec 13, 2022 | ⭐ [RT-1: Robotics Transformer for Real-World Control at Scale](https://arxiv.org/abs/2212.06817) | `VLA` / Robotics VLA Architecture | Google |
+| Oct 13, 2022 | ⭐ [Mass-Editing Memory in a Transformer](https://arxiv.org/abs/2210.07229) | `LLM` / Parametric Memory & Knowledge Editing | Northeastern, MIT |
+| Oct 11, 2022 | [Visual Language Maps for Robot Navigation](https://arxiv.org/abs/2210.05714) | `VLA` / Spatial & Semantic Scene Memory | University of Freiburg, Google |
+| Oct 11, 2022 | [CLIP-Fields: Weakly Supervised Semantic Fields for Robotic Memory](https://arxiv.org/abs/2210.05663) | `VLA` / Spatial & Semantic Scene Memory | NYU, Meta |
 
-## November 2022 (2)
-
-| Date | Paper | Track | Institution |
-| --- | --- | --- | --- |
-| Nov 30, 2022 | [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192) | `LLM` / Efficient Training & Inference | Google |
-| Nov 18, 2022 | [Visual Programming: Compositional visual reasoning without training](https://arxiv.org/abs/2211.11559) | `VLM` / Multimodal Reasoning | Allen Institute for AI |
-
-## October 2022 (1)
+## September 2022 (1)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Oct 6, 2022 | ⭐ [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) | `LLM` / Agent Frameworks & Tool Use | Princeton, Google |
+| Sep 17, 2022 | [Topological Semantic Graph Memory for Image-Goal Navigation](https://arxiv.org/abs/2209.08274) | `VLA` / Navigation Memory | Seoul National University |
+
+## July 2022 (1)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Jul 14, 2022 | [Recurrent Memory Transformer](https://arxiv.org/abs/2207.06881) | `LLM` / Recurrent & Compressive Memory Models | AIRI, Moscow Institute of Physics and Technology |
 
 ## May 2022 (1)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| May 27, 2022 | ⭐ [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) | `LLM` / Efficient Training & Inference | Stanford |
+| May 3, 2022 | [Episodic Memory Question Answering](https://arxiv.org/abs/2205.01652) | `VLM` / Episodic & Personalized Visual Memory | Meta, Georgia Tech |
 
-## April 2022 (1)
-
-| Date | Paper | Track | Institution |
-| --- | --- | --- | --- |
-| Apr 29, 2022 | [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) | `VLM` / Architecture & Pre-training | Google DeepMind |
-
-## March 2022 (2)
+## March 2022 (1)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Mar 21, 2022 | [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171) | `LLM` / Reasoning & Chain-of-Thought | Google |
-| Mar 4, 2022 | ⭐ [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) | `LLM` / Post-training, RLHF & RLVR | OpenAI |
+| Mar 16, 2022 | ⭐ [Memorizing Transformers](https://arxiv.org/abs/2203.08913) | `LLM` / Recurrent & Compressive Memory Models | Google |
 
-## January 2022 (1)
+## February 2022 (2)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Jan 28, 2022 | ⭐ [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) | `LLM` / Reasoning & Chain-of-Thought | Google |
+| Feb 15, 2022 | [Quantifying Memorization Across Neural Language Models](https://arxiv.org/abs/2202.07646) | `LLM` / Memory Benchmarks & Analysis | Google, ETH Zurich, Princeton |
+| Feb 10, 2022 | ⭐ [Locating and Editing Factual Associations in GPT](https://arxiv.org/abs/2202.05262) | `LLM` / Parametric Memory & Knowledge Editing | MIT, Northeastern |
 
 ## December 2021 (1)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Dec 6, 2021 | [CALVIN: A Benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks](https://arxiv.org/abs/2112.03227) | `VLA` / Benchmarks & Safety | University of Freiburg |
+| Dec 8, 2021 | [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426) | `LLM` / Retrieval-Augmented Memory | Google DeepMind |
 
-## June 2021 (1)
-
-| Date | Paper | Track | Institution |
-| --- | --- | --- | --- |
-| Jun 17, 2021 | ⭐ [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) | `LLM` / Efficient Training & Inference | Microsoft |
-
-## February 2021 (1)
+## October 2021 (2)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| Feb 26, 2021 | ⭐ [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) | `VLM` / Architecture & Pre-training | OpenAI |
+| Oct 21, 2021 | [Fast Model Editing at Scale](https://arxiv.org/abs/2110.11309) | `LLM` / Parametric Memory & Knowledge Editing | Stanford |
+| Oct 13, 2021 | ⭐ [Ego4D: Around the World in 3,000 Hours of Egocentric Video](https://arxiv.org/abs/2110.07058) | `VLM` / Episodic & Personalized Visual Memory | Meta, 88 institutions |
 
-## September 2020 (1)
-
-| Date | Paper | Track | Institution |
-| --- | --- | --- | --- |
-| Sep 7, 2020 | [Measuring Massive Multitask Language Understanding](https://arxiv.org/abs/2009.03300) | `LLM` / Evaluation & Benchmarks | UC Berkeley |
-
-## May 2020 (1)
+## July 2021 (1)
 
 | Date | Paper | Track | Institution |
 | --- | --- | --- | --- |
-| May 22, 2020 | ⭐ [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | `LLM` / Memory, Context & Retrieval | Meta, UCL, NYU |
+| Jul 15, 2021 | [Beyond Goldfish Memory: Long-Term Open-Domain Conversation](https://arxiv.org/abs/2107.07567) | `LLM` / Long-Term & Personalized Memory | Meta |
+
+## April 2021 (1)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Apr 18, 2021 | [Knowledge Neurons in Pretrained Transformers](https://arxiv.org/abs/2104.08696) | `LLM` / Parametric Memory & Knowledge Editing | PKU, Microsoft |
+
+## March 2021 (1)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Mar 5, 2021 | [Structured Scene Memory for Vision-Language Navigation](https://arxiv.org/abs/2103.03454) | `VLA` / Spatial & Semantic Scene Memory | Beijing Institute of Technology, Inception Institute of AI |
+
+## January 2021 (1)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Jan 13, 2021 | [Memory-Augmented Reinforcement Learning for Image-Goal Navigation](https://arxiv.org/abs/2101.05181) | `VLA` / Navigation Memory | Inria, Naver Labs Europe |
+
+## December 2020 (2)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Dec 29, 2020 | ⭐ [Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913) | `LLM` / Parametric Memory & Knowledge Editing | Allen Institute for AI, Cornell, Tel Aviv University |
+| Dec 14, 2020 | [Extracting Training Data from Large Language Models](https://arxiv.org/abs/2012.07805) | `LLM` / Memory Benchmarks & Analysis | Google, Stanford, UC Berkeley |
+
+## October 2020 (1)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Oct 2, 2020 | [Semantic MapNet: Building Allocentric Semantic Maps and Representations from Egocentric Views](https://arxiv.org/abs/2010.01191) | `VLA` / Spatial & Semantic Scene Memory | Georgia Tech, Meta |
+
+## May 2020 (2)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| May 25, 2020 | ⭐ [Neural Topological SLAM for Visual Navigation](https://arxiv.org/abs/2005.12256) | `VLA` / Navigation Memory | CMU, Meta, UIUC |
+| May 22, 2020 | ⭐ [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | `LLM` / Retrieval-Augmented Memory | Meta, UCL, NYU |
+
+## April 2020 (1)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Apr 10, 2020 | ⭐ [Learning To Explore Using Active Neural SLAM](https://arxiv.org/abs/2004.05155) | `VLA` / Navigation Memory | CMU, Meta, UIUC |
+
+## February 2020 (1)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Feb 10, 2020 | [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/abs/2002.08909) | `LLM` / Retrieval-Augmented Memory | Google |
+
+## November 2019 (2)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Nov 13, 2019 | [Compressive Transformers for Long-Range Sequence Modelling](https://arxiv.org/abs/1911.05507) | `LLM` / Recurrent & Compressive Memory Models | Google DeepMind |
+| Nov 1, 2019 | ⭐ [Generalization through Memorization: Nearest Neighbor Language Models](https://arxiv.org/abs/1911.00172) | `LLM` / Retrieval-Augmented Memory | Stanford, Meta |
+
+## March 2019 (1)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Mar 9, 2019 | [Scene Memory Transformer for Embodied Agents in Long-Horizon Tasks](https://arxiv.org/abs/1903.03878) | `VLA` / Spatial & Semantic Scene Memory | Google, UC Berkeley |
+
+## January 2019 (1)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Jan 9, 2019 | ⭐ [Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/abs/1901.02860) | `LLM` / Recurrent & Compressive Memory Models | CMU, Google |
+
+## February 2017 (1)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Feb 27, 2017 | [Neural Map: Structured Memory for Deep Reinforcement Learning](https://arxiv.org/abs/1702.08360) | `VLA` / Spatial & Semantic Scene Memory | CMU, Microsoft |
+
+## March 2015 (1)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Mar 31, 2015 | [End-To-End Memory Networks](https://arxiv.org/abs/1503.08895) | `LLM` / Recurrent & Compressive Memory Models | Meta, NYU |
+
+## October 2014 (2)
+
+| Date | Paper | Track | Institution |
+| --- | --- | --- | --- |
+| Oct 20, 2014 | ⭐ [Neural Turing Machines](https://arxiv.org/abs/1410.5401) | `LLM` / Recurrent & Compressive Memory Models | Google DeepMind |
+| Oct 15, 2014 | ⭐ [Memory Networks](https://arxiv.org/abs/1410.3916) | `LLM` / Recurrent & Compressive Memory Models | Meta |

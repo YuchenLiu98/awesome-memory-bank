@@ -1,50 +1,33 @@
 # The paper database. This file is the single source of truth for README.md,
 # TIMELINE.md and BY_INSTITUTION.md -- never edit those by hand.
 #
+# Scope: memory is the contribution. A strong model that merely has a KV cache
+# does not belong here.
+#
 # Minimal entry (title / date / url are filled in by scripts/sync_metadata.py):
 #
-#   - arxiv: "2410.24164"
-#     institution: "Physical Intelligence"
+#   - arxiv: "2508.19236"
+#     institution: "Shanghai AI Lab, Tsinghua"
 #     section: vla            # llm | vlm | vla
-#     subcategory: robot-arch # must exist in data/categories.yaml
+#     subcategory: vla-mem    # must exist in data/categories.yaml
 #     summary: "One line on why this paper matters."
 #
 # Optional: code, project, venue, tags, star (true = highlighted in README).
 
 papers:
   # ==========================================================
-  # I. LLM & Agent
+  # I. LLM & Agent Memory
   # ==========================================================
-  - arxiv: '2210.03629'
-    title: 'ReAct: Synergizing Reasoning and Acting in Language Models'
-    institution: Princeton, Google
-    date: '2022-10-06'
-    url: https://arxiv.org/abs/2210.03629
-    venue: arXiv 2022
-    section: llm
-    subcategory: agent
-    star: true
-    summary: Interleaving thought and action traces; still the backbone loop of most agent frameworks.
-
-  - arxiv: '2302.04761'
-    title: 'Toolformer: Language Models Can Teach Themselves to Use Tools'
-    institution: Meta
-    date: '2023-02-09'
-    url: https://arxiv.org/abs/2302.04761
-    venue: arXiv 2023
-    section: llm
-    subcategory: agent
-    summary: Self-supervised discovery of when to call an API, without human tool-use annotations.
-
   - arxiv: '2303.11366'
     title: 'Reflexion: Language Agents with Verbal Reinforcement Learning'
-    institution: Northeastern, MIT
+    institution: Northeastern, MIT, Princeton
     date: '2023-03-20'
     url: https://arxiv.org/abs/2303.11366
     venue: arXiv 2023
     section: llm
-    subcategory: agent
-    summary: Turns failure feedback into natural-language memory instead of gradient updates.
+    subcategory: agent-exp
+    star: true
+    summary: Stores failures as natural-language lessons in an episodic buffer instead of updating weights.
 
   - arxiv: '2304.03442'
     title: 'Generative Agents: Interactive Simulacra of Human Behavior'
@@ -53,8 +36,9 @@ papers:
     url: https://arxiv.org/abs/2304.03442
     venue: arXiv 2023
     section: llm
-    subcategory: agent
-    summary: Memory stream plus reflection and planning; the reference architecture for believable agent societies.
+    subcategory: agent-exp
+    star: true
+    summary: The memory stream with recency-importance-relevance retrieval and reflection; the reference agent memory design.
 
   - arxiv: '2305.16291'
     title: 'Voyager: An Open-Ended Embodied Agent with Large Language Models'
@@ -63,216 +47,122 @@ papers:
     url: https://arxiv.org/abs/2305.16291
     venue: arXiv 2023
     section: llm
-    subcategory: agent
-    summary: Lifelong skill library growth in Minecraft; an early demonstration of self-directed curriculum.
+    subcategory: agent-exp
+    summary: 'An ever-growing skill library of executable code: procedural memory that compounds.'
 
-  - arxiv: '2308.08155'
-    title: 'AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation'
-    institution: Microsoft
-    date: '2023-08-16'
-    url: https://arxiv.org/abs/2308.08155
+  - arxiv: '2308.10144'
+    title: 'ExpeL: LLM Agents Are Experiential Learners'
+    institution: Nanyang Technological University
+    date: '2023-08-20'
+    url: https://arxiv.org/abs/2308.10144
     venue: arXiv 2023
     section: llm
-    subcategory: agent
-    summary: Conversation as the programming model for composing agents and tools.
+    subcategory: agent-exp
+    summary: Distils cross-task insights from past trials into a reusable experience pool.
 
-  - arxiv: '2310.06770'
-    title: 'SWE-bench: Can Language Models Resolve Real-World GitHub Issues?'
-    institution: Princeton, Chicago
-    date: '2023-10-10'
-    url: https://arxiv.org/abs/2310.06770
-    venue: arXiv 2023
-    section: llm
-    subcategory: agent
-    star: true
-    summary: The benchmark that reoriented agent research toward verifiable software engineering tasks.
-
-  - arxiv: '2405.15793'
-    title: 'SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering'
-    institution: Princeton, Stanford
-    date: '2024-05-06'
-    url: https://arxiv.org/abs/2405.15793
-    venue: arXiv 2024
-    section: llm
-    subcategory: agent
-    summary: Showed that interface design for the agent matters as much as the underlying model.
-
-  - arxiv: '2106.09685'
-    title: 'LoRA: Low-Rank Adaptation of Large Language Models'
-    institution: Microsoft
-    date: '2021-06-17'
-    url: https://arxiv.org/abs/2106.09685
-    venue: arXiv 2021
-    section: llm
-    subcategory: efficiency
-    star: true
-    summary: Low-rank adapters; the default fine-tuning method across every modality in this list.
-
-  - arxiv: '2205.14135'
-    title: 'FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness'
-    institution: Stanford
-    date: '2022-05-27'
-    url: https://arxiv.org/abs/2205.14135
-    venue: arXiv 2022
-    section: llm
-    subcategory: efficiency
-    star: true
-    summary: IO-aware attention kernel; the single largest practical speedup in transformer training.
-
-  - arxiv: '2211.17192'
-    title: Fast Inference from Transformers via Speculative Decoding
-    institution: Google
-    date: '2022-11-30'
-    url: https://arxiv.org/abs/2211.17192
-    venue: arXiv 2022
-    section: llm
-    subcategory: efficiency
-    summary: Draft-and-verify decoding; the basis for nearly all latency work that followed.
-
-  - arxiv: '2309.06180'
-    title: Efficient Memory Management for Large Language Model Serving with PagedAttention
-    institution: UC Berkeley
-    date: '2023-09-12'
-    url: https://arxiv.org/abs/2309.06180
-    venue: arXiv 2023
-    section: llm
-    subcategory: efficiency
-    summary: vLLM's paged KV cache, now the standard serving substrate.
-
-  - arxiv: '2009.03300'
-    title: Measuring Massive Multitask Language Understanding
-    institution: UC Berkeley
-    date: '2020-09-07'
-    url: https://arxiv.org/abs/2009.03300
+  - arxiv: '2012.07805'
+    title: Extracting Training Data from Large Language Models
+    institution: Google, Stanford, UC Berkeley
+    date: '2020-12-14'
+    url: https://arxiv.org/abs/2012.07805
     venue: arXiv 2020
     section: llm
     subcategory: eval
-    summary: MMLU, the benchmark that defined the first generation of LLM leaderboards.
+    summary: Showed verbatim memorization is extractable, turning it into a privacy problem.
 
-  - arxiv: '2306.05685'
-    title: Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena
-    institution: UC Berkeley, Stanford, CMU
-    date: '2023-06-09'
-    url: https://arxiv.org/abs/2306.05685
-    venue: arXiv 2023
+  - arxiv: '2202.07646'
+    title: Quantifying Memorization Across Neural Language Models
+    institution: Google, ETH Zurich, Princeton
+    date: '2022-02-15'
+    url: https://arxiv.org/abs/2202.07646
+    venue: arXiv 2022
     section: llm
     subcategory: eval
-    star: true
-    summary: Established both LLM-as-judge and pairwise arena evaluation as accepted methodology.
-
-  - arxiv: '2311.12022'
-    title: 'GPQA: A Graduate-Level Google-Proof Q&A Benchmark'
-    institution: NYU, Anthropic
-    date: '2023-11-20'
-    url: https://arxiv.org/abs/2311.12022
-    venue: arXiv 2023
-    section: llm
-    subcategory: eval
-    summary: Expert-written questions that survive web search; a key reasoning-era benchmark.
-
-  - arxiv: '2302.13971'
-    title: 'LLaMA: Open and Efficient Foundation Language Models'
-    institution: Meta
-    date: '2023-02-27'
-    url: https://arxiv.org/abs/2302.13971
-    venue: arXiv 2023
-    section: llm
-    subcategory: foundation
-    star: true
-    summary: Showed that small models trained on far more tokens beat larger ones; started the open-weight ecosystem.
-
-  - arxiv: '2303.08774'
-    title: GPT-4 Technical Report
-    institution: OpenAI
-    date: '2023-03-15'
-    url: https://arxiv.org/abs/2303.08774
-    venue: arXiv 2023
-    section: llm
-    subcategory: foundation
-    star: true
-    summary: The report that set the scaling-plus-RLHF template every later frontier model followed.
-
-  - arxiv: '2312.00752'
-    title: 'Mamba: Linear-Time Sequence Modeling with Selective State Spaces'
-    institution: CMU, Princeton
-    date: '2023-12-01'
-    url: https://arxiv.org/abs/2312.00752
-    venue: arXiv 2023
-    section: llm
-    subcategory: foundation
-    summary: Selective state spaces as a linear-time alternative to attention; the root of most hybrid-architecture work.
-
-  - arxiv: '2401.04088'
-    title: Mixtral of Experts
-    institution: Mistral AI
-    date: '2024-01-08'
-    url: https://arxiv.org/abs/2401.04088
-    venue: arXiv 2024
-    section: llm
-    subcategory: foundation
-    summary: Sparse MoE with 8 experts; the reference open implementation of routed sparsity.
-
-  - arxiv: '2407.21783'
-    title: The Llama 3 Herd of Models
-    institution: Meta
-    date: '2024-07-31'
-    url: https://arxiv.org/abs/2407.21783
-    venue: arXiv 2024
-    section: llm
-    subcategory: foundation
-    summary: Unusually detailed account of data curation, pre-training infrastructure and post-training for a 405B model.
-
-  - arxiv: '2412.15115'
-    title: Qwen2.5 Technical Report
-    institution: Alibaba
-    date: '2024-12-19'
-    url: https://arxiv.org/abs/2412.15115
-    venue: arXiv 2024
-    section: llm
-    subcategory: foundation
-    summary: The open-weight family that most Chinese VLM and VLA work now builds on.
-
-  - arxiv: '2412.19437'
-    title: DeepSeek-V3 Technical Report
-    institution: DeepSeek
-    date: '2024-12-27'
-    url: https://arxiv.org/abs/2412.19437
-    venue: arXiv 2024
-    section: llm
-    subcategory: foundation
-    star: true
-    summary: MoE with multi-head latent attention and FP8 training; frontier quality at roughly a tenth of the usual compute bill.
-
-  - arxiv: '2505.09388'
-    title: Qwen3 Technical Report
-    institution: Alibaba
-    date: '2025-05-14'
-    url: https://arxiv.org/abs/2505.09388
-    venue: arXiv 2025
-    section: llm
-    subcategory: foundation
-    summary: Unifies thinking and non-thinking modes in one model with a controllable thinking budget.
-
-  - arxiv: '2005.11401'
-    title: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
-    institution: Meta, UCL, NYU
-    date: '2020-05-22'
-    url: https://arxiv.org/abs/2005.11401
-    venue: arXiv 2020
-    section: llm
-    subcategory: memory
-    star: true
-    summary: The original RAG formulation, still the standard way to attach external knowledge.
+    summary: Memorization scales log-linearly with model size and duplication; the reference measurement study.
 
   - arxiv: '2307.03172'
     title: 'Lost in the Middle: How Language Models Use Long Contexts'
-    institution: Stanford, UC Berkeley
+    institution: Stanford, UC Berkeley, Samaya AI
     date: '2023-07-06'
     url: https://arxiv.org/abs/2307.03172
     venue: arXiv 2023
     section: llm
-    subcategory: memory
-    summary: Documented the U-shaped position bias that motivates most long-context evaluation work.
+    subcategory: eval
+    summary: 'The U-shaped position bias: having context is not the same as remembering it.'
+
+  - arxiv: '2402.17753'
+    title: Evaluating Very Long-Term Conversational Memory of LLM Agents
+    institution: USC, Snap, Google
+    date: '2024-02-27'
+    url: https://arxiv.org/abs/2402.17753
+    venue: arXiv 2024
+    section: llm
+    subcategory: eval
+    star: true
+    summary: 'LoCoMo: 300-turn conversations that expose how quickly assistants lose the thread.'
+
+  - arxiv: '2410.10813'
+    title: 'LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory'
+    institution: Salesforce, University of Illinois
+    date: '2024-10-14'
+    url: https://arxiv.org/abs/2410.10813
+    venue: arXiv 2024
+    section: llm
+    subcategory: eval
+    star: true
+    summary: Separates five memory abilities and shows a 30% accuracy drop on sustained interaction.
+
+  - arxiv: '2305.16300'
+    title: 'Landmark Attention: Random-Access Infinite Context Length for Transformers'
+    institution: EPFL
+    date: '2023-05-25'
+    url: https://arxiv.org/abs/2305.16300
+    venue: arXiv 2023
+    section: llm
+    subcategory: kvcache
+    summary: Landmark tokens index blocks of past context so attention can random-access them.
+
+  - arxiv: '2306.14048'
+    title: 'H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models'
+    institution: UT Austin, Stanford, CMU
+    date: '2023-06-24'
+    url: https://arxiv.org/abs/2306.14048
+    venue: arXiv 2023
+    section: llm
+    subcategory: kvcache
+    star: true
+    summary: A small set of heavy-hitter tokens carries most attention mass, so the rest of the cache can be dropped.
+
+  - arxiv: '2309.17453'
+    title: Efficient Streaming Language Models with Attention Sinks
+    institution: MIT, Meta, CMU, NVIDIA
+    date: '2023-09-29'
+    url: https://arxiv.org/abs/2309.17453
+    venue: arXiv 2023
+    section: llm
+    subcategory: kvcache
+    star: true
+    summary: 'StreamingLLM: keeping a few sink tokens lets a rolling cache run to millions of tokens without collapse.'
+
+  - arxiv: '2310.01801'
+    title: 'Model Tells You What to Discard: Adaptive KV Cache Compression for LLMs'
+    institution: Microsoft, University of Illinois
+    date: '2023-10-03'
+    url: https://arxiv.org/abs/2310.01801
+    venue: arXiv 2023
+    section: llm
+    subcategory: kvcache
+    summary: 'FastGen: profiles each attention head and applies a compression policy matched to its behaviour.'
+
+  - arxiv: '2310.05736'
+    title: 'LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models'
+    institution: Microsoft
+    date: '2023-10-09'
+    url: https://arxiv.org/abs/2310.05736
+    venue: arXiv 2023
+    section: llm
+    subcategory: kvcache
+    summary: Budget-controlled prompt compression that keeps the tokens the model actually attends to.
 
   - arxiv: '2404.07143'
     title: 'Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention'
@@ -281,830 +171,698 @@ papers:
     url: https://arxiv.org/abs/2404.07143
     venue: arXiv 2024
     section: llm
-    subcategory: memory
-    summary: Compressive memory inside the attention layer for unbounded context at bounded cost.
+    subcategory: kvcache
+    summary: A compressive memory inside the attention layer, giving unbounded context at bounded state size.
 
-  - arxiv: '2307.07924'
-    title: 'ChatDev: Communicative Agents for Software Development'
-    institution: Tsinghua, BUPT
-    date: '2023-07-16'
-    url: https://arxiv.org/abs/2307.07924
-    venue: arXiv 2023
-    section: llm
-    subcategory: multiagent
-    summary: A virtual software company where agents hold waterfall-stage dialogues.
-
-  - arxiv: '2308.00352'
-    title: 'MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework'
-    institution: DeepWisdom, KAUST
-    date: '2023-08-01'
-    url: https://arxiv.org/abs/2308.00352
-    venue: arXiv 2023
-    section: llm
-    subcategory: multiagent
-    summary: Encodes SOP-style role division so multi-agent output stays structured.
-
-  - arxiv: '2308.10848'
-    title: 'AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors'
-    institution: Tsinghua, BUPT
-    date: '2023-08-21'
-    url: https://arxiv.org/abs/2308.10848
-    venue: arXiv 2023
-    section: llm
-    subcategory: multiagent
-    summary: A framework for dynamically recruiting agent groups and studying emergent behaviour.
-
-  - arxiv: '2203.02155'
-    title: Training language models to follow instructions with human feedback
-    institution: OpenAI
-    date: '2022-03-04'
-    url: https://arxiv.org/abs/2203.02155
-    venue: arXiv 2022
-    section: llm
-    subcategory: posttrain
-    star: true
-    summary: 'InstructGPT: the paper that made RLHF the default alignment recipe.'
-
-  - arxiv: '2212.08073'
-    title: 'Constitutional AI: Harmlessness from AI Feedback'
-    institution: Anthropic
-    date: '2022-12-15'
-    url: https://arxiv.org/abs/2212.08073
-    venue: arXiv 2022
-    section: llm
-    subcategory: posttrain
-    summary: Replaces human harmlessness labels with a written constitution and model self-critique.
-
-  - arxiv: '2305.18290'
-    title: 'Direct Preference Optimization: Your Language Model is Secretly a Reward Model'
-    institution: Stanford
-    date: '2023-05-29'
-    url: https://arxiv.org/abs/2305.18290
-    venue: arXiv 2023
-    section: llm
-    subcategory: posttrain
-    star: true
-    summary: Removes the reward model and PPO loop from preference tuning; now the default cheap alignment baseline.
-
-  - arxiv: '2402.03300'
-    title: 'DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models'
-    institution: DeepSeek
-    date: '2024-02-05'
-    url: https://arxiv.org/abs/2402.03300
+  - arxiv: '2404.14469'
+    title: 'SnapKV: LLM Knows What You are Looking for Before Generation'
+    institution: UIUC, Cohere
+    date: '2024-04-22'
+    url: https://arxiv.org/abs/2404.14469
     venue: arXiv 2024
     section: llm
-    subcategory: posttrain
-    star: true
-    summary: Introduced GRPO, the critic-free policy optimizer now used across LLM, VLM and VLA post-training.
+    subcategory: kvcache
+    summary: Uses the prompt's own attention pattern to pick which keys to keep before decoding starts.
 
-  - arxiv: '2503.14476'
-    title: 'DAPO: An Open-Source LLM Reinforcement Learning System at Scale'
-    institution: ByteDance Seed, Tsinghua
-    date: '2025-03-18'
-    url: https://arxiv.org/abs/2503.14476
-    venue: arXiv 2025
-    section: llm
-    subcategory: posttrain
-    summary: Decoupled clipping and dynamic sampling; a reproducible large-scale RL recipe with released code.
-
-  - arxiv: '2201.11903'
-    title: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
-    institution: Google
-    date: '2022-01-28'
-    url: https://arxiv.org/abs/2201.11903
-    venue: arXiv 2022
-    section: llm
-    subcategory: reasoning
-    star: true
-    summary: The original observation that asking for intermediate steps unlocks reasoning at scale.
-
-  - arxiv: '2203.11171'
-    title: Self-Consistency Improves Chain of Thought Reasoning in Language Models
-    institution: Google
-    date: '2022-03-21'
-    url: https://arxiv.org/abs/2203.11171
-    venue: arXiv 2022
-    section: llm
-    subcategory: reasoning
-    summary: Sample many chains and majority-vote; the simplest test-time scaling method that still works.
-
-  - arxiv: '2305.10601'
-    title: 'Tree of Thoughts: Deliberate Problem Solving with Large Language Models'
-    institution: Princeton, Google DeepMind
-    date: '2023-05-17'
-    url: https://arxiv.org/abs/2305.10601
-    venue: arXiv 2023
-    section: llm
-    subcategory: reasoning
-    summary: Search over a tree of partial thoughts instead of a single linear chain.
-
-  - arxiv: '2408.03314'
-    title: Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters
-    institution: UC Berkeley, Google DeepMind
-    date: '2024-08-06'
-    url: https://arxiv.org/abs/2408.03314
-    venue: arXiv 2024
-    section: llm
-    subcategory: reasoning
-    star: true
-    summary: Quantified the trade between inference compute and parameters; the analytical basis for reasoning models.
-
-  - arxiv: '2412.06769'
-    title: Training Large Language Models to Reason in a Continuous Latent Space
+  - arxiv: '2107.07567'
+    title: 'Beyond Goldfish Memory: Long-Term Open-Domain Conversation'
     institution: Meta
-    date: '2024-12-09'
-    url: https://arxiv.org/abs/2412.06769
+    date: '2021-07-15'
+    url: https://arxiv.org/abs/2107.07567
+    venue: arXiv 2021
+    section: llm
+    subcategory: longterm
+    summary: The pre-LLM paper that framed long-term conversational memory as a task at all.
+
+  - arxiv: '2304.13343'
+    title: Enhancing Large Language Model with Self-Controlled Memory Framework
+    institution: CAS, Alibaba
+    date: '2023-04-26'
+    url: https://arxiv.org/abs/2304.13343
+    venue: arXiv 2023
+    section: llm
+    subcategory: longterm
+    summary: Lets the model itself decide when to pull an archived memory into context.
+
+  - arxiv: '2305.10250'
+    title: 'MemoryBank: Enhancing Large Language Models with Long-Term Memory'
+    institution: Zhejiang University, Westlake University
+    date: '2023-05-17'
+    url: https://arxiv.org/abs/2305.10250
+    venue: arXiv 2023
+    section: llm
+    subcategory: longterm
+    star: true
+    summary: Ebbinghaus-curve forgetting applied to stored dialogues, so old memories decay unless reinforced.
+
+  - arxiv: '2308.08239'
+    title: 'MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation'
+    institution: Tencent
+    date: '2023-08-16'
+    url: https://arxiv.org/abs/2308.08239
+    venue: arXiv 2023
+    section: llm
+    subcategory: longterm
+    summary: Write-retrieve-respond memos that keep long conversations self-consistent.
+
+  - arxiv: '2308.15022'
+    title: Recursively Summarizing Enables Long-Term Dialogue Memory in Large Language Models
+    institution: Tencent AI Lab
+    date: '2023-08-29'
+    url: https://arxiv.org/abs/2308.15022
+    venue: arXiv 2023
+    section: llm
+    subcategory: longterm
+    summary: Recursive summarisation as a cheap memory that survives arbitrarily long conversations.
+
+  - arxiv: '2311.08719'
+    title: 'Think-in-Memory: Recalling and Post-thinking Enable LLMs with Long-Term Memory'
+    institution: Huawei
+    date: '2023-11-15'
+    url: https://arxiv.org/abs/2311.08719
+    venue: arXiv 2023
+    section: llm
+    subcategory: longterm
+    summary: Stores conclusions rather than raw history, avoiding repeated reasoning over the same past turns.
+
+  - arxiv: '2309.02427'
+    title: Cognitive Architectures for Language Agents
+    institution: Princeton
+    date: '2023-09-05'
+    url: https://arxiv.org/abs/2309.02427
+    venue: arXiv 2023
+    section: llm
+    subcategory: memory-arch
+    star: true
+    summary: 'CoALA: the working/episodic/semantic/procedural vocabulary that most later agent-memory papers adopt.'
+
+  - arxiv: '2310.08560'
+    title: 'MemGPT: Towards LLMs as Operating Systems'
+    institution: UC Berkeley
+    date: '2023-10-12'
+    url: https://arxiv.org/abs/2310.08560
+    venue: arXiv 2023
+    section: llm
+    subcategory: memory-arch
+    star: true
+    summary: Treats context as paged virtual memory and lets the model swap its own pages; the origin of the memory-OS framing.
+
+  - arxiv: '2402.04624'
+    title: 'MEMORYLLM: Towards Self-Updatable Large Language Models'
+    institution: UC San Diego
+    date: '2024-02-07'
+    url: https://arxiv.org/abs/2402.04624
     venue: arXiv 2024
     section: llm
-    subcategory: reasoning
-    summary: 'Coconut: feed the last hidden state back as the next input, reasoning without emitting tokens.'
+    subcategory: memory-arch
+    summary: A fixed pool of memory tokens inside every layer that absorbs new knowledge without retraining.
 
-  - arxiv: '2501.12948'
-    title: 'DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning'
-    institution: DeepSeek
-    date: '2025-01-22'
-    url: https://arxiv.org/abs/2501.12948
+  - arxiv: '2403.11901'
+    title: 'Larimar: Large Language Models with Episodic Memory Control'
+    institution: IBM Research, Princeton
+    date: '2024-03-18'
+    url: https://arxiv.org/abs/2403.11901
+    venue: arXiv 2024
+    section: llm
+    subcategory: memory-arch
+    summary: A distributed episodic memory module supporting one-shot write and selective forgetting.
+
+  - arxiv: '2502.12110'
+    title: 'A-MEM: Agentic Memory for LLM Agents'
+    institution: Rutgers, Independent
+    date: '2025-02-17'
+    url: https://arxiv.org/abs/2502.12110
     venue: arXiv 2025
     section: llm
-    subcategory: reasoning
+    subcategory: memory-arch
     star: true
-    summary: Pure RL with verifiable rewards produces long chain-of-thought without any reasoning SFT data.
+    summary: Zettelkasten-style notes that the agent links and revises itself, instead of a fixed memory schema.
 
-  - arxiv: '2501.12599'
-    title: 'Kimi k1.5: Scaling Reinforcement Learning with LLMs'
-    institution: Moonshot AI
-    date: '2025-01-22'
-    url: https://arxiv.org/abs/2501.12599
+  - arxiv: '2504.19413'
+    title: 'Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory'
+    institution: Mem0
+    date: '2025-04-28'
+    url: https://arxiv.org/abs/2504.19413
     venue: arXiv 2025
     section: llm
-    subcategory: reasoning
-    summary: Long-context RL recipe with length penalties and long-to-short distillation.
+    subcategory: memory-arch
+    summary: Extract-and-consolidate pipeline with a graph variant; one of the few memory layers deployed at scale.
 
-  - arxiv: '2303.18223'
-    title: A Survey of Large Language Models
+  - arxiv: '2012.14913'
+    title: Transformer Feed-Forward Layers Are Key-Value Memories
+    institution: Allen Institute for AI, Cornell, Tel Aviv University
+    date: '2020-12-29'
+    url: https://arxiv.org/abs/2012.14913
+    venue: arXiv 2020
+    section: llm
+    subcategory: parametric
+    star: true
+    summary: The interpretability result that reframed FFN layers as an addressable memory, enabling all later editing work.
+
+  - arxiv: '2104.08696'
+    title: Knowledge Neurons in Pretrained Transformers
+    institution: PKU, Microsoft
+    date: '2021-04-18'
+    url: https://arxiv.org/abs/2104.08696
+    venue: arXiv 2021
+    section: llm
+    subcategory: parametric
+    summary: Identifies individual neurons that store a given fact and edits them directly.
+
+  - arxiv: '2110.11309'
+    title: Fast Model Editing at Scale
+    institution: Stanford
+    date: '2021-10-21'
+    url: https://arxiv.org/abs/2110.11309
+    venue: arXiv 2021
+    section: llm
+    subcategory: parametric
+    summary: 'MEND: a hypernetwork that turns one gradient into a local, non-destructive edit.'
+
+  - arxiv: '2202.05262'
+    title: Locating and Editing Factual Associations in GPT
+    institution: MIT, Northeastern
+    date: '2022-02-10'
+    url: https://arxiv.org/abs/2202.05262
+    venue: arXiv 2022
+    section: llm
+    subcategory: parametric
+    star: true
+    summary: 'ROME: causal tracing localises facts to mid-layer MLPs, making weights an editable memory store.'
+
+  - arxiv: '2210.07229'
+    title: Mass-Editing Memory in a Transformer
+    institution: Northeastern, MIT
+    date: '2022-10-13'
+    url: https://arxiv.org/abs/2210.07229
+    venue: arXiv 2022
+    section: llm
+    subcategory: parametric
+    star: true
+    summary: 'MEMIT: scales direct weight editing from one fact to thousands at a time.'
+
+  - arxiv: '2401.01286'
+    title: A Comprehensive Study of Knowledge Editing for Large Language Models
+    institution: Zhejiang University
+    date: '2024-01-02'
+    url: https://arxiv.org/abs/2401.01286
+    venue: arXiv 2024
+    section: llm
+    subcategory: parametric
+    summary: KnowEdit benchmark plus a systematic comparison of editing families.
+
+  - arxiv: '1410.3916'
+    title: Memory Networks
+    institution: Meta
+    date: '2014-10-15'
+    url: https://arxiv.org/abs/1410.3916
+    venue: arXiv 2014
+    section: llm
+    subcategory: recurrent
+    star: true
+    summary: The original memory-network formulation; every later memory module is a descendant.
+
+  - arxiv: '1410.5401'
+    title: Neural Turing Machines
+    institution: Google DeepMind
+    date: '2014-10-20'
+    url: https://arxiv.org/abs/1410.5401
+    venue: arXiv 2014
+    section: llm
+    subcategory: recurrent
+    star: true
+    summary: The paper that gave neural networks an addressable external memory with differentiable read/write.
+
+  - arxiv: '1503.08895'
+    title: End-To-End Memory Networks
+    institution: Meta, NYU
+    date: '2015-03-31'
+    url: https://arxiv.org/abs/1503.08895
+    venue: arXiv 2015
+    section: llm
+    subcategory: recurrent
+    summary: Made memory networks trainable end-to-end with soft attention over multiple hops.
+
+  - arxiv: '1901.02860'
+    title: 'Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context'
+    institution: CMU, Google
+    date: '2019-01-09'
+    url: https://arxiv.org/abs/1901.02860
+    venue: arXiv 2019
+    section: llm
+    subcategory: recurrent
+    star: true
+    summary: 'Segment-level recurrence: the first practical carry-over memory between transformer windows.'
+
+  - arxiv: '1911.05507'
+    title: Compressive Transformers for Long-Range Sequence Modelling
+    institution: Google DeepMind
+    date: '2019-11-13'
+    url: https://arxiv.org/abs/1911.05507
+    venue: arXiv 2019
+    section: llm
+    subcategory: recurrent
+    summary: Compresses old activations into a coarser secondary memory rather than discarding them.
+
+  - arxiv: '2203.08913'
+    title: Memorizing Transformers
+    institution: Google
+    date: '2022-03-16'
+    url: https://arxiv.org/abs/2203.08913
+    venue: arXiv 2022
+    section: llm
+    subcategory: recurrent
+    star: true
+    summary: A non-differentiable kNN memory of past key-values that the model can read at inference time.
+
+  - arxiv: '2207.06881'
+    title: Recurrent Memory Transformer
+    institution: AIRI, Moscow Institute of Physics and Technology
+    date: '2022-07-14'
+    url: https://arxiv.org/abs/2207.06881
+    venue: arXiv 2022
+    section: llm
+    subcategory: recurrent
+    summary: Special memory tokens passed between segments, turning a transformer into a recurrent one.
+
+  - arxiv: '2304.11062'
+    title: Scaling Transformer to 1M tokens and beyond with RMT
+    institution: AIRI, Moscow Institute of Physics and Technology
+    date: '2023-04-19'
+    url: https://arxiv.org/abs/2304.11062
+    venue: arXiv 2023
+    section: llm
+    subcategory: recurrent
+    summary: Shows recurrent memory tokens scaling to a million-token context on synthetic recall tasks.
+
+  - arxiv: '2412.09764'
+    title: Memory Layers at Scale
+    institution: Meta
+    date: '2024-12-12'
+    url: https://arxiv.org/abs/2412.09764
+    venue: arXiv 2024
+    section: llm
+    subcategory: recurrent
+    summary: Trainable key-value memory layers that add factual capacity without adding FLOPs.
+
+  - arxiv: '2501.00663'
+    title: 'Titans: Learning to Memorize at Test Time'
+    institution: Google
+    date: '2024-12-31'
+    url: https://arxiv.org/abs/2501.00663
+    venue: arXiv 2024
+    section: llm
+    subcategory: recurrent
+    star: true
+    summary: A neural long-term memory trained online at inference, with surprise-driven writes and decay.
+
+  - arxiv: '1911.00172'
+    title: 'Generalization through Memorization: Nearest Neighbor Language Models'
+    institution: Stanford, Meta
+    date: '2019-11-01'
+    url: https://arxiv.org/abs/1911.00172
+    venue: arXiv 2019
+    section: llm
+    subcategory: retrieval
+    star: true
+    summary: 'kNN-LM: interpolating with an explicit datastore, the cleanest evidence that memory beats parameters for rare facts.'
+
+  - arxiv: '2002.08909'
+    title: 'REALM: Retrieval-Augmented Language Model Pre-Training'
+    institution: Google
+    date: '2020-02-10'
+    url: https://arxiv.org/abs/2002.08909
+    venue: arXiv 2020
+    section: llm
+    subcategory: retrieval
+    summary: Learns the retriever during pre-training so the external memory is optimised, not bolted on.
+
+  - arxiv: '2005.11401'
+    title: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
+    institution: Meta, UCL, NYU
+    date: '2020-05-22'
+    url: https://arxiv.org/abs/2005.11401
+    venue: arXiv 2020
+    section: llm
+    subcategory: retrieval
+    star: true
+    summary: The original parametric-plus-non-parametric memory formulation behind every RAG system.
+
+  - arxiv: '2112.04426'
+    title: Improving language models by retrieving from trillions of tokens
+    institution: Google DeepMind
+    date: '2021-12-08'
+    url: https://arxiv.org/abs/2112.04426
+    venue: arXiv 2021
+    section: llm
+    subcategory: retrieval
+    summary: 'RETRO: chunked cross-attention over a 2-trillion-token database, trading parameters for retrieval.'
+
+  - arxiv: '2404.16130'
+    title: 'From Local to Global: A Graph RAG Approach to Query-Focused Summarization'
+    institution: Microsoft
+    date: '2024-04-24'
+    url: https://arxiv.org/abs/2404.16130
+    venue: arXiv 2024
+    section: llm
+    subcategory: retrieval
+    summary: 'GraphRAG: community summaries over an entity graph, for questions no single chunk can answer.'
+
+  - arxiv: '2405.14831'
+    title: 'HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models'
+    institution: Ohio State University
+    date: '2024-05-23'
+    url: https://arxiv.org/abs/2405.14831
+    venue: arXiv 2024
+    section: llm
+    subcategory: retrieval
+    star: true
+    summary: Hippocampal indexing theory as a knowledge graph plus PageRank, enabling multi-hop recall in one step.
+
+  - arxiv: '2409.05591'
+    title: 'MemoRAG: Boosting Long Context Processing with Global Memory-Inspired Retrieval Augmentation'
+    institution: BAAI, Renmin University
+    date: '2024-09-09'
+    url: https://arxiv.org/abs/2409.05591
+    venue: arXiv 2024
+    section: llm
+    subcategory: retrieval
+    summary: A light global memory drafts clues that guide retrieval, helping when the query is vague.
+
+  - arxiv: '2502.14802'
+    title: 'From RAG to Memory: Non-Parametric Continual Learning for Large Language Models'
+    institution: Ohio State University
+    date: '2025-02-20'
+    url: https://arxiv.org/abs/2502.14802
+    venue: arXiv 2025
+    section: llm
+    subcategory: retrieval
+    summary: 'HippoRAG 2: pushes graph memory past standard RAG on associative and sense-making recall.'
+
+  - arxiv: '2404.13501'
+    title: A Survey on the Memory Mechanism of Large Language Model based Agents
+    institution: Renmin University, Huawei
+    date: '2024-04-21'
+    url: https://arxiv.org/abs/2404.13501
+    venue: arXiv 2024
+    section: llm
+    subcategory: survey
+    star: true
+    summary: 'The best entry point: covers why agents need memory, how it is written, read and managed.'
+
+  - arxiv: '2504.15965'
+    title: 'From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs'
     institution: Renmin University
-    date: '2023-03-31'
-    url: https://arxiv.org/abs/2303.18223
-    venue: arXiv 2023
+    date: '2025-04-22'
+    url: https://arxiv.org/abs/2504.15965
+    venue: arXiv 2025
     section: llm
     subcategory: survey
-    summary: The most frequently updated general LLM survey; good entry point for newcomers.
-
-  - arxiv: '2308.11432'
-    title: A Survey on Large Language Model based Autonomous Agents
-    institution: Renmin University
-    date: '2023-08-22'
-    url: https://arxiv.org/abs/2308.11432
-    venue: arXiv 2023
-    section: llm
-    subcategory: survey
-    summary: Organizes agent work by construction, application and evaluation.
-
-  - arxiv: '2309.07864'
-    title: 'The Rise and Potential of Large Language Model Based Agents: A Survey'
-    institution: Fudan
-    date: '2023-09-14'
-    url: https://arxiv.org/abs/2309.07864
-    venue: arXiv 2023
-    section: llm
-    subcategory: survey
-    summary: Brain-perception-action framing of LLM agents with a broad literature map.
+    summary: Organizes AI memory along object, form and time axes borrowed from cognitive science.
 
   # ==========================================================
-  # II. VLM
+  # II. VLM Memory
   # ==========================================================
-  - arxiv: '2103.00020'
-    title: Learning Transferable Visual Models From Natural Language Supervision
-    institution: OpenAI
-    date: '2021-02-26'
-    url: https://arxiv.org/abs/2103.00020
+  - arxiv: '2406.18139'
+    title: 'LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference'
+    institution: Ohio State University, University of Rochester
+    date: '2024-06-26'
+    url: https://arxiv.org/abs/2406.18139
+    venue: arXiv 2024
+    section: vlm
+    subcategory: compress
+    summary: 'Text-prioritised KV eviction: multimodal caches can drop image keys far more aggressively.'
+
+  - arxiv: '2407.18121'
+    title: Efficient Inference of Vision Instruction-Following Models with Elastic Cache
+    institution: Tsinghua, NVIDIA
+    date: '2024-07-25'
+    url: https://arxiv.org/abs/2407.18121
+    venue: arXiv 2024
+    section: vlm
+    subcategory: compress
+    summary: Separate cache strategies for the instruction and generation phases of a VLM.
+
+  - arxiv: '2110.07058'
+    title: 'Ego4D: Around the World in 3,000 Hours of Egocentric Video'
+    institution: Meta, 88 institutions
+    date: '2021-10-13'
+    url: https://arxiv.org/abs/2110.07058
     venue: arXiv 2021
     section: vlm
-    subcategory: arch
+    subcategory: episodic
     star: true
-    summary: 'CLIP: contrastive image-text pre-training; still the vision encoder behind most VLMs.'
+    summary: Defined the episodic-memory task family for egocentric video and supplied the data for it.
 
-  - arxiv: '2204.14198'
-    title: 'Flamingo: a Visual Language Model for Few-Shot Learning'
-    institution: Google DeepMind
-    date: '2022-04-29'
-    url: https://arxiv.org/abs/2204.14198
+  - arxiv: '2205.01652'
+    title: Episodic Memory Question Answering
+    institution: Meta, Georgia Tech
+    date: '2022-05-03'
+    url: https://arxiv.org/abs/2205.01652
     venue: arXiv 2022
     section: vlm
-    subcategory: arch
-    summary: Cross-attention adapters bridging a frozen vision encoder and a frozen LLM.
+    subcategory: episodic
+    summary: Asks an agent to answer questions about its own past experience, grounded in 3D space.
 
-  - arxiv: '2301.12597'
-    title: 'BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models'
-    institution: Salesforce
-    date: '2023-01-30'
-    url: https://arxiv.org/abs/2301.12597
-    venue: arXiv 2023
-    section: vlm
-    subcategory: arch
-    summary: 'The Q-Former: a query-based bridge that made frozen-encoder VLM training cheap.'
-
-  - arxiv: '2303.15343'
-    title: Sigmoid Loss for Language Image Pre-Training
-    institution: Google DeepMind
-    date: '2023-03-27'
-    url: https://arxiv.org/abs/2303.15343
-    venue: arXiv 2023
-    section: vlm
-    subcategory: arch
-    summary: 'SigLIP: pairwise sigmoid loss removes the global softmax, enabling small-batch contrastive training.'
-
-  - arxiv: '2304.08485'
-    title: Visual Instruction Tuning
-    institution: UW-Madison, Microsoft
-    date: '2023-04-17'
-    url: https://arxiv.org/abs/2304.08485
-    venue: arXiv 2023
-    section: vlm
-    subcategory: arch
-    star: true
-    summary: 'LLaVA: a linear projector plus GPT-generated instruction data; the recipe everyone copied.'
-
-  - arxiv: '2308.12966'
-    title: 'Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond'
-    institution: Alibaba
-    date: '2023-08-24'
-    url: https://arxiv.org/abs/2308.12966
-    venue: arXiv 2023
-    section: vlm
-    subcategory: arch
-    summary: Added grounding and OCR as first-class pre-training objectives.
-
-  - arxiv: '2310.03744'
-    title: Improved Baselines with Visual Instruction Tuning
-    institution: UW-Madison, Microsoft
-    date: '2023-10-05'
-    url: https://arxiv.org/abs/2310.03744
-    venue: arXiv 2023
-    section: vlm
-    subcategory: arch
-    summary: 'LLaVA-1.5: MLP projector and academic-task data, a strong reproducible baseline.'
-
-  - arxiv: '2312.14238'
-    title: 'InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks'
-    institution: Shanghai AI Lab
-    date: '2023-12-21'
-    url: https://arxiv.org/abs/2312.14238
-    venue: arXiv 2023
-    section: vlm
-    subcategory: arch
-    summary: Scaled the vision encoder to 6B to rebalance it against the LLM.
-
-  - arxiv: '2403.05530'
-    title: 'Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context'
-    institution: Google DeepMind
-    date: '2024-03-08'
-    url: https://arxiv.org/abs/2403.05530
+  - arxiv: '2403.14599'
+    title: 'MyVLM: Personalizing VLMs for User-Specific Queries'
+    institution: Tel Aviv University, Snap
+    date: '2024-03-21'
+    url: https://arxiv.org/abs/2403.14599
     venue: arXiv 2024
     section: vlm
-    subcategory: arch
-    summary: Million-token multimodal context; reset expectations for long video and document understanding.
+    subcategory: episodic
+    summary: Teaches a VLM specific people and objects from a handful of images, a personal visual memory.
 
-  - arxiv: '2409.12191'
-    title: 'Qwen2-VL: Enhancing Vision-Language Model''s Perception of the World at Any Resolution'
-    institution: Alibaba
-    date: '2024-09-18'
-    url: https://arxiv.org/abs/2409.12191
+  - arxiv: '2406.09400'
+    title: 'Yo''LLaVA: Your Personalized Language and Vision Assistant'
+    institution: University of Wisconsin-Madison, Allen Institute for AI
+    date: '2024-06-13'
+    url: https://arxiv.org/abs/2406.09400
     venue: arXiv 2024
     section: vlm
-    subcategory: arch
-    star: true
-    summary: Naive dynamic resolution and M-RoPE; the backbone of a large share of current VLA models.
+    subcategory: episodic
+    summary: Learns personalized concept tokens so the assistant remembers your dog across conversations.
 
-  - arxiv: '2409.17146'
-    title: 'Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models'
-    institution: Allen Institute for AI
-    date: '2024-09-25'
-    url: https://arxiv.org/abs/2409.17146
+  - arxiv: '2410.13360'
+    title: 'RAP: Retrieval-Augmented Personalization for Multimodal Large Language Models'
+    institution: Tsinghua, Alibaba
+    date: '2024-10-17'
+    url: https://arxiv.org/abs/2410.13360
     venue: arXiv 2024
     section: vlm
-    subcategory: arch
-    summary: Fully open data pipeline built on human speech descriptions rather than GPT distillation.
+    subcategory: episodic
+    summary: An editable external database of user-specific concepts, avoiding per-user fine-tuning.
 
-  - arxiv: '2412.05271'
-    title: Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling
-    institution: Shanghai AI Lab
-    date: '2024-12-06'
-    url: https://arxiv.org/abs/2412.05271
-    venue: arXiv 2024
-    section: vlm
-    subcategory: arch
-    summary: 'InternVL 2.5: a careful ablation of where multimodal scaling actually pays off.'
-
-  - arxiv: '2502.13923'
-    title: Qwen2.5-VL Technical Report
-    institution: Alibaba
-    date: '2025-02-19'
-    url: https://arxiv.org/abs/2502.13923
+  - arxiv: '2503.03803'
+    title: 'EgoLife: Towards Egocentric Life Assistant'
+    institution: Nanyang Technological University, S-Lab
+    date: '2025-03-05'
+    url: https://arxiv.org/abs/2503.03803
     venue: arXiv 2025
     section: vlm
-    subcategory: arch
+    subcategory: episodic
+    summary: A week of multi-person egocentric recording with EgoRAG memory for ultra-long-term recall.
+
+  - arxiv: '2308.09126'
+    title: 'EgoSchema: A Diagnostic Benchmark for Very Long-form Video Language Understanding'
+    institution: UC Berkeley, Meta
+    date: '2023-08-17'
+    url: https://arxiv.org/abs/2308.09126
+    venue: arXiv 2023
+    section: vlm
+    subcategory: eval
+    summary: Certificate-length filtering guarantees questions genuinely require minutes of recall.
+
+  - arxiv: '2406.04264'
+    title: 'MLVU: Benchmarking Multi-task Long Video Understanding'
+    institution: BAAI, Renmin University
+    date: '2024-06-06'
+    url: https://arxiv.org/abs/2406.04264
+    venue: arXiv 2024
+    section: vlm
+    subcategory: eval
+    summary: Long-video tasks spanning three minutes to two hours, with holistic and detail recall split out.
+
+  - arxiv: '2406.09367'
+    title: 'Needle In A Video Haystack: A Scalable Synthetic Evaluator for Video MLLMs'
+    institution: CUHK, Shanghai AI Lab
+    date: '2024-06-13'
+    url: https://arxiv.org/abs/2406.09367
+    venue: arXiv 2024
+    section: vlm
+    subcategory: eval
+    summary: Inserts synthetic needles into arbitrary video so recall can be measured at any length.
+
+  - arxiv: '2306.07863'
+    title: 'Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control'
+    institution: Nanyang Technological University, Microsoft
+    date: '2023-06-13'
+    url: https://arxiv.org/abs/2306.07863
+    venue: arXiv 2023
+    section: vlm
+    subcategory: gui
+    summary: An exemplar memory of past trajectories retrieved to guide new GUI tasks.
+
+  - arxiv: '2409.07429'
+    title: Agent Workflow Memory
+    institution: CMU, Meta
+    date: '2024-09-11'
+    url: https://arxiv.org/abs/2409.07429
+    venue: arXiv 2024
+    section: vlm
+    subcategory: gui
     star: true
-    summary: Strong document parsing, long video and agent grounding in one open family.
+    summary: Induces reusable workflows from past browsing traces; procedural memory for web agents.
 
-  - arxiv: '2312.16886'
-    title: 'MobileVLM: A Fast, Strong and Open Vision Language Assistant for Mobile Devices'
-    institution: Meituan, Zhejiang University
-    date: '2023-12-28'
-    url: https://arxiv.org/abs/2312.16886
-    venue: arXiv 2023
-    section: vlm
-    subcategory: efficiency
-    summary: A full mobile-deployable VLM stack with a lightweight downsample projector.
-
-  - arxiv: '2403.06764'
-    title: 'An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models'
-    institution: PKU, Alibaba
-    date: '2024-03-11'
-    url: https://arxiv.org/abs/2403.06764
+  - arxiv: '2410.08164'
+    title: 'Agent S: An Open Agentic Framework that Uses Computers Like a Human'
+    institution: Simular Research
+    date: '2024-10-10'
+    url: https://arxiv.org/abs/2410.08164
     venue: arXiv 2024
     section: vlm
-    subcategory: efficiency
-    summary: 'FastV: attention to visual tokens collapses after early layers, so prune them there.'
+    subcategory: gui
+    summary: Combines narrative and episodic memory with web knowledge for long-horizon desktop tasks.
 
-  - arxiv: '2403.15388'
-    title: 'LLaVA-PruMerge: Adaptive Token Reduction for Efficient Large Multimodal Models'
-    institution: UW-Madison, Cleveland Clinic
-    date: '2024-03-22'
-    url: https://arxiv.org/abs/2403.15388
+  - arxiv: '2404.05726'
+    title: 'MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding'
+    institution: University of Maryland, Meta
+    date: '2024-04-08'
+    url: https://arxiv.org/abs/2404.05726
     venue: arXiv 2024
     section: vlm
-    subcategory: efficiency
-    summary: Prune then merge visual tokens using attention sparsity, keeping accuracy at a fraction of the tokens.
-
-  - arxiv: '2305.10355'
-    title: Evaluating Object Hallucination in Large Vision-Language Models
-    institution: Renmin University
-    date: '2023-05-17'
-    url: https://arxiv.org/abs/2305.10355
-    venue: arXiv 2023
-    section: vlm
-    subcategory: eval
-    summary: 'POPE: polling-based object probing, the first widely used hallucination metric.'
-
-  - arxiv: '2307.06281'
-    title: 'MMBench: Is Your Multi-modal Model an All-around Player?'
-    institution: Shanghai AI Lab
-    date: '2023-07-12'
-    url: https://arxiv.org/abs/2307.06281
-    venue: arXiv 2023
-    section: vlm
-    subcategory: eval
-    summary: CircularEval with shuffled options to remove position bias from multiple choice.
-
-  - arxiv: '2310.02255'
-    title: 'MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts'
-    institution: UCLA, Microsoft
-    date: '2023-10-03'
-    url: https://arxiv.org/abs/2310.02255
-    venue: arXiv 2023
-    section: vlm
-    subcategory: eval
-    summary: The standard visual-mathematics benchmark for multimodal reasoning.
-
-  - arxiv: '2311.16502'
-    title: 'MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI'
-    institution: IN.AI, Waterloo, OSU
-    date: '2023-11-27'
-    url: https://arxiv.org/abs/2311.16502
-    venue: arXiv 2023
-    section: vlm
-    subcategory: eval
+    subcategory: mm-arch
     star: true
-    summary: College-level multi-discipline questions; the headline multimodal leaderboard.
+    summary: An online visual and query memory bank that lets a frozen LLM process video frame by frame.
 
-  - arxiv: '2404.12390'
-    title: 'BLINK: Multimodal Large Language Models Can See but Not Perceive'
-    institution: UPenn, Allen Institute for AI, Washington
-    date: '2024-04-18'
-    url: https://arxiv.org/abs/2404.12390
-    venue: arXiv 2024
-    section: vlm
-    subcategory: eval
-    summary: Tasks humans solve in a blink but VLMs fail, exposing the perception-versus-knowledge gap.
-
-  - arxiv: '2303.05499'
-    title: 'Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection'
-    institution: IDEA Research
-    date: '2023-03-09'
-    url: https://arxiv.org/abs/2303.05499
-    venue: arXiv 2023
-    section: vlm
-    subcategory: grounding
-    summary: The open-vocabulary detector most multimodal data pipelines rely on for auto-labelling.
-
-  - arxiv: '2304.02643'
-    title: Segment Anything
-    institution: Meta
-    date: '2023-04-05'
-    url: https://arxiv.org/abs/2304.02643
-    venue: arXiv 2023
-    section: vlm
-    subcategory: grounding
-    star: true
-    summary: Promptable segmentation with a billion-mask dataset; a universal perception primitive.
-
-  - arxiv: '2306.14824'
-    title: 'Kosmos-2: Grounding Multimodal Large Language Models to the World'
-    institution: Microsoft
-    date: '2023-06-26'
-    url: https://arxiv.org/abs/2306.14824
-    venue: arXiv 2023
-    section: vlm
-    subcategory: grounding
-    summary: Bounding boxes as location tokens interleaved directly in the text stream.
-
-  - arxiv: '2312.08914'
-    title: 'CogAgent: A Visual Language Model for GUI Agents'
-    institution: Tsinghua, Zhipu AI
-    date: '2023-12-14'
-    url: https://arxiv.org/abs/2312.08914
-    venue: arXiv 2023
-    section: vlm
-    subcategory: guiagent
-    star: true
-    summary: High-resolution cross-module for reading small GUI text; the first serious screenshot-only agent.
-
-  - arxiv: '2401.10935'
-    title: 'SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents'
-    institution: Nanjing University, Alibaba
-    date: '2024-01-17'
-    url: https://arxiv.org/abs/2401.10935
-    venue: arXiv 2024
-    section: vlm
-    subcategory: guiagent
-    summary: Isolated GUI grounding as the core bottleneck and released ScreenSpot.
-
-  - arxiv: '2410.23218'
-    title: 'OS-ATLAS: A Foundation Action Model for Generalist GUI Agents'
-    institution: Shanghai AI Lab
-    date: '2024-10-30'
-    url: https://arxiv.org/abs/2410.23218
-    venue: arXiv 2024
-    section: vlm
-    subcategory: guiagent
-    summary: Cross-platform GUI grounding corpus with a unified action space.
-
-  - arxiv: '2501.12326'
-    title: 'UI-TARS: Pioneering Automated GUI Interaction with Native Agents'
-    institution: ByteDance, Tsinghua
-    date: '2025-01-21'
-    url: https://arxiv.org/abs/2501.12326
+  - arxiv: '2508.09736'
+    title: 'Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory'
+    institution: ByteDance, Zhejiang University
+    date: '2025-08-13'
+    url: https://arxiv.org/abs/2508.09736
     venue: arXiv 2025
     section: vlm
-    subcategory: guiagent
+    subcategory: mm-arch
     star: true
-    summary: End-to-end native GUI agent with system-2 reasoning and reflective online traces.
+    summary: 'M3-Agent: builds an entity-centric multimodal long-term memory while watching and listening in real time.'
 
-  - arxiv: '2211.11559'
-    title: 'Visual Programming: Compositional visual reasoning without training'
-    institution: Allen Institute for AI
-    date: '2022-11-18'
-    url: https://arxiv.org/abs/2211.11559
-    venue: arXiv 2022
-    section: vlm
-    subcategory: reasoning
-    summary: Compose vision modules by generating a program; training-free compositional reasoning.
-
-  - arxiv: '2303.11381'
-    title: 'MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action'
-    institution: Microsoft
-    date: '2023-03-20'
-    url: https://arxiv.org/abs/2303.11381
-    venue: arXiv 2023
-    section: vlm
-    subcategory: reasoning
-    summary: Early demonstration of an LLM orchestrating vision experts as tools.
-
-  - arxiv: '2411.10440'
-    title: 'LLaVA-CoT: Let Vision Language Models Reason Step-by-Step'
-    institution: PKU, Tsinghua
-    date: '2024-11-15'
-    url: https://arxiv.org/abs/2411.10440
-    venue: arXiv 2024
-    section: vlm
-    subcategory: reasoning
-    summary: Structured summary-caption-reasoning-conclusion stages with stage-level beam search.
-
-  - arxiv: '2401.12168'
-    title: 'SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities'
-    institution: Google DeepMind
-    date: '2024-01-22'
-    url: https://arxiv.org/abs/2401.12168
-    venue: arXiv 2024
-    section: vlm
-    subcategory: spatial
-    star: true
-    summary: Synthesized 3D spatial VQA at internet scale; the origin of the spatial-VQA data recipe.
-
-  - arxiv: '2406.01584'
-    title: 'SpatialRGPT: Grounded Spatial Reasoning in Vision Language Models'
-    institution: NVIDIA, UCSD
-    date: '2024-06-03'
-    url: https://arxiv.org/abs/2406.01584
-    venue: arXiv 2024
-    section: vlm
-    subcategory: spatial
-    summary: Region-level depth-aware reasoning with a plug-in depth channel.
-
-  - arxiv: '2412.14171'
-    title: 'Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces'
-    institution: NYU, Yale, Stanford
-    date: '2024-12-18'
-    url: https://arxiv.org/abs/2412.14171
-    venue: arXiv 2024
-    section: vlm
-    subcategory: spatial
-    star: true
-    summary: VSI-Bench showed that strong VLMs still lack usable cognitive maps from video.
-
-  - arxiv: '2306.13549'
-    title: A Survey on Multimodal Large Language Models
-    institution: USTC, Tencent
-    date: '2023-06-23'
-    url: https://arxiv.org/abs/2306.13549
-    venue: arXiv 2023
-    section: vlm
-    subcategory: survey
-    summary: The continuously maintained MLLM survey with a companion paper list.
-
-  - arxiv: '2405.09818'
-    title: 'Chameleon: Mixed-Modal Early-Fusion Foundation Models'
-    institution: Meta
-    date: '2024-05-16'
-    url: https://arxiv.org/abs/2405.09818
-    venue: arXiv 2024
-    section: vlm
-    subcategory: unified
-    summary: Early-fusion token-based model handling interleaved image and text generation.
-
-  - arxiv: '2408.12528'
-    title: 'Show-o: One Single Transformer to Unify Multimodal Understanding and Generation'
-    institution: NUS, ByteDance
-    date: '2024-08-22'
-    url: https://arxiv.org/abs/2408.12528
-    venue: arXiv 2024
-    section: vlm
-    subcategory: unified
-    summary: Autoregressive text with discrete diffusion images inside one transformer.
-
-  - arxiv: '2409.18869'
-    title: 'Emu3: Next-Token Prediction is All You Need'
-    institution: BAAI
-    date: '2024-09-27'
-    url: https://arxiv.org/abs/2409.18869
-    venue: arXiv 2024
-    section: vlm
-    subcategory: unified
-    summary: Pure next-token prediction over discretized video, image and text.
-
-  - arxiv: '2501.17811'
-    title: 'Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling'
-    institution: DeepSeek
-    date: '2025-01-29'
-    url: https://arxiv.org/abs/2501.17811
-    venue: arXiv 2025
-    section: vlm
-    subcategory: unified
-    summary: Decouples the visual encoding paths for understanding and generation.
-
-  - arxiv: '2306.02858'
-    title: 'Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding'
-    institution: Alibaba DAMO
-    date: '2023-06-05'
-    url: https://arxiv.org/abs/2306.02858
+  - arxiv: '2307.16449'
+    title: 'MovieChat: From Dense Token to Sparse Memory for Long Video Understanding'
+    institution: Zhejiang University, Microsoft, University of Washington
+    date: '2023-07-31'
+    url: https://arxiv.org/abs/2307.16449
     venue: arXiv 2023
     section: vlm
     subcategory: video
-    summary: One of the first open video-language assistants with joint audio-visual branches.
+    star: true
+    summary: Short- and long-term memory with token merging; the first credible hour-long video assistant.
 
-  - arxiv: '2408.03326'
-    title: 'LLaVA-OneVision: Easy Visual Task Transfer'
-    institution: ByteDance, NTU
-    date: '2024-08-06'
-    url: https://arxiv.org/abs/2408.03326
+  - arxiv: '2402.05861'
+    title: Memory Consolidation Enables Long-Context Video Understanding
+    institution: Google DeepMind, University of Oxford
+    date: '2024-02-08'
+    url: https://arxiv.org/abs/2402.05861
     venue: arXiv 2024
     section: vlm
     subcategory: video
-    star: true
-    summary: Single-image, multi-image and video in one model, with strong image-to-video transfer.
+    summary: Consolidates past activations into a compact memory, extending context without retraining the backbone.
 
-  - arxiv: '2410.02713'
-    title: Video Instruction Tuning With Synthetic Data
-    institution: ByteDance, NTU
-    date: '2024-10-03'
-    url: https://arxiv.org/abs/2410.02713
-    venue: arXiv 2024
-    section: vlm
-    subcategory: video
-    summary: 'LLaVA-Video-178K: synthetic dense video instruction data at scale.'
-
-  - arxiv: '2501.13106'
-    title: 'VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding'
-    institution: Alibaba DAMO
-    date: '2025-01-22'
-    url: https://arxiv.org/abs/2501.13106
-    venue: arXiv 2025
-    section: vlm
-    subcategory: video
-    summary: Vision-centric training with adaptive video token compression.
-
-  # ==========================================================
-  # III. VLA
-  # ==========================================================
-  - arxiv: '2303.04137'
-    title: 'Diffusion Policy: Visuomotor Policy Learning via Action Diffusion'
-    institution: Columbia, TRI, MIT
-    date: '2023-03-07'
-    url: https://arxiv.org/abs/2303.04137
-    venue: arXiv 2023
-    section: vla
-    subcategory: action-token
-    star: true
-    summary: Denoising diffusion over action sequences; the multimodality fix that action chunking still builds on.
-
-  - arxiv: '2304.13705'
-    title: Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware
+  - arxiv: '2403.10517'
+    title: 'VideoAgent: Long-form Video Understanding with Large Language Model as Agent'
     institution: Stanford
-    date: '2023-04-23'
-    url: https://arxiv.org/abs/2304.13705
-    venue: arXiv 2023
-    section: vla
-    subcategory: action-token
-    star: true
-    summary: 'ACT and ALOHA: action chunking with temporal ensembling on cheap teleoperation hardware.'
-
-  - arxiv: '2403.03181'
-    title: Behavior Generation with Latent Actions
-    institution: NYU
-    date: '2024-03-05'
-    url: https://arxiv.org/abs/2403.03181
+    date: '2024-03-15'
+    url: https://arxiv.org/abs/2403.10517
     venue: arXiv 2024
-    section: vla
-    subcategory: action-token
-    summary: 'VQ-BeT: residual VQ over action sequences to model multimodal behaviour.'
+    section: vlm
+    subcategory: video
+    summary: Treats the video as a memory to be searched iteratively rather than a sequence to be encoded once.
 
-  - arxiv: '2410.11758'
-    title: Latent Action Pretraining from Videos
-    institution: KAIST, UW, NVIDIA, AI2
-    date: '2024-10-15'
-    url: https://arxiv.org/abs/2410.11758
+  - arxiv: '2404.17176'
+    title: 'MovieChat+: Question-aware Sparse Memory for Long Video Question Answering'
+    institution: Zhejiang University, Alibaba
+    date: '2024-04-26'
+    url: https://arxiv.org/abs/2404.17176
     venue: arXiv 2024
-    section: vla
-    subcategory: action-token
-    star: true
-    summary: 'LAPA: learn latent actions from action-free human video, then map them to real robot actions.'
+    section: vlm
+    subcategory: video
+    summary: Makes memory consolidation question-aware so relevant frames survive compression.
 
-  - arxiv: '2501.09747'
-    title: 'FAST: Efficient Action Tokenization for Vision-Language-Action Models'
-    institution: Physical Intelligence, Stanford, UC Berkeley
-    date: '2025-01-16'
-    url: https://arxiv.org/abs/2501.09747
-    venue: arXiv 2025
-    section: vla
-    subcategory: action-token
-    star: true
-    summary: DCT plus BPE compression of action chunks, making autoregressive VLAs viable at high frequency.
-
-  - arxiv: '2308.12952'
-    title: 'BridgeData V2: A Dataset for Robot Learning at Scale'
-    institution: UC Berkeley, Stanford, Google DeepMind, CMU
-    date: '2023-08-24'
-    url: https://arxiv.org/abs/2308.12952
-    venue: arXiv 2023
-    section: vla
-    subcategory: data
-    summary: 60k trajectories across 24 environments; a long-running skill-generalization testbed.
-
-  - arxiv: '2310.08864'
-    title: 'Open X-Embodiment: Robotic Learning Datasets and RT-X Models'
-    institution: Google DeepMind and 30+ institutions
-    date: '2023-10-13'
-    url: https://arxiv.org/abs/2310.08864
-    venue: arXiv 2023
-    section: vla
-    subcategory: data
-    star: true
-    summary: Pooled 22 embodiments into one dataset and showed positive cross-embodiment transfer.
-
-  - arxiv: '2403.12945'
-    title: 'DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset'
-    institution: Stanford, UC Berkeley, TRI and 13 institutions
-    date: '2024-03-19'
-    url: https://arxiv.org/abs/2403.12945
+  - arxiv: '2405.16009'
+    title: Streaming Long Video Understanding with Large Language Models
+    institution: CUHK, Shanghai AI Lab
+    date: '2024-05-25'
+    url: https://arxiv.org/abs/2405.16009
     venue: arXiv 2024
-    section: vla
-    subcategory: data
-    summary: 76k in-the-wild teleoperated trajectories on a standardized hardware setup.
+    section: vlm
+    subcategory: video
+    summary: 'VideoStreaming: memory-propagated encoding so cost stays constant as the video grows.'
 
-  - arxiv: '2310.01412'
-    title: 'DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model'
-    institution: HKU, Zhejiang University, Huawei
-    date: '2023-10-02'
-    url: https://arxiv.org/abs/2310.01412
-    venue: arXiv 2023
-    section: vla
-    subcategory: driving
-    summary: Predicts control signals while explaining them in natural language.
-
-  - arxiv: '2312.07488'
-    title: 'LMDrive: Closed-Loop End-to-End Driving with Large Language Models'
-    institution: CUHK MMLab, Shanghai AI Lab
-    date: '2023-12-12'
-    url: https://arxiv.org/abs/2312.07488
-    venue: arXiv 2023
-    section: vla
-    subcategory: driving
-    summary: The first closed-loop language-instructed driving agent evaluated in CARLA.
-
-  - arxiv: '2402.12289'
-    title: 'DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models'
-    institution: Tsinghua, Li Auto
-    date: '2024-02-19'
-    url: https://arxiv.org/abs/2402.12289
+  - arxiv: '2406.08085'
+    title: 'Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams'
+    institution: Tsinghua, ByteDance
+    date: '2024-06-12'
+    url: https://arxiv.org/abs/2406.08085
     venue: arXiv 2024
-    section: vla
-    subcategory: driving
+    section: vlm
+    subcategory: video
     star: true
-    summary: Slow VLM reasoning fused with a fast conventional pipeline; an early deployed dual-system design.
+    summary: A STAR memory with four components serving real-time queries over an unbounded stream.
 
-  - arxiv: '2410.22313'
-    title: 'Senna: Bridging Large Vision-Language Models and End-to-End Autonomous Driving'
-    institution: HUST, Horizon Robotics
-    date: '2024-10-29'
-    url: https://arxiv.org/abs/2410.22313
+  - arxiv: '2406.11816'
+    title: 'VideoLLM-online: Online Video Large Language Model for Streaming Video'
+    institution: National University of Singapore, Meta
+    date: '2024-06-17'
+    url: https://arxiv.org/abs/2406.11816
     venue: arXiv 2024
-    section: vla
-    subcategory: driving
-    summary: VLM outputs meta-actions in language while an end-to-end model handles trajectory precision.
+    section: vlm
+    subcategory: video
+    summary: Learns when to speak during a live stream, with a cache that keeps latency bounded.
 
-  - arxiv: '2410.23262'
-    title: 'EMMA: End-to-End Multimodal Model for Autonomous Driving'
-    institution: Waymo
-    date: '2024-10-30'
-    url: https://arxiv.org/abs/2410.23262
-    venue: arXiv 2024
+  # ==========================================================
+  # III. VLA & Embodied Memory
+  # ==========================================================
+  - arxiv: '2004.05155'
+    title: Learning To Explore Using Active Neural SLAM
+    institution: CMU, Meta, UIUC
+    date: '2020-04-10'
+    url: https://arxiv.org/abs/2004.05155
+    venue: arXiv 2020
     section: vla
-    subcategory: driving
+    subcategory: nav
     star: true
-    summary: Everything as text on top of Gemini, including trajectories, with strong multi-task transfer.
+    summary: A differentiable spatial memory map built online and used for long-horizon exploration.
 
-  - arxiv: '2503.19755'
-    title: 'ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation'
-    institution: HUST, Xiaomi
-    date: '2025-03-25'
-    url: https://arxiv.org/abs/2503.19755
-    venue: arXiv 2025
+  - arxiv: '2005.12256'
+    title: Neural Topological SLAM for Visual Navigation
+    institution: CMU, Meta, UIUC
+    date: '2020-05-25'
+    url: https://arxiv.org/abs/2005.12256
+    venue: arXiv 2020
     section: vla
-    subcategory: driving
-    summary: Aligns the reasoning space with the action space via a generative planner.
+    subcategory: nav
+    star: true
+    summary: Learned topological memory that supports long-range goal-directed navigation without metric maps.
 
-  - arxiv: '2506.08052'
-    title: 'ReCogDrive: A Reinforced Cognitive Framework for End-to-End Autonomous Driving'
-    institution: HUST, Xiaomi
-    date: '2025-06-09'
-    url: https://arxiv.org/abs/2506.08052
-    venue: arXiv 2025
-    section: vla
-    subcategory: driving
-    summary: Three-stage VLM-plus-diffusion-planner pipeline refined with simulation-based RL.
-
-  - arxiv: '2112.03227'
-    title: 'CALVIN: A Benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks'
-    institution: University of Freiburg
-    date: '2021-12-06'
-    url: https://arxiv.org/abs/2112.03227
+  - arxiv: '2101.05181'
+    title: Memory-Augmented Reinforcement Learning for Image-Goal Navigation
+    institution: Inria, Naver Labs Europe
+    date: '2021-01-13'
+    url: https://arxiv.org/abs/2101.05181
     venue: arXiv 2021
     section: vla
-    subcategory: eval
-    summary: Long-horizon language-conditioned chains; still a common ablation ground.
+    subcategory: nav
+    summary: Attention over a buffer of past observations replaces an explicit map for goal-driven navigation.
 
-  - arxiv: '2306.03310'
-    title: 'LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning'
-    institution: UT Austin, Sony AI
-    date: '2023-06-05'
-    url: https://arxiv.org/abs/2306.03310
-    venue: arXiv 2023
+  - arxiv: '2209.08274'
+    title: Topological Semantic Graph Memory for Image-Goal Navigation
+    institution: Seoul National University
+    date: '2022-09-17'
+    url: https://arxiv.org/abs/2209.08274
+    venue: arXiv 2022
     section: vla
-    subcategory: eval
-    star: true
-    summary: The standard 130-task suite for measuring VLA generalization along four axes.
-
-  - arxiv: '2405.05941'
-    title: Evaluating Real-World Robot Manipulation Policies in Simulation
-    institution: UCSD, Stanford, UC Berkeley, Google DeepMind
-    date: '2024-05-09'
-    url: https://arxiv.org/abs/2405.05941
-    venue: arXiv 2024
-    section: vla
-    subcategory: eval
-    star: true
-    summary: 'SIMPLER: simulated evaluation that actually correlates with real-robot success rates.'
+    subcategory: nav
+    summary: A topological graph of places and objects built online, avoiding metric map drift.
 
   - arxiv: '2402.15852'
     title: 'NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation'
@@ -1114,275 +872,220 @@ papers:
     venue: arXiv 2024
     section: vla
     subcategory: nav
-    summary: RGB-video-only navigation with no maps, depth or odometry.
+    summary: Treats the full observation video as implicit memory, needing no map, depth or odometry.
 
-  - arxiv: '2406.08858'
-    title: 'OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning'
-    institution: CMU
-    date: '2024-06-13'
-    url: https://arxiv.org/abs/2406.08858
+  - arxiv: '2402.19161'
+    title: 'MemoNav: Working Memory Model for Visual Navigation'
+    institution: PKU, Beijing Academy of AI
+    date: '2024-02-29'
+    url: https://arxiv.org/abs/2402.19161
     venue: arXiv 2024
     section: vla
     subcategory: nav
-    summary: Universal whole-body teleoperation interface enabling humanoid autonomy data collection.
+    star: true
+    summary: Splits short-term, long-term and working memory to keep only goal-relevant nodes during navigation.
 
-  - arxiv: '2406.10454'
-    title: 'HumanPlus: Humanoid Shadowing and Imitation from Humans'
+  - arxiv: '2304.08742'
+    title: 'Behavior Retrieval: Few-Shot Imitation Learning by Querying Unlabeled Datasets'
     institution: Stanford
-    date: '2024-06-15'
-    url: https://arxiv.org/abs/2406.10454
+    date: '2023-04-18'
+    url: https://arxiv.org/abs/2304.08742
+    venue: arXiv 2023
+    section: vla
+    subcategory: skill
+    summary: Retrieves relevant prior behaviour from unlabelled data instead of collecting new demonstrations.
+
+  - arxiv: '2404.11699'
+    title: Retrieval-Augmented Embodied Agents
+    institution: Purdue, University of Michigan
+    date: '2024-04-17'
+    url: https://arxiv.org/abs/2404.11699
     venue: arXiv 2024
     section: vla
-    subcategory: nav
-    summary: Real-time whole-body shadowing of human motion, then imitation from the collected data.
+    subcategory: skill
+    summary: Gives embodied agents a policy memory to query rather than relearning known behaviours.
 
-  - arxiv: '2412.03572'
-    title: Navigation World Models
-    institution: Meta, NYU, Berkeley
-    date: '2024-12-04'
-    url: https://arxiv.org/abs/2412.03572
+  - arxiv: '2410.07071'
+    title: 'Retrieval-Augmented Decision Transformer: External Memory for In-context RL'
+    institution: Johannes Kepler University Linz
+    date: '2024-10-09'
+    url: https://arxiv.org/abs/2410.07071
     venue: arXiv 2024
     section: vla
-    subcategory: nav
-    star: true
-    summary: Plan by simulating future observations conditioned on candidate navigation actions.
+    subcategory: skill
+    summary: An external memory of past sub-trajectories, letting a decision transformer do in-context RL.
 
-  - arxiv: '2401.16013'
-    title: 'SERL: A Software Suite for Sample-Efficient Robotic Reinforcement Learning'
-    institution: UC Berkeley
-    date: '2024-01-29'
-    url: https://arxiv.org/abs/2401.16013
+  - arxiv: '2412.15182'
+    title: 'STRAP: Robot Sub-Trajectory Retrieval for Augmented Policy Learning'
+    institution: UT Austin, Stanford
+    date: '2024-12-19'
+    url: https://arxiv.org/abs/2412.15182
     venue: arXiv 2024
     section: vla
-    subcategory: rl
-    summary: Made real-world robot RL reproducible in an afternoon rather than a PhD.
+    subcategory: skill
+    summary: Sub-trajectory level retrieval from large robot datasets, a practical experience memory for policies.
 
-  - arxiv: '2410.21845'
-    title: Precise and Dexterous Robotic Manipulation via Human-in-the-Loop Reinforcement Learning
-    institution: UC Berkeley
-    date: '2024-10-29'
-    url: https://arxiv.org/abs/2410.21845
-    venue: arXiv 2024
+  - arxiv: '1702.08360'
+    title: 'Neural Map: Structured Memory for Deep Reinforcement Learning'
+    institution: CMU, Microsoft
+    date: '2017-02-27'
+    url: https://arxiv.org/abs/1702.08360
+    venue: arXiv 2017
     section: vla
-    subcategory: rl
-    star: true
-    summary: 'HIL-SERL: near-perfect success on contact-rich tasks within a couple of hours of human-corrected RL.'
+    subcategory: spatial-map
+    summary: A spatially structured 2D memory that an agent writes to as it moves; the ancestor of map-memory work.
 
-  - arxiv: '2509.16117'
-    title: 'DiffusionNFT: Online Diffusion Reinforcement with Forward Process'
-    institution: Tsinghua, NVIDIA, Stanford
-    date: '2025-09-19'
-    url: https://arxiv.org/abs/2509.16117
-    venue: arXiv 2025
+  - arxiv: '1903.03878'
+    title: Scene Memory Transformer for Embodied Agents in Long-Horizon Tasks
+    institution: Google, UC Berkeley
+    date: '2019-03-09'
+    url: https://arxiv.org/abs/1903.03878
+    venue: arXiv 2019
     section: vla
-    subcategory: rl
-    summary: Likelihood-free online RL for diffusion models, applicable to flow-based action experts.
+    subcategory: spatial-map
+    summary: The first transformer over an embodied agent's full observation history rather than a fixed window.
 
-  - arxiv: '2212.06817'
-    title: 'RT-1: Robotics Transformer for Real-World Control at Scale'
-    institution: Google
-    date: '2022-12-13'
-    url: https://arxiv.org/abs/2212.06817
+  - arxiv: '2010.01191'
+    title: 'Semantic MapNet: Building Allocentric Semantic Maps and Representations from Egocentric Views'
+    institution: Georgia Tech, Meta
+    date: '2020-10-02'
+    url: https://arxiv.org/abs/2010.01191
+    venue: arXiv 2020
+    section: vla
+    subcategory: spatial-map
+    summary: Projects egocentric observations into a persistent top-down semantic memory of the environment.
+
+  - arxiv: '2103.03454'
+    title: Structured Scene Memory for Vision-Language Navigation
+    institution: Beijing Institute of Technology, Inception Institute of AI
+    date: '2021-03-05'
+    url: https://arxiv.org/abs/2103.03454
+    venue: arXiv 2021
+    section: vla
+    subcategory: spatial-map
+    summary: A geometry-aware memory of visited views that supports revisiting and backtracking.
+
+  - arxiv: '2210.05714'
+    title: Visual Language Maps for Robot Navigation
+    institution: University of Freiburg, Google
+    date: '2022-10-11'
+    url: https://arxiv.org/abs/2210.05714
     venue: arXiv 2022
     section: vla
-    subcategory: robot-arch
-    star: true
-    summary: Discretized action tokens over 130k demonstrations; the start of the modern VLA line.
+    subcategory: spatial-map
+    summary: 'VLMaps: fuses language features into a persistent spatial map the robot can query by open-vocabulary phrase.'
 
-  - arxiv: '2307.15818'
-    title: 'RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control'
-    institution: Google DeepMind
-    date: '2023-07-28'
-    url: https://arxiv.org/abs/2307.15818
+  - arxiv: '2210.05663'
+    title: 'CLIP-Fields: Weakly Supervised Semantic Fields for Robotic Memory'
+    institution: NYU, Meta
+    date: '2022-10-11'
+    url: https://arxiv.org/abs/2210.05663
+    venue: arXiv 2022
+    section: vla
+    subcategory: spatial-map
+    summary: A learned implicit field serving as a queryable semantic memory of the whole scene.
+
+  - arxiv: '2309.16650'
+    title: 'ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning'
+    institution: MIT, University of Montreal, Mila
+    date: '2023-09-28'
+    url: https://arxiv.org/abs/2309.16650
     venue: arXiv 2023
     section: vla
-    subcategory: robot-arch
+    subcategory: spatial-map
     star: true
-    summary: Co-fine-tuning a web-scale VLM with robot data; the paper that named the VLA category.
+    summary: Builds an open-vocabulary 3D scene graph as persistent, queryable spatial memory for planning.
 
-  - arxiv: '2405.12213'
-    title: 'Octo: An Open-Source Generalist Robot Policy'
-    institution: UC Berkeley, Stanford, CMU
-    date: '2024-05-20'
-    url: https://arxiv.org/abs/2405.12213
-    venue: arXiv 2024
-    section: vla
-    subcategory: robot-arch
-    summary: Transformer policy with a diffusion head and flexible observation/action interfaces.
-
-  - arxiv: '2406.09246'
-    title: 'OpenVLA: An Open-Source Vision-Language-Action Model'
-    institution: Stanford, UC Berkeley, TRI, Google DeepMind
-    date: '2024-06-13'
-    url: https://arxiv.org/abs/2406.09246
-    venue: arXiv 2024
-    section: vla
-    subcategory: robot-arch
-    star: true
-    summary: 7B open VLA on Open-X; the default academic baseline for manipulation.
-
-  - arxiv: '2410.07864'
-    title: 'RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation'
-    institution: Tsinghua
-    date: '2024-10-10'
-    url: https://arxiv.org/abs/2410.07864
-    venue: arXiv 2024
-    section: vla
-    subcategory: robot-arch
-    summary: 1B diffusion transformer with a unified action space for bimanual robots.
-
-  - arxiv: '2410.24164'
-    title: 'π0: A Vision-Language-Action Flow Model for General Robot Control'
-    institution: Physical Intelligence
-    date: '2024-10-31'
-    url: https://arxiv.org/abs/2410.24164
-    venue: arXiv 2024
-    section: vla
-    subcategory: robot-arch
-    star: true
-    summary: Flow-matching action expert bolted onto a VLM; the reference architecture for high-frequency control.
-
-  - arxiv: '2411.19650'
-    title: 'CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation'
-    institution: Microsoft Research Asia, Tsinghua
-    date: '2024-11-29'
-    url: https://arxiv.org/abs/2411.19650
-    venue: arXiv 2024
-    section: vla
-    subcategory: robot-arch
-    summary: Componentized cognition and action modules with a diffusion action transformer.
-
-  - arxiv: '2502.19417'
-    title: 'Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models'
-    institution: Physical Intelligence, Stanford
-    date: '2025-02-26'
-    url: https://arxiv.org/abs/2502.19417
-    venue: arXiv 2025
-    section: vla
-    subcategory: robot-arch
-    summary: A high-level VLM issues language subgoals to a low-level VLA, handling interactive corrections.
-
-  - arxiv: '2503.14734'
-    title: 'GR00T N1: An Open Foundation Model for Generalist Humanoid Robots'
-    institution: NVIDIA
-    date: '2025-03-18'
-    url: https://arxiv.org/abs/2503.14734
-    venue: arXiv 2025
-    section: vla
-    subcategory: robot-arch
-    star: true
-    summary: Dual-system humanoid foundation model trained on a mix of real, synthetic and human video.
-
-  - arxiv: '2503.20020'
-    title: 'Gemini Robotics: Bringing AI into the Physical World'
-    institution: Google DeepMind
-    date: '2025-03-25'
-    url: https://arxiv.org/abs/2503.20020
-    venue: arXiv 2025
-    section: vla
-    subcategory: robot-arch
-    star: true
-    summary: Gemini-based embodied reasoning plus a low-latency action model for dexterous tasks.
-
-  - arxiv: '2504.16054'
-    title: 'π0.5: a Vision-Language-Action Model with Open-World Generalization'
-    institution: Physical Intelligence
-    date: '2025-04-22'
-    url: https://arxiv.org/abs/2504.16054
-    venue: arXiv 2025
-    section: vla
-    subcategory: robot-arch
-    star: true
-    summary: Heterogeneous co-training with high-level subtask prediction; generalizes to unseen homes.
-
-  - arxiv: '2405.14093'
-    title: A Survey on Vision-Language-Action Models for Embodied AI
-    institution: CUHK, Huawei Noah's Ark Lab
-    date: '2024-05-23'
-    url: https://arxiv.org/abs/2405.14093
-    venue: arXiv 2024
-    section: vla
-    subcategory: survey
-    summary: Organizes VLA work into components, control policies and high-level task planners.
-
-  - arxiv: '2505.04769'
-    title: 'Vision-Language-Action Models: Concepts, Progress, Applications and Challenges'
-    institution: Cornell, University of Washington
-    date: '2025-05-07'
-    url: https://arxiv.org/abs/2505.04769
-    venue: arXiv 2025
-    section: vla
-    subcategory: survey
-    summary: Broad and recent VLA survey spanning robotics, driving and humanoid applications.
-
-  - arxiv: '2302.00111'
-    title: Learning Universal Policies via Text-Guided Video Generation
-    institution: MIT, Google DeepMind
-    date: '2023-01-31'
-    url: https://arxiv.org/abs/2302.00111
-    venue: arXiv 2023
-    section: vla
-    subcategory: worldmodel
-    summary: 'UniPi: plan by generating video, then extract actions with an inverse dynamics model.'
-
-  - arxiv: '2309.09777'
-    title: 'DriveDreamer: Towards Real-world-Driven World Models for Autonomous Driving'
-    institution: GigaAI, Tsinghua
-    date: '2023-09-18'
-    url: https://arxiv.org/abs/2309.09777
-    venue: arXiv 2023
-    section: vla
-    subcategory: worldmodel
-    summary: Structured traffic priors to keep generated driving video physically plausible.
-
-  - arxiv: '2309.17080'
-    title: 'GAIA-1: A Generative World Model for Autonomous Driving'
-    institution: Wayve
-    date: '2023-09-29'
-    url: https://arxiv.org/abs/2309.17080
-    venue: arXiv 2023
-    section: vla
-    subcategory: worldmodel
-    summary: Video, text and action conditioned generative driving world model.
-
-  - arxiv: '2402.15391'
-    title: 'Genie: Generative Interactive Environments'
-    institution: Google DeepMind
+  - arxiv: '2402.15487'
+    title: 'RoboEXP: Action-Conditioned Scene Graph via Interactive Exploration for Robotic Manipulation'
+    institution: UC San Diego, Tsinghua
     date: '2024-02-23'
-    url: https://arxiv.org/abs/2402.15391
+    url: https://arxiv.org/abs/2402.15487
     venue: arXiv 2024
     section: vla
-    subcategory: worldmodel
-    star: true
-    summary: Latent action space learned unsupervised from video, yielding a controllable world model.
+    subcategory: spatial-map
+    summary: Memory that records what actions revealed, not just what was seen, enabling interactive discovery.
 
-  - arxiv: '2405.17398'
-    title: 'Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability'
-    institution: GigaAI, CASIA
-    date: '2024-05-27'
-    url: https://arxiv.org/abs/2405.17398
+  - arxiv: '2411.17735'
+    title: '3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning'
+    institution: UC San Diego, Stanford
+    date: '2024-11-23'
+    url: https://arxiv.org/abs/2411.17735
     venue: arXiv 2024
     section: vla
-    subcategory: worldmodel
-    summary: High-resolution driving world model with multiple action-control interfaces.
-
-  - arxiv: '2501.03575'
-    title: Cosmos World Foundation Model Platform for Physical AI
-    institution: NVIDIA
-    date: '2025-01-07'
-    url: https://arxiv.org/abs/2501.03575
-    venue: arXiv 2025
-    section: vla
-    subcategory: worldmodel
+    subcategory: spatial-map
     star: true
-    summary: An open world-model platform with tokenizers, data pipeline and post-training recipes.
+    summary: Memory snapshots of informative views instead of a dense map, keeping exploration decisions tractable.
 
-  - arxiv: '2506.21539'
-    title: 'WorldVLA: Towards Autoregressive Action World Model'
-    institution: Alibaba DAMO, Zhejiang University
-    date: '2025-06-26'
-    url: https://arxiv.org/abs/2506.21539
+  - arxiv: '2409.18313'
+    title: 'Embodied-RAG: General Non-parametric Embodied Memory for Retrieval and Generation'
+    institution: CMU
+    date: '2024-09-26'
+    url: https://arxiv.org/abs/2409.18313
+    venue: arXiv 2024
+    section: vla
+    subcategory: vla-mem
+    summary: A hierarchical semantic forest of the environment, retrievable at any level from object to region.
+
+  - arxiv: '2501.18564'
+    title: 'SAM2Act: Integrating Visual Foundation Model with A Memory Architecture for Robotic Manipulation'
+    institution: University of Washington, Allen Institute for AI, NVIDIA
+    date: '2025-01-30'
+    url: https://arxiv.org/abs/2501.18564
     venue: arXiv 2025
     section: vla
-    subcategory: worldmodel
-    summary: One autoregressive model that both predicts future frames and emits actions.
+    subcategory: vla-mem
+    star: true
+    summary: Adds a memory bank on top of SAM2 so a manipulation policy can solve tasks that require recalling earlier steps.
+
+  - arxiv: '2508.19236'
+    title: 'MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation'
+    institution: Shanghai AI Lab, Tsinghua
+    date: '2025-08-26'
+    url: https://arxiv.org/abs/2508.19236
+    venue: arXiv 2025
+    section: vla
+    subcategory: vla-mem
+    star: true
+    summary: A Hippocampus-inspired perceptual-cognitive memory bank that gives VLA policies genuine temporal context.
+
+  - arxiv: '2504.12369'
+    title: 'WORLDMEM: Long-term Consistent World Simulation with Memory'
+    institution: Nanyang Technological University, Peking University
+    date: '2025-04-16'
+    url: https://arxiv.org/abs/2504.12369
+    venue: arXiv 2025
+    section: vla
+    subcategory: world
+    star: true
+    summary: A memory bank of past frames and poses so a generated world stays consistent when you look back.
+
+  - arxiv: '2505.20171'
+    title: Long-Context State-Space Video World Models
+    institution: Stanford, Adobe
+    date: '2025-05-26'
+    url: https://arxiv.org/abs/2505.20171
+    venue: arXiv 2025
+    section: vla
+    subcategory: world
+    summary: State-space layers give a video world model long-term memory at linear cost.
+
+  - arxiv: '2506.03141'
+    title: 'Context as Memory: Scene-Consistent Interactive Long Video Generation with Memory Retrieval'
+    institution: Zhejiang University, Kuaishou
+    date: '2025-06-03'
+    url: https://arxiv.org/abs/2506.03141
+    venue: arXiv 2025
+    section: vla
+    subcategory: world
+    summary: Retrieves historical context by field-of-view overlap, keeping generated scenes coherent over time.
+
+  - arxiv: '2506.05284'
+    title: Video World Models with Long-term Spatial Memory
+    institution: Stanford, HKUST, Adobe
+    date: '2025-06-05'
+    url: https://arxiv.org/abs/2506.05284
+    venue: arXiv 2025
+    section: vla
+    subcategory: world
+    summary: Geometry-grounded long-term memory that fixes the forgetting problem in long video world models.

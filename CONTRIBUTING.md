@@ -2,13 +2,22 @@
 
 Thanks for adding a paper. The whole process is one YAML entry.
 
+## Is it in scope?
+
+One question decides it: **is memory the contribution?** The paper must store
+something and retrieve it later — across turns, across hours of video, across
+visits to the same room. A stronger backbone that happens to have a KV cache is
+out of scope no matter how good it is, and so is a systems paper about cutting
+GPU memory. When in doubt, ask whether the title would still make sense with
+the word "memory" removed; if it would, the paper probably belongs elsewhere.
+
 ## Quick path
 
 ```bash
-python scripts/add_paper.py 2410.24164 \
-    --institution "Physical Intelligence" \
-    --section vla --subcategory robot-arch \
-    --summary "Flow-matching action expert on top of a VLM backbone."
+python scripts/add_paper.py 2508.19236 \
+    --institution "Shanghai AI Lab, Tsinghua" \
+    --section vla --subcategory vla-mem \
+    --summary "Perceptual-cognitive memory bank that gives VLA policies temporal context."
 ```
 
 That fetches the title and date from arXiv, writes the entry to
@@ -20,10 +29,10 @@ That fetches the title and date from arXiv, writes the entry to
 Append to the `papers:` list in `data/papers.yaml`:
 
 ```yaml
-  - arxiv: "2410.24164"
-    institution: "Physical Intelligence"
+  - arxiv: "2508.19236"
+    institution: "Shanghai AI Lab, Tsinghua"
     section: vla            # llm | vlm | vla
-    subcategory: robot-arch # see data/categories.yaml
+    subcategory: vla-mem    # see data/categories.yaml
     summary: "One line on why this paper matters."
     star: true              # optional, highlights the entry
     code: "https://github.com/..."     # optional
@@ -42,8 +51,8 @@ python scripts/generate_readme.py   # regenerates the three views
 1. **Never edit `README.md`, `TIMELINE.md` or `BY_INSTITUTION.md`.** They are
    build artifacts and your change will be overwritten. Edit `data/papers.yaml`.
 2. **Summaries are one line and say why the paper matters**, not what it
-   contains. "GRPO, the critic-free optimizer now used everywhere" beats "a
-   reinforcement learning method for language models".
+   contains. "Ebbinghaus-curve forgetting applied to stored dialogues" beats "a
+   long-term memory method for language models".
 3. **Pick the most specific subcategory.** If a paper genuinely spans two, pick
    the one a reader would look under first.
 4. **`star: true` is for entry points**, not for papers you like. Roughly one in

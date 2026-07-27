@@ -1,8 +1,12 @@
-# Taxonomy for Awesome-LLM-VLM-VLA-Papers
+# Taxonomy for Awesome Memory Bank
+#
+# Scope: papers whose *core contribution* is memory -- storing, retrieving,
+# consolidating or forgetting information across time. A strong model that
+# merely happens to have a KV cache does not belong here.
 #
 # This file is the single source of truth for:
 #   1. the section / subcategory structure rendered into README.md
-#   2. the keyword lists used by scripts/fetch_arxiv.py to auto-classify
+#   2. the keywords used by scripts/fetch_arxiv.py to gate and auto-classify
 #      newly crawled arXiv papers
 #
 # Adding a subcategory here is enough: the generator and the crawler pick it
@@ -10,110 +14,122 @@
 # title + abstract; `weight` boosts a subcategory when several ones match.
 
 meta:
-  title: Awesome LLM / VLM / VLA Papers
+  title: Awesome Memory Bank
   subtitle: >-
-    A curated, auto-updated collection of papers across three tiers of
-    foundation models: language-only LLMs & agents, vision-language models,
-    and vision-language-action models.
+    A curated, auto-updated collection of papers on memory in foundation
+    models -- long-term and episodic memory, memory architectures, retrieval
+    and consolidation -- split across LLM/Agent, VLM and VLA systems.
   repo: YuchenLiu98/awesome-memory-bank
   license: CC0 1.0
 
 sections:
   - id: llm
     numeral: I
-    title: LLM & Agent
-    title_zh: 纯语言模型与智能体
+    title: LLM & Agent Memory
+    title_zh: 语言模型与智能体的记忆
     short: LLM
     description: >-
-      Language-only foundation models, their training recipes, reasoning
-      abilities, and the agent systems built on top of them.
+      Memory in language-only systems: memory operating systems, long-term and
+      personalized memory, parametric memory editing, context compression, and
+      the experience stores that let agents improve over time.
     subcategories:
-      - id: foundation
-        title: Foundation Models & Architecture
+      - id: memory-arch
+        title: Memory Architectures & Memory OS
         keywords:
-          - large language model
-          - technical report
-          - mixture-of-experts
-          - pretraining
-          - transformer architecture
-          - state space model
-          - linear attention
-      - id: reasoning
-        title: Reasoning & Chain-of-Thought
+          - memory architecture
+          - memory operating system
+          - memory management
+          - memory hierarchy
+          - memory system for agents
+          - virtual context management
+          - memory module
+        weight: 1.3
+      - id: longterm
+        title: Long-Term & Personalized Memory
         keywords:
-          - chain-of-thought
-          - chain of thought
-          - reasoning model
-          - step-by-step reasoning
-          - self-consistency
-          - test-time compute
-          - test-time scaling
-          - latent reasoning
-          - process reward
+          - long-term memory
+          - long term memory
+          - lifelong memory
+          - persistent memory
+          - personalized memory
+          - user memory
+          - memory bank
+          - conversational memory
+        weight: 1.4
+      - id: retrieval
+        title: Retrieval-Augmented Memory
+        keywords:
+          - retrieval-augmented
+          - retrieval augmented generation
+          - memory retrieval
+          - external knowledge store
+          - non-parametric memory
+          - graph memory
+          - memory indexing
         weight: 1.2
-      - id: posttrain
-        title: Post-training, RLHF & RLVR
+      - id: parametric
+        title: Parametric Memory & Knowledge Editing
         keywords:
-          - rlhf
-          - reinforcement learning from human feedback
-          - dpo
-          - direct preference optimization
-          - grpo
-          - verifiable reward
-          - instruction tuning
-          - alignment
-          - preference optimization
-        weight: 1.2
-      - id: agent
-        title: Agent Frameworks & Tool Use
+          - knowledge editing
+          - model editing
+          - factual association
+          - parametric memory
+          - knowledge injection
+          - memory update in weights
+          - catastrophic forgetting
+        weight: 1.3
+      - id: kvcache
+        title: KV Cache & Context Memory Compression
         keywords:
-          - llm agent
-          - autonomous agent
-          - tool use
-          - tool calling
-          - function calling
-          - agentic
-          - computer use
-          - software engineering agent
-          - deep research
+          - kv cache
+          - key-value cache
+          - cache compression
+          - context compression
+          - token eviction
+          - attention sink
+          - streaming language model
+          - prompt compression
+        weight: 1.3
+      - id: recurrent
+        title: Recurrent & Compressive Memory Models
+        keywords:
+          - recurrent memory
+          - compressive memory
+          - memorizing transformer
+          - memory tokens
+          - state space memory
+          - test-time memorization
+          - associative memory
+        weight: 1.3
+      - id: agent-exp
+        title: Agent Experience & Skill Memory
+        keywords:
+          - experience replay for agents
+          - skill library
+          - experiential learning
+          - self-reflection memory
+          - trajectory memory
+          - procedural memory
+          - case-based reasoning
         weight: 1.3
       - id: multiagent
-        title: Multi-Agent Systems
+        title: Multi-Agent & Shared Memory
         keywords:
-          - multi-agent
-          - multi agent collaboration
-          - agent society
-          - role-playing agents
-        weight: 1.3
-      - id: memory
-        title: Memory, Context & Retrieval
-        keywords:
-          - long context
-          - context window
-          - retrieval-augmented
-          - rag
-          - memory mechanism
-          - kv cache
-          - context compression
-      - id: efficiency
-        title: Efficient Training & Inference
-        keywords:
-          - quantization
-          - speculative decoding
-          - parameter-efficient
-          - lora
-          - inference acceleration
-          - serving system
-          - flash attention
-          - distillation
+          - shared memory
+          - collective memory
+          - multi-agent memory
+          - collaborative memory
+        weight: 1.4
       - id: eval
-        title: Evaluation & Benchmarks
+        title: Memory Benchmarks & Analysis
         keywords:
-          - benchmark
-          - evaluation suite
-          - leaderboard
-          - contamination
-          - llm-as-a-judge
+          - memory benchmark
+          - long-term conversation benchmark
+          - memorization analysis
+          - forgetting analysis
+          - memory evaluation
+          - probing memory
+        weight: 1.2
       - id: survey
         title: Surveys
         keywords:
@@ -124,100 +140,70 @@ sections:
 
   - id: vlm
     numeral: II
-    title: VLM
-    title_zh: 视觉语言模型
+    title: VLM Memory
+    title_zh: 视觉语言模型的记忆
     short: VLM
     description: >-
-      Multimodal models that consume pixels and produce language: perception,
-      grounding, video understanding, unified generation, and GUI agents.
+      Memory for models that see: memory banks for hour-long and streaming
+      video, episodic visual memory, personalized multimodal memory, and
+      compression of visual context.
     subcategories:
-      - id: arch
-        title: Architecture & Pre-training
+      - id: mm-arch
+        title: Multimodal Memory Architectures
         keywords:
-          - vision-language model
-          - multimodal large language model
-          - vision encoder
-          - visual instruction tuning
-          - image-text pretraining
-          - contrastive language-image
-          - projector
-        weight: 1.1
-      - id: reasoning
-        title: Multimodal Reasoning
-        keywords:
-          - multimodal reasoning
-          - multimodal chain-of-thought
-          - visual reasoning
-          - visual chain-of-thought
-          - multimodal rl
-          - thinking with images
-        weight: 1.2
+          - multimodal memory
+          - visual memory
+          - memory-augmented multimodal
+          - cross-modal memory
+          - memory bank
+        weight: 1.3
       - id: video
-        title: Video & Long-Horizon Understanding
+        title: Long Video & Streaming Memory
         keywords:
-          - video understanding
-          - video llm
-          - long video
-          - temporal grounding
+          - long video understanding
           - streaming video
-        weight: 1.3
-      - id: spatial
-        title: Spatial Intelligence & 3D/4D
-        keywords:
-          - spatial reasoning
-          - spatial intelligence
-          - 3d scene understanding
-          - point cloud language
-          - depth estimation
-          - 4d reconstruction
-          - visual geometry
-        weight: 1.3
-      - id: grounding
-        title: Grounding, Detection & Segmentation
-        keywords:
-          - visual grounding
-          - referring expression
-          - open-vocabulary detection
-          - segmentation
-          - region-level
-          - pixel grounding
-        weight: 1.2
-      - id: unified
-        title: Unified Understanding & Generation
-        keywords:
-          - unified understanding and generation
-          - any-to-any
-          - autoregressive image generation
-          - interleaved generation
-          - image tokenizer
-          - diffusion language model
-        weight: 1.2
-      - id: guiagent
-        title: GUI & Multimodal Agents
-        keywords:
-          - gui agent
-          - gui grounding
-          - screen understanding
-          - web agent
-          - mobile agent
-          - os agent
+          - video memory
+          - memory consolidation
+          - online video understanding
+          - hour-long video
+          - temporal memory
         weight: 1.4
-      - id: efficiency
-        title: Efficient VLM
+      - id: episodic
+        title: Episodic & Personalized Visual Memory
         keywords:
-          - token pruning
+          - episodic memory
+          - egocentric memory
+          - personalized multimodal
+          - visual concept memory
+          - lifelong visual
+          - memory of past interactions
+        weight: 1.4
+      - id: compress
+        title: Visual Context & Token Memory Compression
+        keywords:
           - visual token compression
-          - efficient multimodal
-          - lightweight vlm
-          - token merging
-      - id: eval
-        title: Benchmarks & Hallucination
+          - visual kv cache
+          - token memory
+          - frame selection memory
+          - visual context compression
+        weight: 1.3
+      - id: gui
+        title: GUI & Web Agent Memory
         keywords:
-          - multimodal benchmark
-          - hallucination
-          - vqa benchmark
-          - perception benchmark
-          - multimodal evaluation
+          - gui agent memory
+          - web agent memory
+          - screen memory
+          - workflow memory
+          - browsing memory
+        weight: 1.5
+      - id: eval
+        title: Benchmarks & Analysis
+        keywords:
+          - memory benchmark
+          - long video benchmark
+          - episodic memory benchmark
+          - memory evaluation
+        weight: 1.2
       - id: survey
         title: Surveys
         keywords:
@@ -227,97 +213,70 @@ sections:
 
   - id: vla
     numeral: III
-    title: VLA
-    title_zh: 视觉语言动作模型
+    title: VLA & Embodied Memory
+    title_zh: 视觉语言动作与具身记忆
     short: VLA
     description: >-
-      Models that close the loop from perception and language to physical
-      action, covering robot manipulation, autonomous driving and world models.
+      Memory for systems that act: perceptual-cognitive memory inside VLA
+      policies, spatial and semantic scene memory, navigation memory, and the
+      long-horizon consistency that world models need.
     subcategories:
-      - id: robot-arch
-        title: Robotics VLA Architecture
+      - id: vla-mem
+        title: VLA Memory Architectures
         keywords:
-          - vision-language-action
-          - vla model
-          - robot manipulation policy
-          - generalist robot policy
-          - robot foundation model
-          - embodied foundation model
-          - dual-system
-        weight: 1.2
-      - id: driving
-        title: Autonomous Driving VLA
+          - vision-language-action memory
+          - memory in vla
+          - perceptual-cognitive memory
+          - memory for manipulation
+          - robot memory
+          - embodied memory
+          - long-horizon manipulation memory
+        weight: 1.5
+      - id: spatial-map
+        title: Spatial & Semantic Scene Memory
         keywords:
-          - autonomous driving
-          - end-to-end driving
-          - driving vla
-          - trajectory planning
-          - driving with language
-          - closed-loop driving
-        weight: 1.4
-      - id: action-token
-        title: Action Tokenization & Representation
-        keywords:
-          - action tokenizer
-          - action tokenization
-          - latent action
-          - action chunking
-          - action representation
-          - flow matching action
-        weight: 1.4
-      - id: worldmodel
-        title: World Models & Policy Co-learning
-        keywords:
-          - world model
-          - video prediction policy
-          - dreamer
-          - imagination
-          - world action model
-          - neural simulator
-        weight: 1.3
-      # Deliberately narrow: bare "reinforcement learning" would swallow every
-      # LLM post-training paper.
-      - id: rl
-        title: RL & Policy Optimization
-        keywords:
-          - robot reinforcement learning
-          - real-world reinforcement learning
-          - reinforcement learning for manipulation
-          - online rl fine-tuning
-          - human-in-the-loop reinforcement learning
-          - policy optimization for vla
-          - reward model for robot
-          - residual policy
-          - self-improving policy
-        weight: 1.1
-      - id: data
-        title: Data, Pre-training & Simulation
-        keywords:
-          - robot dataset
-          - teleoperation
-          - cross-embodiment
-          - human video
-          - simulation benchmark
-          - data scaling
-          - sim-to-real
-        weight: 1.2
+          - spatial memory
+          - scene memory
+          - semantic map memory
+          - 3d memory
+          - scene graph memory
+          - persistent scene representation
+          - map-based memory
+        weight: 1.5
       - id: nav
-        title: Navigation & Humanoid
+        title: Navigation Memory
         keywords:
+          - navigation memory
           - vision-language navigation
-          - embodied navigation
-          - humanoid
-          - locomotion
-          - whole-body control
-        weight: 1.3
-      - id: eval
-        title: Benchmarks & Safety
+          - topological memory
+          - exploration memory
+          - working memory navigation
+        weight: 1.4
+      - id: world
+        title: World Models & Long-Horizon Memory
         keywords:
-          - robot benchmark
-          - safety
-          - evaluation protocol
-          - generalization benchmark
-          - failure recovery
+          - world model memory
+          - long-horizon consistency
+          - memory in world model
+          - temporal consistency generation
+          - persistent world state
+        weight: 1.4
+      - id: skill
+        title: Robot Skill & Experience Memory
+        keywords:
+          - skill memory
+          - demonstration memory
+          - experience memory robot
+          - retrieval-augmented policy
+          - memory-based imitation
+        weight: 1.4
+      - id: eval
+        title: Benchmarks & Analysis
+        keywords:
+          - robot memory benchmark
+          - embodied memory benchmark
+          - memory evaluation
+        weight: 1.3
       - id: survey
         title: Surveys
         keywords:
@@ -326,35 +285,106 @@ sections:
         weight: 1.5
 
 # Search configuration for scripts/fetch_arxiv.py.
-#
-# One query per track keeps each request small enough for the arXiv API while
-# still covering the three tracks independently. Edit these to widen or narrow
-# the daily crawl.
 arxiv:
   queries:
     - id: llm
       query: >-
-        (cat:cs.CL OR cat:cs.AI) AND (abs:"large language model" OR abs:"LLM agent"
-        OR abs:"agentic" OR abs:"chain-of-thought" OR abs:"reasoning model"
-        OR abs:"test-time scaling" OR abs:"tool use" OR abs:"multi-agent")
+        (cat:cs.CL OR cat:cs.AI) AND (abs:"long-term memory" OR abs:"memory module"
+        OR abs:"agent memory" OR abs:"memory-augmented" OR abs:"episodic memory"
+        OR abs:"memory mechanism" OR abs:"memory bank" OR abs:"knowledge editing"
+        OR abs:"kv cache" OR abs:"context compression")
     - id: vlm
       query: >-
-        (cat:cs.CV OR cat:cs.CL) AND (abs:"vision-language model"
-        OR abs:"multimodal large language model" OR abs:"MLLM"
-        OR abs:"visual instruction" OR abs:"video understanding"
-        OR abs:"GUI agent" OR abs:"spatial reasoning")
+        cat:cs.CV AND (abs:"memory bank" OR abs:"long-term memory"
+        OR abs:"memory-augmented" OR abs:"episodic memory" OR abs:"visual memory"
+        OR abs:"memory module" OR abs:"streaming video" OR abs:"memory consolidation")
     - id: vla
       query: >-
-        (cat:cs.RO OR cat:cs.CV OR cat:cs.LG) AND (abs:"vision-language-action"
-        OR abs:"robot manipulation" OR abs:"embodied agent" OR abs:"robot policy"
-        OR abs:"autonomous driving" OR abs:"world model" OR abs:"humanoid")
+        (cat:cs.RO OR cat:cs.AI) AND (abs:"spatial memory" OR abs:"scene memory"
+        OR abs:"embodied memory" OR abs:"robot memory" OR abs:"navigation memory"
+        OR abs:"memory-augmented policy" OR abs:"topological memory"
+        OR abs:"working memory")
   categories:
     - cs.AI
     - cs.CL
     - cs.CV
     - cs.LG
     - cs.RO
-  # A paper must match at least one of these to enter the candidate queue.
+
+  # ---------------------------------------------------------------------
+  # The memory gate. This is what keeps the list on-topic.
+  #
+  # A paper is only considered if it contains at least one STRONG phrase
+  # below. The bare word "memory" is deliberately absent: in ML papers it
+  # usually means VRAM, not cognition.
+  # ---------------------------------------------------------------------
+  memory_keywords:
+    - memory bank
+    - long-term memory
+    - long term memory
+    - short-term memory
+    - working memory
+    - episodic memory
+    - semantic memory
+    - procedural memory
+    - associative memory
+    - external memory
+    - persistent memory
+    - lifelong memory
+    - spatial memory
+    - scene memory
+    - visual memory
+    - multimodal memory
+    - agent memory
+    - robot memory
+    - embodied memory
+    - memory module
+    - memory mechanism
+    - memory architecture
+    - memory-augmented
+    - memory augmented
+    - memory retrieval
+    - memory consolidation
+    - memory management
+    - memory system
+    - memory network
+    - memory token
+    - memory compression
+    - memory update
+    - memory store
+    - memorization
+    - memorize
+    - recall past
+    - catastrophic forgetting
+    - knowledge editing
+    - model editing
+    - retrieval-augmented
+    - kv cache
+    - key-value cache
+    - context compression
+    - attention sink
+    - topological memory
+    - skill library
+    - experience replay
+
+  # Phrases where "memory" means hardware. A paper matching only these is
+  # dropped: "memory-efficient training" is a systems paper, not a memory one.
+  hardware_memory_keywords:
+    - memory-efficient
+    - memory efficient
+    - memory footprint
+    - gpu memory
+    - memory usage
+    - memory bandwidth
+    - memory consumption
+    - memory overhead
+    - out-of-memory
+    - memory cost
+    - high bandwidth memory
+    - memory access
+    - shared memory architecture
+
+  # A paper must also look like it belongs to one of the three tracks.
   gate_keywords:
     - large language model
     - language model
@@ -369,9 +399,11 @@ arxiv:
     - embodied
     - agent
     - robot
-    - autonomous driving
-    - world model
-    - reasoning
+    - navigation
+    - video understanding
+    - foundation model
+    - transformer
+
   # Papers whose title matches these are dropped as noise.
   block_keywords:
     - federated learning
@@ -380,6 +412,11 @@ arxiv:
     - time series forecasting
     - protein
     - speech enhancement
+    - memristor
+    - in-memory computing
+    - dram
+    - cache coherence
+    - hardware accelerator
 
 # Institution names collapse to a canonical form in BY_INSTITUTION.md, so a lab
 # does not get split across several spellings. Keys are matched exactly.
@@ -389,7 +426,6 @@ institution_aliases:
   UW: University of Washington
   Washington: University of Washington
   Berkeley: UC Berkeley
-  UC Berkeley (BAIR): UC Berkeley
   MSRA: Microsoft Research Asia
   Microsoft Research: Microsoft
   Google Research: Google
@@ -404,7 +440,7 @@ institution_aliases:
   Nanjing University: NJU
   Alibaba Group: Alibaba
   ByteDance Seed: ByteDance
-  Physical Intelligence (PI): Physical Intelligence
+  Renmin University of China: Renmin University
 
 # Institutions worth highlighting in the daily digest and reports.
 watch_institutions:
@@ -419,12 +455,9 @@ watch_institutions:
   - DeepSeek
   - ByteDance
   - Tencent
-  - Xiaomi
-  - Moonshot AI
   - Shanghai AI Lab
   - Tsinghua
   - PKU
-  - SJTU
   - Stanford
   - UC Berkeley
   - MIT

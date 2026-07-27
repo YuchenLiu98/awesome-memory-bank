@@ -29,18 +29,34 @@ Nothing enters the curated list without a human promoting it.
     README.md          TIMELINE.md      BY_INSTITUTION.md
 ```
 
+## What counts as a memory paper
+
+The list has exactly one admission criterion: **memory is the contribution**,
+not a component the method happens to contain. A model that stores and later
+retrieves its own past belongs here; a stronger backbone that merely has a KV
+cache does not. Concretely, *MemoryVLA: Perceptual-Cognitive Memory in
+Vision-Language-Action Models* is in scope and *Qwen2-VL* is not, even though
+the second is the more influential paper.
+
+The word "memory" alone cannot decide this, because in machine-learning writing
+it usually means VRAM. `arxiv.memory_keywords` in `data/categories.yaml`
+therefore lists only explicit phrases — `episodic memory`, `memory bank`,
+`knowledge editing`, `kv cache` — and `hardware_memory_keywords` masks out
+`memory-efficient`, `memory footprint` and friends before matching, so a
+systems paper about reducing GPU memory cannot enter on the word alone.
+
 ## The three tracks
 
-| Track | Scope | Typical question it answers |
+| Track | Scope | The memory question it asks |
 | --- | --- | --- |
-| **LLM & Agent** | Language-only models, post-training, agents, tool use | How does the model think and act through text? |
-| **VLM** | Vision-language understanding, video, spatial, GUI agents | How does the model see? |
-| **VLA** | Perception and language grounded into physical action | How does the model act in the world? |
+| **LLM & Agent** | Language-only models and text agents | What should the model carry forward across turns and sessions? |
+| **VLM** | Vision-language and video models | What should it retain from hours of visual input? |
+| **VLA** | Policies grounded in physical action | What must it remember about a place it has been? |
 
-The boundary cases are deliberate: a GUI agent driving a screen is **VLM**
+The boundary cases are deliberate: a GUI agent's workflow memory is **VLM**
 (its action space is the interface, not the physical world), while a robot or
-vehicle policy is **VLA**. A reasoning paper with no visual input is **LLM**
-even when the method later transfers to VLA post-training.
+navigation policy is **VLA**. Classic pre-LLM work such as Neural Turing
+Machines sits under **LLM** as the architectural ancestor of the rest.
 
 Subcategories live in `data/categories.yaml`. Adding one there is enough — both
 the generator and the crawler pick it up on the next run.
@@ -50,8 +66,8 @@ the generator and the crawler pick it up on the next run.
 `.github/workflows/daily-update.yml` runs at 01:00 UTC (09:00 Beijing), just
 after arXiv's overnight announcement:
 
-1. `fetch_arxiv.py --days 2` runs one search per track, keeps papers newer than
-   the cutoff that pass the gate keywords, and scores each one against every
+1. `fetch_arxiv.py --days 2` runs one search per track and applies the memory
+   gate above, then the track gate, then scores each survivor against every
    subcategory's keyword list. Title hits count triple, abstract hits count
    once, and each subcategory has an optional `weight` to break ties in favour
    of the more specific bucket.
@@ -72,8 +88,8 @@ Read the digest, pick what is worth keeping, then:
 
 ```bash
 python scripts/add_paper.py 2604.01234 \
-    --institution "Tsinghua, Xiaomi" \
-    --section vla --subcategory driving \
+    --institution "Tsinghua, Shanghai AI Lab" \
+    --section vla --subcategory vla-mem \
     --summary "One line on why this matters." --star
 ```
 
@@ -92,10 +108,10 @@ python scripts/reclassify.py --write   # apply and rebuild today's digest
 ```
 
 Two rules keep the buckets clean. Keep keywords **specific to their track** — a
-bare `reinforcement learning` under VLA swallows every LLM post-training paper,
-whereas `robot reinforcement learning` does not. And raise `weight` only on the
-narrow subcategories that keep losing to broader ones, since a title hit is
-already worth three abstract hits.
+bare `memory module` under VLA swallows every LLM agent paper, whereas
+`embodied memory` does not. And raise `weight` only on the narrow subcategories
+that keep losing to broader ones, since a title hit is already worth three
+abstract hits.
 
 ## Verifying the data
 

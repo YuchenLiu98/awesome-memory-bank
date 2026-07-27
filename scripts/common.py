@@ -54,12 +54,15 @@ PAPERS_HEADER = """\
 # The paper database. This file is the single source of truth for README.md,
 # TIMELINE.md and BY_INSTITUTION.md -- never edit those by hand.
 #
+# Scope: memory is the contribution. A strong model that merely has a KV cache
+# does not belong here.
+#
 # Minimal entry (title / date / url are filled in by scripts/sync_metadata.py):
 #
-#   - arxiv: "2410.24164"
-#     institution: "Physical Intelligence"
+#   - arxiv: "2508.19236"
+#     institution: "Shanghai AI Lab, Tsinghua"
 #     section: vla            # llm | vlm | vla
-#     subcategory: robot-arch # must exist in data/categories.yaml
+#     subcategory: vla-mem    # must exist in data/categories.yaml
 #     summary: "One line on why this paper matters."
 #
 # Optional: code, project, venue, tags, star (true = highlighted in README).
@@ -326,8 +329,17 @@ def fetch_by_ids(
     return result
 
 
-def search(query: str, max_results: int = 200, page_size: int = 100) -> list[dict[str, Any]]:
-    """Run an arXiv search query, newest first, with paging."""
+def search(
+    query: str,
+    max_results: int = 200,
+    page_size: int = 100,
+    sort_by: str = "submittedDate",
+) -> list[dict[str, Any]]:
+    """Run an arXiv search query with paging.
+
+    sort_by is "submittedDate" for the daily crawl and "relevance" when
+    hunting for the established papers on a topic.
+    """
     collected: list[dict[str, Any]] = []
     for start in range(0, max_results, page_size):
         params = urllib.parse.urlencode(
@@ -335,7 +347,7 @@ def search(query: str, max_results: int = 200, page_size: int = 100) -> list[dic
                 "search_query": query,
                 "start": start,
                 "max_results": min(page_size, max_results - start),
-                "sortBy": "submittedDate",
+                "sortBy": sort_by,
                 "sortOrder": "descending",
             }
         )
