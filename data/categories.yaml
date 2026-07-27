@@ -15,7 +15,7 @@ meta:
     A curated, auto-updated collection of papers across three tiers of
     foundation models: language-only LLMs & agents, vision-language models,
     and vision-language-action models.
-  repo: YuchenLiu98/awesome-llm-vlm-vla-papers
+  repo: YuchenLiu98/awesome-memory-bank
   license: CC0 1.0
 
 sections:
