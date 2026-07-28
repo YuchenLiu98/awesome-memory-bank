@@ -4,6 +4,167 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2607.24331'
+  title: 'DynaCalKV: Key-Value Cache Compression via Head Grouping and Adaptive Rank Allocation'
+  date: '2026-07-27'
+  url: https://arxiv.org/abs/2607.24331
+  section: llm
+  subcategory: kvcache
+  score: 9.1
+  arxiv_categories:
+  - cs.LG
+  abstract: As the inference phase of Large Language Models (LLMs) requires handling long context windows, the Key-Value (KV) cache initially appears to address this challenge but eventually becomes a significant bottleneck as the context window continues to grow. Low-rank compression has recently been studied as an effective approach to reduce KV cache memory while maintaining model performance. However, …
+  found_on: '2026-07-28'
+- arxiv: '2607.24190'
+  title: 'Not Forgotten: Implementation and Evaluation of a Personalized Episodic Memory for the Humanoid Robot Head Kim'
+  date: '2026-07-27'
+  url: https://arxiv.org/abs/2607.24190
+  section: vlm
+  subcategory: episodic
+  score: 4.2
+  arxiv_categories:
+  - cs.RO
+  - cs.AI
+  - cs.HC
+  abstract: Social robots that rely on large language models for conversation are unable to retain information across sessions. This absence of memory violates social expectations, potentially preventing the formation of persistent relationships. This paper presents a lightweight episodic memory module that integrates vector-based semantic retrieval with an LLM-controlled dialog system, deployed on the …
+  found_on: '2026-07-28'
+- arxiv: '2607.24368'
+  title: 'Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory'
+  date: '2026-07-27'
+  url: https://arxiv.org/abs/2607.24368
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CL
+  abstract: 'Long-term memory systems store what a user says in an external store and retrieve it when a related query arrives. This interface rests on an assumption so natural that it is rarely stated: a memory that is needed will resemble the query that needs it. World knowledge breaks the assumption. A tree-nut allergy should change the answer to a macaron request through their almond-flour ingredient, yet …'
+  found_on: '2026-07-28'
+- arxiv: '2607.24097'
+  title: 'MemChain: Learning Interpretable Memory Traces for Memory-Augmented LLM Agents'
+  date: '2026-07-27'
+  url: https://arxiv.org/abs/2607.24097
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  abstract: Memory-augmented LLM agents typically answer queries by retrieving relevant memories and feeding them directly to an answer model. This retrieval-as-evidence paradigm assumes retrieved memories are already suitable for reasoning, leaving the answer model to resolve redundancy, conflicts, and weak relevance while incurring substantial context overhead in long-term memory tasks. We propose …
+  found_on: '2026-07-28'
+- arxiv: '2607.23929'
+  title: 'MemTX: Transactional Belief Commit for Stateful Agent Memory'
+  date: '2026-07-27'
+  url: https://arxiv.org/abs/2607.23929
+  section: llm
+  subcategory: multiagent
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  abstract: 'LLM agents increasingly coordinate through persistent shared memory: one agent''s write becomes another agent''s premise, and eventually a tool call with real side effects. Current agent memory systems treat every accepted write as immediately actionable truth, so a polluted tool result, a stale update, or a teammate''s half-finished note can silently drive an irreversible action. We argue that a …'
+  found_on: '2026-07-28'
+- arxiv: '2607.24653'
+  title: 'Kimi K3: Open Frontier Intelligence'
+  date: '2026-07-27'
+  url: https://arxiv.org/abs/2607.24653
+  section: llm
+  subcategory: memory-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.CL
+  - cs.LG
+  abstract: We introduce Kimi K3, a 2.8T parameter Mixture-of-Experts model with 104 billion activated parameters, native vision capabilities, and a 1-million-token context window. Kimi K3 is built on Kimi Delta Attention and Attention Residuals, which improve information flow across sequence length and model depth. Together with Stable LatentMoE, which effectively activates 16 of 896 routed experts per …
+  found_on: '2026-07-28'
+- arxiv: '2607.23899'
+  title: 'Embodied GPT-5.1: Evidence of a World Model?'
+  date: '2026-07-27'
+  url: https://arxiv.org/abs/2607.23899
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.RO
+  - cs.AI
+  abstract: This exploratory study examines whether a large multimodal language model, GPT-5.1, can serve as the high-level controller of a physical mobile robot despite having no prior embodiment, no training in simulated environments, and no exposure to sensorimotor experience. Using only low-resolution first-person images and a discrete action set, the model was tasked with navigation and object-directed …
+  found_on: '2026-07-28'
+- arxiv: '2607.24667'
+  title: 'Eviction as Estimation: A Fixed-Lag Smoothing View of Test-Time Memory, and When Measuring Beats Accumulating'
+  date: '2026-07-27'
+  url: https://arxiv.org/abs/2607.24667
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  abstract: 'A language model with a bounded working memory must repeatedly decide which stored items to keep. Every deployed method decides the moment an item arrives, from the past (StreamingLLM, H2O) or from a guess about the future (SnapKV). We recast the choice as an estimation problem on a hidden signal, whether an item will be reused, placing existing methods on one axis, the commit lag $H$: online …'
+  found_on: '2026-07-28'
+- arxiv: '2607.23504'
+  title: 'MemVLN: Episodic and Procedural Memory for Vision-and-Language Navigation'
+  date: '2026-07-26'
+  url: https://arxiv.org/abs/2607.23504
+  section: llm
+  subcategory: agent-exp
+  score: 3.9
+  arxiv_categories:
+  - cs.CV
+  abstract: Vision-and-Language Navigation in Continuous Environments (VLN-CE) requires agents to maintain long-horizon visual history for trajectory consistency while executing actions with low latency. Existing video-based VLN approaches typically struggle to satisfy both demands simultaneously. To address these challenges, we propose MemVLN, a novel VLN framework that achieves state-of-the-art performance …
+  found_on: '2026-07-28'
+- arxiv: '2607.23806'
+  title: 'A Frozen 12B Beats Frontier Models on Verified Work: 100% Accuracy, 0 Tokens, Bit-Exact, Forever'
+  date: '2026-07-26'
+  url: https://arxiv.org/abs/2607.23806
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  - cs.IR
+  abstract: 'Improving a language model today means retraining it: enormous compute, a new opaque model each cycle, non-deterministic output. We take the opposite path: the model stays frozen, and a persistent memory of verified solutions grows beside it. Once a problem family is solved and has passed an independent verification step that never consults the answer key, every new instance of that family is …'
+  found_on: '2026-07-28'
+- arxiv: '2607.23809'
+  title: 'ACM: Agentic Context Management for Long Horizon Tasks'
+  date: '2026-07-26'
+  url: https://arxiv.org/abs/2607.23809
+  section: llm
+  subcategory: kvcache
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  abstract: Agentic tasks are inherently long-horizon and multi-turn, constantly accumulating context through interactions with the environment. Existing context compression methods inevitably incur information loss and are triggered by rigid heuristic rules, leaving them misaligned with the agent's evolving reasoning focus. We propose Agentic Context Management (ACM), a framework that equips agents with …
+  found_on: '2026-07-28'
+- arxiv: '2607.23693'
+  title: 'Compute Globally, Materialize Locally: The Memory Contract of Sparse Event-KV'
+  date: '2026-07-26'
+  url: https://arxiv.org/abs/2607.23693
+  section: llm
+  subcategory: kvcache
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Long-horizon agents increasingly reuse their KV cache as memory: a serving system keeps a subset of cached entries and drops the rest. Eviction and episodic-memory schemes therefore rest on a premise rarely tested directly, that a retained event is still informative once the observations that produced it are gone. We test it by omitting one earlier observation from what is served, across …'
+  found_on: '2026-07-28'
+- arxiv: '2607.23669'
+  title: 'RRTrack: Robust and Recoverable Object 6D Pose Tracking for Dynamic Scenes'
+  date: '2026-07-26'
+  url: https://arxiv.org/abs/2607.23669
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CV
+  - cs.RO
+  abstract: Robust object 6D pose tracking is critical for robotic systems operating in dynamic and occluded scenes. Per-frame estimators are accurate but computationally expensive, while current trackers struggle with fast motion and complete occlusion due to their reliance on continuous visibility. To address these challenges, we present RRTrack, an efficient, recoverable object 6D pose tracker that …
+  found_on: '2026-07-28'
+- arxiv: '2607.23588'
+  title: 'JarvisHub: An Open Harness for Canvas-Native Multimodal Creative Agents'
+  date: '2026-07-26'
+  url: https://arxiv.org/abs/2607.23588
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CV
+  abstract: Creative AI is moving from single-step asset generation toward long-horizon multimodal production. Although recent generative models can synthesize high-quality images, videos, audio clips, UI elements, storyboards, slides, and other creative assets, real-world creative work requires more than isolated prompt-output interactions. It involves references, drafts, alternatives, edits, failed …
+  found_on: '2026-07-28'
 - arxiv: '2607.21936'
   title: Leveraging External Knowledge for Historical Document Restoration via Retrieval-Augmented Large Language Models
   date: '2026-07-24'
