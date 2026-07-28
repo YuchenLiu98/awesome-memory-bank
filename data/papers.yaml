@@ -180,6 +180,7 @@ papers:
 
   - arxiv: '2607.14651'
     title: 'MemPoison: Uncovering Persistent Memory Threats and Structural Blind Spots in LLM Agents'
+    institution: NJU
     date: '2026-07-16'
     url: https://arxiv.org/abs/2607.14651
     venue: arXiv 2026
@@ -229,6 +230,7 @@ papers:
 
   - arxiv: '2606.03928'
     title: Value-Aware Stochastic KV Cache Eviction for Reasoning Models
+    institution: USC
     date: '2026-06-02'
     url: https://arxiv.org/abs/2606.03928
     venue: arXiv 2026
@@ -256,6 +258,7 @@ papers:
 
   - arxiv: '2606.31145'
     title: 'SeKV: Resolution-Adaptive KV Cache with Hierarchical Semantic Memory for Long-Context LLM Inference'
+    institution: UBC, Microsoft
     date: '2026-06-30'
     url: https://arxiv.org/abs/2606.31145
     venue: arXiv 2026
@@ -274,6 +277,7 @@ papers:
 
   - arxiv: '2607.13205'
     title: 'Adaptive Filtering of the KV Cache: Diagnosing and Correcting Structural-Role Bias in LLM Inference'
+    institution: ServiceNow
     date: '2026-07-14'
     url: https://arxiv.org/abs/2607.13205
     venue: arXiv 2026
@@ -283,6 +287,7 @@ papers:
 
   - arxiv: '2607.14327'
     title: 'PReM: Learning What to Preserve and When to Refresh for Context Compression'
+    institution: Tsinghua, Alibaba
     date: '2026-07-15'
     url: https://arxiv.org/abs/2607.14327
     venue: arXiv 2026
@@ -292,6 +297,7 @@ papers:
 
   - arxiv: '2607.15498'
     title: 'VarRate: Training-Free Variable-Rate KV Cache Compression for Long-Context LLMs'
+    institution: Iowa State University
     date: '2026-07-16'
     url: https://arxiv.org/abs/2607.15498
     venue: arXiv 2026
@@ -301,6 +307,7 @@ papers:
 
   - arxiv: '2607.17486'
     title: 'SALT: Salience-Aware Lexical Trie for Long-Context Compression'
+    institution: Florida State University
     date: '2026-07-20'
     url: https://arxiv.org/abs/2607.17486
     venue: arXiv 2026
@@ -310,6 +317,7 @@ papers:
 
   - arxiv: '2606.02976'
     title: Memory Retrieval for Changing Preferences
+    institution: USC
     date: '2026-06-02'
     url: https://arxiv.org/abs/2606.02976
     venue: arXiv 2026
@@ -319,6 +327,7 @@ papers:
 
   - arxiv: '2606.04194'
     title: Training-Free Lexical-Dense Fusion for Conversational-Memory Retrieval
+    institution: UC Berkeley
     date: '2026-06-02'
     url: https://arxiv.org/abs/2606.04194
     venue: arXiv 2026
@@ -328,6 +337,7 @@ papers:
 
   - arxiv: '2606.09483'
     title: 'Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving LLM Agents'
+    institution: Tencent
     date: '2026-06-08'
     url: https://arxiv.org/abs/2606.09483
     venue: arXiv 2026
@@ -337,6 +347,7 @@ papers:
 
   - arxiv: '2606.10677'
     title: 'Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory'
+    institution: Tsinghua, SJTU
     date: '2026-06-09'
     url: https://arxiv.org/abs/2606.10677
     venue: arXiv 2026
@@ -346,6 +357,7 @@ papers:
 
   - arxiv: '2606.10694'
     title: 'REAL: A Reasoning-Enhanced Graph Framework for Long-Term Memory Management of LLMs'
+    institution: PKU, Kuaishou
     date: '2026-06-09'
     url: https://arxiv.org/abs/2606.10694
     venue: arXiv 2026
@@ -355,6 +367,7 @@ papers:
 
   - arxiv: '2606.14047'
     title: Knowledge Graph Enhanced Memory-Augmented Retrieval for Long Context Modeling
+    institution: HKUST, MBZUAI
     date: '2026-06-12'
     url: https://arxiv.org/abs/2606.14047
     venue: arXiv 2026
@@ -364,6 +377,7 @@ papers:
 
   - arxiv: '2606.17328'
     title: 'MemTrace: Probing What Final Accuracy Misses in Long-Term Memory'
+    institution: Case Western Reserve University, Michigan State University
     date: '2026-06-15'
     url: https://arxiv.org/abs/2606.17328
     venue: arXiv 2026
@@ -373,6 +387,7 @@ papers:
 
   - arxiv: '2606.20954'
     title: 'Learning What Not to Forget: Long-Horizon Agent Memory from a Few Kilobytes of Learning'
+    institution: Institute of Information Technology, University of Dhaka, University of Utah
     date: '2026-06-18'
     url: https://arxiv.org/abs/2606.20954
     venue: arXiv 2026
@@ -382,6 +397,7 @@ papers:
 
   - arxiv: '2606.22030'
     title: When Does Belief-Based Agent Memory Help? Reliability-Conditional Updating and Provenance-Capped Poisoning Defense
+    institution: IIT
     date: '2026-06-20'
     url: https://arxiv.org/abs/2606.22030
     venue: arXiv 2026
@@ -391,6 +407,7 @@ papers:
 
   - arxiv: '2606.25161'
     title: 'TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory'
+    institution: Samsung
     date: '2026-06-23'
     url: https://arxiv.org/abs/2606.25161
     venue: arXiv 2026
@@ -400,6 +417,7 @@ papers:
 
   - arxiv: '2606.24595'
     title: 'MEMPROBE: Probing Long-Term Agent Memory via Hidden User-State Recovery'
+    institution: UIUC, UC San Diego
     date: '2026-06-23'
     url: https://arxiv.org/abs/2606.24595
     venue: arXiv 2026
@@ -418,6 +436,7 @@ papers:
 
   - arxiv: '2607.20553'
     title: 'CMI-Mem: Toward Generalizable Long-Term Memory Management via CMI-Augmented Reinforcement Learning'
+    institution: Alibaba, HKUST, PolyU
     date: '2026-07-15'
     url: https://arxiv.org/abs/2607.20553
     venue: arXiv 2026
@@ -478,6 +497,7 @@ papers:
 
   - arxiv: '2606.00619'
     title: 'MemPro: Agentic Memory Systems as Evolvable Programs'
+    institution: East China Normal University, Xiaohongshu Inc
     date: '2026-05-30'
     url: https://arxiv.org/abs/2606.00619
     venue: arXiv 2026
@@ -487,6 +507,7 @@ papers:
 
   - arxiv: '2606.13177'
     title: 'MemRefine: LLM-Guided Compression for Long-Term Agent Memory'
+    institution: KAIST
     date: '2026-06-11'
     url: https://arxiv.org/abs/2606.13177
     venue: arXiv 2026
@@ -496,6 +517,7 @@ papers:
 
   - arxiv: '2606.13115'
     title: 'G-Long: Graph-Enhanced Memory Management for Efficient Long-Term Dialogue Agents'
+    institution: Sungkyunkwan University
     date: '2026-06-11'
     url: https://arxiv.org/abs/2606.13115
     venue: arXiv 2026
@@ -505,6 +527,7 @@ papers:
 
   - arxiv: '2606.24775'
     title: Are We Ready For An Agent-Native Memory System?
+    institution: SJTU, Tsinghua
     date: '2026-06-23'
     url: https://arxiv.org/abs/2606.24775
     venue: arXiv 2026
@@ -515,6 +538,7 @@ papers:
 
   - arxiv: '2607.00233'
     title: 'From Signals to Structure: How Memory Architecture Drives Language Emergence in LLM Agents'
+    institution: Alberta Machine Intelligence Institute, University of Alberta
     date: '2026-06-30'
     url: https://arxiv.org/abs/2607.00233
     venue: arXiv 2026
@@ -542,6 +566,7 @@ papers:
 
   - arxiv: '2607.13591'
     title: 'Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents'
+    institution: UCLA, University of Washington
     date: '2026-07-15'
     url: https://arxiv.org/abs/2607.13591
     venue: arXiv 2026
@@ -561,6 +586,7 @@ papers:
 
   - arxiv: '2607.21404'
     title: 'MemTools: A Unified Research Framework for Interoperable Agent Memory'
+    institution: CASIA, CAS, BAAI
     date: '2026-07-23'
     url: https://arxiv.org/abs/2607.21404
     venue: arXiv 2026
@@ -579,6 +605,7 @@ papers:
 
   - arxiv: '2607.09493'
     title: Shared Selective Persistent Memory for Agentic LLM Systems
+    institution: Apple
     date: '2026-07-10'
     url: https://arxiv.org/abs/2607.09493
     venue: arXiv 2026
@@ -598,6 +625,7 @@ papers:
 
   - arxiv: '2606.09707'
     title: 'BrainSurgery: Reproducible and Reliable Declarative Weight Manipulations for Model Editing and Upcycling'
+    institution: University of Southern Denmark
     date: '2026-06-08'
     url: https://arxiv.org/abs/2606.09707
     venue: arXiv 2026
@@ -607,6 +635,7 @@ papers:
 
   - arxiv: '2607.05310'
     title: Evaluating and Understanding Model Editing for Medical Vision Language Models
+    institution: University of Michigan
     date: '2026-07-06'
     url: https://arxiv.org/abs/2607.05310
     venue: arXiv 2026
@@ -696,6 +725,7 @@ papers:
 
   - arxiv: '2606.23283'
     title: 'Towards Root Memories: Benchmarking and Enhancing Implicit Logical Memory Retrieval for Personalized LLMs'
+    institution: USTC
     date: '2026-06-22'
     url: https://arxiv.org/abs/2606.23283
     venue: arXiv 2026
@@ -754,6 +784,7 @@ papers:
 
   - arxiv: '2607.02574'
     title: 'From Tensor Buffer to Distributed Memory Hierarchy: A Survey of KV Cache Management for LLM Serving'
+    institution: Texas Tech University
     date: '2026-06-30'
     url: https://arxiv.org/abs/2607.02574
     venue: arXiv 2026
@@ -763,6 +794,7 @@ papers:
 
   - arxiv: '2607.08057'
     title: 'Towards Efficient Large Language Model Serving: A Survey on System-Aware KV Cache Optimization'
+    institution: University of Melbourne, HUST
     date: '2026-07-09'
     url: https://arxiv.org/abs/2607.08057
     venue: arXiv 2026
@@ -795,6 +827,7 @@ papers:
 
   - arxiv: '2606.01790'
     title: 'STaR-KV: Spatio-Temporal Adaptive Re-weighting for KV Cache Compression in GUI Vision-Language Models'
+    institution: SJTU, HKUST, University of Sydney
     date: '2026-06-01'
     url: https://arxiv.org/abs/2606.01790
     venue: arXiv 2026
@@ -844,6 +877,7 @@ papers:
 
   - arxiv: '2605.20818'
     title: OSGNet with MLLM Reranking @ Ego4D Episodic Memory Challenge 2026
+    institution: HIT, NUS
     date: '2026-05-20'
     url: https://arxiv.org/abs/2605.20818
     venue: arXiv 2026
@@ -853,6 +887,7 @@ papers:
 
   - arxiv: '2606.15778'
     title: 'DYNA: Dynamic Episodic Memory Networks for Augmenting Large Language Models with Temporal Knowledge Graphs in Continuous Learning'
+    institution: University of Qom
     date: '2026-06-14'
     url: https://arxiv.org/abs/2606.15778
     venue: arXiv 2026
@@ -882,6 +917,7 @@ papers:
 
   - arxiv: '2605.15128'
     title: 'MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory'
+    institution: Rutgers, Princeton
     date: '2026-05-14'
     url: https://arxiv.org/abs/2605.15128
     venue: arXiv 2026
@@ -891,6 +927,7 @@ papers:
 
   - arxiv: '2605.15710'
     title: 'SMMBench: A Benchmark for Source-Distributed Multimodal Agent Memory'
+    institution: SJTU
     date: '2026-05-15'
     url: https://arxiv.org/abs/2605.15710
     venue: arXiv 2026
@@ -900,6 +937,7 @@ papers:
 
   - arxiv: '2605.29341'
     title: 'WorldMemArena: Evaluating Multimodal Agent Memory Through Action-World Interaction'
+    institution: UC Santa Barbara, Stanford, Johns Hopkins
     date: '2026-05-28'
     url: https://arxiv.org/abs/2605.29341
     venue: arXiv 2026
@@ -909,6 +947,7 @@ papers:
 
   - arxiv: '2605.31557'
     title: 'EGOSTREAM: A Diagnostic Benchmark for Streaming Episodic Memory in Egocentric Vision'
+    institution: University of Catania
     date: '2026-05-29'
     url: https://arxiv.org/abs/2605.31557
     venue: arXiv 2026
@@ -918,6 +957,7 @@ papers:
 
   - arxiv: '2606.07402'
     title: 'M3Exam: Benchmarking Multimodal Memory for Realistic User-Agent Interactions'
+    institution: HKUST, HIT, BIT
     date: '2026-06-05'
     url: https://arxiv.org/abs/2606.07402
     venue: arXiv 2026
@@ -936,6 +976,7 @@ papers:
 
   - arxiv: '2606.29788'
     title: 'MemLeak: Diagnosing Information Leaks in Multimodal Agent Memory'
+    institution: Georgia Tech
     date: '2026-06-29'
     url: https://arxiv.org/abs/2606.29788
     venue: arXiv 2026
@@ -945,6 +986,7 @@ papers:
 
   - arxiv: '2607.02689'
     title: 'S-EMBER: A Large-Scale Benchmark for Streaming Egocentric Memory Retrieval'
+    institution: Meta
     date: '2026-07-02'
     url: https://arxiv.org/abs/2607.02689
     venue: arXiv 2026
@@ -955,6 +997,7 @@ papers:
 
   - arxiv: '2607.15657'
     title: Do Agents Dream of False Memories? Black-box Visual Attacks on Long-term Memory in Multimodal AI Agents
+    institution: University of California
     date: '2026-07-17'
     url: https://arxiv.org/abs/2607.15657
     venue: arXiv 2026
@@ -1045,6 +1088,7 @@ papers:
 
   - arxiv: '2606.01287'
     title: 'Beyond Visual Memory: Mechanistic Diagnostics of Latent Visual Reasoning'
+    institution: Alibaba
     date: '2026-05-31'
     url: https://arxiv.org/abs/2606.01287
     venue: arXiv 2026
@@ -1054,6 +1098,7 @@ papers:
 
   - arxiv: '2606.25658'
     title: Towards a Dynamic and Fixed-budget Memory Bank for Efficient Streaming Video Understanding
+    institution: Xiamen University
     date: '2026-06-24'
     url: https://arxiv.org/abs/2606.25658
     venue: arXiv 2026
@@ -1152,6 +1197,7 @@ papers:
 
   - arxiv: '2605.16045'
     title: 'RecMem: Recurrence-based Memory Consolidation for Efficient and Effective Long-Running LLM Agents'
+    institution: CUHK, HKU, BUPT
     date: '2026-05-15'
     url: https://arxiv.org/abs/2605.16045
     venue: arXiv 2026
@@ -1161,6 +1207,7 @@ papers:
 
   - arxiv: '2605.20616'
     title: 'Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents'
+    institution: UIUC, UC San Diego
     date: '2026-05-20'
     url: https://arxiv.org/abs/2605.20616
     venue: arXiv 2026
@@ -1171,6 +1218,7 @@ papers:
 
   - arxiv: '2606.02553'
     title: 'LongLive-RAG: A General Retrieval-Augmented Framework for Long Video Generation'
+    institution: NVIDIA, USC, MIT
     date: '2026-06-01'
     url: https://arxiv.org/abs/2606.02553
     venue: arXiv 2026
@@ -1180,6 +1228,7 @@ papers:
 
   - arxiv: '2606.10671'
     title: 'FadeMem: Distance-Aware Memory Consolidation for Autoregressive Video Diffusion'
+    institution: ZJU, Baidu
     date: '2026-06-09'
     url: https://arxiv.org/abs/2606.10671
     venue: arXiv 2026
@@ -1189,6 +1238,7 @@ papers:
 
   - arxiv: '2606.23105'
     title: 'Compression and Retrieval: Implicit Memory Retrieval for Video World Models'
+    institution: HUST, SYSU
     date: '2026-06-22'
     url: https://arxiv.org/abs/2606.23105
     venue: arXiv 2026
@@ -1207,6 +1257,7 @@ papers:
 
   - arxiv: '2607.13298'
     title: 'FOLIO: Focused Semantic Memory for Streaming Video Understanding'
+    institution: USC, Intel
     date: '2026-07-14'
     url: https://arxiv.org/abs/2607.13298
     venue: arXiv 2026
@@ -1345,6 +1396,7 @@ papers:
 
   - arxiv: '2603.07110'
     title: 'Learning From Failures: Efficient Reinforcement Learning Control with Episodic Memory'
+    institution: Jiaotong University
     date: '2026-03-07'
     url: https://arxiv.org/abs/2603.07110
     venue: arXiv 2026
@@ -1354,6 +1406,7 @@ papers:
 
   - arxiv: '2606.03598'
     title: 'PHASER: Phase-Aware and Semantic Experience Replay for Vision-Language-Action Models'
+    institution: HKUST, Allen Institute for AI
     date: '2026-06-02'
     url: https://arxiv.org/abs/2606.03598
     venue: arXiv 2026
@@ -1393,6 +1446,7 @@ papers:
 
   - arxiv: '2603.19137'
     title: 'GSMem: 3D Gaussian Splatting as Persistent Spatial Memory for Zero-Shot Embodied Exploration and Reasoning'
+    institution: Case Western Reserve University
     date: '2026-03-19'
     url: https://arxiv.org/abs/2603.19137
     venue: arXiv 2026
@@ -1402,6 +1456,7 @@ papers:
 
   - arxiv: '2604.11302'
     title: 3D-Anchored Lookahead Planning for Persistent Robotic Scene Memory via World-Model-Based MCTS
+    institution: Huawei
     date: '2026-04-13'
     url: https://arxiv.org/abs/2604.11302
     venue: arXiv 2026
@@ -1411,6 +1466,7 @@ papers:
 
   - arxiv: '2604.13633'
     title: 'ESCAPE: Episodic Spatial Memory and Adaptive Execution Policy for Long-Horizon Mobile Manipulation'
+    institution: CUHK, HKU
     date: '2026-04-15'
     url: https://arxiv.org/abs/2604.13633
     venue: arXiv 2026
@@ -1429,6 +1485,7 @@ papers:
 
   - arxiv: '2605.11616'
     title: 'Grounding by Remembering: Cross-Scene and In-Scene Memory for 3D Functional Affordances'
+    institution: TU Munich, A*STAR
     date: '2026-05-12'
     url: https://arxiv.org/abs/2605.11616
     venue: arXiv 2026
@@ -1448,6 +1505,7 @@ papers:
 
   - arxiv: '2606.03374'
     title: 'eMEM: A Hybrid Spatio-Temporal Memory System For Embodied Agents'
+    institution: Inria
     date: '2026-06-02'
     url: https://arxiv.org/abs/2606.03374
     venue: arXiv 2026
@@ -1458,6 +1516,7 @@ papers:
 
   - arxiv: '2606.05677'
     title: 'LongSpace: Exploring Long-Horizon Spatial Memory from Perception to Recall in Video'
+    institution: BUPT, CASIA, CAS
     date: '2026-06-04'
     url: https://arxiv.org/abs/2606.05677
     venue: arXiv 2026
@@ -1477,6 +1536,7 @@ papers:
 
   - arxiv: '2606.15476'
     title: 'FARM: Find Anything using Relational Spatial Memory'
+    institution: UC Berkeley, Stanford
     date: '2026-06-13'
     url: https://arxiv.org/abs/2606.15476
     venue: arXiv 2026
@@ -1486,6 +1546,7 @@ papers:
 
   - arxiv: '2606.23565'
     title: 'HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory'
+    institution: Horizon Robotics
     date: '2026-06-22'
     url: https://arxiv.org/abs/2606.23565
     venue: arXiv 2026
@@ -1555,6 +1616,7 @@ papers:
 
   - arxiv: '2604.11306'
     title: 'Learning to Forget: Hierarchical Episodic Memory for Lifelong Robot Deployment'
+    institution: Karlsruhe Institute
     date: '2026-04-13'
     url: https://arxiv.org/abs/2604.11306
     venue: arXiv 2026
@@ -1565,6 +1627,7 @@ papers:
 
   - arxiv: '2606.03787'
     title: 'Worth Remembering: Surprise-Gated Robot Episodic Memory'
+    institution: MIT
     date: '2026-06-02'
     url: https://arxiv.org/abs/2606.03787
     venue: arXiv 2026
@@ -1574,6 +1637,7 @@ papers:
 
   - arxiv: '2606.25136'
     title: Memory Retrieval in Visuomotor Policies for Long-Horizon Robot Control
+    institution: UT Austin
     date: '2026-06-23'
     url: https://arxiv.org/abs/2606.25136
     venue: arXiv 2026
@@ -1583,6 +1647,7 @@ papers:
 
   - arxiv: '2607.03449'
     title: 'HiMe: Hierarchical Embodied Memory for Long-Horizon Vision-Language-Action Control'
+    institution: Fudan
     date: '2026-07-03'
     url: https://arxiv.org/abs/2607.03449
     venue: arXiv 2026
@@ -1593,6 +1658,7 @@ papers:
 
   - arxiv: '2607.06678'
     title: 'NativeMEM: Native Memory Compression for Long-Horizon Robotic Manipulation'
+    institution: HKU, BUAA, PKU
     date: '2026-07-07'
     url: https://arxiv.org/abs/2607.06678
     venue: arXiv 2026
@@ -1643,6 +1709,7 @@ papers:
 
   - arxiv: '2605.16003'
     title: 'Echo-Forcing: A Scene Memory Framework for Interactive Long Video Generation'
+    institution: CAS, ETH Zurich
     date: '2026-05-15'
     url: https://arxiv.org/abs/2605.16003
     venue: arXiv 2026
@@ -1652,6 +1719,7 @@ papers:
 
   - arxiv: '2606.09828'
     title: Latent Spatial Memory for Video World Models
+    institution: ZJU, Microsoft
     date: '2026-06-08'
     url: https://arxiv.org/abs/2606.09828
     venue: arXiv 2026
@@ -1661,6 +1729,7 @@ papers:
 
   - arxiv: '2606.20562'
     title: 'MemoryWAM: Efficient World Action Modeling with Persistent Memory'
+    institution: CUHK, HKU, Tsinghua
     date: '2026-06-18'
     url: https://arxiv.org/abs/2606.20562
     venue: arXiv 2026
