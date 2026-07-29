@@ -4,6 +4,63 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2607.25614'
+  title: 'MemSFT: Mitigating Alignment Tax with an External Parametric Memory'
+  date: '2026-07-28'
+  url: https://arxiv.org/abs/2607.25614
+  section: llm
+  subcategory: parametric
+  score: 5.2
+  arxiv_categories:
+  - cs.LG
+  - cs.CL
+  abstract: Adapting Large Language Models (LLMs) to specialized domains often incurs an alignment tax, as fine-tuning on domain-specific tasks can cause catastrophic forgetting and substantially degrade performance on general tasks. We propose MemSFT, which mitigates the alignment tax by decoupling domain specialization from backbone parameter updates through a plug-and-play parametric memory. The memory is …
+  found_on: '2026-07-29'
+- arxiv: '2607.26017'
+  title: 'UniMem: Complementary Episodic-to-Parametric Memory for Boundary-Agnostic Task Streams'
+  date: '2026-07-28'
+  url: https://arxiv.org/abs/2607.26017
+  section: llm
+  subcategory: parametric
+  score: 3.9
+  arxiv_categories:
+  - cs.CL
+  abstract: Memory is essential for LLM agents to accumulate task experience and reuse task-specific execution strategies. However, real-world deployment over boundary-agnostic and evolving task streams exposes a fundamental stability-plasticity dilemma. External retrieval-based memory can rapidly absorb new evidence, but it often fails to internalize recurring execution patterns and incurs inference-time …
+  found_on: '2026-07-29'
+- arxiv: '2607.25380'
+  title: Memory for Large Language Models
+  date: '2026-07-28'
+  url: https://arxiv.org/abs/2607.25380
+  section: llm
+  subcategory: survey
+  score: 1.5
+  arxiv_categories:
+  - cs.CL
+  abstract: Memory has evolved into a foundational architectural dimension in large language models (LLMs), shifting from an implicit byproduct of computation to a spectrum of explicit, controllable mechanisms. While recent advances introduce diverse strategies---spanning transient attention, recurrent state dynamics, parameter-efficient adaptations, and scalable lookup storage---this rapid evolution has led …
+  found_on: '2026-07-29'
+- arxiv: '2607.25467'
+  title: Seen, Said, or Forgotten? A Causal Audit of Visual KV Memory Across Dialog Turns
+  date: '2026-07-28'
+  url: https://arxiv.org/abs/2607.25467
+  section: vlm
+  subcategory: mm-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.CV
+  - cs.AI
+  abstract: Stateful multimodal assistants encode an image once but may answer questions about it many turns later. Attention-guided visual-KV eviction assumes that evidence irrelevant now will remain dispensable, although future questions are unknown. We ask when a visual fact is actually safe to forget and introduce the Causal Visual Memory Audit (CVMA), a paired single-prefill framework that tests what …
+  found_on: '2026-07-29'
+- arxiv: '2607.25754'
+  title: Cooperative Multi-UAV Navigation in Complex Environments via Systematic Multi-Agent Deep Reinforcement Learning
+  date: '2026-07-28'
+  url: https://arxiv.org/abs/2607.25754
+  section: llm
+  subcategory: parametric
+  score: 1.3
+  arxiv_categories:
+  - cs.RO
+  abstract: Cooperative navigation of multi-agent UAVs in complex environments faces key challenges including local optima traps, sparse rewards, learning imbalance among agents, and insufficient cross-scenario generalisation. This paper proposes a multi-agent deep reinforcement learning framework that addresses these issues through coordinated exploration, demonstration exploitation, safe curriculum …
+  found_on: '2026-07-29'
 - arxiv: '2607.24331'
   title: 'DynaCalKV: Key-Value Cache Compression via Head Grouping and Adaptive Rank Allocation'
   date: '2026-07-27'
@@ -96,6 +153,18 @@ candidates:
   - cs.AI
   abstract: 'A language model with a bounded working memory must repeatedly decide which stored items to keep. Every deployed method decides the moment an item arrives, from the past (StreamingLLM, H2O) or from a guess about the future (SnapKV). We recast the choice as an estimation problem on a hidden signal, whether an item will be reused, placing existing methods on one axis, the commit lag $H$: online …'
   found_on: '2026-07-28'
+- arxiv: '2607.24873'
+  title: 'MusiChat: Vibe Composing for Music Creation'
+  date: '2026-07-27'
+  url: https://arxiv.org/abs/2607.24873
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  - cs.SD
+  abstract: Recent advances in AI music generation have enabled users to create complete musical pieces from natural-language prompts. However, most existing systems follow a prompt-and-regenerate paradigm, making iterative refinement difficult because users must repeatedly recreate compositions instead of directly evolving existing musical ideas. We present MusiChat, a conversational vibe composing system …
+  found_on: '2026-07-29'
 - arxiv: '2607.23504'
   title: 'MemVLN: Episodic and Procedural Memory for Vision-and-Language Navigation'
   date: '2026-07-26'
