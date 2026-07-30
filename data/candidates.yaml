@@ -4,6 +4,90 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2607.26455'
+  title: 'ForgetBench: Benchmarking Forgetting Dynamics of Long-Term Parametric Memory in Language Models'
+  date: '2026-07-29'
+  url: https://arxiv.org/abs/2607.26455
+  section: llm
+  subcategory: parametric
+  score: 5.2
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: Large language models (LLMs) have demonstrated strong capabilities in knowledge acquisition and reasoning, yet their ability to retain previously acquired knowledge under repeated updates remains insufficiently understood. Existing evaluation paradigms primarily focus on single-step reasoning or static knowledge editing, which fail to capture the temporal dynamics of knowledge retention and …
+  found_on: '2026-07-30'
+- arxiv: '2607.27056'
+  title: 'Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data'
+  date: '2026-07-29'
+  url: https://arxiv.org/abs/2607.27056
+  section: vlm
+  subcategory: episodic
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  - cs.CL
+  abstract: Personalized agents are increasingly applied to assist users across a wide range of tasks. Effective personalized assistance requires not only retrieving explicit facts from past interactions stored in agent memory, but also inferring abstract personal characteristics. However, existing memory benchmarks primarily evaluate whether an agent can retrieve information explicitly stated in …
+  found_on: '2026-07-30'
+- arxiv: '2607.26637'
+  title: 'Filesystem-Based Memory for LLM Agents: Organization, Evolution, and Sustainability'
+  date: '2026-07-29'
+  url: https://arxiv.org/abs/2607.26637
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: 'Deployed LLM agents increasingly keep their long-term memory as a filesystem: a directory tree of markdown files that the agent itself reads, writes, and reorganizes through generic file tools. Yet research has largely passed over this medium: prior systems design bespoke memory representations and study retrieval over them, leaving the default''s two working assumptions untested: that an agent …'
+  found_on: '2026-07-30'
+- arxiv: '2607.26598'
+  title: Living-Harness Is an Interactive-Agent Evolver
+  date: '2026-07-29'
+  url: https://arxiv.org/abs/2607.26598
+  section: vlm
+  subcategory: episodic
+  score: 1.4
+  arxiv_categories:
+  - cs.MA
+  - cs.AI
+  - cs.CL
+  abstract: Large language model (LLM) agents may recover from a failure within an episode or after a retry, yet the same execution failure can recur in later tasks because post-episode feedback rarely revises the persistent harness that guides future interactions. Static harnesses improve reliability through fixed tools, context, memory, and workflow structures, but remain unchanged after deployment. We …
+  found_on: '2026-07-30'
+- arxiv: '2607.26523'
+  title: The Art of Not Forgetting A Local Learning Architecture for Continual Learning
+  date: '2026-07-29'
+  url: https://arxiv.org/abs/2607.26523
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.LG
+  - cs.AI
+  abstract: We introduce CMP (Cognitive Memory Primitive), a continual-learning architecture that repre?sents inputs as sparse relational codes, stores them in a two-tier competitive memory, and learns through local updates without end-to-end backpropagation through its feature-generating system. We investigate whether combining sparse representations, local learning, and persistent memory can reduce …
+  found_on: '2026-07-30'
+- arxiv: '2607.26760'
+  title: 'Metis: Memory Foundation Model'
+  date: '2026-07-29'
+  url: https://arxiv.org/abs/2607.26760
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CL
+  - cs.LG
+  abstract: Recent advances in AI agents have increasingly internalized native capabilities into their underlying foundation models, giving rise to multimodal foundation models and large reasoning models. However, agent memory is still primarily implemented through external modules, leaving the native memory capability largely unexplored. In this paper, we take a first step toward this direction by …
+  found_on: '2026-07-30'
+- arxiv: '2607.26946'
+  title: Belief-Guided Decision Making with Uncertainty Gating in the Game of Go
+  date: '2026-07-29'
+  url: https://arxiv.org/abs/2607.26946
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  abstract: Recent advancements in Computer Go, driven by AlphaZero and MuZero, rely heavily on Monte Carlo Tree Search (MCTS) to correct the errors of the neural network policy. While effective on massive computational clusters, this dependence creates a critical bottleneck on consumer-grade hardware, where the computational cost of tree management severely limits inference rates. Furthermore, without deep …
+  found_on: '2026-07-30'
 - arxiv: '2607.25614'
   title: 'MemSFT: Mitigating Alignment Tax with an External Parametric Memory'
   date: '2026-07-28'
