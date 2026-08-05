@@ -4,6 +4,166 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2608.03276'
+  title: 'TaskPress: Query-Agnostic KV Cache Compression via Task-Guided Pruning'
+  date: '2026-08-04'
+  url: https://arxiv.org/abs/2608.03276
+  section: llm
+  subcategory: kvcache
+  score: 9.1
+  arxiv_categories:
+  - cs.AI
+  abstract: Long-context inference with large language models is constrained by the linear growth of the key-value cache to sequence length. While pruning offers mitigation, prevailing methods determine query-specific token importance that cannot be reused across unseen queries. In contrast, we introduce TaskPress, a framework for task-guided, query-agnostic KV cache eviction. Instead of optimizing the cache …
+  found_on: '2026-08-05'
+- arxiv: '2608.03463'
+  title: 'LeanMem: Simple and Efficient Long-Term Memory for LLM Agents'
+  date: '2026-08-04'
+  url: https://arxiv.org/abs/2608.03463
+  section: llm
+  subcategory: longterm
+  score: 4.2
+  arxiv_categories:
+  - cs.AI
+  abstract: Long-term memory is essential for LLM-based agents to sustain interactions and reliably leverage distant history. However, existing memory systems typically process heterogeneous dialogue content through a uniform summarization and retrieval pipeline, leading to either excessive token consumption or irreversible loss of fine-grained evidence. We argue that historical dialogue content should be …
+  found_on: '2026-08-05'
+- arxiv: '2608.03699'
+  title: 'TARL: Transaction-Aware Reliable Ledgers for Executable Memory Management in Long-Term Agents'
+  date: '2026-08-04'
+  url: https://arxiv.org/abs/2608.03699
+  section: llm
+  subcategory: memory-arch
+  score: 3.9
+  arxiv_categories:
+  - cs.AI
+  abstract: Persistent memory helps long-term agents retain knowledge, yet a single update error can repeatedly distort future retrieval and reasoning. Most existing systems reduce memory updating to a binary Write/Hold decision, which cannot distinguish whether new information should be added, ignored, used to revise an outdated belief, rejected as unreliable, or deferred for verification. These choices may …
+  found_on: '2026-08-05'
+- arxiv: '2608.03137'
+  title: 'Verifiable Memory: Learning Unified Memory Management with Local and Global Verifiers for Large Language Model Agents'
+  date: '2026-08-04'
+  url: https://arxiv.org/abs/2608.03137
+  section: llm
+  subcategory: memory-arch
+  score: 3.9
+  arxiv_categories:
+  - cs.AI
+  abstract: Large language model (LLM) agents must retain reusable information, control a bounded active context, and recover earlier evidence during long-horizon interaction. Existing methods commonly optimize long-term memory (LTM) and short-term memory (STM) separately, while unified policies are often trained primarily with trajectory-level feedback, which provides weak credit for individual memory …
+  found_on: '2026-08-05'
+- arxiv: '2608.03148'
+  title: Lightweight Chunk Selection for Mobile Retrieval-Augmented Generation
+  date: '2026-08-04'
+  url: https://arxiv.org/abs/2608.03148
+  section: llm
+  subcategory: retrieval
+  score: 3.6
+  arxiv_categories:
+  - cs.LG
+  - cs.AI
+  abstract: RAG improves the factual grounding of LLM by incorporating external knowledge, but deploying RAG on mobile and edge devices remains challenging because retrieved context increases computation and memory. A direct way to reduce this cost is to retain only one retrieved chunk before generation, but the top-ranked retrieved chunk is not always the most evidence-supporting one, since retrieval …
+  found_on: '2026-08-05'
+- arxiv: '2608.03204'
+  title: 'Aligning Large Vision-Language Models at Test Time: A Trajectory-Guided Structured Sampling Approach'
+  date: '2026-08-04'
+  url: https://arxiv.org/abs/2608.03204
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: Post-training reinforcement learning (RL) algorithms are commonly used to align large vision-language models (LVLMs) with human intent and the requirements of visual reasoning tasks. However, existing RL-based alignment methods are often resource-intensive and encounter mismatches between training objectives and inference-time distributions. To bridge this gap, we propose a novel test-time …
+  found_on: '2026-08-05'
+- arxiv: '2608.03051'
+  title: 'CUDA MPC: A GPU-Native Solver for Model Predictive Control'
+  date: '2026-08-04'
+  url: https://arxiv.org/abs/2608.03051
+  section: llm
+  subcategory: multiagent
+  score: 1.4
+  arxiv_categories:
+  - cs.RO
+  - cs.DC
+  - eess.SY
+  abstract: Model Predictive Control (MPC) delivers constraint-aware control, but its reliance on online optimization limits its use on systems with fast dynamics, high-dimensional models, or long horizons. Existing GPU implementations typically treat the device as a linear-algebra accelerator, leaving the optimization loop dependent on repeated kernel launches and high-latency memory transfers. This paper …
+  found_on: '2026-08-05'
+- arxiv: '2608.03682'
+  title: 'PhyAI: Real-Time Physical AI at the Edge, Scalable Rollouts in the Cloud'
+  date: '2026-08-04'
+  url: https://arxiv.org/abs/2608.03682
+  section: llm
+  subcategory: memory-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  - cs.RO
+  abstract: Physical AI policies require inference throughout their lifecycle, including model evaluation, cloud reinforcement learning rollout, edge GPU serving, and onboard deployment. Although these settings share the same checkpoint and action semantics, they often rely on separate inference programs. To unify them, we build PhyAI, a Physical AI inference engine with a single runtime that keeps …
+  found_on: '2026-08-05'
+- arxiv: '2608.03844'
+  title: 'MAFIA: Query-Only Memory Attacks via Probing and Factual Injection against Audited LLM Agents'
+  date: '2026-08-04'
+  url: https://arxiv.org/abs/2608.03844
+  section: llm
+  subcategory: memory-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Memory-augmented LLM agents rely on rich context for long-horizon reasoning and acting, yet their memory modules expose a persistent attack surface for malicious records, making the study of memory poisoning threats imperative. However, existing query-only attacks often fail to remain effective in two realistic and prevalent settings: large-scale benign memory pools and active input auditing. …'
+  found_on: '2026-08-05'
+- arxiv: '2608.03660'
+  title: 'Taming the Implicit: Dual-Channel Risk-Aware Reinforcement Fine-Tuning for Continual Multimodal Post-Training'
+  date: '2026-08-04'
+  url: https://arxiv.org/abs/2608.03660
+  section: llm
+  subcategory: parametric
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  abstract: Reinforcement fine-tuning (RFT) is widely believed to inherently resist catastrophic forgetting in continual post-training of multimodal large language models. Under pronounced task distributional shifts, however, forgetting across representative RFT algorithms escalates sharply. This stems from the implicit reward-variance regularization inherent to RFT, which proves incapable of suppressing …
+  found_on: '2026-08-05'
+- arxiv: '2608.03297'
+  title: 'Distractor-Aware Truncation: Disentangling Context-Length Effects from Signal Loss in Long-Context LLM Benchmarks'
+  date: '2026-08-04'
+  url: https://arxiv.org/abs/2608.03297
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.AI
+  - cs.CL
+  abstract: A standard claim in the literature on retrieval-augmented and memory-augmented language models is that shorter context is better when the relevant information is preserved. We test this claim by running every sample of two long-context benchmarks -- BABILong and GraphWalks (BFS) -- at four context-retention fractions (100%, 75%, 50%, 25%) under two truncation protocols. The first is the naive …
+  found_on: '2026-08-05'
+- arxiv: '2608.03067'
+  title: Activation-Guided Neuron Intervention to Induce Alzheimer's-Related Computational Language Phenotypes in a Large Language Model
+  date: '2026-08-04'
+  url: https://arxiv.org/abs/2608.03067
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CL
+  abstract: Changes in spontaneous speech provide an early signal of cognitive dysfunction in Alzheimer's disease (AD) that large language models (LLMs) can detect. However, detection alone cannot establish whether the underlying model representations contribute functionally to behavior. We introduce an activation-guided intervention framework using Qwen3-8B. The framework identifies feed-forward neurons …
+  found_on: '2026-08-05'
+- arxiv: '2608.03420'
+  title: Towards Improving Sequential Decision-Making in LLM Agents via Experience Memory
+  date: '2026-08-04'
+  url: https://arxiv.org/abs/2608.03420
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Large language models have improved substantially on single-shot reasoning tasks, but their performance in sequential decision-making is less well understood. We study this on fully-observable two-player zero-sum games, which provide ground-truth evaluation: outcomes are determined by the rules, and optimality of individual moves can be computed or approximated, without relying on a judge model. …'
+  found_on: '2026-08-05'
+- arxiv: '2608.03214'
+  title: 'The Agent Operating System (AOS): A Reference Operating Architecture for Distributed Agentic Systems'
+  date: '2026-08-04'
+  url: https://arxiv.org/abs/2608.03214
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  abstract: Large language models have transformed artificial intelligence from isolated prediction services into components of long-running, distributed systems that reason, invoke tools, retrieve external state, delegate tasks, and act on behalf of users and organizations. The surrounding ecosystem has responded with agent frameworks, workflow engines, model-serving platforms, memory systems, communication …
+  found_on: '2026-08-05'
 - arxiv: '2608.01630'
   title: 'RING: Retrieval-Internalized Generation for Continual Large-Scale Knowledge Injection'
   date: '2026-08-03'
@@ -187,6 +347,42 @@ candidates:
   - cs.AI
   abstract: 'Memory-augmented agents can know that a user''s stored state is outdated and still plan around the old value. The STALE benchmark calls this the implicit policy adaptation (IPA) gap. We identify one structural contributor: draft-anchored verification checks what a response says, and in an open-ended response the stale dependency is usually unsaid. StateAuditor therefore audits in the opposite …'
   found_on: '2026-08-04'
+- arxiv: '2608.02901'
+  title: 'AnchorKV: Anchor-Residual KV Cache Compression'
+  date: '2026-08-03'
+  url: https://arxiv.org/abs/2608.02901
+  section: llm
+  subcategory: kvcache
+  score: 7.8
+  arxiv_categories:
+  - cs.LG
+  - cs.CL
+  abstract: 'The key-value (KV) cache is the primary memory bottleneck in long-context LLM inference. Existing approaches attack it from opposite ends: eviction methods permanently discard tokens, degrading performance whenever a discarded token later proves essential, while quantization methods retain all tokens at low precision but offer limited compression. We propose AnchorKV, a compression scheme that …'
+  found_on: '2026-08-05'
+- arxiv: '2608.02807'
+  title: Learning a Vector-Symbolic Model for Socio-Cultural Tasks
+  date: '2026-08-03'
+  url: https://arxiv.org/abs/2608.02807
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: How can we better represent the impact of sociocultural structures on decision making in computational cognitive models? Modeling this impact requires traversing multiple levels of semantic representation, however it is not immediately clear to a modeler which levels of representation are most salient to a given situation. Though large language models and cognitively grounded corpus models can …
+  found_on: '2026-08-05'
+- arxiv: '2608.02950'
+  title: Schedule-Informed Temporal Fusion Forecasting of Hourly Airport Security-Checkpoint Throughput
+  date: '2026-08-03'
+  url: https://arxiv.org/abs/2608.02950
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.LG
+  - cs.ET
+  abstract: Checkpoint staffing requires accurate forecasts of when screening demand will occur, yet flight schedules record departure times rather than passenger arrival times at security checkpoints. This study develops a framework that converts known flight schedules into temporally aligned signals for forecasting hourly checkpoint throughput. Using 2023-2024 Transportation Security Administration …
+  found_on: '2026-08-05'
 - arxiv: '2608.01456'
   title: Long-Horizon Embodied Decision-Making via Multimodal Memory Compression
   date: '2026-08-02'
