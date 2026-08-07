@@ -4,6 +4,51 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2608.05906'
+  title: Causal Episodic Memory for Feedback-Driven Agent Repair
+  date: '2026-08-06'
+  url: https://arxiv.org/abs/2608.05906
+  section: vlm
+  subcategory: episodic
+  score: 4.2
+  arxiv_categories:
+  - cs.CL
+  abstract: LLM agents that repair failures often discard successful corrections, forcing later episodes to rediscover similar solutions. We study whether finalized repair outcomes can improve subsequent Text-to-SQL episodes without parameter updates. We introduce MERIT, a training-free agent that maintains an online dual-polarity memory of oracle-verified corrections and observed unsuccessful directions. …
+  found_on: '2026-08-07'
+- arxiv: '2608.05703'
+  title: 'StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding'
+  date: '2026-08-06'
+  url: https://arxiv.org/abs/2608.05703
+  section: vlm
+  subcategory: video
+  score: 4.2
+  arxiv_categories:
+  - cs.CV
+  abstract: Deploying autonomous multimodal agents in continuous, real-world environments requires them to ingest unbounded audio-visual streams and maintain hour-scale memory. However, current evaluations predominantly rely on brief clips and multiple-choice formats. This design allows minimal baselines that process only the last four frames to match or surpass complex streaming models, while answer options …
+  found_on: '2026-08-07'
+- arxiv: '2608.05970'
+  title: 'SkillMemo: Expert-guided Skill Memory Framework for Compositional Embodied Manipulation'
+  date: '2026-08-06'
+  url: https://arxiv.org/abs/2608.05970
+  section: vla
+  subcategory: skill
+  score: 4.2
+  arxiv_categories:
+  - cs.RO
+  - cs.AI
+  abstract: Embodied visuomotor models, including Diffusion Policy (DP) and Vision-Language-Action (VLA) models, have demonstrated promising performance on robotic manipulation benchmarks. However, their potential remains fundamentally constrained by the scarcity of large-scale embodied trajectory datasets, leading to insufficient compositional generalization in out-of-distribution (OOD) scenarios with …
+  found_on: '2026-08-07'
+- arxiv: '2608.05784'
+  title: 'Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay'
+  date: '2026-08-06'
+  url: https://arxiv.org/abs/2608.05784
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Computer-use agents pay full frontier inference to re-derive routines their user has already performed, because an agent''s memory today records what the user said, not what the user did. We compile passively captured screen activity into agent memory with a deterministic, zero-model pipeline: it segments a local capture stream into typed activity frames, bounded episodes carrying application, …'
+  found_on: '2026-08-07'
 - arxiv: '2608.04574'
   title: 'When Memory Lies: An Empirical Study of Spatial Memory Staleness in VLM Agents'
   date: '2026-08-05'
