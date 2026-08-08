@@ -6,6 +6,7 @@ Each digest lists the previous day's arXiv papers that clear the memory gate des
 
 ## 2026-08
 
+- [2026-08-08](2026-08-08.md)
 - [2026-08-07](2026-08-07.md)
 - [2026-08-06](2026-08-06.md)
 - [2026-08-05](2026-08-05.md)
