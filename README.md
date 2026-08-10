@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--08--09-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--08--10-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-08-09**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-08-10**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -226,7 +226,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | **LongLive-RAG: A General Retrieval-Augmented Framework for Long Video Generation**<br><sub>Retrieval over generated history to stop identity drift in long autoregressive video.</sub> | NVIDIA, USC, MIT | ![Jun 1, 2026](https://img.shields.io/badge/Jun_1%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.02553) |
 | ⭐ **Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents**<br><sub>Offline consolidation, the analogue of sleep, turning session logs into reusable knowledge.</sub> | UIUC, UC San Diego | ![May 20, 2026](https://img.shields.io/badge/May_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.20616) |
 | **RecMem: Recurrence-based Memory Consolidation for Efficient and Effective Long-Running LLM Agents**<br><sub>Recurrent consolidation avoids invoking the LLM every time memory must be updated.</sub> | CUHK, HKU, BUPT | ![May 15, 2026](https://img.shields.io/badge/May_15%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.16045) |
-| **Mela: Test-Time Memory Consolidation based on Transformation Hypothesis**<br><sub>Brings the consolidation-as-transformation view from neuroscience to test-time adaptation.</sub> | — | ![May 11, 2026](https://img.shields.io/badge/May_11%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.10537) |
+| **Mela: Test-Time Memory Consolidation based on Transformation Hypothesis**<br><sub>Brings the consolidation-as-transformation view from neuroscience to test-time adaptation.</sub> | — | ![May 11, 2026](https://img.shields.io/badge/May_11%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.10537) |
 | **VideoLLM-online: Online Video Large Language Model for Streaming Video**<br><sub>Learns when to speak during a live stream, with a cache that keeps latency bounded.</sub> | National University of Singapore, Meta | ![Jun 17, 2024](https://img.shields.io/badge/Jun_17%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2406.11816) |
 | ⭐ **Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams**<br><sub>A STAR memory with four components serving real-time queries over an unbounded stream.</sub> | Tsinghua, ByteDance | ![Jun 12, 2024](https://img.shields.io/badge/Jun_12%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2406.08085) |
 | **Streaming Long Video Understanding with Large Language Models**<br><sub>VideoStreaming: memory-propagated encoding so cost stays constant as the video grows.</sub> | CUHK, Shanghai AI Lab | ![May 25, 2024](https://img.shields.io/badge/May_25%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2405.16009) |
