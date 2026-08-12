@@ -4,6 +4,74 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2608.10949'
+  title: 'StreamFlow: Dynamic Memory Flows for Streaming Video Understanding'
+  date: '2026-08-11'
+  url: https://arxiv.org/abs/2608.10949
+  section: vlm
+  subcategory: video
+  score: 4.2
+  arxiv_categories:
+  - cs.CV
+  - cs.CL
+  abstract: 'Streaming video understanding requires multimodal large language models (MLLMs) to preserve relevant evidence from continuously evolving streams under strict causality and bounded memory. Yet existing paradigms remain limited: model-based methods require intrusive backbone updates, while memory-based methods expend substantial visual-encoding computation on temporally redundant content and rely …'
+  found_on: '2026-08-12'
+- arxiv: '2608.10775'
+  title: 'SkillLens: Visual Skill Cards for Retrieval-Augmented GUI Action Prediction and On-Policy Distillation'
+  date: '2026-08-11'
+  url: https://arxiv.org/abs/2608.10775
+  section: llm
+  subcategory: retrieval
+  score: 3.6
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Computer-using agents can perceive rich software interfaces, yet their decisions often lack visual procedural memory: they may recognize individual controls without identifying which familiar workflow is active, which control matters next, or what evidence would confirm progress. Raw interaction traces preserve such information but are long and noisy to condition on, whereas text-only skills …'
+  found_on: '2026-08-12'
+- arxiv: '2608.10795'
+  title: 'EvoMem: Memory-Augmented Evolution for Code Optimization'
+  date: '2026-08-11'
+  url: https://arxiv.org/abs/2608.10795
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  - cs.NE
+  abstract: Successful mutation strategies in evolutionary code search may contain reusable knowledge that is useful beyond a single run, and in some cases may transfer across related tasks and domains. However, existing LLM-driven evolutionary frameworks largely discard such knowledge, repeatedly rediscovering similar ideas and limiting opportunities for cross-run and cross-task learning. We introduce …
+  found_on: '2026-08-12'
+- arxiv: '2608.10502'
+  title: 'From Faulty Memories to Corrected Actions: Dependency-Guided Rollback Repair for Memory-Augmented Agents'
+  date: '2026-08-11'
+  url: https://arxiv.org/abs/2608.10502
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Persistent memory lets language-model agents reuse information across sessions, but it also makes errors durable: a poisoned, stale, or misattributed record can alter reasoning, tool use, answers, and subsequent memory writes. Existing defenses mainly detect or delete suspicious memories, or revise the current response. Deleting the source leaves already propagated claims, actions, and derived …'
+  found_on: '2026-08-12'
+- arxiv: '2608.10413'
+  title: 'DriveVLA-M0: Failure-Aware Memory Augmentation for Autonomous Driving'
+  date: '2026-08-11'
+  url: https://arxiv.org/abs/2608.10413
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.CV
+  abstract: Vision-Language-Action (VLA) models have recently emerged as a promising paradigm for end-to-end autonomous driving by enabling unified reasoning across perception, language, and planning. However, existing approaches lack mechanisms to exploit past failures or adapt to distribution shifts, causing the model to persistently underperform on similar scenarios where it has previously failed. In this …
+  found_on: '2026-08-12'
+- arxiv: '2608.10676'
+  title: Self-Correcting Long-Horizon Search Agents via Tree-Structured Memory
+  date: '2026-08-11'
+  url: https://arxiv.org/abs/2608.10676
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  abstract: Large language model (LLM)-based search agents answer questions through multi-step interactions with external environments. However, providing complete execution trajectories to the LLM causes unbounded context growth and introduces noise. Existing compression methods reduce context at the cost of important details and often replace erroneous facts without repairing downstream reasoning derived …
+  found_on: '2026-08-12'
 - arxiv: '2608.09227'
   title: 'Omni2LoRA: Coherence-Preserving Parametric Memory for Efficient Omni Language Models'
   date: '2026-08-10'
@@ -37,6 +105,17 @@ candidates:
   - cs.RO
   abstract: Modern vision-language-action (VLA) policies have acquired broad manipulation skills, but typically generate each action chunk from the current observation or a short fixed-length history. However, real-world manipulation is often non-Markovian, requiring robots to retain and reason over task-relevant information from long-horizon interaction histories to determine the next action. To address …
   found_on: '2026-08-11'
+- arxiv: '2608.10108'
+  title: MESA:Task-Adaptive Multi-Structure Evidence Selection for Long-Horizon Agent Memory
+  date: '2026-08-10'
+  url: https://arxiv.org/abs/2608.10108
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  abstract: Long-horizon agents accumulate trajectories spanning hundreds of interleaved reasoning, action, and observation steps, where answering a query may depend on evidence buried far back in the history. External memory stores such trajectories as structured representations, yet each structure provides a distinct and incomplete view. Existing multi-memory systems either read a fixed set of structures …
+  found_on: '2026-08-12'
 - arxiv: '2608.08569'
   title: 'VoxZip: Semantic-Anchored Temporal KV Cache Compression for Long-Context Audio Inference'
   date: '2026-08-09'
