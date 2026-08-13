@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--08--12-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--08--13-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-08-12**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-08-13**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -274,7 +274,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | **EGOSTREAM: A Diagnostic Benchmark for Streaming Episodic Memory in Egocentric Vision**<br><sub>Diagnoses what a model remembers and for how long, instead of scoring one final answer.</sub> | University of Catania | ![May 29, 2026](https://img.shields.io/badge/May_29%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.31557) |
 | **WorldMemArena: Evaluating Multimodal Agent Memory Through Action-World Interaction**<br><sub>Memory must track an evolving world and revise stale entries, not merely recall.</sub> | UC Santa Barbara, Stanford, Johns Hopkins | ![May 28, 2026](https://img.shields.io/badge/May_28%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.29341) |
 | **SMMBench: A Benchmark for Source-Distributed Multimodal Agent Memory**<br><sub>Evidence spread across independent sources, rather than pre-assembled into one context.</sub> | SJTU | ![May 15, 2026](https://img.shields.io/badge/May_15%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.15710) |
-| **MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory**<br><sub>Most visually grounded memory questions are answerable from text alone; this closes that loophole.</sub> | Rutgers, Princeton | ![May 14, 2026](https://img.shields.io/badge/May_14%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.15128) |
+| **MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory**<br><sub>Most visually grounded memory questions are answerable from text alone; this closes that loophole.</sub> | Rutgers, Princeton | ![May 14, 2026](https://img.shields.io/badge/May_14%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.15128) |
 | **Needle In A Video Haystack: A Scalable Synthetic Evaluator for Video MLLMs**<br><sub>Inserts synthetic needles into arbitrary video so recall can be measured at any length.</sub> | CUHK, Shanghai AI Lab | ![Jun 13, 2024](https://img.shields.io/badge/Jun_13%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2406.09367) |
 | **MLVU: Benchmarking Multi-task Long Video Understanding**<br><sub>Long-video tasks spanning three minutes to two hours, with holistic and detail recall split out.</sub> | BAAI, Renmin University | ![Jun 6, 2024](https://img.shields.io/badge/Jun_6%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2406.04264) |
 
