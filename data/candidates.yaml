@@ -4,6 +4,158 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2608.16168'
+  title: 'QUMem: Personalized Memory for Query-Conditioned User-State Inference in LLM Agents'
+  date: '2026-08-17'
+  url: https://arxiv.org/abs/2608.16168
+  section: llm
+  subcategory: longterm
+  score: 4.2
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: 'Large language model (LLM) agents increasingly use external memory systems to support personalization by drawing on long and evolving interaction histories, in which user preferences may be distributed across time, change with context, and conflict with earlier evidence. However, existing systems face three limitations: fixed-turn, fixed-token, or session-based boundaries can mix unrelated …'
+  found_on: '2026-08-18'
+- arxiv: '2608.16681'
+  title: Bridging the Gap between Labeled and Unlabeled Data via Unified Flow with Feature Memory Bank
+  date: '2026-08-17'
+  url: https://arxiv.org/abs/2608.16681
+  section: llm
+  subcategory: longterm
+  score: 4.2
+  arxiv_categories:
+  - cs.CV
+  - cs.AI
+  abstract: Although semi-supervised semantic segmentation ($\text{S}^4$) utilizes abundant unlabeled data to reduce manual labeling burdens, independent training of labeled and unlabeled data causes the former to dominate, which severely degrades pseudo-label quality. To address this challenges, we propose a novel remote sensing (RS) $\text{S}^4$ method via unified flow with feature memory bank (UFFM). …
+  found_on: '2026-08-18'
+- arxiv: '2608.16515'
+  title: 'When Context Misleads: Intent-Guided Decoding for Robust Retrieval-Augmented Generation'
+  date: '2026-08-17'
+  url: https://arxiv.org/abs/2608.16515
+  section: llm
+  subcategory: retrieval
+  score: 3.6
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: 'Retrieval-augmented generation (RAG) improves large language models by grounding generation in external evidence, but it also introduces a source trust problem: retrieved context may be useful, irrelevant, or even misleading. Existing RAG systems often apply a fixed trust policy toward retrieved evidence, which can either over-trust incorrect context or underuse context when the user explicitly …'
+  found_on: '2026-08-18'
+- arxiv: '2608.16843'
+  title: 'Security of Foundation-Model-Powered Embodied Agents: Attack Surfaces, Attacks, Defenses, and Evaluation'
+  date: '2026-08-17'
+  url: https://arxiv.org/abs/2608.16843
+  section: llm
+  subcategory: survey
+  score: 1.5
+  arxiv_categories:
+  - cs.RO
+  abstract: Foundation models are increasingly used for perception, reasoning, planning, and action generation in embodied agents, creating security risks that can propagate from digital inputs to physical behavior. Existing surveys often organize threats by mechanisms such as jailbreaks, prompt injection, backdoors, poisoning, or adversarial examples, but these categories do not consistently identify where …
+  found_on: '2026-08-18'
+- arxiv: '2608.16303'
+  title: 'FTA-Mem: Fact-Time-Affect Anchored Memory for Low-Density Long-Term Dialogue'
+  date: '2026-08-17'
+  url: https://arxiv.org/abs/2608.16303
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CL
+  abstract: 'Long-term emotional-support agents require memory mechanisms for personalized understanding across sessions. However, emotional-support dialogue is often low-density: turns are incomplete, evidence is scattered, and user states evolve over time. Existing memory methods usually rely on fixed units, such as turn-level notes or session summaries, which may lose details or introduce redundant noise. …'
+  found_on: '2026-08-18'
+- arxiv: '2608.16844'
+  title: 'Proteus: Incremental Memory Activation for Long-Context Sequence Modeling'
+  date: '2026-08-17'
+  url: https://arxiv.org/abs/2608.16844
+  section: llm
+  subcategory: memory-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.LG
+  - cs.AI
+  - cs.CL
+  abstract: The quadratic cost of attention-based sequence models for long contexts has motivated a growing line of research on memory-based models that can compress context into a compact state. However, most existing memory models expose a static memory throughout the entire sequence. Because early tokens face no compression pressure, they occupy too many degrees of freedom and "pollute" the memory state, …
+  found_on: '2026-08-18'
+- arxiv: '2608.16417'
+  title: 'D2-ScaleAgent: Dual-Dimensional Scaling for Long Document Understanding'
+  date: '2026-08-17'
+  url: https://arxiv.org/abs/2608.16417
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.CL
+  abstract: 'Multi-modal retrieval-augmented generation (RAG) is a key technique for visually rich long document understanding. Existing multi-modal RAG methods are progressively advancing toward multi-agent systems: they first retrieve relevant pages based on a query, and then iteratively understand information within those pages. However, these methods typically rely on fixed workflows and lack the ability …'
+  found_on: '2026-08-18'
+- arxiv: '2608.16185'
+  title: 'LENS: In-Context Search via Latent Evidence Exploration over Dynamic Raw Documents'
+  date: '2026-08-17'
+  url: https://arxiv.org/abs/2608.16185
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: 'LLM agents increasingly answer questions over dynamic raw-document collections, where files may change before preprocessing, and relevant evidence (spans, sections, pages, or tables) is query-dependent. Existing retrieval-augmented approaches pre-materialize evidence via fixed chunking, embeddings, or persistent indexes: effective for lookup, yet costly, stale-prone, and committed to a …'
+  found_on: '2026-08-18'
+- arxiv: '2608.15881'
+  title: Deploying Frontier Agentic Technology in MOOSEnger, a Multiphysics-Capable AI Assistant
+  date: '2026-08-16'
+  url: https://arxiv.org/abs/2608.15881
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.LG
+  - cs.CE
+  abstract: The Multiphysics Object-Oriented Simulation Environment (MOOSE) is an open-source finite-element framework for building multiphysics simulation applications. Using a multiphysics environment effectively demands specialized expertise, creating a barrier for many domain scientists and engineers. MOOSEnger, developed at Idaho National Laboratory (INL), is a domain-specific, tool-enabled AI agent …
+  found_on: '2026-08-18'
+- arxiv: '2608.15844'
+  title: 'MicroVerse: An Instrument for Measuring Self-Authored Identity Drift in Long-Horizon Multi-Agent Language-Model Simulations'
+  date: '2026-08-16'
+  url: https://arxiv.org/abs/2608.15844
+  section: llm
+  subcategory: memory-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.CL
+  abstract: Long-horizon, multi-agent language model (LM) simulations are widely proposed for studying social behavior, yet instruments to measure whether persona-conditioned agents maintain identity fidelity under sustained pressure are lacking. We present MicroVerse, a behavioral-science instrument that measures identity drift in generative agents. Agents carry an immutable "soul file" (core values, moral …
+  found_on: '2026-08-18'
+- arxiv: '2608.15703'
+  title: 'HyMem: Hierarchical Context Management for Long-Horizon Agents via Information Isolation'
+  date: '2026-08-16'
+  url: https://arxiv.org/abs/2608.15703
+  section: llm
+  subcategory: memory-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  abstract: Large language model (LLM) agents often perform poorly on complex, long-horizon tasks because their context becomes increasingly cluttered over time. As interactions accumulate, detailed execution traces and intermediate outputs dominate the context, making it difficult for the model to retain and use high-level planning information. Most existing methods address this issue through compression or …
+  found_on: '2026-08-18'
+- arxiv: '2608.15584'
+  title: 'GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix'
+  date: '2026-08-16'
+  url: https://arxiv.org/abs/2608.15584
+  section: llm
+  subcategory: kvcache
+  score: 1.3
+  arxiv_categories:
+  - cs.LG
+  - cs.AI
+  abstract: 'Production paged-serving engines apply uniform paging granularity to the KV cache, even though the two regions of a multi-agent workload have opposite storage requirements: a long shared prefix demands contiguity, while the per-request suffix demands fine-grained allocation. We present \textbf{GraniKV}, a KV-cache layer that allocates the shared prefix in a contiguous HOT pool and the suffix in a …'
+  found_on: '2026-08-18'
+- arxiv: '2608.15919'
+  title: 'Noesis: Bidirectional Graph-RAG with Adaptive Parallelism and Cross-Knowledge-Base Semantic Discovery'
+  date: '2026-08-16'
+  url: https://arxiv.org/abs/2608.15919
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.IR
+  - cs.AI
+  abstract: 'Retrieval-Augmented Generation over knowledge graphs (Graph-RAG) has emerged as a powerful paradigm for grounding large language models in domain-specific corpora. However, existing systems face persistent limitations: (1) static chunking fragments long documents, losing cross-section semantic connections; (2) ingestion pipelines do not scale adaptively; and (3) multi-domain deployments require …'
+  found_on: '2026-08-18'
 - arxiv: '2608.12743'
   title: 'Spatial Memory Agent: Experience-Grounded Procedure Memory for Spatial Intelligence'
   date: '2026-08-13'
