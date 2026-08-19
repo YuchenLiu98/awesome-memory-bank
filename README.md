@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--08--18-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--08--19-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-08-18**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-08-19**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -224,7 +224,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | **Compression and Retrieval: Implicit Memory Retrieval for Video World Models**<br><sub>Implicit retrieval keeps a video world model consistent without an explicit frame bank.</sub> | HUST, SYSU | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23105) |
 | **FadeMem: Distance-Aware Memory Consolidation for Autoregressive Video Diffusion**<br><sub>Consolidates the KV history by temporal distance, giving long video generation bounded memory.</sub> | ZJU, Baidu | ![Jun 9, 2026](https://img.shields.io/badge/Jun_9%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.10671) |
 | **LongLive-RAG: A General Retrieval-Augmented Framework for Long Video Generation**<br><sub>Retrieval over generated history to stop identity drift in long autoregressive video.</sub> | NVIDIA, USC, MIT | ![Jun 1, 2026](https://img.shields.io/badge/Jun_1%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.02553) |
-| ⭐ **Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents**<br><sub>Offline consolidation, the analogue of sleep, turning session logs into reusable knowledge.</sub> | UIUC, UC San Diego | ![May 20, 2026](https://img.shields.io/badge/May_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.20616) |
+| ⭐ **Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents**<br><sub>Offline consolidation, the analogue of sleep, turning session logs into reusable knowledge.</sub> | UIUC, UC San Diego | ![May 20, 2026](https://img.shields.io/badge/May_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.20616) |
 | **RecMem: Recurrence-based Memory Consolidation for Efficient and Effective Long-Running LLM Agents**<br><sub>Recurrent consolidation avoids invoking the LLM every time memory must be updated.</sub> | CUHK, HKU, BUPT | ![May 15, 2026](https://img.shields.io/badge/May_15%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.16045) |
 | **Mela: Test-Time Memory Consolidation based on Transformation Hypothesis**<br><sub>Brings the consolidation-as-transformation view from neuroscience to test-time adaptation.</sub> | — | ![May 11, 2026](https://img.shields.io/badge/May_11%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.10537) |
 | **VideoLLM-online: Online Video Large Language Model for Streaming Video**<br><sub>Learns when to speak during a live stream, with a cache that keeps latency bounded.</sub> | National University of Singapore, Meta | ![Jun 17, 2024](https://img.shields.io/badge/Jun_17%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2406.11816) |
@@ -239,7 +239,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
 | **DYNA: Dynamic Episodic Memory Networks for Augmenting Large Language Models with Temporal Knowledge Graphs in Continuous Learning**<br><sub>A temporal knowledge graph as episodic memory, letting a frozen model absorb new events.</sub> | University of Qom | ![Jun 14, 2026](https://img.shields.io/badge/Jun_14%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.15778) |
-| **OSGNet with MLLM Reranking @ Ego4D Episodic Memory Challenge 2026**<br><sub>The 2026 Ego4D episodic memory winner for natural-language queries and GoalStep.</sub> | HIT, NUS | ![May 20, 2026](https://img.shields.io/badge/May_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.20818) |
+| **OSGNet with MLLM Reranking @ Ego4D Episodic Memory Challenge 2026**<br><sub>The 2026 Ego4D episodic memory winner for natural-language queries and GoalStep.</sub> | HIT, NUS | ![May 20, 2026](https://img.shields.io/badge/May_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.20818) |
 | **EgoLife: Towards Egocentric Life Assistant**<br><sub>A week of multi-person egocentric recording with EgoRAG memory for ultra-long-term recall.</sub> | Nanyang Technological University, S-Lab | ![Mar 5, 2025](https://img.shields.io/badge/Mar_5%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2503.03803) |
 | **RAP: Retrieval-Augmented Personalization for Multimodal Large Language Models**<br><sub>An editable external database of user-specific concepts, avoiding per-user fine-tuning.</sub> | Tsinghua, Alibaba | ![Oct 17, 2024](https://img.shields.io/badge/Oct_17%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2410.13360) |
 | **Yo'LLaVA: Your Personalized Language and Vision Assistant**<br><sub>Learns personalized concept tokens so the assistant remembers your dog across conversations.</sub> | University of Wisconsin-Madison, Allen Institute for AI | ![Jun 13, 2024](https://img.shields.io/badge/Jun_13%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2406.09400) |

@@ -4,6 +4,112 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2608.17911'
+  title: 'CABLE: Extending the Reach of Memory Retrieval via Complementary Antecedent-Based Linking and Expansion'
+  date: '2026-08-18'
+  url: https://arxiv.org/abs/2608.17911
+  section: llm
+  subcategory: retrieval
+  score: 3.6
+  arxiv_categories:
+  - cs.CL
+  abstract: As LLM agents operate across structured workflows and sessions, preserving long-term history does not ensure that later contexts can recover relevant evidence through a bounded memory interface. We study this evidence-reachability problem in long-term conversational memory, where retrieval still relies heavily on semantic similarity. This works well for topical recall, but it often misses earlier …
+  found_on: '2026-08-19'
+- arxiv: '2608.17605'
+  title: 'Multi-turn Conversational AI from Text to Multimodal Interaction: Data, Models, Evaluation, and Open Challenges'
+  date: '2026-08-18'
+  url: https://arxiv.org/abs/2608.17605
+  section: llm
+  subcategory: survey
+  score: 1.5
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  - cs.SD
+  abstract: Conversational AI is moving beyond isolated text prompts toward sustained, multimodal interaction. In real conversations, users clarify goals, revise requests, interrupt responses, switch topics, and introduce new evidence while expecting systems to preserve context across turns. This makes multi-turn dialogue a distinct challenge requiring systems to maintain and update memory, ground responses …
+  found_on: '2026-08-19'
+- arxiv: '2608.18066'
+  title: 'On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification'
+  date: '2026-08-18'
+  url: https://arxiv.org/abs/2608.18066
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  - cs.CL
+  - cs.LG
+  abstract: Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a comprehensive re-evaluation of two memory-based methods, broadening the scope of evaluation along …
+  found_on: '2026-08-19'
+- arxiv: '2608.17534'
+  title: 'ArborMem: Navigating Interaction States with Memory Forests'
+  date: '2026-08-18'
+  url: https://arxiv.org/abs/2608.17534
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CL
+  abstract: Large language models increasingly serve as persistent conversational assistants, requiring memory that preserves relevant experience and maintains continuity across interactions. Existing methods improve access to conversational history through long-context processing, selective retrieval, and structured memory organization. However, most systems treat memory access as retrieving relevant past …
+  found_on: '2026-08-19'
+- arxiv: '2608.17756'
+  title: 'D$^2$ACCI: A Dual-Loop Diagnostic Protocol for Evidence-Preserving Agent Memory'
+  date: '2026-08-18'
+  url: https://arxiv.org/abs/2608.17756
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Memory is a key capability of LLM agents. Persistent memory extends this across sessions---enabling recall, revision, and personalization. Yet its multi-stage pipeline (ingestion, retrieval, filtering, generation) makes failures difficult to localize: end-to-end evaluation reveals that an error occurred, but not which stage caused it. Existing evaluations often report aggregate performance …'
+  found_on: '2026-08-19'
+- arxiv: '2608.17512'
+  title: 'Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation'
+  date: '2026-08-18'
+  url: https://arxiv.org/abs/2608.17512
+  section: llm
+  subcategory: memory-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.RO
+  abstract: Although Large Vision-Language Models (VLMs) have significantly advanced embodied navigation, their direct deployment remains challenging, as existing methods often force VLMs into unnatural action spaces that misalign with their 2D pre-training priors, compounded by rigid reasoning schedules and inefficient memory management. To overcome these limitations, we propose TAMP-Nav, a unified …
+  found_on: '2026-08-19'
+- arxiv: '2608.17616'
+  title: 'MoNe: Modular Neural Memory for Efficient Long Context Inference'
+  date: '2026-08-18'
+  url: https://arxiv.org/abs/2608.17616
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  - cs.CL
+  - cs.LG
+  abstract: We present MoNe, a lightweight modular neural memory that attaches to any frozen pretrained Transformer to enable long-context inference without retraining. MoNe reads context in fixed-size segments via test-time learning of fast-weight neural memory networks with layer-localized gradient updates; at inference, the memory generates keys and values from the query tokens alone, with no context …
+  found_on: '2026-08-19'
+- arxiv: '2608.17347'
+  title: 'Repetition as Reinforcement: Enhancing Sample Efficiency via Instant Episode Repetition in Reinforcement Learning'
+  date: '2026-08-18'
+  url: https://arxiv.org/abs/2608.17347
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.LG
+  - cs.RO
+  abstract: Repetition is a fundamental mechanism in human learning, where revisiting successful experiences strengthens memory, consolidates skills, and improves future performance. Motivated by this biological principle, we introduce Instant Episode Repetition (IER), a simple and novel mechanism that improves sample efficiency by immediately repeating action sequences from successful episodes during …
+  found_on: '2026-08-19'
+- arxiv: '2608.17665'
+  title: 'GraphWake: Group Polarization via Memory-Mediated Polarization Cascade in LLM-Agent Communities'
+  date: '2026-08-18'
+  url: https://arxiv.org/abs/2608.17665
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  abstract: 'LLM-driven agents can autonomously exchange opinions on online platforms and form communities. Such agent-operated social platforms raise a new security concern: attackers may manipulate agents to induce group polarization. Existing methods manipulate agent prompts or construct echo chambers, both of which are difficult to realize in practice. We therefore formulate a new threat, Memory-Mediated …'
+  found_on: '2026-08-19'
 - arxiv: '2608.16168'
   title: 'QUMem: Personalized Memory for Query-Conditioned User-State Inference in LLM Agents'
   date: '2026-08-17'
@@ -98,6 +204,19 @@ candidates:
   - cs.AI
   abstract: 'LLM agents increasingly answer questions over dynamic raw-document collections, where files may change before preprocessing, and relevant evidence (spans, sections, pages, or tables) is query-dependent. Existing retrieval-augmented approaches pre-materialize evidence via fixed chunking, embeddings, or persistent indexes: effective for lookup, yet costly, stale-prone, and committed to a …'
   found_on: '2026-08-18'
+- arxiv: '2608.17209'
+  title: 'Teach and Grow: An Agent-Centered Architecture for General Robot Learning'
+  date: '2026-08-17'
+  url: https://arxiv.org/abs/2608.17209
+  section: llm
+  subcategory: agent-exp
+  score: 1.3
+  arxiv_categories:
+  - cs.RO
+  - cs.AI
+  - cs.CV
+  abstract: End-to-end vision-language-action (VLA) and world-action models offer an elegant route to general-purpose robotics, but their reliability is bounded by validated physical coverage. When an unfamiliar object, sensor, embodiment, or contact falls outside that coverage and no validated fallback exists, correcting the failure requires new robot data, a policy update, and regression testing. This …
+  found_on: '2026-08-19'
 - arxiv: '2608.15881'
   title: Deploying Frontier Agentic Technology in MOOSEnger, a Multiphysics-Capable AI Assistant
   date: '2026-08-16'
