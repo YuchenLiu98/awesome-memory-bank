@@ -4,6 +4,55 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2608.19059'
+  title: 'LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding'
+  date: '2026-08-19'
+  url: https://arxiv.org/abs/2608.19059
+  section: vlm
+  subcategory: video
+  score: 4.2
+  arxiv_categories:
+  - cs.RO
+  - cs.CV
+  abstract: 'Long-term robot operation in evolving environments requires object-level understanding that persists across repeated revisits. Existing systems either overwrite history to maintain an up-to-date map or store semantic snapshots without consistent cross-session object identity, resulting in temporal amnesia: the systematic loss of object history that prevents answering queries such as "Where has …'
+  found_on: '2026-08-20'
+- arxiv: '2608.19029'
+  title: Adaptive Memory and Reflection Multi-Agent System for Medical Question Answering
+  date: '2026-08-19'
+  url: https://arxiv.org/abs/2608.19029
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  - cs.CL
+  - cs.MA
+  abstract: Accurate and responsible medical question answering (QA) is important in healthcare, where complex cases require factual knowledge and nuanced reasoning. Existing medical QA systems, typically based on single-agent architectures and static retrieval, often lack adaptability, persistent memory, and structured decision-making. This work introduces an adaptive memory and reflection (AMR) agentic …
+  found_on: '2026-08-20'
+- arxiv: '2608.18704'
+  title: 'MemFuse: Multi-Source Memory Fusion from Fragmented Observations'
+  date: '2026-08-19'
+  url: https://arxiv.org/abs/2608.18704
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: Long-term memory is essential for agents that operate across extended interactions, yet existing memory systems and benchmarks predominantly focus on single-source textual histories. In realistic settings, however, relevant information is often fragmented across applications and devices, as well as across users and time, requiring agents to integrate dispersed observations into coherent episodic …
+  found_on: '2026-08-20'
+- arxiv: '2608.18578'
+  title: 'Compress and Forget: bitsandbytes Quantization Amplifies Proactive Interference in LLMs'
+  date: '2026-08-19'
+  url: https://arxiv.org/abs/2608.18578
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CL
+  - cs.LG
+  abstract: Proactive interference (PI) is a documented failure mode in large language models in which retrieval of a repeatedly overwritten value degrades as prior overwrites accumulate, mirroring a classical phenomenon in human working memory. Post-training quantization (PTQ) is now the default deployment path for open-weight models, yet its effect on this failure mode has not been tested. We evaluate …
+  found_on: '2026-08-20'
 - arxiv: '2608.17911'
   title: 'CABLE: Extending the Reach of Memory Retrieval via Complementary Antecedent-Based Linking and Expansion'
   date: '2026-08-18'

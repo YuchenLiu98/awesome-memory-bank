@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--08--19-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--08--20-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-08-19**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-08-20**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -309,7 +309,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | ⭐ **What Spatial Memory Must Store: Occlusion as the Test for Language-Agent Memory**<br><sub>Makes the memory-palace intuition testable, and finds geometry earns its place only under occlusion.</sub> | — | ![Jun 9, 2026](https://img.shields.io/badge/Jun_9%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.10299) |
 | **LongSpace: Exploring Long-Horizon Spatial Memory from Perception to Recall in Video**<br><sub>Separates perceiving space from recalling it, and shows MLLMs are far better at the first.</sub> | BUPT, CASIA, CAS | ![Jun 4, 2026](https://img.shields.io/badge/Jun_4%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.05677) |
 | ⭐ **eMEM: A Hybrid Spatio-Temporal Memory System For Embodied Agents**<br><sub>Argues text-stream memory designs like MemGPT and A-MEM do not transfer to physical agents.</sub> | Inria | ![Jun 2, 2026](https://img.shields.io/badge/Jun_2%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.03374) |
-| ⭐ **Spatial Memory for Out-of-Vision Manipulation in Vision-Language-Action**<br><sub>SOMA: VLAs assume the target is visible; spatial memory is what fixes that.</sub> | — | ![May 21, 2026](https://img.shields.io/badge/May_21%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.22283) |
+| ⭐ **Spatial Memory for Out-of-Vision Manipulation in Vision-Language-Action**<br><sub>SOMA: VLAs assume the target is visible; spatial memory is what fixes that.</sub> | — | ![May 21, 2026](https://img.shields.io/badge/May_21%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.22283) |
 | **Grounding by Remembering: Cross-Scene and In-Scene Memory for 3D Functional Affordances**<br><sub>Remembering affordances seen elsewhere is what makes training-free grounding work.</sub> | TU Munich, A*STAR | ![May 12, 2026](https://img.shields.io/badge/May_12%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.11616) |
 | **EmbodiedLGR: Integrating Lightweight Graph Representation and Retrieval for Semantic-Spatial Memory in Robotic Agents**<br><sub>A lightweight graph memory sized for robots that must run it continuously.</sub> | — | ![Apr 20, 2026](https://img.shields.io/badge/Apr_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2604.18271) |
 | **ESCAPE: Episodic Spatial Memory and Adaptive Execution Policy for Long-Horizon Mobile Manipulation**<br><sub>Episodic spatial memory against the catastrophic forgetting that long horizons cause.</sub> | CUHK, HKU | ![Apr 15, 2026](https://img.shields.io/badge/Apr_15%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2604.13633) |
