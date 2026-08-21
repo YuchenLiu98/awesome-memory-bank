@@ -4,6 +4,97 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2608.19701'
+  title: 'Beyond Memory Majority: Latent-Source Reasoning for Multi-Agent Memory Arbitration'
+  date: '2026-08-20'
+  url: https://arxiv.org/abs/2608.19701
+  section: llm
+  subcategory: multiagent
+  score: 4.2
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Long-term multi-agent systems continuously accumulate the memories produced by different agents. Existing memory methods typically treat retrieved memories as independent evidence and combine them through voting or weighting. However, this independence assumption often fails in multi-agent settings: memories written by different agents may inherit the same upstream source or shared bias, causing …'
+  found_on: '2026-08-21'
+- arxiv: '2608.19662'
+  title: 'ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents'
+  date: '2026-08-20'
+  url: https://arxiv.org/abs/2608.19662
+  section: llm
+  subcategory: kvcache
+  score: 3.9
+  arxiv_categories:
+  - cs.CL
+  abstract: Agentic language models repeatedly encode tool and skill schemas that recur across requests in different combinations and orders, preventing standard prefix caching from reusing their key--value (KV) states. We introduce \textbf{ReCache}, a framework for independently caching resource representations while reducing their inference-time computational and memory overhead. Resource-wise attention …
+  found_on: '2026-08-21'
+- arxiv: '2608.19564'
+  title: Remember, Verify, or Ask? Cross-Family Evaluation of Memory Commitment in LLM Agents
+  date: '2026-08-20'
+  url: https://arxiv.org/abs/2608.19564
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CL
+  abstract: 'Persistent memory can personalize an LLM agent, but an incorrect durable update can silently distort future behavior. We study the memory-clarification boundary: whether interaction-derived information should be persisted, used only in the current context, re-verified, or clarified with the user. MCB contains 140 primary scenarios, split into 70 development and 70 held-out items, plus a separate …'
+  found_on: '2026-08-21'
+- arxiv: '2608.19758'
+  title: 'FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving'
+  date: '2026-08-20'
+  url: https://arxiv.org/abs/2608.19758
+  section: llm
+  subcategory: kvcache
+  score: 1.3
+  arxiv_categories:
+  - cs.CL
+  abstract: Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention remains a critical bottleneck, particularly during the compute-intensive prefilling phase. Our previous work, FlashPrefill, mitigates this cost through instantaneous pattern discovery and max-based dynamic thresholding; however, it remains an algorithmic prototype that is still …
+  found_on: '2026-08-21'
+- arxiv: '2608.19621'
+  title: Mitigating Identity Essentialism in LLM Agents with Longitudinal Life Trajectories
+  date: '2026-08-20'
+  url: https://arxiv.org/abs/2608.19621
+  section: llm
+  subcategory: parametric
+  score: 1.3
+  arxiv_categories:
+  - cs.CL
+  abstract: Large language models (LLMs) offer a scalable approach to social simulation, but their credibility depends on how agents are constructed. Existing methods can partially reproduce population-level patterns, yet often fail to capture human-like diversity. Our analysis shows that static-profile agents exhibit stronger demographic separation and within-group compression than humans, a pattern …
+  found_on: '2026-08-21'
+- arxiv: '2608.19535'
+  title: 'From Retrieved Context to Runtime Control: Adaptive Compression for Edge-based RAG'
+  date: '2026-08-20'
+  url: https://arxiv.org/abs/2608.19535
+  section: llm
+  subcategory: kvcache
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  - cs.CL
+  - cs.DC
+  abstract: 'Retrieval-augmented generation (RAG) improves language-model responses by grounding generation in external passages, which comes with overhead: retrieved context lengthens the prompt, increasing prefill work, KV-cache footprint, memory traffic, latency, and energy. Context compression offers a natural remedy by pruning retrieved text before generation. However, state-of-the-art …'
+  found_on: '2026-08-21'
+- arxiv: '2608.19680'
+  title: Frequency-Aware Continual Learning for Smart Contract Vulnerability Detection with Large Language Models
+  date: '2026-08-20'
+  url: https://arxiv.org/abs/2608.19680
+  section: llm
+  subcategory: parametric
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  abstract: Smart contract vulnerability detection with Large Language Models (LLMs) faces three causally linked challenges. First, new vulnerability categories demand parameter-efficient adaptation, since full retraining is prohibitive for sequentially arriving tasks. Second, training per-task adapters on a shared backbone causes catastrophic forgetting of previously learned vulnerabilities. Third, the …
+  found_on: '2026-08-21'
+- arxiv: '2608.19652'
+  title: Can Agent Memory Systems Track Evolving State?
+  date: '2026-08-20'
+  url: https://arxiv.org/abs/2608.19652
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.AI
+  - cs.CL
+  abstract: As LLM-based agents are deployed for longer and higher-stakes tasks, their memory systems continue to have crucial gaps. While existing memory benchmarks focus largely on recall-shaped tasks, we argue an effective memory system must track the evolving state of the world; as facts, constraints, and decisions are revised over a long interaction, answers must reflect the current state and not a …
+  found_on: '2026-08-21'
 - arxiv: '2608.19059'
   title: 'LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding'
   date: '2026-08-19'
