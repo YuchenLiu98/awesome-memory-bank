@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--08--25-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--08--26-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-08-25**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-08-26**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -210,7 +210,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | ⭐ **ReflectWorld-MM: An Entity-Oriented Multimodal Memory System for Open-Ended Video Streams**<br><sub>Organizes multimodal memory around entities, so recall survives an open-ended stream.</sub> | — | ![Jul 6, 2026](https://img.shields.io/badge/Jul_6%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.09759) |
 | **Towards a Dynamic and Fixed-budget Memory Bank for Efficient Streaming Video Understanding**<br><sub>A fixed-budget memory bank that handles unpredictable query timing in a live stream.</sub> | Xiamen University | ![Jun 24, 2026](https://img.shields.io/badge/Jun_24%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.25658) |
 | **Beyond Visual Memory: Mechanistic Diagnostics of Latent Visual Reasoning**<br><sub>Checks whether latent visual tokens really store visual evidence, and finds the story is more complicated.</sub> | Alibaba | ![May 31, 2026](https://img.shields.io/badge/May_31%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.01287) |
-| **Personal Visual Memory from Explicit and Implicit Evidence**<br><sub>Personal memory built from what the images imply, not only what the user stated.</sub> | — | ![May 27, 2026](https://img.shields.io/badge/May_27%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2605.28806) |
+| **Personal Visual Memory from Explicit and Implicit Evidence**<br><sub>Personal memory built from what the images imply, not only what the user stated.</sub> | — | ![May 27, 2026](https://img.shields.io/badge/May_27%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.28806) |
 | **O-MARC: Omni Memory-Augmented Compression Distillation for Efficient Video Understanding**<br><sub>Joint audio-visual memory compression for omnimodal models.</sub> | — | ![May 26, 2026](https://img.shields.io/badge/May_26%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.26584) |
 | ⭐ **Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory**<br><sub>M3-Agent: builds an entity-centric multimodal long-term memory while watching and listening in real time.</sub> | ByteDance, Zhejiang University | ![Aug 13, 2025](https://img.shields.io/badge/Aug_13%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2508.09736) |
 | ⭐ **MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding**<br><sub>An online visual and query memory bank that lets a frozen LLM process video frame by frame.</sub> | University of Maryland, Meta | ![Apr 8, 2024](https://img.shields.io/badge/Apr_8%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2404.05726) |
