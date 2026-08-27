@@ -4,6 +4,110 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2608.25655'
+  title: 'Reconstructing the Right Episode: Evaluating Interleaved Conversational Memory Beyond Long Context'
+  date: '2026-08-26'
+  url: https://arxiv.org/abs/2608.25655
+  section: llm
+  subcategory: longterm
+  score: 4.2
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: 'Conversations with chat assistants increasingly span many topics in a single long-running thread, challenging memory systems. Existing long-context and memory benchmarks often expose session or topic boundaries, or probe direct personal-memory questions. These settings understate a harder assistant-memory regime: a flat mixed-topic thread where the system must infer which earlier episode makes a …'
+  found_on: '2026-08-27'
+- arxiv: '2608.25729'
+  title: 'LongVU-TTT: Causal Test-Time Training for Visual Resampling in Long Video Understanding'
+  date: '2026-08-26'
+  url: https://arxiv.org/abs/2608.25729
+  section: vlm
+  subcategory: video
+  score: 4.2
+  arxiv_categories:
+  - cs.CV
+  abstract: Long-video MLLMs must model temporal change before a limited visual-token budget removes most frame evidence. We introduce LongVU-TTT, which inserts a convolutional Test-Time Training (TTT) resampler with causal fast-weight updates between the vision encoder and the LLM. Its grouped 2D fast weights adapt to each video and contextualize frame features before compression, while a hybrid …
+  found_on: '2026-08-27'
+- arxiv: '2608.25610'
+  title: Advantage-Driven Explicit Memory for Social Navigation
+  date: '2026-08-26'
+  url: https://arxiv.org/abs/2608.25610
+  section: llm
+  subcategory: retrieval
+  score: 2.4
+  arxiv_categories:
+  - cs.RO
+  abstract: Robot policies are predominantly learned with classical parametric variants of imitation learning or RL, where training stores the agent's behavior exclusively in the policy's network parameters, putting a heavy burden on the representation learning algorithm. We propose a new navigation agent equipped with non-parametric memory which explicitly indexes prior steps leading to critical events. The …
+  found_on: '2026-08-27'
+- arxiv: '2608.26013'
+  title: 'VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following'
+  date: '2026-08-26'
+  url: https://arxiv.org/abs/2608.26013
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CL
+  abstract: Multimodal instruction-following models require training data that is accurate, diverse, verifiable, and challenging. Existing synthesis pipelines typically follow a one-pass generate-and-filter paradigm, discarding feedback from failed samples, verifier outcomes, and target-model errors. We present VISA (Visual Instruction Synthesis Agent), an agentic framework that reformulates multimodal …
+  found_on: '2026-08-27'
+- arxiv: '2608.25593'
+  title: 'JIT-Agent: Scaling Harness Intelligence via Just-in-Time Harness Evolution'
+  date: '2026-08-26'
+  url: https://arxiv.org/abs/2608.25593
+  section: llm
+  subcategory: memory-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.CL
+  - cs.LG
+  abstract: Agent capability is not determined by the model alone. The agent harness, encompassing memory management, planning strategy, action protocol, and tool/skill orchestration, can dominate the contribution of the underlying foundation model. Yet harness design remains manual, task-specific, and fundamentally unscalable. We present JIT-Agent, a harness intelligence model trained to synthesize …
+  found_on: '2026-08-27'
+- arxiv: '2608.25523'
+  title: 'TOPAS: Workflow-Aware Prefix-State Scheduling for Multi-Agent LLM Serving'
+  date: '2026-08-26'
+  url: https://arxiv.org/abs/2608.25523
+  section: llm
+  subcategory: kvcache
+  score: 1.3
+  arxiv_categories:
+  - cs.CL
+  abstract: 'Prefix caching introduces a fundamental tradeoff in multi-agent large language model (LLM) serving: retaining a long system-prompt key-value (KV) cache for an agent accelerates future calls, yet it reduces the GPU memory available for batching concurrent requests. In multi-stage workflows, existing schedulers tend to prioritize either immediate prefix locality or overall workflow progress. …'
+  found_on: '2026-08-27'
+- arxiv: '2608.25329'
+  title: 'Learning What to Share and What to Personalize: Hierarchical Strategy Co-Evolution for Agent Memory'
+  date: '2026-08-26'
+  url: https://arxiv.org/abs/2608.25329
+  section: llm
+  subcategory: memory-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  - cs.CL
+  abstract: 'Memory-augmented agents maintain compact user profiles throughout extended conversations, enabling personalized and consistent responses without the need to process the entire dialogue history. The quality of these user profiles relies on the underlying memory management strategy: at each step, the agent must determine what to retain, compress, or discard. However, existing methods typically …'
+  found_on: '2026-08-27'
+- arxiv: '2608.25618'
+  title: 'AWM: Answerable Working Memory for Long-Document VQA Agents'
+  date: '2026-08-26'
+  url: https://arxiv.org/abs/2608.25618
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CL
+  abstract: Long-document visual question answering increasingly relies on VLM agents that retrieve candidate pages, inspect page images, write findings to working memory, and synthesize answers. Working memory should carry answer-supporting evidence across page inspections for later grounded answering, yet existing evaluation mainly checks final-answer correctness and evidence-page access. This creates a …
+  found_on: '2026-08-27'
+- arxiv: '2608.25553'
+  title: 'When Stale Constraints Go Unchecked: Budgeted Verification Failures in Inherited Agent Memory'
+  date: '2026-08-26'
+  url: https://arxiv.org/abs/2608.25553
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.IR
+  - cs.AI
+  - cs.CL
+  abstract: An agent that inherits a consolidated memory may inherit a constraint that was true when written and has since been withdrawn by a newer authoritative record. Under a scarce verification budget, does the agent recover the withdrawal, and if not, is the error avoidable without spending more? We model supersession explicitly -- historical provenance is immutable; what changes is which record is …
+  found_on: '2026-08-27'
 - arxiv: '2608.24189'
   title: 'MemUse: Moving Memory Evaluation from Direct QA to Natural Integration in Long-Term Human-AI Conversation'
   date: '2026-08-25'
@@ -74,6 +178,19 @@ candidates:
   - cs.AI
   abstract: When an LLM serving deployment runs out of KVcache room, there are two well-established ways out. Tensor parallelism shards the weights and the KV cache across two, four, or eight devices, buying memory headroom at the price of an all-reduce on every layer and a hardware bill that grows with the device count. The algorithms community shrinks the cache in place, with KV quantisation and eviction …
   found_on: '2026-08-26'
+- arxiv: '2608.25088'
+  title: The Von-Neumann State-Space Transformer for neural decoding
+  date: '2026-08-25'
+  url: https://arxiv.org/abs/2608.25088
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.LG
+  - cs.AI
+  - q-bio.NC
+  abstract: 'Cortical computation is strikingly low-dimensional: a handful of latent variables, carried in a neural population''s activity, steer the higher-dimensional responses of individual neurons. Our aim is sample efficiency-models that decode well from limited data and at small parameter budgets. In a standard Transformer layer, the feed-forward block applies the same operator to every token. We suggest …'
+  found_on: '2026-08-27'
 - arxiv: '2608.22704'
   title: 'WnW: Waxing-and-Waning KV Cache for Long-Form Speech LLMs'
   date: '2026-08-24'
