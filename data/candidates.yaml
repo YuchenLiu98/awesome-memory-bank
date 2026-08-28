@@ -4,6 +4,75 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2608.26895'
+  title: 'When Memory Takes Gradients: Collaborative Vector Memory for Agentic Recommender Systems'
+  date: '2026-08-27'
+  url: https://arxiv.org/abs/2608.26895
+  section: llm
+  subcategory: longterm
+  score: 2.8
+  arxiv_categories:
+  - cs.IR
+  - cs.AI
+  abstract: 'Agentic recommender systems ground each decision of a large language model (LLM) in a persistent memory of the user, and in existing agents that memory is text: a narrative written and maintained by further LLM calls. Text limits this memory in two ways. It is updated one rewrite at a time, so exploiting the full interaction history is prohibitively expensive; and collaborative evidence, graded …'
+  found_on: '2026-08-28'
+- arxiv: '2608.26848'
+  title: 'MedFG-VQA: Low-Frequency Memory and Graph Attention for Lightweight Medical VQA'
+  date: '2026-08-27'
+  url: https://arxiv.org/abs/2608.26848
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CV
+  - cs.AI
+  abstract: Medical Visual Question Answering (Med-VQA) holds significant promise for clinical decision support, yet faces challenges due to limited annotated data and the high computational demands of existing large vision-language models. We propose MedFG-VQA, a lightweight framework that leverages a memory bank to augment DCT-based low-frequency features and employs graph-enhanced cross-attention for …
+  found_on: '2026-08-28'
+- arxiv: '2608.26983'
+  title: 'GraphMemix: Query-Aware Evidence Forests for Long-Term Multimodal Agent Memory'
+  date: '2026-08-27'
+  url: https://arxiv.org/abs/2608.26983
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  abstract: Organizing long-term memory for multimodal agents remains challenging because existing methods either suffer from expensive question-agnostic offline summaries or naive embedding similarity matching that introduces incomplete and redundant context. To address these issues, we propose GraphMemix, a combinatorial-optimization graph memory framework that models memory organization as query-aware …
+  found_on: '2026-08-28'
+- arxiv: '2608.26807'
+  title: 'Behavior2Trip: Towards Personalized Travel Planning via User Behavior Trajectory'
+  date: '2026-08-27'
+  url: https://arxiv.org/abs/2608.26807
+  section: llm
+  subcategory: memory-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: Travel planning agents assist users in generating personalized travel plans by modeling their individual preferences. Existing agents either rely on explicit user instructions or engage in multi-turn clarification to elicit user preferences. However, both approaches overlook the rich behavioral signals latent in users' past behaviors, which implicitly encode their preferences. This over-reliance …
+  found_on: '2026-08-28'
+- arxiv: '2608.26545'
+  title: Memory Anchors for Continual Robot Learning
+  date: '2026-08-27'
+  url: https://arxiv.org/abs/2608.26545
+  section: llm
+  subcategory: parametric
+  score: 1.3
+  arxiv_categories:
+  - cs.RO
+  abstract: Robot policies deployed in the wild should have the capability to continually learn new tasks without forgetting existing behaviors. A common approach to combat such catastrophic forgetting is to train on new task data with a replay buffer of previously learned task data. Although this buffer is commonly sampled randomly from all prior experiences, we show that a small set of these experiences …
+  found_on: '2026-08-28'
+- arxiv: '2608.27351'
+  title: 'Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO'
+  date: '2026-08-27'
+  url: https://arxiv.org/abs/2608.27351
+  section: llm
+  subcategory: parametric
+  score: 1.3
+  arxiv_categories:
+  - cs.LG
+  abstract: Evolution Strategies (ES) have recently emerged as a memory-efficient post-training paradigm for LLM reasoning. However, the optimization behavior of ES remains understudied, making it hard to define its advantage scope compared to mainstream post-training paradigms (e.g., Group Relative Policy Optimization (GRPO)). By systematically investigating ES dynamics and mechanisms, this paper first …
+  found_on: '2026-08-28'
 - arxiv: '2608.25655'
   title: 'Reconstructing the Right Episode: Evaluating Interleaved Conversational Memory Beyond Long Context'
   date: '2026-08-26'
@@ -108,6 +177,18 @@ candidates:
   - cs.CL
   abstract: An agent that inherits a consolidated memory may inherit a constraint that was true when written and has since been withdrawn by a newer authoritative record. Under a scarce verification budget, does the agent recover the withdrawal, and if not, is the error avoidable without spending more? We model supersession explicitly -- historical provenance is immutable; what changes is which record is …
   found_on: '2026-08-27'
+- arxiv: '2608.26442'
+  title: 'Don''t Overthink, Don''t Underthink: Toward Adaptive Reasoning in Agentic AI'
+  date: '2026-08-26'
+  url: https://arxiv.org/abs/2608.26442
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.AI
+  - cs.CL
+  abstract: Recent advances in Large Language Models (LLMs) have shown that increased inference-time reasoning can improve performance on complex tasks. However, many existing approaches rely on fixed or preallocated reasoning controls, such as fixed token budgets, pre-execution difficulty estimates, or activation-space interventions, and are often evaluated on standalone reasoning benchmarks rather than …
+  found_on: '2026-08-28'
 - arxiv: '2608.24189'
   title: 'MemUse: Moving Memory Evaluation from Direct QA to Natural Integration in Long-Term Human-AI Conversation'
   date: '2026-08-25'
