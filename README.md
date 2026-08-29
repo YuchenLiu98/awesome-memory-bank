@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--08--28-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--08--29-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-08-28**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-08-29**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -80,7 +80,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | ⭐ **Are We Ready For An Agent-Native Memory System?**<br><sub>Argues agent memory has become a data management system and asks what it still lacks.</sub> | SJTU, Tsinghua | ![Jun 23, 2026](https://img.shields.io/badge/Jun_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.24775) |
 | **MemRefine: LLM-Guided Compression for Long-Term Agent Memory**<br><sub>Uses the model itself to decide what in the memory store can be safely compressed.</sub> | KAIST | ![Jun 11, 2026](https://img.shields.io/badge/Jun_11%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.13177) |
 | **G-Long: Graph-Enhanced Memory Management for Efficient Long-Term Dialogue Agents**<br><sub>Graph-structured memory management that keeps long dialogues consistent without reprocessing them.</sub> | Sungkyunkwan University | ![Jun 11, 2026](https://img.shields.io/badge/Jun_11%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.13115) |
-| **MemPro: Agentic Memory Systems as Evolvable Programs**<br><sub>Represents the memory system as a program the agent can rewrite as its needs change.</sub> | East China Normal University, Xiaohongshu Inc | ![May 30, 2026](https://img.shields.io/badge/May_30%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.00619) |
+| **MemPro: Agentic Memory Systems as Evolvable Programs**<br><sub>Represents the memory system as a program the agent can rewrite as its needs change.</sub> | East China Normal University, Xiaohongshu Inc | ![May 30, 2026](https://img.shields.io/badge/May_30%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.00619) |
 | **Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory**<br><sub>Extract-and-consolidate pipeline with a graph variant; one of the few memory layers deployed at scale.</sub> | Mem0 | ![Apr 28, 2025](https://img.shields.io/badge/Apr_28%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2504.19413) |
 | ⭐ **A-MEM: Agentic Memory for LLM Agents**<br><sub>Zettelkasten-style notes that the agent links and revises itself, instead of a fixed memory schema.</sub> | Rutgers, Independent | ![Feb 17, 2025](https://img.shields.io/badge/Feb_17%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2502.12110) |
 | **Larimar: Large Language Models with Episodic Memory Control**<br><sub>A distributed episodic memory module supporting one-shot write and selective forgetting.</sub> | IBM Research, Princeton | ![Mar 18, 2024](https://img.shields.io/badge/Mar_18%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2403.11901) |
