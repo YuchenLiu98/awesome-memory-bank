@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--08--30-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--08--31-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-08-30**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-08-31**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -223,7 +223,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | **Imprint: Online Memory Compression for Long-Horizon Egocentric QA**<br><sub>Compresses days of egocentric video into memory that is still worth retrieving from.</sub> | — | ![Jul 1, 2026](https://img.shields.io/badge/Jul_1%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.00696) |
 | **Compression and Retrieval: Implicit Memory Retrieval for Video World Models**<br><sub>Implicit retrieval keeps a video world model consistent without an explicit frame bank.</sub> | HUST, SYSU | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23105) |
 | **FadeMem: Distance-Aware Memory Consolidation for Autoregressive Video Diffusion**<br><sub>Consolidates the KV history by temporal distance, giving long video generation bounded memory.</sub> | ZJU, Baidu | ![Jun 9, 2026](https://img.shields.io/badge/Jun_9%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.10671) |
-| **LongLive-RAG: A General Retrieval-Augmented Framework for Long Video Generation**<br><sub>Retrieval over generated history to stop identity drift in long autoregressive video.</sub> | NVIDIA, USC, MIT | ![Jun 1, 2026](https://img.shields.io/badge/Jun_1%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.02553) |
+| **LongLive-RAG: A General Retrieval-Augmented Framework for Long Video Generation**<br><sub>Retrieval over generated history to stop identity drift in long autoregressive video.</sub> | NVIDIA, USC, MIT | ![Jun 1, 2026](https://img.shields.io/badge/Jun_1%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.02553) |
 | ⭐ **Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents**<br><sub>Offline consolidation, the analogue of sleep, turning session logs into reusable knowledge.</sub> | UIUC, UC San Diego | ![May 20, 2026](https://img.shields.io/badge/May_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.20616) |
 | **RecMem: Recurrence-based Memory Consolidation for Efficient and Effective Long-Running LLM Agents**<br><sub>Recurrent consolidation avoids invoking the LLM every time memory must be updated.</sub> | CUHK, HKU, BUPT | ![May 15, 2026](https://img.shields.io/badge/May_15%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.16045) |
 | **Mela: Test-Time Memory Consolidation based on Transformation Hypothesis**<br><sub>Brings the consolidation-as-transformation view from neuroscience to test-time adaptation.</sub> | — | ![May 11, 2026](https://img.shields.io/badge/May_11%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.10537) |
@@ -249,7 +249,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
-| **STaR-KV: Spatio-Temporal Adaptive Re-weighting for KV Cache Compression in GUI Vision-Language Models**<br><sub>GUI agents accumulate cache per interaction step; this reweights it spatio-temporally.</sub> | SJTU, HKUST, University of Sydney | ![Jun 1, 2026](https://img.shields.io/badge/Jun_1%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.01790) |
+| **STaR-KV: Spatio-Temporal Adaptive Re-weighting for KV Cache Compression in GUI Vision-Language Models**<br><sub>GUI agents accumulate cache per interaction step; this reweights it spatio-temporally.</sub> | SJTU, HKUST, University of Sydney | ![Jun 1, 2026](https://img.shields.io/badge/Jun_1%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.01790) |
 | **Efficient Inference of Vision Instruction-Following Models with Elastic Cache**<br><sub>Separate cache strategies for the instruction and generation phases of a VLM.</sub> | Tsinghua, NVIDIA | ![Jul 25, 2024](https://img.shields.io/badge/Jul_25%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2407.18121) |
 | **LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference**<br><sub>Text-prioritised KV eviction: multimodal caches can drop image keys far more aggressively.</sub> | Ohio State University, University of Rochester | ![Jun 26, 2024](https://img.shields.io/badge/Jun_26%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2406.18139) |
 
