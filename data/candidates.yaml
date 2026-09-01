@@ -4,6 +4,223 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2608.30508'
+  title: 'UTILMEM: Benchmarking Evidence Utilization in Long-Term Conversational Memory'
+  date: '2026-08-31'
+  url: https://arxiv.org/abs/2608.30508
+  section: llm
+  subcategory: longterm
+  score: 5.6
+  arxiv_categories:
+  - cs.CL
+  abstract: 'Long-term memory is increasingly important for conversational agents, yet existing benchmarks primarily measure memory through pointwise factual recall: whether a system can recover isolated facts or event-level details from prior interactions. Real-world memory use, however, often requires a more demanding capability: integrating distributed, implicit, and noisy evidence across extended …'
+  found_on: '2026-09-01'
+- arxiv: '2608.30252'
+  title: 'Strong Drafts Need Compact Memories: Long-Context Speculative Decoding with Compressed KV Cache'
+  date: '2026-08-31'
+  url: https://arxiv.org/abs/2608.30252
+  section: llm
+  subcategory: kvcache
+  score: 3.9
+  arxiv_categories:
+  - cs.LG
+  abstract: 'Long-context LLM applications such as document summarization and multi-turn agents require generation from prefixes spanning tens of thousands of tokens, making decoding latency a major bottleneck. Speculative decoding (SD) reduces latency without changing model outputs, but its speedup depends on both accepted draft tokens and draft-step latency: Lightweight drafts are fast but lack the capacity …'
+  found_on: '2026-09-01'
+- arxiv: '2608.30198'
+  title: 'When Errors Become Memories: Causal Pathway Tracing in Multi-Turn Memory-Augmented LLMs'
+  date: '2026-08-31'
+  url: https://arxiv.org/abs/2608.30198
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CL
+  abstract: Long-term memory enables large language models (LLMs) to preserve and reuse information across interactions, but it can also turn localized errors into persistent risks. Existing work mainly evaluates whether memory systems store and retrieve information correctly, leaving limited understanding of how errors propagate across responses, memory states, and future interactions. We propose a …
+  found_on: '2026-09-01'
+- arxiv: '2608.30563'
+  title: 'Modality Disentangled Learning for Incomplete Multimodal Emotion Recognition: A Primitive Memory Distillation Perspective'
+  date: '2026-08-31'
+  url: https://arxiv.org/abs/2608.30563
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CV
+  abstract: Multimodal Emotion Recognition (MER) systems often suffer from missing modalities in real-world scenarios. Existing methods usually generate, align, or distill missing modalities as a whole, overlooking the heterogeneous nature of the information carried by each modality. Such holistic treatment mixes inferable shared semantics with uncertain modality-specific details, yielding unstable …
+  found_on: '2026-09-01'
+- arxiv: '2608.30647'
+  title: What It Costs to Compose, Rebuild, and Correct Precomputed Memory
+  date: '2026-08-31'
+  url: https://arxiv.org/abs/2608.30647
+  section: llm
+  subcategory: kvcache
+  score: 1.3
+  arxiv_categories:
+  - cs.CL
+  - cs.LG
+  abstract: Language models can answer from precomputed memory, a model's saved reading of a body of material, reused across requests instead of read again at each. This paper maps where that practice preserves correctness and the conditions under which it fails. Across experiments on Llama-3.1-8B-Instruct using both saved key-value caches and trained compressions of them, precomputed memory degrades when …
+  found_on: '2026-09-01'
+- arxiv: '2608.31057'
+  title: 'Measure Before You Manage: Evaluating Agent Working Memory in Coding Agents'
+  date: '2026-08-31'
+  url: https://arxiv.org/abs/2608.31057
+  section: llm
+  subcategory: memory-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  abstract: Agent working memory is heterogeneous. Objects such as instructions, artifacts, tool outputs, and agent-generated state play different semantic roles and exhibit different size, retention, and representation profiles. Recent work has begun to explore memory-management mechanisms that account for such heterogeneity. This work focuses on semantic heterogeneity and studies how it should shape the …
+  found_on: '2026-09-01'
+- arxiv: '2608.30295'
+  title: 'CateKV: On Sequential Consistency for Long-Context LLM Inference Acceleration'
+  date: '2026-08-31'
+  url: https://arxiv.org/abs/2608.30295
+  section: llm
+  subcategory: kvcache
+  score: 1.3
+  arxiv_categories:
+  - cs.LG
+  - cs.AI
+  abstract: Large language models (LLMs) have demonstrated strong capabilities in handling long-context tasks, but processing such long contexts remains challenging due to the substantial memory requirements and inference latency. In this work, we discover that certain attention heads exhibit sequential consistency in their attention patterns, which can be persistently identified using a …
+  found_on: '2026-09-01'
+- arxiv: '2608.31022'
+  title: 'MNIST-PRO: MNIST is Back as a Partially Observable World for AI Agents'
+  date: '2026-08-31'
+  url: https://arxiv.org/abs/2608.31022
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  - cs.CV
+  abstract: AI agents in partially observable environments need to coordinate active sensing with working memory to maintain an evolving perceptual state. However, existing benchmarks struggle to isolate this perceptual-state construction and interpretation capability because they introduce physical and control complexities. We address this with MNIST-PRO, a benchmark that isolates agentic perception by …
+  found_on: '2026-09-01'
+- arxiv: '2608.29606'
+  title: 'Agent Zero Memory: Provenance-Aware Long-Term Memory for LLM Agents'
+  date: '2026-08-30'
+  url: https://arxiv.org/abs/2608.29606
+  section: llm
+  subcategory: longterm
+  score: 4.2
+  arxiv_categories:
+  - cs.CL
+  abstract: Large language model (LLM) agents need durable, faithful memory of everything a user or organization has said and stored, yet most memory systems commit to a single organizing structure (a fact store, a vector index, or a knowledge graph) and inherit its blind spots. We present Agent Zero Memory, a provenance-aware long-term memory system that distils a user's conversations, files, and connected …
+  found_on: '2026-09-01'
+- arxiv: '2608.29605'
+  title: 'Hindsight Memory-PRM: Supervising Memory Management with Auditable Hindsight Credit'
+  date: '2026-08-30'
+  url: https://arxiv.org/abs/2608.29605
+  section: llm
+  subcategory: memory-arch
+  score: 3.9
+  arxiv_categories:
+  - cs.CL
+  abstract: 'Memory operations of long-horizon LLM agents are hard to supervise: an operation''s value is unobservable when it is taken. But they are special -- they leave machine-readable evidence in the trajectory: retrieval hits and answer-time citations. Hindsight Memory-PRM exploits this audit trail twice: offline to train an operation-conditioned memory-utility critic, and online, where retrievals, …'
+  found_on: '2026-09-01'
+- arxiv: '2608.29537'
+  title: 'AGM: Achievement-Grounded Memory for Closed-Loop Agents with Frozen VLA Policies'
+  date: '2026-08-30'
+  url: https://arxiv.org/abs/2608.29537
+  section: vla
+  subcategory: vla-mem
+  score: 1.5
+  arxiv_categories:
+  - cs.RO
+  - cs.AI
+  abstract: Frozen vision-language-action (VLA) policies offer broad manipulation skills but execute open-loop action chunks without tracking task progress, so the agent cannot reliably decide whether to continue, retry, or terminate. External memory is a natural remedy, yet it can be harmful when attempted actions are treated as completed progress, turning local execution errors into persistent task-state …
+  found_on: '2026-09-01'
+- arxiv: '2608.29896'
+  title: 'EMERGE-Policy: A Robot Mind Emerges Beyond a Single Policy'
+  date: '2026-08-30'
+  url: https://arxiv.org/abs/2608.29896
+  section: vlm
+  subcategory: video
+  score: 1.4
+  arxiv_categories:
+  - cs.RO
+  abstract: A robot's effective ``mind'' need not reside in a single policy. It can emerge when specialized components perceive, reason, predict, act, verify, and remember within a shared orchestration process. EMERGE-Policy turns this perspective into a graph-structured agentic framework that coordinates both capability invocation and information exchange. A Main Agent retains task-level state within an …
+  found_on: '2026-09-01'
+- arxiv: '2608.29897'
+  title: 'When History Is Multimodal: Rethinking Context Management for Long-Horizon Agents'
+  date: '2026-08-30'
+  url: https://arxiv.org/abs/2608.29897
+  section: vlm
+  subcategory: mm-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.CL
+  abstract: Long-horizon agents need a context manager to compress growing interaction histories into a bounded working context, via passive strategies or active strategies that decide how memory is accessed and reorganized. Meanwhile, prior optical-memory work mainly treats pixels as a dense codec for textualized histories, often presupposing that rendering context into optical memory incurs a significant …
+  found_on: '2026-09-01'
+- arxiv: '2608.29640'
+  title: 'LLMODE: Aligning ODEs with LLMs via Gated Token Injection for Irregular Spatio-Temporal Forecasting'
+  date: '2026-08-30'
+  url: https://arxiv.org/abs/2608.29640
+  section: llm
+  subcategory: recurrent
+  score: 1.3
+  arxiv_categories:
+  - cs.LG
+  - cs.AI
+  abstract: Large language models (LLMs) have shown promise for spatio-temporal forecasting, but existing approaches often rely on regularly sampled token sequences and struggle with irregular observations because of temporal asynchrony, representation-space misalignment, and limited context windows. We propose LLMODE, a token-efficient framework for irregular spatio-temporal forecasting with a frozen LLM …
+  found_on: '2026-09-01'
+- arxiv: '2608.29953'
+  title: 'SearchWiki: Learning to Build and Navigate Knowledge Wikis for Active Information Seeking'
+  date: '2026-08-30'
+  url: https://arxiv.org/abs/2608.29953
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.AI
+  abstract: Flat retrieval-augmented generation treats a corpus as a bag of chunks, discarding document hierarchy and cross document structure. We introduce SearchWiki, a harness framework that synthesizes a corpus into a hierarchical, typed, navigable wiki and trains an agent, WikiResearcher-9B, to retrieve information through multi-turn tool use. The wiki organizes knowledge into three layers - document …
+  found_on: '2026-09-01'
+- arxiv: '2608.29622'
+  title: 'AgenticRag-R1: Agentic Reinforcement Learning with Stack Memory for Multi-Step Reasoning, Retrieval and Memorizing'
+  date: '2026-08-30'
+  url: https://arxiv.org/abs/2608.29622
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.MA
+  - cs.AI
+  abstract: Retrieval-Augmented Generation (RAG) improves the factuality of large language models (LLMs), yet existing RAG systems often struggle with complex, multi-step reasoning that requires adaptive retrieval and continuous revision of intermediate contexts. Recent reinforcement learning (RL)-based agentic RAG methods partially alleviate this issue, but typically rely on coarse-grained action spaces and …
+  found_on: '2026-09-01'
+- arxiv: '2608.30033'
+  title: '"Act Like a 5th Grader" is Not Enough: Bounding Knowledge in LLM-Based User Simulators'
+  date: '2026-08-30'
+  url: https://arxiv.org/abs/2608.30033
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: Large language models (LLMs) are increasingly used to simulate human behavior but frequently fail to exhibit realistic cognitive constraints, suffering from a "superhuman bias." Using a dataset of over 71,000 reading comprehension responses from 2,359 primary-school students (grades 4--6), we demonstrate that standard persona prompting yields near-perfect, deterministic performance, failing to …
+  found_on: '2026-09-01'
+- arxiv: '2608.29617'
+  title: 'Memory-First Fact-Checking: A Knowledge-Graph-Grounded Multi-Agent System for Misinformation Detection'
+  date: '2026-08-30'
+  url: https://arxiv.org/abs/2608.29617
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: This paper introduces a hybrid fact-checking framework that integrates Knowledge Graph-based semantic memory with adversarial multi-agent reasoning for explainable misinformation detection. The proposed system follows a memory-first, web-fallback architecture, in which input claims are initially evaluated against a dual-index Knowledge Graph through Sentence-BERT-based semantic retrieval and …
+  found_on: '2026-09-01'
+- arxiv: '2608.29860'
+  title: Uncertainty-Driven Replay Memory for Reinforcement Learning
+  date: '2026-08-30'
+  url: https://arxiv.org/abs/2608.29860
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.LG
+  abstract: Uncertainty estimation provides promising capabilities for reinforcement learning (RL) agents. Notably, estimating uncertainty can reduce the training time and enable agents to obtain greater rewards over time by exploiting information related to whether an action would facilitate exploration of portions of an environment that are well-known versus those that are relatively unknown. In this work, …
+  found_on: '2026-09-01'
 - arxiv: '2608.26895'
   title: 'When Memory Takes Gradients: Collaborative Vector Memory for Agentic Recommender Systems'
   date: '2026-08-27'
