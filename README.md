@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--09--01-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--09--02-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-09-01**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-09-02**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -136,7 +136,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | **MemDecay: Region-Aware KV Cache Eviction for Efficient LLM Agent Inference**<br><sub>Treats instructions, tool output and reasoning as regions deserving different retention.</sub> | — | ![Jul 12, 2026](https://img.shields.io/badge/Jul_12%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.10582) |
 | **SeKV: Resolution-Adaptive KV Cache with Hierarchical Semantic Memory for Long-Context LLM Inference**<br><sub>A semantic hierarchy over the cache, retrieving at whatever resolution the query needs.</sub> | UBC, Microsoft | ![Jun 30, 2026](https://img.shields.io/badge/Jun_30%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.31145) |
 | **End-to-End Context Compression at Scale**<br><sub>Context compression trained end-to-end rather than bolted on at inference.</sub> | — | ![Jun 8, 2026](https://img.shields.io/badge/Jun_8%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.09659) |
-| **Cartridges at Scale: Training Modular KV Caches over Large Document Collections**<br><sub>Distils a document collection into a reusable cache, so prefill is paid once.</sub> | — | ![Jun 3, 2026](https://img.shields.io/badge/Jun_3%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.04557) |
+| **Cartridges at Scale: Training Modular KV Caches over Large Document Collections**<br><sub>Distils a document collection into a reusable cache, so prefill is paid once.</sub> | — | ![Jun 3, 2026](https://img.shields.io/badge/Jun_3%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.04557) |
 | **Value-Aware Stochastic KV Cache Eviction for Reasoning Models**<br><sub>Long chains of thought need a different eviction rule than long prompts.</sub> | USC | ![Jun 2, 2026](https://img.shields.io/badge/Jun_2%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.03928) |
 | **SnapKV: LLM Knows What You are Looking for Before Generation**<br><sub>Uses the prompt's own attention pattern to pick which keys to keep before decoding starts.</sub> | UIUC, Cohere | ![Apr 22, 2024](https://img.shields.io/badge/Apr_22%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2404.14469) |
 | **Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention**<br><sub>A compressive memory inside the attention layer, giving unbounded context at bounded state size.</sub> | Google | ![Apr 10, 2024](https://img.shields.io/badge/Apr_10%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2404.07143) |

@@ -4,6 +4,53 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2609.00551'
+  title: 'EM^2Mem: Event-Centric Multimodal Memory for Large Language Models'
+  date: '2026-09-01'
+  url: https://arxiv.org/abs/2609.00551
+  section: vlm
+  subcategory: mm-arch
+  score: 3.9
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  - cs.LG
+  abstract: 'Multimodal memory offers a scalable interface for long-video question answering, but existing methods often retrieve captions, frames, transcripts, summaries, or graph facts as isolated fragments. Although searchable, such fragments are not generation-ready: language models must reconstruct cross-modal and temporal alignments at inference time, when context is limited and attribution is …'
+  found_on: '2026-09-02'
+- arxiv: '2609.01507'
+  title: 'LatentPress: Context Compression Beyond Text and Vision'
+  date: '2026-09-01'
+  url: https://arxiv.org/abs/2609.01507
+  section: llm
+  subcategory: kvcache
+  score: 3.9
+  arxiv_categories:
+  - cs.LG
+  - cs.AI
+  abstract: 'Compressed context is usually carried as human-readable text or as rendered images that must be decoded, even when its consumer is a language model. We introduce LatentPress, which writes conversational histories and long documents into a third representation: continuous memory tokens that a frozen decoder reads directly through its input-embedding interface, with no text reconstruction at …'
+  found_on: '2026-09-02'
+- arxiv: '2609.00859'
+  title: Reinforcement Learning Enhanced LLM Agents for Complex Vehicle Routing Problems
+  date: '2026-09-01'
+  url: https://arxiv.org/abs/2609.00859
+  section: llm
+  subcategory: memory-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  abstract: Vehicle Routing Problems (VRPs) are fundamental combinatorial optimization problems with widespread applications in various scenarios. The advanced optimization solvers can effectively solve such problems. However, modeling complex VRP variants for solvers often requires substantial domain expertise, which limits the accessibility of advanced optimization technologies. In this paper, we propose …
+  found_on: '2026-09-02'
+- arxiv: '2609.01058'
+  title: 'ARISE-RL: Agentic Rubric-Grounded Iterative Self-Evolution with Reinforcement Learning'
+  date: '2026-09-01'
+  url: https://arxiv.org/abs/2609.01058
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  abstract: Training open-ended agents via reinforcement learning (RL) is hindered by the lack of verifiable gold answers and scalable rubrics. Moreover, even near the model's capability boundary, long-horizon open-ended agentic tasks often yield brittle and unstable rewards, resulting in weak or noisy rollout contrast that obscures fine-grained optimization signals for group-based policy learning. To …
+  found_on: '2026-09-02'
 - arxiv: '2608.30508'
   title: 'UTILMEM: Benchmarking Evidence Utilization in Long-Term Conversational Memory'
   date: '2026-08-31'
@@ -95,6 +142,29 @@ candidates:
   - cs.CV
   abstract: AI agents in partially observable environments need to coordinate active sensing with working memory to maintain an evolving perceptual state. However, existing benchmarks struggle to isolate this perceptual-state construction and interpretation capability because they introduce physical and control complexities. We address this with MNIST-PRO, a benchmark that isolates agentic perception by …
   found_on: '2026-09-01'
+- arxiv: '2609.00358'
+  title: Where Should Experience Live? Hierarchical Hebbian Memory for Continual Vision Transformers
+  date: '2026-08-31'
+  url: https://arxiv.org/abs/2609.00358
+  section: vlm
+  subcategory: episodic
+  score: 1.4
+  arxiv_categories:
+  - cs.CV
+  - cs.NE
+  abstract: Vision Transformers provide strong visual representations but typically rely on slowly updated parameters, limiting their ability to organize newly acquired information across different memory timescales. This work proposes \textit{Hierarchical Hebbian Memory}, a three-level memory architecture composed of rapid Working Memory, persistent Routed Episodic Memory, and slower Semantic Memory. A …
+  found_on: '2026-09-02'
+- arxiv: '2609.00293'
+  title: 'Slow to See, Slow to Suppress: Understanding the Effects of Modality in Context-Memory Conflicts'
+  date: '2026-08-31'
+  url: https://arxiv.org/abs/2609.00293
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.CL
+  abstract: 'We investigate how vision-language models (VLMs) handle context-memory conflicts; that is, situations in which the model is given information in context that differs from what was stored parametrically during training. We document asymmetric biases: models tend to prefer in-context information about entities which appear in text, but prefer parametric information about entities which appear in …'
+  found_on: '2026-09-02'
 - arxiv: '2608.29606'
   title: 'Agent Zero Memory: Provenance-Aware Long-Term Memory for LLM Agents'
   date: '2026-08-30'
