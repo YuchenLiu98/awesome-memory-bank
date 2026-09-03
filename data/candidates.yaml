@@ -4,6 +4,131 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2609.02760'
+  title: Measurement-Driven Sub-Network Selection for On-Premise Retrieval-Augmented Factory Agents
+  date: '2026-09-02'
+  url: https://arxiv.org/abs/2609.02760
+  section: llm
+  subcategory: retrieval
+  score: 3.6
+  arxiv_categories:
+  - cs.AI
+  abstract: 'On-premise assistants can give factory workers conversational access to machine documentation, but models capable of the task rarely fit shop-floor hardware. We show that after structural compression and retrieval-grounded adaptation, model size is no longer a reliable predictor of adapted answer quality: general capability falls almost linearly with parameter count, while judged …'
+  found_on: '2026-09-03'
+- arxiv: '2609.02002'
+  title: 'InsightSeg: Reusing Correction Insights for Guideline-Consistent Segmentation'
+  date: '2026-09-02'
+  url: https://arxiv.org/abs/2609.02002
+  section: vlm
+  subcategory: episodic
+  score: 1.4
+  arxiv_categories:
+  - cs.CV
+  - cs.AI
+  abstract: 'Guideline-consistent semantic segmentation requires more than category recognition, as real-world labeling policies demand fine-grained, task-specific decisions. Recent multi-agent refinement systems improve compliance with such textual guidelines by detecting and correcting errors. However, they are stateless: feedback from the critiquing agent is discarded, causing the same guideline-specific …'
+  found_on: '2026-09-03'
+- arxiv: '2609.02074'
+  title: 'CHIME: Credit-Aware Hierarchical Memory Evolution for Long-Horizon Agentic Planning'
+  date: '2026-09-02'
+  url: https://arxiv.org/abs/2609.02074
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  abstract: Planning is a central capability that enables agents to decompose complex long-horizon tasks into manageable steps. Test-time search and training-based methods improve planning but incur high inference costs or require expensive training data. Self-evolving memory instead accumulates reusable experience from agent interaction outcomes into an external memory bank, so planning capability keeps …
+  found_on: '2026-09-03'
+- arxiv: '2609.02265'
+  title: 'CAPTURE: Disentangling Preference Drift from Memory Poisoning in Personalized LLM Agents'
+  date: '2026-09-02'
+  url: https://arxiv.org/abs/2609.02265
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.LG
+  abstract: Personalized language agents use persistent memory to adapt to users over time, but the same mechanism creates an attack surface. When new information conflicts with stored preferences, an agent must distinguish genuine preference drift from temporary context shifts, ambiguity, or adversarial memory poisoning. We formulate this problem as a continuous-time partially observable decision process …
+  found_on: '2026-09-03'
+- arxiv: '2609.02749'
+  title: 'Repo-To-Skill: Distilling GitHub Repositories Into AI4AI Skills'
+  date: '2026-09-02'
+  url: https://arxiv.org/abs/2609.02749
+  section: llm
+  subcategory: agent-exp
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  - cs.CL
+  abstract: Autonomous agents are beginning to carry out machine-learning (ML) research end to end. These agents combine a model backbone with a harness for planning, execution, memory, and verification, but this architecture still leaves domain-specific know-how outside the agent. We call this missing layer operational knowledge, the know-how that separates knowing a method from making it work. That …
+  found_on: '2026-09-03'
+- arxiv: '2609.02029'
+  title: 'HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models'
+  date: '2026-09-02'
+  url: https://arxiv.org/abs/2609.02029
+  section: llm
+  subcategory: kvcache
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  abstract: Long-context inference retains a growing key--value (KV) cache during decoding, which consumes substantial GPU memory and can reduce generation throughput. This bottleneck remains in hybrid language models because their residual global-attention layers can dominate context-dependent cache demand. We study how to allocate this state under an aggregate KV-residency budget. We introduce HeadWiseKV, …
+  found_on: '2026-09-03'
+- arxiv: '2609.02253'
+  title: 'APEx: Distillation of Agent Procedural Experience for Adaptive Deep Research Question Answering'
+  date: '2026-09-02'
+  url: https://arxiv.org/abs/2609.02253
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  - cs.CL
+  abstract: Deep research agents augment large language models with external tools to answer complex, long-horizon questions through multi-turn reasoning. Learning from prior experience is crucial for continual improvement, yet existing methods either retrieve verbose task-specific traces that burden decision-making, or distill procedural skills that remain decoupled from downstream policy adaptation. We …
+  found_on: '2026-09-03'
+- arxiv: '2609.01971'
+  title: 'NS-Copilot: An LLM-Driven Agent System for Autonomous Neuroscience Analysis'
+  date: '2026-09-02'
+  url: https://arxiv.org/abs/2609.01971
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CL
+  abstract: AI is rapidly advancing neuroscience, yet many laboratories fail to fully unleash its potential due to significant interdisciplinary barriers. While pre-trained neural models for physiological data are progressing quickly, their heterogeneous architectures and modality-specific constraints hinder systematic integration, selection, and evaluation. Despite recent advances in large language model …
+  found_on: '2026-09-03'
+- arxiv: '2609.02750'
+  title: 'Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems'
+  date: '2026-09-02'
+  url: https://arxiv.org/abs/2609.02750
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Multi-agent LLM systems commonly use an orchestrator to decompose a task for a team of workers and then improve through textual reflection. Despite strong empirical results, these systems lack a unified account of coordination, memory improvement, and the role of external verification. We model orchestrator-worker interaction as a bilevel coordination game: under bounded coupling, the workers'' …'
+  found_on: '2026-09-03'
+- arxiv: '2609.02339'
+  title: 'AGI Maze Prediction Datasets: A Compact Benchmark for Learning World Dynamics with Transformers'
+  date: '2026-09-02'
+  url: https://arxiv.org/abs/2609.02339
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.LG
+  - cs.AI
+  abstract: World modeling requires a predictive model to maintain and update an internal state adequate for reasoning about the consequences of actions. We introduce the AGI Maze Prediction Datasets and Benchmark, a lightweight controlled testbed for studying this capability in Transformers and other predictive models. Derived from procedurally generated, stateful grid worlds, the benchmark comprises …
+  found_on: '2026-09-03'
+- arxiv: '2609.02231'
+  title: 'PhoenixNest-Video: Evidence-Grounded Multimodal Agent Framework for Automated Video Interview Assessment'
+  date: '2026-09-02'
+  url: https://arxiv.org/abs/2609.02231
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  abstract: Interview assessment requires per-criterion judgments grounded in behavioral evidence, yet surging applicant volumes have made human-only evaluation costly and inconsistent, while existing AI approaches yield opaque scores without traceable rationale. We introduce PhoenixNest-Video, an evidence-grounded multimodal agent framework for automated video interview assessment. It builds a semantic …
+  found_on: '2026-09-03'
 - arxiv: '2609.00551'
   title: 'EM^2Mem: Event-Centric Multimodal Memory for Large Language Models'
   date: '2026-09-01'
@@ -51,6 +176,30 @@ candidates:
   - cs.AI
   abstract: Training open-ended agents via reinforcement learning (RL) is hindered by the lack of verifiable gold answers and scalable rubrics. Moreover, even near the model's capability boundary, long-horizon open-ended agentic tasks often yield brittle and unstable rewards, resulting in weak or noisy rollout contrast that obscures fine-grained optimization signals for group-based policy learning. To …
   found_on: '2026-09-02'
+- arxiv: '2609.01852'
+  title: 'The Memory Trust Gap: Capability-Dependent Failures in Persistent-Memory Agents'
+  date: '2026-09-01'
+  url: https://arxiv.org/abs/2609.01852
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  - cs.CL
+  abstract: Persistent memory supports personalized agents, but a stale stored fact can override current authoritative evidence without warning. We study when this harm begins as model capability changes. We evaluate a frozen, closed-set, action-scored benchmark with 2 suites that represent 2 different meanings of "no memory" (a Benefit suite, unsolvable without the stored fact, and a Safety suite, in which …
+  found_on: '2026-09-03'
+- arxiv: '2609.01834'
+  title: 'Architecting Conversational Data Systems for Stateless LLM APIs: The Hydration Proxy Pattern'
+  date: '2026-09-01'
+  url: https://arxiv.org/abs/2609.01834
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  - cs.SE
+  abstract: As enterprise platforms transition to conversational reasoning interfaces, the stateless nature of LLM APIs creates an architectural gap. While statelessness enables horizontal scalability for AI providers, it forces client applications to manage the entire burden of conversational state and semantic memory. The work identifies the Hydration Proxy Pattern, an architecture that decouples session …
+  found_on: '2026-09-03'
 - arxiv: '2608.30508'
   title: 'UTILMEM: Benchmarking Evidence Utilization in Long-Term Conversational Memory'
   date: '2026-08-31'
