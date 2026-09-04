@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--09--03-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--09--04-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-09-03**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-09-04**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -146,7 +146,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
 | **Neural Subspace Reallocation: Continual Learning as Retrieval-Based Subspace Memory Management**<br><sub>Reframes continual learning as managing a memory of parameter subspaces.</sub> | — | ![Jun 29, 2026](https://img.shields.io/badge/Jun_29%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.30067) |
-| **Why Limit the Residual Stream to Layers and Not Tokens? Persistent Memory for Continuous Latent Reasoning**<br><sub>Extends the residual stream across tokens, giving latent reasoning a persistent scratchpad.</sub> | — | ![Jun 5, 2026](https://img.shields.io/badge/Jun_5%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.07720) |
+| **Why Limit the Residual Stream to Layers and Not Tokens? Persistent Memory for Continuous Latent Reasoning**<br><sub>Extends the residual stream across tokens, giving latent reasoning a persistent scratchpad.</sub> | — | ![Jun 5, 2026](https://img.shields.io/badge/Jun_5%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.07720) |
 | ⭐ **Titans: Learning to Memorize at Test Time**<br><sub>A neural long-term memory trained online at inference, with surprise-driven writes and decay.</sub> | Google | ![Dec 31, 2024](https://img.shields.io/badge/Dec_31%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2501.00663) |
 | **Memory Layers at Scale**<br><sub>Trainable key-value memory layers that add factual capacity without adding FLOPs.</sub> | Meta | ![Dec 12, 2024](https://img.shields.io/badge/Dec_12%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2412.09764) |
 
@@ -270,7 +270,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | ⭐ **S-EMBER: A Large-Scale Benchmark for Streaming Egocentric Memory Retrieval**<br><sub>Streaming rather than offline episodic memory evaluation, which is the realistic setting.</sub> | Meta | ![Jul 2, 2026](https://img.shields.io/badge/Jul_2%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.02689) |
 | **MemLeak: Diagnosing Information Leaks in Multimodal Agent Memory**<br><sub>Multimodal memory leaks information across users and sessions in ways text-only audits miss.</sub> | Georgia Tech | ![Jun 29, 2026](https://img.shields.io/badge/Jun_29%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.29788) |
 | **DMV-Bench: Diagnosing Long-Horizon Multimodal Agents' Visual Memory with Incidental Cue Injection**<br><sub>Injects incidental visual cues to test when an agent must remember what it saw, not what it wrote.</sub> | — | ![Jun 25, 2026](https://img.shields.io/badge/Jun_25%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.27499) |
-| **M3Exam: Benchmarking Multimodal Memory for Realistic User-Agent Interactions**<br><sub>Authentic multimodal interaction histories instead of synthetic human-human transcripts.</sub> | HKUST, HIT, BIT | ![Jun 5, 2026](https://img.shields.io/badge/Jun_5%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.07402) |
+| **M3Exam: Benchmarking Multimodal Memory for Realistic User-Agent Interactions**<br><sub>Authentic multimodal interaction histories instead of synthetic human-human transcripts.</sub> | HKUST, HIT, BIT | ![Jun 5, 2026](https://img.shields.io/badge/Jun_5%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.07402) |
 | **EGOSTREAM: A Diagnostic Benchmark for Streaming Episodic Memory in Egocentric Vision**<br><sub>Diagnoses what a model remembers and for how long, instead of scoring one final answer.</sub> | University of Catania | ![May 29, 2026](https://img.shields.io/badge/May_29%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.31557) |
 | **WorldMemArena: Evaluating Multimodal Agent Memory Through Action-World Interaction**<br><sub>Memory must track an evolving world and revise stale entries, not merely recall.</sub> | UC Santa Barbara, Stanford, Johns Hopkins | ![May 28, 2026](https://img.shields.io/badge/May_28%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.29341) |
 | **SMMBench: A Benchmark for Source-Distributed Multimodal Agent Memory**<br><sub>Evidence spread across independent sources, rather than pre-assembled into one context.</sub> | SJTU | ![May 15, 2026](https://img.shields.io/badge/May_15%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.15710) |

@@ -4,6 +4,179 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2609.03235'
+  title: 'SGD-KV: Summarization Guided KV Cache Compression'
+  date: '2026-09-03'
+  url: https://arxiv.org/abs/2609.03235
+  section: llm
+  subcategory: kvcache
+  score: 7.8
+  arxiv_categories:
+  - cs.CL
+  abstract: Large language models (LLMs) face severe memory bottlenecks in long-context inference due to the linearly growing size of key-value (KV) caches. Existing KV cache compression techniques typically rely on simple heuristics, overlooking the distinct functional roles of different attention heads. We present SGD-KV (Summarization-Guided KV Cache Compression), a head-aware framework that leverages a …
+  found_on: '2026-09-04'
+- arxiv: '2609.03430'
+  title: 'Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning'
+  date: '2026-09-03'
+  url: https://arxiv.org/abs/2609.03430
+  section: llm
+  subcategory: kvcache
+  score: 5.2
+  arxiv_categories:
+  - cs.CL
+  abstract: 'Large language models achieve superior performance on tasks that require extended reasoning, but long chains of thought make the KV cache a severe memory bottleneck. Existing KV cache compression methods share one paradigm: score each cached token by some estimate of how much it will matter later, and keep the top-scoring ones. We show that the selection signal contributes almost nothing. Random …'
+  found_on: '2026-09-04'
+- arxiv: '2609.04131'
+  title: 'Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding'
+  date: '2026-09-03'
+  url: https://arxiv.org/abs/2609.04131
+  section: vlm
+  subcategory: video
+  score: 4.2
+  arxiv_categories:
+  - cs.CV
+  abstract: Streaming video understanding requires multimodal large language models (MLLMs) to process continuous visual inputs and respond to user queries under strict causality and bounded memory. Existing approaches typically compress historical observations into an external memory bank and retrieve query-relevant evidence as additional visual context. Though effective, this store-and-retrieve paradigm …
+  found_on: '2026-09-04'
+- arxiv: '2609.03467'
+  title: 'When Users Don''t Ask: Benchmarking Context-Driven Memory Retrieval in Conversational Agents'
+  date: '2026-09-03'
+  url: https://arxiv.org/abs/2609.03467
+  section: llm
+  subcategory: retrieval
+  score: 3.6
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: 'Large language models (LLMs) are increas- ingly deployed as long-horizon conversational agents, motivating growing interest in mem- ory systems. However, existing benchmarks primarily evaluate memory through QA-style probing rather than in-situ conversational usage. We introduce LOCOMO-CONV, a conversa- tional memory benchmark derived from Lo- CoMo with four query styles: dialog, implicit, …'
+  found_on: '2026-09-04'
+- arxiv: '2609.03727'
+  title: 'Proactive Service Agents: A Unified Decision Framework, Methods, and Evaluation'
+  date: '2026-09-03'
+  url: https://arxiv.org/abs/2609.03727
+  section: llm
+  subcategory: survey
+  score: 1.5
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Large language model agents can plan, invoke tools, and modify external states, yet most systems still take an explicit user instruction as a fixed starting point. Proactive service moves the decision upstream: an agent must infer service opportunities from incomplete environmental and user signals, choose among remaining silent, asking, assisting, and acting, and account for interruption, …'
+  found_on: '2026-09-04'
+- arxiv: '2609.03673'
+  title: Do Video Generators Track the World Across Segments? A Benchmark and Method for World-State Reasoning in Video Continuation
+  date: '2026-09-03'
+  url: https://arxiv.org/abs/2609.03673
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CV
+  abstract: Video generators build long videos by composing shorter parts, either by generating segments one after another or by autoregressively extending chunks. Each new part usually depends on memories of historical observations, such as recent frames, selected key frames, memory banks, or cached features. These memories preserve visible evidence from the past, but current generators do not reliably turn …
+  found_on: '2026-09-04'
+- arxiv: '2609.03655'
+  title: 'PL-SCEA: Reconfiguring Pretrained Attention for Few-Shot Industrial Anomaly Detection'
+  date: '2026-09-03'
+  url: https://arxiv.org/abs/2609.03655
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CV
+  abstract: 'Vision Foundation Models (VFMs) provide transferable patch representations for few-shot industrial anomaly detection, but their attention computation is typically inherited from pretraining objectives centered on semantic aggregation. This creates a potential mismatch: token relations that support semantic recognition may not adequately expose the localized texture and structural deviations …'
+  found_on: '2026-09-04'
+- arxiv: '2609.03774'
+  title: Rethinking World Models for Safety-Critical Embodied Systems
+  date: '2026-09-03'
+  url: https://arxiv.org/abs/2609.03774
+  section: vlm
+  subcategory: episodic
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  - cs.RO
+  abstract: 'World models have progressed from compact latent dynamics to generative, controllable, and interactive simulators of embodied environments. However, high predictive likelihood and visual fidelity do not necessarily ensure that a model preserves the evidence required for safe decision-making. This perspective identifies three structural mismatches in current world modeling: likelihood versus risk, …'
+  found_on: '2026-09-04'
+- arxiv: '2609.03871'
+  title: Bioinfoysis Technical Report
+  date: '2026-09-03'
+  url: https://arxiv.org/abs/2609.03871
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  - cs.MA
+  abstract: Large language model agents have shown promise in bioinformatics, but most existing systems focus primarily on producing final answers, treating planning, tool use, and code execution as transient interactions. This design is poorly suited to long-horizon bioinformatics tasks, where conclusions must remain connected to the data, computations, and intermediate evidence that support them. We …
+  found_on: '2026-09-04'
+- arxiv: '2609.03937'
+  title: 'RATL: Learning from Retrieved Residuals for Robust Multivariate Time-Series Forecasting'
+  date: '2026-09-03'
+  url: https://arxiv.org/abs/2609.03937
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.LG
+  - cs.AI
+  abstract: Retrieval-augmented generation (RAG) complements parametric models with retrieved external evidence. The same idea is attractive for continuous-output regression, but directly reusing retrieved target values is often not robust when samples differ in output level, numerical scale, or local dynamics. Moreover, conventional forecasting pipelines generally use residuals for model optimization and …
+  found_on: '2026-09-04'
+- arxiv: '2609.03915'
+  title: 'RuleMem: Active Rule Memory for Long-Term Conversational Agents'
+  date: '2026-09-03'
+  url: https://arxiv.org/abs/2609.03915
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CL
+  - cs.IR
+  abstract: Question answering agents in long-term conversations must reason over massive, temporally dispersed dialogue histories. However, existing memory mechanisms primarily treat past information as \textit{passively} stored facts, leading to semantic gaps and unreliable reasoning. To address this limitation, we propose RuleMem, a rule-based memory framework that induces reusable logical rules from …
+  found_on: '2026-09-04'
+- arxiv: '2609.03450'
+  title: Plan Pointers and Record-Directive Form in Budgeted Verification of Inherited Agent Memory
+  date: '2026-09-03'
+  url: https://arxiv.org/abs/2609.03450
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.IR
+  - cs.AI
+  - cs.CL
+  abstract: 'An agent that inherits six one-line memories may pull at most one archived source record before acting; a directive written into the store can steer that choice: a pointer to the record, a criterion that identifies it, or both. Across twelve registered studies on one instrument lineage (14,760 attempts) we measured where the request goes under each form. On six direct-provider models a …'
+  found_on: '2026-09-04'
+- arxiv: '2609.03432'
+  title: 'Decoupled Analysis-Judging: An Automated Creativity Evaluator Using LLMs in Complex Multi-step Creativity Tasks'
+  date: '2026-09-03'
+  url: https://arxiv.org/abs/2609.03432
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CL
+  abstract: Automated evaluation of creativity tasks remains challenging for LLM-as-a-Judge, as LLM is susceptible to biases such as verbosity bias and leniency bias. Such limitations are particularly evident in Contextually-Grounded and Procedurally-Structured Tasks (CGPST), a complex multi-step creativity task where inter-step dependencies, highly subjectivity, and wide scoring ranges lead to more unstable …
+  found_on: '2026-09-04'
+- arxiv: '2609.03426'
+  title: 'Lngram v2: Latent N-Gram Memory with Interpretable Discrete Representations'
+  date: '2026-09-03'
+  url: https://arxiv.org/abs/2609.03426
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CL
+  abstract: Transformers lack a native lookup mechanism, requiring repeated dense computation to recognize and reuse local static patterns. Lngram v1 introduces tokenizer-independent conditional memory through discrete latent n-gram addressing, but its memory capacity is coupled with the backbone width, limiting scalability due to high parameter and activation costs. We propose Lngram v2, which decouples the …
+  found_on: '2026-09-04'
+- arxiv: '2609.03753'
+  title: 'SimSkill: A Lifelong Learning AI Agent for Autonomous Mastery of Traffic Simulation'
+  date: '2026-09-03'
+  url: https://arxiv.org/abs/2609.03753
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  - cs.MA
+  abstract: As large language models (LLMs) become increasingly capable, the long-term value of AI systems depends not only on solving individual requests, but also on transforming experience and accumulated knowledge into durable, reusable competence. We introduce SimSkill, a self-evolving agent built around the Simulation of Urban MObility (SUMO) traffic simulator. SimSkill identifies capability gaps, …
+  found_on: '2026-09-04'
 - arxiv: '2609.02760'
   title: Measurement-Driven Sub-Network Selection for On-Premise Retrieval-Augmented Factory Agents
   date: '2026-09-02'
@@ -129,6 +302,18 @@ candidates:
   - cs.AI
   abstract: Interview assessment requires per-criterion judgments grounded in behavioral evidence, yet surging applicant volumes have made human-only evaluation costly and inconsistent, while existing AI approaches yield opaque scores without traceable rationale. We introduce PhoenixNest-Video, an evidence-grounded multimodal agent framework for automated video interview assessment. It builds a semantic …
   found_on: '2026-09-03'
+- arxiv: '2609.03201'
+  title: 'MemoryLACE: Memory Lifecycle-Aware Consolidation and Evidence Retrieval'
+  date: '2026-09-02'
+  url: https://arxiv.org/abs/2609.03201
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CL
+  - cs.LG
+  abstract: Long-term LLM agents must preserve information across interactions while distinguishing repeated evidence, historical states, updates, and unresolved contradictions. Existing textual memory systems retrieve semantically relevant memories efficiently but often leave these relationships implicit, whereas richer structured approaches model them through global graphs, hierarchical abstractions, or …
+  found_on: '2026-09-04'
 - arxiv: '2609.00551'
   title: 'EM^2Mem: Event-Centric Multimodal Memory for Large Language Models'
   date: '2026-09-01'
