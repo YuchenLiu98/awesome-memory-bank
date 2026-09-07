@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--09--06-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--09--07-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-09-06**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-09-07**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -101,7 +101,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | **Knowledge Graph Enhanced Memory-Augmented Retrieval for Long Context Modeling**<br><sub>Tracks entity state across a long context, which semantic similarity alone misses.</sub> | HKUST, MBZUAI | ![Jun 12, 2026](https://img.shields.io/badge/Jun_12%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.14047) |
 | **REAL: A Reasoning-Enhanced Graph Framework for Long-Term Memory Management of LLMs**<br><sub>Reasoning over a memory graph decides what to keep, merge or drop.</sub> | PKU, Kuaishou | ![Jun 9, 2026](https://img.shields.io/badge/Jun_9%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.10694) |
 | **Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory**<br><sub>Maintains topic documents rather than isolated records, so changing facts stay coherent.</sub> | Tsinghua, SJTU | ![Jun 9, 2026](https://img.shields.io/badge/Jun_9%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.10677) |
-| **Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving LLM Agents**<br><sub>Separates belief revision from retrieval, which a single similarity surface cannot do.</sub> | Tencent | ![Jun 8, 2026](https://img.shields.io/badge/Jun_8%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.09483) |
+| **Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving LLM Agents**<br><sub>Separates belief revision from retrieval, which a single similarity surface cannot do.</sub> | Tencent | ![Jun 8, 2026](https://img.shields.io/badge/Jun_8%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.09483) |
 | **Training-Free Lexical-Dense Fusion for Conversational-Memory Retrieval**<br><sub>A strong training-free retrieval baseline on LoCoMo and LongMemEval.</sub> | UC Berkeley | ![Jun 2, 2026](https://img.shields.io/badge/Jun_2%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.04194) |
 | **Memory Retrieval for Changing Preferences**<br><sub>Decides both when to consult memory and which history is still valid after preferences shift.</sub> | USC | ![Jun 2, 2026](https://img.shields.io/badge/Jun_2%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.02976) |
 
@@ -122,7 +122,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
 | **Evaluating and Understanding Model Editing for Medical Vision Language Models**<br><sub>Tests whether editing techniques survive contact with a high-stakes multimodal domain.</sub> | University of Michigan | ![Jul 6, 2026](https://img.shields.io/badge/Jul_6%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.05310) |
-| **BrainSurgery: Reproducible and Reliable Declarative Weight Manipulations for Model Editing and Upcycling**<br><sub>Declarative, reproducible weight edits, in place of one-off surgery scripts.</sub> | University of Southern Denmark | ![Jun 8, 2026](https://img.shields.io/badge/Jun_8%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.09707) |
+| **BrainSurgery: Reproducible and Reliable Declarative Weight Manipulations for Model Editing and Upcycling**<br><sub>Declarative, reproducible weight edits, in place of one-off surgery scripts.</sub> | University of Southern Denmark | ![Jun 8, 2026](https://img.shields.io/badge/Jun_8%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.09707) |
 | **A Comprehensive Study of Knowledge Editing for Large Language Models**<br><sub>KnowEdit benchmark plus a systematic comparison of editing families.</sub> | Zhejiang University | ![Jan 2, 2024](https://img.shields.io/badge/Jan_2%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2401.01286) |
 
 ### KV Cache & Context Memory Compression (11)
@@ -135,7 +135,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | **Adaptive Filtering of the KV Cache: Diagnosing and Correcting Structural-Role Bias in LLM Inference**<br><sub>Shows attention-mass eviction is systematically biased by a token's structural role.</sub> | ServiceNow | ![Jul 14, 2026](https://img.shields.io/badge/Jul_14%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.13205) |
 | **MemDecay: Region-Aware KV Cache Eviction for Efficient LLM Agent Inference**<br><sub>Treats instructions, tool output and reasoning as regions deserving different retention.</sub> | — | ![Jul 12, 2026](https://img.shields.io/badge/Jul_12%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.10582) |
 | **SeKV: Resolution-Adaptive KV Cache with Hierarchical Semantic Memory for Long-Context LLM Inference**<br><sub>A semantic hierarchy over the cache, retrieving at whatever resolution the query needs.</sub> | UBC, Microsoft | ![Jun 30, 2026](https://img.shields.io/badge/Jun_30%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.31145) |
-| **End-to-End Context Compression at Scale**<br><sub>Context compression trained end-to-end rather than bolted on at inference.</sub> | — | ![Jun 8, 2026](https://img.shields.io/badge/Jun_8%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.09659) |
+| **End-to-End Context Compression at Scale**<br><sub>Context compression trained end-to-end rather than bolted on at inference.</sub> | — | ![Jun 8, 2026](https://img.shields.io/badge/Jun_8%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.09659) |
 | **Cartridges at Scale: Training Modular KV Caches over Large Document Collections**<br><sub>Distils a document collection into a reusable cache, so prefill is paid once.</sub> | — | ![Jun 3, 2026](https://img.shields.io/badge/Jun_3%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.04557) |
 | **Value-Aware Stochastic KV Cache Eviction for Reasoning Models**<br><sub>Long chains of thought need a different eviction rule than long prompts.</sub> | USC | ![Jun 2, 2026](https://img.shields.io/badge/Jun_2%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.03928) |
 | **SnapKV: LLM Knows What You are Looking for Before Generation**<br><sub>Uses the prompt's own attention pattern to pick which keys to keep before decoding starts.</sub> | UIUC, Cohere | ![Apr 22, 2024](https://img.shields.io/badge/Apr_22%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2404.14469) |
@@ -338,7 +338,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
 | **MemoryWAM: Efficient World Action Modeling with Persistent Memory**<br><sub>Persistent memory in a world action model, for horizons a rolling window cannot cover.</sub> | CUHK, HKU, Tsinghua | ![Jun 18, 2026](https://img.shields.io/badge/Jun_18%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.20562) |
-| **Latent Spatial Memory for Video World Models**<br><sub>Latent spatial memory replaces explicit point clouds, at a fraction of the cost.</sub> | ZJU, Microsoft | ![Jun 8, 2026](https://img.shields.io/badge/Jun_8%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.09828) |
+| **Latent Spatial Memory for Video World Models**<br><sub>Latent spatial memory replaces explicit point clouds, at a fraction of the cost.</sub> | ZJU, Microsoft | ![Jun 8, 2026](https://img.shields.io/badge/Jun_8%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.09828) |
 | **Echo-Forcing: A Scene Memory Framework for Interactive Long Video Generation**<br><sub>Scene memory keeps interactive long video coherent across prompt changes.</sub> | CAS, ETH Zurich | ![May 15, 2026](https://img.shields.io/badge/May_15%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.16003) |
 | **Video World Models with Long-term Spatial Memory**<br><sub>Geometry-grounded long-term memory that fixes the forgetting problem in long video world models.</sub> | Stanford, HKUST, Adobe | ![Jun 5, 2025](https://img.shields.io/badge/Jun_5%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2506.05284) |
 | **Context as Memory: Scene-Consistent Interactive Long Video Generation with Memory Retrieval**<br><sub>Retrieves historical context by field-of-view overlap, keeping generated scenes coherent over time.</sub> | Zhejiang University, Kuaishou | ![Jun 3, 2025](https://img.shields.io/badge/Jun_3%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2506.03141) |
