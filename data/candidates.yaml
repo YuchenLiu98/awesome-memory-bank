@@ -4,6 +4,96 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2609.10144'
+  title: Kernel-Managed Shared Memory for System-Wide Personalization
+  date: '2026-09-09'
+  url: https://arxiv.org/abs/2609.10144
+  section: llm
+  subcategory: multiagent
+  score: 4.2
+  arxiv_categories:
+  - cs.AI
+  - cs.LG
+  abstract: AI systems become more useful when they can adapt to the people using them, but in multi-agent systems, useful context learned by one agent often remains unavailable to others. We present kernel-managed shared memory, a system-level abstraction in which specialized agents write structured, tagged memories while the agent-system kernel, not individual agents, governs retrieval, privacy …
+  found_on: '2026-09-10'
+- arxiv: '2609.09774'
+  title: 'Procedural Memory Under Change: Reuse and Interference in Controlled Web Tasks'
+  date: '2026-09-09'
+  url: https://arxiv.org/abs/2609.09774
+  section: llm
+  subcategory: agent-exp
+  score: 3.9
+  arxiv_categories:
+  - cs.AI
+  abstract: Procedural memory lets language agents reuse successful routines, but reuse presumes that a stored routine remains applicable. We study what happens when that presumption is deliberately violated. The study combines a retrospective, human-assisted interface-adaptation case from BrowserGym TimeWarp with controlled frozen-memory comparisons on synthetic shopping decisions. During the documented …
+  found_on: '2026-09-10'
+- arxiv: '2609.09664'
+  title: 'PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations'
+  date: '2026-09-09'
+  url: https://arxiv.org/abs/2609.09664
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Large language models (LLMs) are increasingly deployed as personalized assistants that interact with users over extended periods of time. As conversations grow longer, relying on full interaction histories becomes increasingly inefficient and unreliable: long contexts introduce substantial computational overhead, making it difficult for models to consistently identify and utilize the most …'
+  found_on: '2026-09-10'
+- arxiv: '2609.10266'
+  title: 'KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints'
+  date: '2026-09-09'
+  url: https://arxiv.org/abs/2609.10266
+  section: llm
+  subcategory: kvcache
+  score: 1.3
+  arxiv_categories:
+  - cs.CL
+  abstract: 'LLM serving systems already reuse KV caches, but only when the reused text sits at the very start of the prompt. Two growing workloads break this condition: a retrieval-augmented generation server assembles a different set of retrieved chunks for every query, and a multi-agent coordinator reads reports written by other agents. Reused inside a new prompt, a cache carries the wrong positions and …'
+  found_on: '2026-09-10'
+- arxiv: '2609.10155'
+  title: 'From Retrieval to Weights: Parametric Individualization of Small Language Models with Individual Text Corpora'
+  date: '2026-09-09'
+  url: https://arxiv.org/abs/2609.10155
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.CL
+  - cs.IR
+  abstract: We approach a cognitive simulation perspective on episodic and semantic memory in multiple-choice question answering by incorporating text from individual text corpora (ITC) into retrieval-augmented generation and DoRA fine-tuning. We web-crawl the search histories of 515 participants who answered 36 multiple-choice knowledge items and analyze a stratified subsample of 150 participants. For each …
+  found_on: '2026-09-10'
+- arxiv: '2609.09778'
+  title: 'ROAM: Robust Organization of Atomic Memories for Agents through Semantic Relations'
+  date: '2026-09-09'
+  url: https://arxiv.org/abs/2609.09778
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CL
+  abstract: 'Long-term language-model agents rely on external memory across interactions. Atomic memories are particularly useful: their fine-grained semantic boundaries enable precise retrieval and direct comparison between observations. Yet accumulating atoms inevitably become redundant, overlapping, or conflicting. Existing methods often ask an LLM manager to add, update, delete, or rewrite memories …'
+  found_on: '2026-09-10'
+- arxiv: '2609.09895'
+  title: Can We Trust Video Hallucination Detectors? VidHalLoc for Evaluating the Evaluators
+  date: '2026-09-09'
+  url: https://arxiv.org/abs/2609.09895
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CV
+  abstract: Video-language models and video agents can produce hallucinations that conflict with spatiotemporal evidence. Existing benchmarks mainly evaluate model hallucinations, and heterogeneous mechanisms make detector reliability difficult to compare. We introduce VidHalLoc, a benchmark that evaluates hallucination detection methods under a unified diagnostic evaluation protocol using 2,000 adversarial …
+  found_on: '2026-09-10'
+- arxiv: '2609.10413'
+  title: 'Fortunate Recall: Ontology-Driven Memory Lifecycle Management for Persistent Coherence in LLMs'
+  date: '2026-09-09'
+  url: https://arxiv.org/abs/2609.10413
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Current LLM memory systems treat all personal facts identically, so stores grow without bound while retrieval precision degrades. The core challenge is lifecycle management: which memories should persist, which should be replaced, and at what rate, conditioned on the behavioral type of each fact. Fortunate Recall (FR) is a composable policy layer that classifies personal facts into a 10+1 …'
+  found_on: '2026-09-10'
 - arxiv: '2609.08886'
   title: 'FRAME: Factored Retrieval via Attribute Readouts for Object-Centric Scene Memory'
   date: '2026-09-08'
@@ -167,6 +257,17 @@ candidates:
   - cs.CL
   abstract: 'Dynamic layer routing reduces the inference cost of Large Language Models (LLMs) by learning to skip layers for individual tokens. Existing methods, however, treat each routing decision as a local operation conditioned solely on the current hidden state which is a formulation that overlooks the sequential, path-dependent nature of routing across depth: earlier decisions shape the representations …'
   found_on: '2026-09-09'
+- arxiv: '2609.09363'
+  title: Do LLMs Make More Mistakes If They Do Not Believe the Input Data?
+  date: '2026-09-08'
+  url: https://arxiv.org/abs/2609.09363
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.CL
+  abstract: Large language models (LLMs) are prone to hallucinating or misinterpreting facts, which impairs their usability in retrieval-augmented generation or data-to-text systems. We analyse how faithfulness of LLMs to provided context depends on how plausible they perceive the context to be (context-memory conflict). To better identify error patterns, we make use of the increased difficulty of …
+  found_on: '2026-09-10'
 - arxiv: '2609.07966'
   title: 'MetaKV: Adaptive KV Cache Compression for Constrained LLM Inference'
   date: '2026-09-07'
