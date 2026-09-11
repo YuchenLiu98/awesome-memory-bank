@@ -4,6 +4,109 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2609.11192'
+  title: 'FlexComp: One Model for Every Ratio in Context Compression'
+  date: '2026-09-10'
+  url: https://arxiv.org/abs/2609.11192
+  section: llm
+  subcategory: kvcache
+  score: 5.2
+  arxiv_categories:
+  - cs.CL
+  abstract: 'Soft context compression condenses a context into a few memory tokens that a frozen LLM consumes in place of the raw text, but existing compressors fix the compression ratio at training and inference: each deployed ratio requires a separately trained model, and the chosen ratio is applied uniformly to all inputs, whose actual needs vary drastically. We propose FlexComp, a method-agnostic …'
+  found_on: '2026-09-11'
+- arxiv: '2609.11582'
+  title: 'OmniKVQuant: KV Cache Quantization for Omni-LLMs'
+  date: '2026-09-10'
+  url: https://arxiv.org/abs/2609.11582
+  section: llm
+  subcategory: kvcache
+  score: 3.9
+  arxiv_categories:
+  - cs.CV
+  abstract: As Omni-modal large language models (Omni-LLMs) take in audio, video and text together, their KV cache memory cost grows. KV cache quantization is the de facto approach in text-only LLMs, but its application to Omni-LLMs remains unexplored. In this paper, we analyze how TurboQuant, a representative rotation-based KV cache quantization method, behaves on multimodal caches and identify two critical …
+  found_on: '2026-09-11'
+- arxiv: '2609.11875'
+  title: 'UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition Modeling'
+  date: '2026-09-10'
+  url: https://arxiv.org/abs/2609.11875
+  section: vlm
+  subcategory: mm-arch
+  score: 2.6
+  arxiv_categories:
+  - cs.RO
+  abstract: 'Recent advances in Vision-Language-Action (VLA) models have improved robotic manipulation, yet observation-to-action learning remains limited by a fundamental transition realizability gap, manifested in three tightly coupled problems: (i) Transition ambiguity. Visually similar current observations may correspond to different manipulation phases and imply different subsequent transitions. (ii) …'
+  found_on: '2026-09-11'
+- arxiv: '2609.11561'
+  title: 'Memory as Plans: World-Action Modeling with Memory-Grounded Planning'
+  date: '2026-09-10'
+  url: https://arxiv.org/abs/2609.11561
+  section: vlm
+  subcategory: episodic
+  score: 1.4
+  arxiv_categories:
+  - cs.RO
+  abstract: Mainstream robotic policies often adopt a Markovian formulation, but many complex real-world manipulation tasks are inherently non-Markovian, requiring long-horizon memory beyond the current observation. Existing memory mechanisms often rely on language summaries, growing visual windows, or their combinations, and may therefore lose fine-grained visual evidence or face a trade-off between history …
+  found_on: '2026-09-11'
+- arxiv: '2609.11060'
+  title: 'Grounding Agent Memory: Environment-Probing Curation for Enterprise Agents'
+  date: '2026-09-10'
+  url: https://arxiv.org/abs/2609.11060
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  - cs.SE
+  abstract: Persistent memory is entering production-oriented agent platforms to help long-horizon agents accumulate experience across sessions. Yet a post-task curator agent restricted to completed trajectories can preserve errors, overgeneralize partial evidence, or retain stale knowledge. We introduce environment-probing curation, a deployment-compatible extension that gives an existing asynchronous …
+  found_on: '2026-09-11'
+- arxiv: '2609.11209'
+  title: 'REVA: Reusable Evidence View Aggregation for Context-Efficient RAG Serving'
+  date: '2026-09-10'
+  url: https://arxiv.org/abs/2609.11209
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.LG
+  - cs.CL
+  - cs.IR
+  abstract: Retrieval-augmented generation (RAG) improves knowledge-intensive large language model (LLM) applications by conditioning generation on retrieved documents, but longer contexts increase latency, key-value (KV) cache memory, and token cost. Post-retrieval compression can reduce this cost, yet existing compressors often operate independently for each query, rely on auxiliary models or rewriting, …
+  found_on: '2026-09-11'
+- arxiv: '2609.11225'
+  title: 'Harness Robotic OS: A Unified Embodied-Agent Runtime for Closed-Loop Quadruped Inspection'
+  date: '2026-09-10'
+  url: https://arxiv.org/abs/2609.11225
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.RO
+  abstract: 'Autonomous property inspection requires more than robust robot navigation: a deployable system must connect heterogeneous sensing, reusable autonomy capabilities, multimodal scene understanding, human interaction, and enterprise response within a traceable operational loop. Existing quadruped inspection systems commonly integrate these functions through task-specific interfaces, making contextual …'
+  found_on: '2026-09-11'
+- arxiv: '2609.11636'
+  title: 'MAPLE: Memory-Augmented Planning with Language and Evolution'
+  date: '2026-09-10'
+  url: https://arxiv.org/abs/2609.11636
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Domain practitioners understand their business constraints but may lack operations-research expertise or dedicated support. LLM-based optimization agents translate natural-language requirements into models or solver programs that established optimization tools can execute. This progress makes optimization more accessible, but real-world operations are dynamic: changing demand, resources, and …'
+  found_on: '2026-09-11'
+- arxiv: '2609.11294'
+  title: Memory Compression for High-Fanout Agent Sandboxes
+  date: '2026-09-10'
+  url: https://arxiv.org/abs/2609.11294
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  - cs.OS
+  abstract: 'High-fanout agent workloads create a growing memory bottleneck because a single task may spawn many concurrent sandbox sessions. Yet these sandboxes are far from independent: they originate from a shared template and execute related trajectories, exposing substantial template-relative and cross-sandbox memory redundancy. Conventional memory compression is poorly matched to this setting in three …'
+  found_on: '2026-09-11'
 - arxiv: '2609.10144'
   title: Kernel-Managed Shared Memory for System-Wide Personalization
   date: '2026-09-09'
