@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--09--11-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--09--12-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-09-11**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-09-12**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -260,7 +260,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | ⭐ **Naive Visual Memory is Not Enough: A Failure-Mode Study of GUI Agents**<br><sub>Catalogues how experiential memory actually fails GUI agents in practice.</sub> | — | ![Jun 12, 2026](https://img.shields.io/badge/Jun_12%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.14106) |
 | ⭐ **MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents**<br><sub>Learned memory control keeps GUI agents oriented across many interface transitions.</sub> | — | ![May 18, 2026](https://img.shields.io/badge/May_18%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.18652) |
 | **Agent S: An Open Agentic Framework that Uses Computers Like a Human**<br><sub>Combines narrative and episodic memory with web knowledge for long-horizon desktop tasks.</sub> | Simular Research | ![Oct 10, 2024](https://img.shields.io/badge/Oct_10%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2410.08164) |
-| ⭐ **Agent Workflow Memory**<br><sub>Induces reusable workflows from past browsing traces; procedural memory for web agents.</sub> | CMU, Meta | ![Sep 11, 2024](https://img.shields.io/badge/Sep_11%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2409.07429) |
+| ⭐ **Agent Workflow Memory**<br><sub>Induces reusable workflows from past browsing traces; procedural memory for web agents.</sub> | CMU, Meta | ![Sep 11, 2024](https://img.shields.io/badge/Sep_11%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2409.07429) |
 
 ### Benchmarks & Analysis (11)
 
@@ -305,7 +305,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
 | **HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory**<br><sub>Carries the digital agent loop into the physical world by grounding it in 3D memory.</sub> | Horizon Robotics | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23565) |
-| **FARM: Find Anything using Relational Spatial Memory**<br><sub>Object-level memory is not enough when many objects match; relations disambiguate.</sub> | UC Berkeley, Stanford | ![Jun 13, 2026](https://img.shields.io/badge/Jun_13%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.15476) |
+| **FARM: Find Anything using Relational Spatial Memory**<br><sub>Object-level memory is not enough when many objects match; relations disambiguate.</sub> | UC Berkeley, Stanford | ![Jun 13, 2026](https://img.shields.io/badge/Jun_13%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.15476) |
 | ⭐ **What Spatial Memory Must Store: Occlusion as the Test for Language-Agent Memory**<br><sub>Makes the memory-palace intuition testable, and finds geometry earns its place only under occlusion.</sub> | — | ![Jun 9, 2026](https://img.shields.io/badge/Jun_9%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.10299) |
 | **LongSpace: Exploring Long-Horizon Spatial Memory from Perception to Recall in Video**<br><sub>Separates perceiving space from recalling it, and shows MLLMs are far better at the first.</sub> | BUPT, CASIA, CAS | ![Jun 4, 2026](https://img.shields.io/badge/Jun_4%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.05677) |
 | ⭐ **eMEM: A Hybrid Spatio-Temporal Memory System For Embodied Agents**<br><sub>Argues text-stream memory designs like MemGPT and A-MEM do not transfer to physical agents.</sub> | Inria | ![Jun 2, 2026](https://img.shields.io/badge/Jun_2%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.03374) |
