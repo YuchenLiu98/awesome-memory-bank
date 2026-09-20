@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--09--19-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--09--20-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-09-19**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-09-20**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -359,7 +359,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
-| ⭐ **Benchmarking Robot Memory Under Interference**<br><sub>Sessions that actively interfere with each other, which is how deployment really looks.</sub> | — | ![Jun 21, 2026](https://img.shields.io/badge/Jun_21%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.22338) |
+| ⭐ **Benchmarking Robot Memory Under Interference**<br><sub>Sessions that actively interfere with each other, which is how deployment really looks.</sub> | — | ![Jun 21, 2026](https://img.shields.io/badge/Jun_21%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.22338) |
 
 ---
 
