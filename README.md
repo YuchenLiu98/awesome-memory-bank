@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--09--20-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--09--21-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-09-20**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-09-21**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -111,7 +111,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | --- | --- | --- | --- |
 | **Memory in the Loop: In-Process Retrieval as Extended Working Memory for Language Agents**<br><sub>Retrieval during generation, not before it, acting as extended working memory.</sub> | — | ![Jul 6, 2026](https://img.shields.io/badge/Jul_6%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.05690) |
 | **Reasoning as Attractor Dynamics: Latent Memory Retrieval via Gibbs-Weighted Energy Minimization**<br><sub>Reads the LLM as a dense associative memory and recovers reasoning as attractor dynamics.</sub> | — | ![Jun 23, 2026](https://img.shields.io/badge/Jun_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.24543) |
-| **Towards Root Memories: Benchmarking and Enhancing Implicit Logical Memory Retrieval for Personalized LLMs**<br><sub>Semantic similarity misses logically necessary memories; this benchmarks that gap.</sub> | USTC | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23283) |
+| **Towards Root Memories: Benchmarking and Enhancing Implicit Logical Memory Retrieval for Personalized LLMs**<br><sub>Semantic similarity misses logically necessary memories; this benchmarks that gap.</sub> | USTC | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23283) |
 | **From RAG to Memory: Non-Parametric Continual Learning for Large Language Models**<br><sub>HippoRAG 2: pushes graph memory past standard RAG on associative and sense-making recall.</sub> | Ohio State University | ![Feb 20, 2025](https://img.shields.io/badge/Feb_20%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2502.14802) |
 | **MemoRAG: Boosting Long Context Processing with Global Memory-Enhanced Retrieval Augmentation**<br><sub>A light global memory drafts clues that guide retrieval, helping when the query is vague.</sub> | BAAI, Renmin University | ![Sep 9, 2024](https://img.shields.io/badge/Sep_9%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2409.05591) |
 | ⭐ **HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models**<br><sub>Hippocampal indexing theory as a knowledge graph plus PageRank, enabling multi-hop recall in one step.</sub> | Ohio State University | ![May 23, 2024](https://img.shields.io/badge/May_23%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2405.14831) |
@@ -159,7 +159,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | **Mechanistic Attention Guidance for Agent Memory Refinement**<br><sub>Uses attention evidence to decide which stored memories deserve refinement.</sub> | Tsinghua | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17621) |
 | **Procedural Memory Distillation: Online Reflection for Self-Improving Language Models**<br><sub>Distils the reasoning inside a rollout into procedural memory, not just its reward.</sub> | Salesforce | ![Jul 1, 2026](https://img.shields.io/badge/Jul_1%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.01480) |
 | **Neural Procedural Memory: Empowering LLM Agents with Implicit Activation Steering**<br><sub>Stores procedures as activation steering directions rather than as retrievable text.</sub> | CASIA, CAS, BAAI | ![Jun 29, 2026](https://img.shields.io/badge/Jun_29%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.29824) |
-| ⭐ **Managing Procedural Memory in LLM Agents: Control, Adaptation, and Evaluation**<br><sub>AFTER benchmark: asks whether procedural memory really yields reusable skills.</sub> | — | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23127) |
+| ⭐ **Managing Procedural Memory in LLM Agents: Control, Adaptation, and Evaluation**<br><sub>AFTER benchmark: asks whether procedural memory really yields reusable skills.</sub> | — | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23127) |
 | ⭐ **Are Online Skill and Memory Modules Always Worth Their Tokens? A Budget-Constrained Study of Web Agents**<br><sub>Counts the token cost of memory modules, which papers proposing them rarely report.</sub> | ServiceNow, UBC, McGill | ![Jun 12, 2026](https://img.shields.io/badge/Jun_12%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.15017) |
 
 ### Multi-Agent & Shared Memory (2)
@@ -167,7 +167,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
 | **Shared Selective Persistent Memory for Agentic LLM Systems**<br><sub>Persistent shared memory so a coding agent does not restart from zero each session.</sub> | Apple | ![Jul 10, 2026](https://img.shields.io/badge/Jul_10%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.09493) |
-| **Memory Contagion: Cross-Temporal Propagation of Evaluator Bias via Agent Memory**<br><sub>A biased judgement written once propagates through everything the agent later recalls.</sub> | — | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23195) |
+| **Memory Contagion: Cross-Temporal Propagation of Evaluator Bias via Agent Memory**<br><sub>A biased judgement written once propagates through everything the agent later recalls.</sub> | — | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23195) |
 
 ### Memory Benchmarks & Analysis (12)
 
@@ -221,7 +221,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | --- | --- | --- | --- |
 | ⭐ **FOLIO: Focused Semantic Memory for Streaming Video Understanding**<br><sub>Semantic rather than frame-level memory, so an unbounded stream stays queryable.</sub> | USC, Intel | ![Jul 14, 2026](https://img.shields.io/badge/Jul_14%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.13298) |
 | **Imprint: Online Memory Compression for Long-Horizon Egocentric QA**<br><sub>Compresses days of egocentric video into memory that is still worth retrieving from.</sub> | — | ![Jul 1, 2026](https://img.shields.io/badge/Jul_1%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.00696) |
-| **Compression and Retrieval: Implicit Memory Retrieval for Video World Models**<br><sub>Implicit retrieval keeps a video world model consistent without an explicit frame bank.</sub> | HUST, SYSU | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23105) |
+| **Compression and Retrieval: Implicit Memory Retrieval for Video World Models**<br><sub>Implicit retrieval keeps a video world model consistent without an explicit frame bank.</sub> | HUST, SYSU | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23105) |
 | **FadeMem: Distance-Aware Memory Consolidation for Autoregressive Video Diffusion**<br><sub>Consolidates the KV history by temporal distance, giving long video generation bounded memory.</sub> | ZJU, Baidu | ![Jun 9, 2026](https://img.shields.io/badge/Jun_9%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.10671) |
 | **LongLive-RAG: A General Retrieval-Augmented Framework for Long Video Generation**<br><sub>Retrieval over generated history to stop identity drift in long autoregressive video.</sub> | NVIDIA, USC, MIT | ![Jun 1, 2026](https://img.shields.io/badge/Jun_1%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.02553) |
 | ⭐ **Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents**<br><sub>Offline consolidation, the analogue of sleep, turning session logs into reusable knowledge.</sub> | UIUC, UC San Diego | ![May 20, 2026](https://img.shields.io/badge/May_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.20616) |
@@ -304,7 +304,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
-| **HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory**<br><sub>Carries the digital agent loop into the physical world by grounding it in 3D memory.</sub> | Horizon Robotics | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23565) |
+| **HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory**<br><sub>Carries the digital agent loop into the physical world by grounding it in 3D memory.</sub> | Horizon Robotics | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23565) |
 | **FARM: Find Anything using Relational Spatial Memory**<br><sub>Object-level memory is not enough when many objects match; relations disambiguate.</sub> | UC Berkeley, Stanford | ![Jun 13, 2026](https://img.shields.io/badge/Jun_13%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.15476) |
 | ⭐ **What Spatial Memory Must Store: Occlusion as the Test for Language-Agent Memory**<br><sub>Makes the memory-palace intuition testable, and finds geometry earns its place only under occlusion.</sub> | — | ![Jun 9, 2026](https://img.shields.io/badge/Jun_9%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.10299) |
 | **LongSpace: Exploring Long-Horizon Spatial Memory from Perception to Recall in Video**<br><sub>Separates perceiving space from recalling it, and shows MLLMs are far better at the first.</sub> | BUPT, CASIA, CAS | ![Jun 4, 2026](https://img.shields.io/badge/Jun_4%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.05677) |
