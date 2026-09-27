@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--09--26-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--09--27-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-09-26**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-09-27**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -298,7 +298,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | **STaR: Scalable Task-Conditioned Retrieval for Long-Horizon Multimodal Robot Memory**<br><sub>Task-conditioned retrieval over long deployments, indoor and outdoor.</sub> | — | ![Feb 9, 2026](https://img.shields.io/badge/Feb_9%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2602.09255) |
 | ⭐ **MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation**<br><sub>A Hippocampus-inspired perceptual-cognitive memory bank that gives VLA policies genuine temporal context.</sub> | Shanghai AI Lab, Tsinghua | ![Aug 26, 2025](https://img.shields.io/badge/Aug_26%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2508.19236) |
 | ⭐ **SAM2Act: Integrating Visual Foundation Model with A Memory Architecture for Robotic Manipulation**<br><sub>Adds a memory bank on top of SAM2 so a manipulation policy can solve tasks that require recalling earlier steps.</sub> | University of Washington, Allen Institute for AI, NVIDIA | ![Jan 30, 2025](https://img.shields.io/badge/Jan_30%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2501.18564) |
-| **Embodied-RAG: General Non-parametric Embodied Memory for Retrieval and Generation**<br><sub>A hierarchical semantic forest of the environment, retrievable at any level from object to region.</sub> | CMU | ![Sep 26, 2024](https://img.shields.io/badge/Sep_26%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2409.18313) |
+| **Embodied-RAG: General Non-parametric Embodied Memory for Retrieval and Generation**<br><sub>A hierarchical semantic forest of the environment, retrievable at any level from object to region.</sub> | CMU | ![Sep 26, 2024](https://img.shields.io/badge/Sep_26%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2409.18313) |
 
 ### Spatial & Semantic Scene Memory (14)
 
