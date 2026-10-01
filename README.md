@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--09--30-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--01-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-09-30**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-01**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -92,7 +92,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | --- | --- | --- | --- |
 | **Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long-term Memory**<br><sub>A recall-reflect-assimilate cycle that adapts retrieval to what the query actually needs.</sub> | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17879) |
 | ⭐ **CMI-Mem: Toward Generalizable Long-Term Memory Management via CMI-Augmented Reinforcement Learning**<br><sub>Scores a memory by conditional mutual information instead of a downstream reader's guess.</sub> | Alibaba, HKUST, PolyU | ![Jul 15, 2026](https://img.shields.io/badge/Jul_15%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.20553) |
-| **A-TMA: Decoupling State-Aware Memory Failures in Long-Term Agent Memory**<br><sub>Names and isolates ghost memory: the agent recalls a fact that used to be true.</sub> | — | ![Jul 2, 2026](https://img.shields.io/badge/Jul_2%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.01935) |
+| **A-TMA: Decoupling State-Aware Memory Failures in Long-Term Agent Memory**<br><sub>Names and isolates ghost memory: the agent recalls a fact that used to be true.</sub> | — | ![Jul 2, 2026](https://img.shields.io/badge/Jul_2%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.01935) |
 | **TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory**<br><sub>Consolidation that will not silently corrupt what it rewrites.</sub> | Samsung | ![Jun 23, 2026](https://img.shields.io/badge/Jun_23%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.25161) |
 | **MEMPROBE: Probing Long-Term Agent Memory via Hidden User-State Recovery**<br><sub>Probes whether the agent actually models the user, rather than scoring downstream answers.</sub> | UIUC, UC San Diego | ![Jun 23, 2026](https://img.shields.io/badge/Jun_23%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.24595) |
 | **When Does Belief-Based Agent Memory Help? Reliability-Conditional Updating and Provenance-Capped Poisoning Defense**<br><sub>Probabilistic beliefs per entity-attribute pair, with provenance limiting poisoning damage.</sub> | IIT | ![Jun 20, 2026](https://img.shields.io/badge/Jun_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.22030) |
@@ -267,7 +267,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
 | **Do Agents Dream of False Memories? Black-box Visual Attacks on Long-term Memory in Multimodal AI Agents**<br><sub>Images can write false memories into a multimodal agent, entirely black-box.</sub> | University of California | ![Jul 17, 2026](https://img.shields.io/badge/Jul_17%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.15657) |
-| ⭐ **S-EMBER: A Large-Scale Benchmark for Streaming Egocentric Memory Retrieval**<br><sub>Streaming rather than offline episodic memory evaluation, which is the realistic setting.</sub> | Meta | ![Jul 2, 2026](https://img.shields.io/badge/Jul_2%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.02689) |
+| ⭐ **S-EMBER: A Large-Scale Benchmark for Streaming Egocentric Memory Retrieval**<br><sub>Streaming rather than offline episodic memory evaluation, which is the realistic setting.</sub> | Meta | ![Jul 2, 2026](https://img.shields.io/badge/Jul_2%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.02689) |
 | **MemLeak: Diagnosing Information Leaks in Multimodal Agent Memory**<br><sub>Multimodal memory leaks information across users and sessions in ways text-only audits miss.</sub> | Georgia Tech | ![Jun 29, 2026](https://img.shields.io/badge/Jun_29%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.29788) |
 | **DMV-Bench: Diagnosing Long-Horizon Multimodal Agents' Visual Memory with Incidental Cue Injection**<br><sub>Injects incidental visual cues to test when an agent must remember what it saw, not what it wrote.</sub> | — | ![Jun 25, 2026](https://img.shields.io/badge/Jun_25%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.27499) |
 | **M3Exam: Benchmarking Multimodal Memory for Realistic User-Agent Interactions**<br><sub>Authentic multimodal interaction histories instead of synthetic human-human transcripts.</sub> | HKUST, HIT, BIT | ![Jun 5, 2026](https://img.shields.io/badge/Jun_5%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.07402) |
