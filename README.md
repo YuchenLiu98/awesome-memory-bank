@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--03-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--04-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-03**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-04**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -75,7 +75,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | **Supra Cognitive Modes: A Routed Architecture for Agent Memory**<br><sub>Routes lookup, relational reasoning and synthesis queries to different memory mechanisms.</sub> | — | ![Jul 21, 2026](https://img.shields.io/badge/Jul_21%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19096) |
 | ⭐ **Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents**<br><sub>Learns when to read and write memory rather than accessing it on a fixed schedule.</sub> | UCLA, University of Washington | ![Jul 15, 2026](https://img.shields.io/badge/Jul_15%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.13591) |
 | **Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents**<br><sub>Treats agent memory as database infrastructure, with the durability guarantees that implies.</sub> | — | ![Jul 14, 2026](https://img.shields.io/badge/Jul_14%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.13157) |
-| **Memory-Orchestrated Semantic System (MOSS): An Auditable Agentic Memory Architecture**<br><sub>Replaces opaque embedding search with an auditable semantic store you can inspect after the fact.</sub> | — | ![Jul 5, 2026](https://img.shields.io/badge/Jul_5%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.04391) |
+| **Memory-Orchestrated Semantic System (MOSS): An Auditable Agentic Memory Architecture**<br><sub>Replaces opaque embedding search with an auditable semantic store you can inspect after the fact.</sub> | — | ![Jul 5, 2026](https://img.shields.io/badge/Jul_5%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.04391) |
 | **From Signals to Structure: How Memory Architecture Drives Language Emergence in LLM Agents**<br><sub>Shows the memory architecture, not the channel, determines what shared language two agents invent.</sub> | Alberta Machine Intelligence Institute, University of Alberta | ![Jun 30, 2026](https://img.shields.io/badge/Jun_30%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.00233) |
 | ⭐ **Are We Ready For An Agent-Native Memory System?**<br><sub>Argues agent memory has become a data management system and asks what it still lacks.</sub> | SJTU, Tsinghua | ![Jun 23, 2026](https://img.shields.io/badge/Jun_23%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.24775) |
 | **MemRefine: LLM-Guided Compression for Long-Term Agent Memory**<br><sub>Uses the model itself to decide what in the memory store can be safely compressed.</sub> | KAIST | ![Jun 11, 2026](https://img.shields.io/badge/Jun_11%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.13177) |
