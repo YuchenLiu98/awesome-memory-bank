@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--04-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--05-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-04**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-05**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -109,7 +109,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
-| **Memory in the Loop: In-Process Retrieval as Extended Working Memory for Language Agents**<br><sub>Retrieval during generation, not before it, acting as extended working memory.</sub> | — | ![Jul 6, 2026](https://img.shields.io/badge/Jul_6%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.05690) |
+| **Memory in the Loop: In-Process Retrieval as Extended Working Memory for Language Agents**<br><sub>Retrieval during generation, not before it, acting as extended working memory.</sub> | — | ![Jul 6, 2026](https://img.shields.io/badge/Jul_6%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.05690) |
 | **Reasoning as Attractor Dynamics: Latent Memory Retrieval via Gibbs-Weighted Energy Minimization**<br><sub>Reads the LLM as a dense associative memory and recovers reasoning as attractor dynamics.</sub> | — | ![Jun 23, 2026](https://img.shields.io/badge/Jun_23%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.24543) |
 | **Towards Root Memories: Benchmarking and Enhancing Implicit Logical Memory Retrieval for Personalized LLMs**<br><sub>Semantic similarity misses logically necessary memories; this benchmarks that gap.</sub> | USTC | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23283) |
 | **From RAG to Memory: Non-Parametric Continual Learning for Large Language Models**<br><sub>HippoRAG 2: pushes graph memory past standard RAG on associative and sense-making recall.</sub> | Ohio State University | ![Feb 20, 2025](https://img.shields.io/badge/Feb_20%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2502.14802) |
@@ -121,7 +121,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
-| **Evaluating and Understanding Model Editing for Medical Vision Language Models**<br><sub>Tests whether editing techniques survive contact with a high-stakes multimodal domain.</sub> | University of Michigan | ![Jul 6, 2026](https://img.shields.io/badge/Jul_6%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.05310) |
+| **Evaluating and Understanding Model Editing for Medical Vision Language Models**<br><sub>Tests whether editing techniques survive contact with a high-stakes multimodal domain.</sub> | University of Michigan | ![Jul 6, 2026](https://img.shields.io/badge/Jul_6%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.05310) |
 | **BrainSurgery: Reproducible and Reliable Declarative Weight Manipulations for Model Editing and Upcycling**<br><sub>Declarative, reproducible weight edits, in place of one-off surgery scripts.</sub> | University of Southern Denmark | ![Jun 8, 2026](https://img.shields.io/badge/Jun_8%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.09707) |
 | **A Comprehensive Study of Knowledge Editing for Large Language Models**<br><sub>KnowEdit benchmark plus a systematic comparison of editing families.</sub> | Zhejiang University | ![Jan 2, 2024](https://img.shields.io/badge/Jan_2%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2401.01286) |
 
@@ -178,7 +178,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | ⭐ **MemPoison: Uncovering Persistent Memory Threats and Structural Blind Spots in LLM Agents**<br><sub>Poisoned memories persist across sessions, a failure mode stateless red-teaming cannot find.</sub> | NJU | ![Jul 16, 2026](https://img.shields.io/badge/Jul_16%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.14651) |
 | **Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents**<br><sub>Explicit working memory over hypotheses is what makes multi-hop reasoning scale.</sub> | University of Michigan | ![Jul 14, 2026](https://img.shields.io/badge/Jul_14%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.12267) |
 | **Context by Distinct Information: An Auditable Dirichlet-Process Working Memory for Long, Redundant Context Streams**<br><sub>A nonparametric working memory that keeps distinct information and drops redundancy.</sub> | — | ![Jul 11, 2026](https://img.shields.io/badge/Jul_11%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.10441) |
-| **Your Agent's Memories Are Not Its Own: Forged Reasoning Attacks on LLM Agent Memory and Defenses**<br><sub>Forged reasoning traces written into memory hijack the agent's later decisions.</sub> | — | ![Jul 6, 2026](https://img.shields.io/badge/Jul_6%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.05029) |
+| **Your Agent's Memories Are Not Its Own: Forged Reasoning Attacks on LLM Agent Memory and Defenses**<br><sub>Forged reasoning traces written into memory hijack the agent's later decisions.</sub> | — | ![Jul 6, 2026](https://img.shields.io/badge/Jul_6%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.05029) |
 | **MemSyco-Bench: Benchmarking Sycophancy in Agent Memory**<br><sub>Retrieved memories make models agree with the user even when the memory is wrong.</sub> | Xiamen University, Jilin University | ![Jul 1, 2026](https://img.shields.io/badge/Jul_1%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.01071) |
 | ⭐ **MemDelta: Controlled Baselines and Hidden Confounds in Agent Memory Evaluation**<br><sub>Reported memory gains often come from the backbone, not the memory; this separates them.</sub> | — | ![Jun 29, 2026](https://img.shields.io/badge/Jun_29%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.29914) |
 | **Forensic Trajectory Signatures for Agent Memory Poisoning Detection**<br><sub>Detects memory poisoning from the trajectory signature it leaves behind.</sub> | — | ![Jun 29, 2026](https://img.shields.io/badge/Jun_29%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.30566) |
@@ -207,7 +207,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
 | **Memory-Augmented Multimodal Large Language Models for Small Object Understanding in Streaming Aerial Videos**<br><sub>Memory lets a UAV keep track of tiny targets it can no longer resolve in the current frame.</sub> | — | ![Jul 22, 2026](https://img.shields.io/badge/Jul_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19857) |
-| ⭐ **ReflectWorld-MM: An Entity-Oriented Multimodal Memory System for Open-Ended Video Streams**<br><sub>Organizes multimodal memory around entities, so recall survives an open-ended stream.</sub> | — | ![Jul 6, 2026](https://img.shields.io/badge/Jul_6%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.09759) |
+| ⭐ **ReflectWorld-MM: An Entity-Oriented Multimodal Memory System for Open-Ended Video Streams**<br><sub>Organizes multimodal memory around entities, so recall survives an open-ended stream.</sub> | — | ![Jul 6, 2026](https://img.shields.io/badge/Jul_6%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.09759) |
 | **Towards a Dynamic and Fixed-budget Memory Bank for Efficient Streaming Video Understanding**<br><sub>A fixed-budget memory bank that handles unpredictable query timing in a live stream.</sub> | Xiamen University | ![Jun 24, 2026](https://img.shields.io/badge/Jun_24%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.25658) |
 | **Beyond Visual Memory: Mechanistic Diagnostics of Latent Visual Reasoning**<br><sub>Checks whether latent visual tokens really store visual evidence, and finds the story is more complicated.</sub> | Alibaba | ![May 31, 2026](https://img.shields.io/badge/May_31%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.01287) |
 | **Personal Visual Memory from Explicit and Implicit Evidence**<br><sub>Personal memory built from what the images imply, not only what the user stated.</sub> | — | ![May 27, 2026](https://img.shields.io/badge/May_27%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.28806) |
