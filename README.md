@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--05-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--06-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-05**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-06**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -288,7 +288,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
-| **NativeMEM: Native Memory Compression for Long-Horizon Robotic Manipulation**<br><sub>Compresses visual history inside the VLA rather than bolting an external memory on.</sub> | HKU, BUAA, PKU | ![Jul 7, 2026](https://img.shields.io/badge/Jul_7%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.06678) |
+| **NativeMEM: Native Memory Compression for Long-Horizon Robotic Manipulation**<br><sub>Compresses visual history inside the VLA rather than bolting an external memory on.</sub> | HKU, BUAA, PKU | ![Jul 7, 2026](https://img.shields.io/badge/Jul_7%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.06678) |
 | ⭐ **HiMe: Hierarchical Embodied Memory for Long-Horizon Vision-Language-Action Control**<br><sub>Hierarchical memory that lets a VLA policy handle genuinely non-Markovian tasks.</sub> | Fudan | ![Jul 3, 2026](https://img.shields.io/badge/Jul_3%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.03449) |
 | **Memory Retrieval in Visuomotor Policies for Long-Horizon Robot Control**<br><sub>Studies what a home robot actually needs to recall: where things were put, what was asked.</sub> | UT Austin | ![Jun 23, 2026](https://img.shields.io/badge/Jun_23%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.25136) |
 | **Worth Remembering: Surprise-Gated Robot Episodic Memory**<br><sub>Surprise decides what gets written, so the robot can answer questions about notable past events.</sub> | MIT | ![Jun 2, 2026](https://img.shields.io/badge/Jun_2%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.03787) |
