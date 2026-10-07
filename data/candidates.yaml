@@ -4,6 +4,125 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2610.08102'
+  title: 'DSV-Mem: Evaluating Multimodal Memory in Professional Workflows for MLLM Agents'
+  date: '2026-10-06'
+  url: https://arxiv.org/abs/2610.08102
+  section: vlm
+  subcategory: mm-arch
+  score: 5.2
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Conversational MLLM agents are increasingly expected to assist in professional workflows, from AI research and engineering design to product management and business operations. Yet this capability remains underexplored: existing benchmarks largely focus on informal, everyday interactions and personal-life scenarios featuring photographic natural images, isolated static artifacts, and …'
+  found_on: '2026-10-07'
+- arxiv: '2610.07782'
+  title: 'Persistent Memory in Multi-Agent LLM Inference: What It Costs, What It Buys, and When You Can Tell'
+  date: '2026-10-06'
+  url: https://arxiv.org/abs/2610.07782
+  section: llm
+  subcategory: longterm
+  score: 4.2
+  arxiv_categories:
+  - cs.AI
+  - cs.CL
+  - cs.DC
+  abstract: 'Decomposing long-context inference across cooperating agents bounds the active KV cache per call rather than total evidence, which matters when KV-cache memory binds. Many such systems add a persistent tier storing and recalling reasoning traces, usually validated by an ablation reporting an accuracy gain. We measure both on one three-tier agent architecture. Decomposition delivers: peak KV …'
+  found_on: '2026-10-07'
+- arxiv: '2610.08553'
+  title: 'DeltaTTT: Layerwise Optimization for Nonlinear Recurrent Memory'
+  date: '2026-10-06'
+  url: https://arxiv.org/abs/2610.08553
+  section: llm
+  subcategory: recurrent
+  score: 3.9
+  arxiv_categories:
+  - cs.LG
+  - cs.AI
+  - cs.CL
+  abstract: Sequential test-time training adapts a memory network through successive updates, each computing an inner-loop gradient based on the network's previous state. Intuitively, this state dependence should allow each update to account for what the memory has already learned and better incorporate new information. However, we find that this expected advantage does not consistently materialize in …
+  found_on: '2026-10-07'
+- arxiv: '2610.08048'
+  title: 'DAEDALUS: Bootstrapping Agent Memory from Self-Generated Tasks'
+  date: '2026-10-06'
+  url: https://arxiv.org/abs/2610.08048
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  - cs.CL
+  - cs.LG
+  abstract: LLM agents often lack the operational knowledge to act reliably in new environments, as they must discover specific tool behaviors or environment conventions on their own. Without memory of past attempts, they repeat the same mistakes across tasks, leading to more task failures and longer trajectories. To address this, agentic systems typically rely on human-written guidelines or on procedural …
+  found_on: '2026-10-07'
+- arxiv: '2610.08586'
+  title: 'MINDSET: Energy-based Schema Evolution for Long Conversational Agent Memory'
+  date: '2026-10-06'
+  url: https://arxiv.org/abs/2610.08586
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  abstract: Long conversational agents have become essential in our daily lives. They must remember what was said long back in order to help us efficiently complete a task without needing the user to repeat instructions and context repeatedly. However, the main issue is that instructions and context change over time and so the agents must be able to adapt accordingly. A useful memory system should preserve …
+  found_on: '2026-10-07'
+- arxiv: '2610.07907'
+  title: Continuous Memory Machines
+  date: '2026-10-06'
+  url: https://arxiv.org/abs/2610.07907
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  abstract: Recurrent neural networks typically compress information into a single vector-valued recurrent state, forcing short-term computation and long-term retention to share the same representation. Past extensions alleviate this bottleneck by increasing the memory capacity or separating timescales, but lack the combination of rapid neuron-level processing and longer-term retention found in biology. To …
+  found_on: '2026-10-07'
+- arxiv: '2610.07707'
+  title: 'AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory'
+  date: '2026-10-06'
+  url: https://arxiv.org/abs/2610.07707
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Conversational AI assistants with long-term memory extract facts from user messages into a store consulted in later conversations. A stated plan can enter that store as fact: a user who might move to Seattle may be recorded as already living there. We call this speculation contamination. Final-state memory benchmarks miss this error because they do not probe intermediate state and include few …'
+  found_on: '2026-10-07'
+- arxiv: '2610.08718'
+  title: 'When Forgetting is not Catastrophic: On the Mechanics of Spurious Forgetting'
+  date: '2026-10-06'
+  url: https://arxiv.org/abs/2610.08718
+  section: llm
+  subcategory: recurrent
+  score: 1.3
+  arxiv_categories:
+  - cs.CL
+  - cs.LG
+  abstract: 'Knowledge that a language model appears to forget during finetuning often remains stored and can be recovered, a phenomenon called spurious forgetting. Finetuning on new facts can even produce forgetting that undoes itself: recall of the old facts collapses, recovers as training continues on new facts alone, and only then erodes for good. We seek to understand when such forgetting is not …'
+  found_on: '2026-10-07'
+- arxiv: '2610.08208'
+  title: 'STRUCTURALCOST: A controlled reading time dataset for modeling human sentence processing difficulty'
+  date: '2026-10-06'
+  url: https://arxiv.org/abs/2610.08208
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: We introduce STRUCTURALCOST, a self-paced reading dataset of 475 participants and 40,800 observations isolating the processing cost of long-distance subject-verb dependency resolution. We replicate a low-powered psycholinguistic finding at NLP scale, namely that human reading times at the main verb increase with dependency length, driven by syntactic embedding beyond linear distance. Different …
+  found_on: '2026-10-07'
+- arxiv: '2610.07984'
+  title: 'Decide Before You Look: Learning Which Retrieved Memories Deserve Pixels'
+  date: '2026-10-06'
+  url: https://arxiv.org/abs/2610.07984
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CV
+  - cs.AI
+  abstract: Multimodal assistants answer questions from long-term memories that contain images. After retrieval, each retrieved image reaches the answering model either as pixels, at about a thousand visual tokens per image, or as a stored text proxy that often misses the detail the question asks about. We find that the benefit of pixels usually comes from one or two retrieved memories, and that it can be …
+  found_on: '2026-10-07'
 - arxiv: '2610.06286'
   title: 'DeferKV: Rethinking Eviction Timing for One-Shot KV Cache Compression'
   date: '2026-10-05'
@@ -108,6 +227,65 @@ candidates:
   - cs.AI
   abstract: Memory self-evolution uses task feedback to iteratively improve executable memory programs that store and retrieve information from past interactions. Existing approaches typically adopt holistic evolution, deriving revision directions from mixed feedback and judging progress by overall performance. This can obscure optimization directions and hide capability-specific gains offset by regressions …
   found_on: '2026-10-06'
+- arxiv: '2610.07403'
+  title: 'Defense-in-Depth for LLMs: Evaluating Memory Gates Against Activation-Induced and Memory-Induced Sycophancy'
+  date: '2026-10-05'
+  url: https://arxiv.org/abs/2610.07403
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  abstract: Long-term memory allows Large Language Models (LLMs) to maintain personalized context across interactions, but retrieved user history can induce memory-induced sycophancy, causing models to favor stored user beliefs over objective evidence. Existing defenses primarily operate on retrieved context and are rarely evaluated jointly with internal behavioral bias. We introduce a $2 \times 2$ …
+  found_on: '2026-10-07'
+- arxiv: '2610.07118'
+  title: 'AMBER: Training Long-Horizon Web Agents through Append-Only Memory'
+  date: '2026-10-05'
+  url: https://arxiv.org/abs/2610.07118
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  - cs.LG
+  abstract: Modern language-model agents increasingly interact with external environments over long-horizon, multi-step trajectories, where the accumulated interaction history can quickly exceed practical context budgets. To ensure reliability, agents must maintain factual information over long horizons, remember execution errors and corrective feedback, and track progress across actions. Several approaches …
+  found_on: '2026-10-07'
+- arxiv: '2610.07311'
+  title: Understanding and Mitigating Inference-Time Overreliance Using Agentic Memory
+  date: '2026-10-05'
+  url: https://arxiv.org/abs/2610.07311
+  section: llm
+  subcategory: memory-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  abstract: Agentic memory allows LLM agents to reuse past experience, yet retrieved memories can also distort inference even when they are benign, correctly stored, and appropriately retrieved. We study this failure mode, which we call memory over-reliance. Across benchmarks and memory architectures, we find that memory is useful when past experience transfers to the current task, but can become misleading …
+  found_on: '2026-10-07'
+- arxiv: '2610.07309'
+  title: 'The Right Memory in the Wrong Context: Verifying Retrieval Admissibility in Long-Term Agent Memory'
+  date: '2026-10-05'
+  url: https://arxiv.org/abs/2610.07309
+  section: llm
+  subcategory: eval
+  score: 1.2
+  arxiv_categories:
+  - cs.AI
+  - cs.IR
+  - cs.MA
+  abstract: 'Long-term-memory agents can retrieve relevant information that is inadmissible for the current request because it belongs to another principal, violates policy, or reflects an incompatible lifecycle state. Recall and final-answer accuracy do not reveal this: a route can appear safe by missing required evidence, while a correct answer may follow inadmissible prompt exposure. We introduce a …'
+  found_on: '2026-10-07'
+- arxiv: '2610.07100'
+  title: 'When to Remember, When to Abstain: Category-Conditioned Retention for Reliable Agent Memory'
+  date: '2026-10-05'
+  url: https://arxiv.org/abs/2610.07100
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  - cs.MA
+  abstract: 'Persistent agent memory is only as reliable as its retention decision: an assertion weakly supported by its source can be stored and later reused as established fact. We study whether the retention decision should be governed by a confidence bar conditioned on the semantic category of the assertion rather than by a single global threshold, retaining well-evidenced categories liberally while …'
+  found_on: '2026-10-07'
 - arxiv: '2610.05526'
   title: Have I Scene This Before? Spatially Grounded Conversational Memory for Complex Queries in Egocentric Assistants
   date: '2026-10-04'
@@ -4452,174 +4630,3 @@ candidates:
   - cs.CL
   abstract: Changes in spontaneous speech provide an early signal of cognitive dysfunction in Alzheimer's disease (AD) that large language models (LLMs) can detect. However, detection alone cannot establish whether the underlying model representations contribute functionally to behavior. We introduce an activation-guided intervention framework using Qwen3-8B. The framework identifies feed-forward neurons …
   found_on: '2026-08-05'
-- arxiv: '2608.03420'
-  title: Towards Improving Sequential Decision-Making in LLM Agents via Experience Memory
-  date: '2026-08-04'
-  url: https://arxiv.org/abs/2608.03420
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.AI
-  abstract: 'Large language models have improved substantially on single-shot reasoning tasks, but their performance in sequential decision-making is less well understood. We study this on fully-observable two-player zero-sum games, which provide ground-truth evaluation: outcomes are determined by the rules, and optimality of individual moves can be computed or approximated, without relying on a judge model. …'
-  found_on: '2026-08-05'
-- arxiv: '2608.03214'
-  title: 'The Agent Operating System (AOS): A Reference Operating Architecture for Distributed Agentic Systems'
-  date: '2026-08-04'
-  url: https://arxiv.org/abs/2608.03214
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.AI
-  abstract: Large language models have transformed artificial intelligence from isolated prediction services into components of long-running, distributed systems that reason, invoke tools, retrieve external state, delegate tasks, and act on behalf of users and organizations. The surrounding ecosystem has responded with agent frameworks, workflow engines, model-serving platforms, memory systems, communication …
-  found_on: '2026-08-05'
-- arxiv: '2608.04095'
-  title: 'FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents'
-  date: '2026-08-04'
-  url: https://arxiv.org/abs/2608.04095
-  section: llm
-  subcategory: eval
-  score: 3.6
-  arxiv_categories:
-  - cs.AI
-  - cs.CL
-  abstract: Large language model (LLM) agents are increasingly used as personalized assistants in high-stakes domains such as financial advising, yet it remains unclear whether they can maintain and update an individualized user model over long horizons. Existing personalized-memory benchmarks primarily test factual retention or rely on weakly constrained model-generated trajectories, leaving event-driven …
-  found_on: '2026-08-06'
-- arxiv: '2608.04289'
-  title: 'SafeCommit: Certifying When Memory-Grounded Agents May Safely Act'
-  date: '2026-08-04'
-  url: https://arxiv.org/abs/2608.04289
-  section: llm
-  subcategory: longterm
-  score: 1.4
-  arxiv_categories:
-  - cs.AI
-  - cs.CL
-  abstract: 'Long-horizon agents increasingly use persistent memory and tools to take actions with external side effects. A central failure mode is premature commitment: an agent acts before resolving whether its memory grounding is stale, conflicting, incomplete, or corrupted. We formalize this problem as safe commitment under memory uncertainty and introduce SafeCommit, a risk controlled layer between agent …'
-  found_on: '2026-08-06'
-- arxiv: '2608.01630'
-  title: 'RING: Retrieval-Internalized Generation for Continual Large-Scale Knowledge Injection'
-  date: '2026-08-03'
-  url: https://arxiv.org/abs/2608.01630
-  section: llm
-  subcategory: parametric
-  score: 5.2
-  arxiv_categories:
-  - cs.CL
-  - cs.AI
-  abstract: Retrieval-augmented generation (RAG) improves factuality but adds latency and engineering overhead at serving time. We propose RING (Retrieval-Internalized Generation), a holistic paradigm spanning both architecture and training that injects large-scale external knowledge into a \textit{Mixture-of-Memory Experts} and learns parametric search over this internal memory via reinforcement learning, …
-  found_on: '2026-08-04'
-- arxiv: '2608.01739'
-  title: 'CoEvo-Mem: Co-Evolving Retrieval Policy and Memory Bank for LLM Agents'
-  date: '2026-08-03'
-  url: https://arxiv.org/abs/2608.01739
-  section: llm
-  subcategory: longterm
-  score: 4.2
-  arxiv_categories:
-  - cs.AI
-  abstract: As memories accumulate across tasks and sessions, the performance of long-term LLM agents depends jointly on query-specific retrieval and continual memory refinement. However, existing methods typically optimize either memory access, through iterative query refinement or adaptive retrieval policies, or memory evolution such as structural update. This separation overlooks a fundamental feedback …
-  found_on: '2026-08-04'
-- arxiv: '2608.01679'
-  title: 'When Memory Becomes Authority: Benchmarking Authority Collapse at the Memory Consolidation Boundary'
-  date: '2026-08-03'
-  url: https://arxiv.org/abs/2608.01679
-  section: vlm
-  subcategory: video
-  score: 4.2
-  arxiv_categories:
-  - cs.AI
-  abstract: 'Persistent memory allows (self-evolving) LLM agents to adapt across tasks by consolidating heterogeneous interaction histories into reusable facts, preferences, observations, and rules. Yet consolidation also imposes an implicit authorization boundary: it determines whether stored information may later be consumed as a user fact, an attested observation, or a standing instruction. We identify …'
-  found_on: '2026-08-04'
-- arxiv: '2608.01637'
-  title: 'Salami Attack: Stealthy Collusive Memory Poisoning against OpenClaw'
-  date: '2026-08-03'
-  url: https://arxiv.org/abs/2608.01637
-  section: llm
-  subcategory: longterm
-  score: 2.8
-  arxiv_categories:
-  - cs.AI
-  abstract: 'Long-term memory enables LLM agents to retain useful information across sessions, but also creates an attack surface through which adversaries may poison an agent''s persistent memory to steer its behavior. Existing memory poisoning attacks mainly rely on individually malicious records, overlooking a compositional threat: multiple benign-looking memories may jointly induce unsafe behavior. In this …'
-  found_on: '2026-08-04'
-- arxiv: '2608.02553'
-  title: A Taxonomy of Cognitive Capability Gaps in Generative and Agentic AI
-  date: '2026-08-03'
-  url: https://arxiv.org/abs/2608.02553
-  section: llm
-  subcategory: survey
-  score: 1.5
-  arxiv_categories:
-  - cs.AI
-  abstract: Cognitive AI seeks to move beyond language generation and autonomous task execution toward systems capable of sustained reasoning, adaptive behavior, persistent memory, and self-regulation. While generative and agentic AI have demonstrated impressive capabilities across a wide range of tasks, many fundamental cognitive functions remain fragmented or weakly developed, limiting reliable operation …
-  found_on: '2026-08-04'
-- arxiv: '2608.02358'
-  title: 'ScrambleToolBench: Agents Search Exhaustively Even When Their Own Map Points to the Next Step'
-  date: '2026-08-03'
-  url: https://arxiv.org/abs/2608.02358
-  section: llm
-  subcategory: longterm
-  score: 1.4
-  arxiv_categories:
-  - cs.CL
-  abstract: To operate robustly in open-world environments, autonomous agents should be able to infer the behavior of unfamiliar systems through interaction alone, even in the absence of documentation. However, existing tool-use benchmarks expose semantic tool schemas in static environments, allowing agents to rely on prior knowledge rather than autonomous discovery. To address this limitation, we introduce …
-  found_on: '2026-08-04'
-- arxiv: '2608.01742'
-  title: 'MemSIF: From Structured Interactions to Dual-Track Fact Memory for LLM Agents'
-  date: '2026-08-03'
-  url: https://arxiv.org/abs/2608.01742
-  section: llm
-  subcategory: longterm
-  score: 1.4
-  arxiv_categories:
-  - cs.AI
-  - cs.CL
-  abstract: 'Long-term memory is critical for LLM agents operating over long-horizon interactions. However, several persistent limitations of existing memory systems can be traced to two recurring misalignment patterns in long-term interaction settings: Temporal-Structural Misalignment (TSM) and Delayed Utility Manifestation (DUM). TSM arises when temporal proximity does not reliably align with topical or …'
-  found_on: '2026-08-04'
-- arxiv: '2608.02560'
-  title: 'Structured Memory for Edge Language Models: Persistent Context and Corpus Retrieval via O(1) SSM State Injection'
-  date: '2026-08-03'
-  url: https://arxiv.org/abs/2608.02560
-  section: llm
-  subcategory: longterm
-  score: 1.4
-  arxiv_categories:
-  - cs.LG
-  - cs.AI
-  - cs.IR
-  abstract: Retrieval-augmented generation (RAG) imposes a prefill cost proportional to retrieved context length, and -- with Transformer backbones -- a KV-cache that grows with each generated token. State-Space Models (SSMs) avoid the second cost by construction; we eliminate the first, collapsing prefill from $O(L_{context})$ to $O(1)$ per query. We introduce PRECOG (Pre-Computed Context Injection), a …
-  found_on: '2026-08-04'
-- arxiv: '2608.02347'
-  title: 'Mamba with Hierarchical Memory: Solving Representation Bottleneck in Long Sequence Modeling'
-  date: '2026-08-03'
-  url: https://arxiv.org/abs/2608.02347
-  section: llm
-  subcategory: longterm
-  score: 1.4
-  arxiv_categories:
-  - cs.AI
-  abstract: Recurrent linear attention models (RLAs) such as Mamba offer efficient linear-time sequence modeling as an alternative to Transformers, yet their fixed-capacity recurrent states limit long-sequence modeling. Drawing inspiration from hierarchical human memory, we propose Hierarchical Memory Mamba (HMM) to address this limitation. Building upon a pre-trained Mamba backbone, HMM integrates a …
-  found_on: '2026-08-04'
-- arxiv: '2608.02113'
-  title: 'MemArbiter: Decision-Time Memory Arbitration for Long-Horizon LLM Agents'
-  date: '2026-08-03'
-  url: https://arxiv.org/abs/2608.02113
-  section: llm
-  subcategory: longterm
-  score: 1.4
-  arxiv_categories:
-  - cs.AI
-  abstract: Large language model (LLM) agents must retain and use cross-step information to act coherently in long-horizon tasks. Existing methods improve memory accessibility, yet action-relevant information may still fail to guide the current decision because it is poorly formed, organized, prioritized, or presented. We call this post-access failure the Memory-Action Gap. We propose MemArbiter, a …
-  found_on: '2026-08-04'
-- arxiv: '2608.01995'
-  title: 'Long-Horizon Autonomous Architecture Research with a Language-Model Agent: A Behavioural Case Study'
-  date: '2026-08-03'
-  url: https://arxiv.org/abs/2608.01995
-  section: llm
-  subcategory: longterm
-  score: 1.4
-  arxiv_categories:
-  - cs.AI
-  abstract: We study what happens when a single general-purpose large language model acts as the sole researcher on a long-horizon neural architecture design problem. The agent receives a scientific question, an initial hypothesis and motivation, a compute budget, and research affordances (source and experiment management, experiment tracking, literature access, and persistent memory), then autonomously …
-  found_on: '2026-08-04'
