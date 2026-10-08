@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--07-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--08-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-07**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-08**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -190,7 +190,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
-| **Towards Efficient Large Language Model Serving: A Survey on System-Aware KV Cache Optimization**<br><sub>The systems-side companion: how KV cache is actually managed in production serving.</sub> | University of Melbourne, HUST | ![Jul 9, 2026](https://img.shields.io/badge/Jul_9%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.08057) |
+| **Towards Efficient Large Language Model Serving: A Survey on System-Aware KV Cache Optimization**<br><sub>The systems-side companion: how KV cache is actually managed in production serving.</sub> | University of Melbourne, HUST | ![Jul 9, 2026](https://img.shields.io/badge/Jul_9%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.08057) |
 | **From Tensor Buffer to Distributed Memory Hierarchy: A Survey of KV Cache Management for LLM Serving**<br><sub>Traces the KV cache from a tensor buffer to a distributed memory hierarchy.</sub> | Texas Tech University | ![Jun 30, 2026](https://img.shields.io/badge/Jun_30%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.02574) |
 | ⭐ **Always-On Agents: A Survey of Persistent Memory, State, and Governance in LLM Agents**<br><sub>Surveys persistent state broadly: memories, ledgers and the governance they need.</sub> | — | ![Jun 29, 2026](https://img.shields.io/badge/Jun_29%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.30306) |
 | **From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs**<br><sub>Organizes AI memory along object, form and time axes borrowed from cognitive science.</sub> | Renmin University | ![Apr 22, 2025](https://img.shields.io/badge/Apr_22%2C_2025-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2504.15965) |
