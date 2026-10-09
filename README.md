@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--08-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--09-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-08**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-09**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -166,7 +166,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
-| **Shared Selective Persistent Memory for Agentic LLM Systems**<br><sub>Persistent shared memory so a coding agent does not restart from zero each session.</sub> | Apple | ![Jul 10, 2026](https://img.shields.io/badge/Jul_10%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.09493) |
+| **Shared Selective Persistent Memory for Agentic LLM Systems**<br><sub>Persistent shared memory so a coding agent does not restart from zero each session.</sub> | Apple | ![Jul 10, 2026](https://img.shields.io/badge/Jul_10%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.09493) |
 | **Memory Contagion: Cross-Temporal Propagation of Evaluator Bias via Agent Memory**<br><sub>A biased judgement written once propagates through everything the agent later recalls.</sub> | — | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23195) |
 
 ### Memory Benchmarks & Analysis (12)
