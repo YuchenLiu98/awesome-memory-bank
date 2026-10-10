@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--09-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--10-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-09**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-10**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -177,7 +177,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | ⭐ **RECON: Benchmarking Agent Memory for Compositional Reasoning over Long Contexts**<br><sub>Tests memory that must be composed across sessions, not just retrieved.</sub> | — | ![Jul 18, 2026](https://img.shields.io/badge/Jul_18%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.16716) |
 | ⭐ **MemPoison: Uncovering Persistent Memory Threats and Structural Blind Spots in LLM Agents**<br><sub>Poisoned memories persist across sessions, a failure mode stateless red-teaming cannot find.</sub> | NJU | ![Jul 16, 2026](https://img.shields.io/badge/Jul_16%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.14651) |
 | **Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents**<br><sub>Explicit working memory over hypotheses is what makes multi-hop reasoning scale.</sub> | University of Michigan | ![Jul 14, 2026](https://img.shields.io/badge/Jul_14%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.12267) |
-| **Context by Distinct Information: An Auditable Dirichlet-Process Working Memory for Long, Redundant Context Streams**<br><sub>A nonparametric working memory that keeps distinct information and drops redundancy.</sub> | — | ![Jul 11, 2026](https://img.shields.io/badge/Jul_11%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.10441) |
+| **Context by Distinct Information: An Auditable Dirichlet-Process Working Memory for Long, Redundant Context Streams**<br><sub>A nonparametric working memory that keeps distinct information and drops redundancy.</sub> | — | ![Jul 11, 2026](https://img.shields.io/badge/Jul_11%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.10441) |
 | **Your Agent's Memories Are Not Its Own: Forged Reasoning Attacks on LLM Agent Memory and Defenses**<br><sub>Forged reasoning traces written into memory hijack the agent's later decisions.</sub> | — | ![Jul 6, 2026](https://img.shields.io/badge/Jul_6%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.05029) |
 | **MemSyco-Bench: Benchmarking Sycophancy in Agent Memory**<br><sub>Retrieved memories make models agree with the user even when the memory is wrong.</sub> | Xiamen University, Jilin University | ![Jul 1, 2026](https://img.shields.io/badge/Jul_1%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.01071) |
 | ⭐ **MemDelta: Controlled Baselines and Hidden Confounds in Agent Memory Evaluation**<br><sub>Reported memory gains often come from the backbone, not the memory; this separates them.</sub> | — | ![Jun 29, 2026](https://img.shields.io/badge/Jun_29%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.29914) |
@@ -352,7 +352,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | **PHASER: Phase-Aware and Semantic Experience Replay for Vision-Language-Action Models**<br><sub>Experience replay tuned to manipulation phases, so new skills do not erase old ones.</sub> | HKUST, Allen Institute for AI | ![Jun 2, 2026](https://img.shields.io/badge/Jun_2%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.03598) |
 | **Learning From Failures: Efficient Reinforcement Learning Control with Episodic Memory**<br><sub>Episodic memory of early terminations turns wasted rollouts into training signal.</sub> | Jiaotong University | ![Mar 7, 2026](https://img.shields.io/badge/Mar_7%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2603.07110) |
 | **STRAP: Robot Sub-Trajectory Retrieval for Augmented Policy Learning**<br><sub>Sub-trajectory level retrieval from large robot datasets, a practical experience memory for policies.</sub> | UT Austin, Stanford | ![Dec 19, 2024](https://img.shields.io/badge/Dec_19%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2412.15182) |
-| **Retrieval-Augmented Decision Transformer: External Memory for In-context RL**<br><sub>An external memory of past sub-trajectories, letting a decision transformer do in-context RL.</sub> | Johannes Kepler University Linz | ![Oct 9, 2024](https://img.shields.io/badge/Oct_9%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2410.07071) |
+| **Retrieval-Augmented Decision Transformer: External Memory for In-context RL**<br><sub>An external memory of past sub-trajectories, letting a decision transformer do in-context RL.</sub> | Johannes Kepler University Linz | ![Oct 9, 2024](https://img.shields.io/badge/Oct_9%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2410.07071) |
 | **Retrieval-Augmented Embodied Agents**<br><sub>Gives embodied agents a policy memory to query rather than relearning known behaviours.</sub> | Purdue, University of Michigan | ![Apr 17, 2024](https://img.shields.io/badge/Apr_17%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2404.11699) |
 
 ### Benchmarks & Analysis (1)
