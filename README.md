@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--10-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--11-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-10**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-11**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -133,7 +133,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | **VarRate: Training-Free Variable-Rate KV Cache Compression for Long-Context LLMs**<br><sub>Varies the compression rate per token instead of assuming one budget fits the context.</sub> | Iowa State University | ![Jul 16, 2026](https://img.shields.io/badge/Jul_16%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.15498) |
 | **PReM: Learning What to Preserve and When to Refresh for Context Compression**<br><sub>Compression that revisits its own decisions as generation proceeds.</sub> | Tsinghua, Alibaba | ![Jul 15, 2026](https://img.shields.io/badge/Jul_15%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.14327) |
 | **Adaptive Filtering of the KV Cache: Diagnosing and Correcting Structural-Role Bias in LLM Inference**<br><sub>Shows attention-mass eviction is systematically biased by a token's structural role.</sub> | ServiceNow | ![Jul 14, 2026](https://img.shields.io/badge/Jul_14%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.13205) |
-| **MemDecay: Region-Aware KV Cache Eviction for Efficient LLM Agent Inference**<br><sub>Treats instructions, tool output and reasoning as regions deserving different retention.</sub> | — | ![Jul 12, 2026](https://img.shields.io/badge/Jul_12%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.10582) |
+| **MemDecay: Region-Aware KV Cache Eviction for Efficient LLM Agent Inference**<br><sub>Treats instructions, tool output and reasoning as regions deserving different retention.</sub> | — | ![Jul 12, 2026](https://img.shields.io/badge/Jul_12%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.10582) |
 | **SeKV: Resolution-Adaptive KV Cache with Hierarchical Semantic Memory for Long-Context LLM Inference**<br><sub>A semantic hierarchy over the cache, retrieving at whatever resolution the query needs.</sub> | UBC, Microsoft | ![Jun 30, 2026](https://img.shields.io/badge/Jun_30%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.31145) |
 | **End-to-End Context Compression at Scale**<br><sub>Context compression trained end-to-end rather than bolted on at inference.</sub> | — | ![Jun 8, 2026](https://img.shields.io/badge/Jun_8%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.09659) |
 | **Cartridges at Scale: Training Modular KV Caches over Large Document Collections**<br><sub>Distils a document collection into a reusable cache, so prefill is paid once.</sub> | — | ![Jun 3, 2026](https://img.shields.io/badge/Jun_3%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.04557) |
@@ -259,7 +259,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | --- | --- | --- | --- |
 | ⭐ **Naive Visual Memory is Not Enough: A Failure-Mode Study of GUI Agents**<br><sub>Catalogues how experiential memory actually fails GUI agents in practice.</sub> | — | ![Jun 12, 2026](https://img.shields.io/badge/Jun_12%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.14106) |
 | ⭐ **MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents**<br><sub>Learned memory control keeps GUI agents oriented across many interface transitions.</sub> | — | ![May 18, 2026](https://img.shields.io/badge/May_18%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.18652) |
-| **Agent S: An Open Agentic Framework that Uses Computers Like a Human**<br><sub>Combines narrative and episodic memory with web knowledge for long-horizon desktop tasks.</sub> | Simular Research | ![Oct 10, 2024](https://img.shields.io/badge/Oct_10%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2410.08164) |
+| **Agent S: An Open Agentic Framework that Uses Computers Like a Human**<br><sub>Combines narrative and episodic memory with web knowledge for long-horizon desktop tasks.</sub> | Simular Research | ![Oct 10, 2024](https://img.shields.io/badge/Oct_10%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2410.08164) |
 | ⭐ **Agent Workflow Memory**<br><sub>Induces reusable workflows from past browsing traces; procedural memory for web agents.</sub> | CMU, Meta | ![Sep 11, 2024](https://img.shields.io/badge/Sep_11%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2409.07429) |
 
 ### Benchmarks & Analysis (11)
