@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--11-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--12-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-11**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-12**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -325,7 +325,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | --- | --- | --- | --- |
 | **VLN-AVP: Zero-Shot Vision-Language Navigation with Hybrid Long-Short-Term Memory for Autonomous Valet Parking**<br><sub>Long- and short-term memory replaces the pre-built map in autonomous valet parking.</sub> | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17767) |
 | ⭐ **VTM-Nav: Harnessing Cross-Episode Experience for Object-Goal Navigation with Hierarchical Visual-Topological Memory**<br><sub>Keeps what was learned about a scene instead of discarding it after each request.</sub> | — | ![Jul 16, 2026](https://img.shields.io/badge/Jul_16%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.14514) |
-| **Parse, Search, and Confirmation: Training-Free Aerial Vision-and-Dialog Navigation with Chain-of-Thought Reasoning and Structured Spatial Memory**<br><sub>Structured spatial memory makes training-free UAV dialog navigation reliable enough to use.</sub> | — | ![Jul 13, 2026](https://img.shields.io/badge/Jul_13%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.11529) |
+| **Parse, Search, and Confirmation: Training-Free Aerial Vision-and-Dialog Navigation with Chain-of-Thought Reasoning and Structured Spatial Memory**<br><sub>Structured spatial memory makes training-free UAV dialog navigation reliable enough to use.</sub> | — | ![Jul 13, 2026](https://img.shields.io/badge/Jul_13%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.11529) |
 | **CLOSER-VLN: Closed-Loop Self-Verified Retrieval-Augmented Reasoning for Aerial Vision-Language Navigation**<br><sub>Self-verification over retrieved experience for zero-shot aerial navigation.</sub> | — | ![Jun 24, 2026](https://img.shields.io/badge/Jun_24%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.28397) |
 | **TARIC: Memory-Augmented Traversability-Aware Outdoor VLN under Interrupted Semantic Cues**<br><sub>Memory carries the agent through the stretches where goal cues disappear entirely.</sub> | — | ![May 29, 2026](https://img.shields.io/badge/May_29%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2605.31121) |
 | **ReMemNav: A Rethinking and Memory-Augmented Framework for Zero-Shot Object Navigation**<br><sub>Revisits what memory zero-shot object navigation actually needs.</sub> | — | ![Mar 25, 2026](https://img.shields.io/badge/Mar_25%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2603.26788) |
