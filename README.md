@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--15-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--16-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-15**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-16**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -266,7 +266,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
-| **Do Agents Dream of False Memories? Black-box Visual Attacks on Long-term Memory in Multimodal AI Agents**<br><sub>Images can write false memories into a multimodal agent, entirely black-box.</sub> | University of California | ![Jul 17, 2026](https://img.shields.io/badge/Jul_17%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.15657) |
+| **Do Agents Dream of False Memories? Black-box Visual Attacks on Long-term Memory in Multimodal AI Agents**<br><sub>Images can write false memories into a multimodal agent, entirely black-box.</sub> | University of California | ![Jul 17, 2026](https://img.shields.io/badge/Jul_17%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.15657) |
 | ⭐ **S-EMBER: A Large-Scale Benchmark for Streaming Egocentric Memory Retrieval**<br><sub>Streaming rather than offline episodic memory evaluation, which is the realistic setting.</sub> | Meta | ![Jul 2, 2026](https://img.shields.io/badge/Jul_2%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.02689) |
 | **MemLeak: Diagnosing Information Leaks in Multimodal Agent Memory**<br><sub>Multimodal memory leaks information across users and sessions in ways text-only audits miss.</sub> | Georgia Tech | ![Jun 29, 2026](https://img.shields.io/badge/Jun_29%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.29788) |
 | **DMV-Bench: Diagnosing Long-Horizon Multimodal Agents' Visual Memory with Incidental Cue Injection**<br><sub>Injects incidental visual cues to test when an agent must remember what it saw, not what it wrote.</sub> | — | ![Jun 25, 2026](https://img.shields.io/badge/Jun_25%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.27499) |
