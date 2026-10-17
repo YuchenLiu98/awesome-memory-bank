@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--16-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--17-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-16**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-17**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -174,7 +174,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
 | **Ground Truth First: A Longitudinal Evaluation Instrument for Agent Memory, and the Tenure Crossover in Memory-Architecture Rankings**<br><sub>Builds the answer key before the conversation, avoiding the label errors that plague memory benchmarks.</sub> | — | ![Jul 24, 2026](https://img.shields.io/badge/Jul_24%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.21962) |
-| ⭐ **RECON: Benchmarking Agent Memory for Compositional Reasoning over Long Contexts**<br><sub>Tests memory that must be composed across sessions, not just retrieved.</sub> | — | ![Jul 18, 2026](https://img.shields.io/badge/Jul_18%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.16716) |
+| ⭐ **RECON: Benchmarking Agent Memory for Compositional Reasoning over Long Contexts**<br><sub>Tests memory that must be composed across sessions, not just retrieved.</sub> | — | ![Jul 18, 2026](https://img.shields.io/badge/Jul_18%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.16716) |
 | ⭐ **MemPoison: Uncovering Persistent Memory Threats and Structural Blind Spots in LLM Agents**<br><sub>Poisoned memories persist across sessions, a failure mode stateless red-teaming cannot find.</sub> | NJU | ![Jul 16, 2026](https://img.shields.io/badge/Jul_16%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.14651) |
 | **Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents**<br><sub>Explicit working memory over hypotheses is what makes multi-hop reasoning scale.</sub> | University of Michigan | ![Jul 14, 2026](https://img.shields.io/badge/Jul_14%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.12267) |
 | **Context by Distinct Information: An Auditable Dirichlet-Process Working Memory for Long, Redundant Context Streams**<br><sub>A nonparametric working memory that keeps distinct information and drops redundancy.</sub> | — | ![Jul 11, 2026](https://img.shields.io/badge/Jul_11%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.10441) |
