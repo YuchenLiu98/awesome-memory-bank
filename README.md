@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--18-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--19-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-18**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-19**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -55,11 +55,11 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | **AttriMem: Attribution-Guided Process Feedback for Agent Memory Learning** | ZJU | ![Jul 23, 2026](https://img.shields.io/badge/Jul_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.21106) |
 | **Memory-Augmented Multimodal Large Language Models for Small Object Understanding in Streaming Aerial Videos** | — | ![Jul 22, 2026](https://img.shields.io/badge/Jul_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19857) |
 | **Supra Cognitive Modes: A Routed Architecture for Agent Memory** | — | ![Jul 21, 2026](https://img.shields.io/badge/Jul_21%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19096) |
-| **VLN-AVP: Zero-Shot Vision-Language Navigation with Hybrid Long-Short-Term Memory for Autonomous Valet Parking** | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17767) |
-| **SALT: Salience-Aware Lexical Trie for Long-Context Compression** | Florida State University | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17486) |
-| **Retain or Consolidate? Budget-Dependent Operator Selection for Language Agent Memory** | Huawei, CityU, HKU | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17545) |
-| **Mechanistic Attention Guidance for Agent Memory Refinement** | Tsinghua | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17621) |
-| **Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long-term Memory** | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17879) |
+| **VLN-AVP: Zero-Shot Vision-Language Navigation with Hybrid Long-Short-Term Memory for Autonomous Valet Parking** | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17767) |
+| **SALT: Salience-Aware Lexical Trie for Long-Context Compression** | Florida State University | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17486) |
+| **Retain or Consolidate? Budget-Dependent Operator Selection for Language Agent Memory** | Huawei, CityU, HKU | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17545) |
+| **Mechanistic Attention Guidance for Agent Memory Refinement** | Tsinghua | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17621) |
+| **Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long-term Memory** | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17879) |
 
 ---
 
@@ -90,7 +90,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
-| **Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long-term Memory**<br><sub>A recall-reflect-assimilate cycle that adapts retrieval to what the query actually needs.</sub> | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17879) |
+| **Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long-term Memory**<br><sub>A recall-reflect-assimilate cycle that adapts retrieval to what the query actually needs.</sub> | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17879) |
 | ⭐ **CMI-Mem: Toward Generalizable Long-Term Memory Management via CMI-Augmented Reinforcement Learning**<br><sub>Scores a memory by conditional mutual information instead of a downstream reader's guess.</sub> | Alibaba, HKUST, PolyU | ![Jul 15, 2026](https://img.shields.io/badge/Jul_15%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.20553) |
 | **A-TMA: Decoupling State-Aware Memory Failures in Long-Term Agent Memory**<br><sub>Names and isolates ghost memory: the agent recalls a fact that used to be true.</sub> | — | ![Jul 2, 2026](https://img.shields.io/badge/Jul_2%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.01935) |
 | **TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory**<br><sub>Consolidation that will not silently corrupt what it rewrites.</sub> | Samsung | ![Jun 23, 2026](https://img.shields.io/badge/Jun_23%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.25161) |
@@ -129,7 +129,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
-| **SALT: Salience-Aware Lexical Trie for Long-Context Compression**<br><sub>A lexical trie over the context, giving compression an explicit index to reason about.</sub> | Florida State University | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17486) |
+| **SALT: Salience-Aware Lexical Trie for Long-Context Compression**<br><sub>A lexical trie over the context, giving compression an explicit index to reason about.</sub> | Florida State University | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17486) |
 | **VarRate: Training-Free Variable-Rate KV Cache Compression for Long-Context LLMs**<br><sub>Varies the compression rate per token instead of assuming one budget fits the context.</sub> | Iowa State University | ![Jul 16, 2026](https://img.shields.io/badge/Jul_16%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.15498) |
 | **PReM: Learning What to Preserve and When to Refresh for Context Compression**<br><sub>Compression that revisits its own decisions as generation proceeds.</sub> | Tsinghua, Alibaba | ![Jul 15, 2026](https://img.shields.io/badge/Jul_15%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.14327) |
 | **Adaptive Filtering of the KV Cache: Diagnosing and Correcting Structural-Role Bias in LLM Inference**<br><sub>Shows attention-mass eviction is systematically biased by a token's structural role.</sub> | ServiceNow | ![Jul 14, 2026](https://img.shields.io/badge/Jul_14%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.13205) |
@@ -155,8 +155,8 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
 | **AttriMem: Attribution-Guided Process Feedback for Agent Memory Learning**<br><sub>Attributes outcomes back to individual memories so the store can be corrected.</sub> | ZJU | ![Jul 23, 2026](https://img.shields.io/badge/Jul_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.21106) |
-| **Retain or Consolidate? Budget-Dependent Operator Selection for Language Agent Memory**<br><sub>The retain-versus-consolidate choice depends on budget; picking per-case beats either policy.</sub> | Huawei, CityU, HKU | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17545) |
-| **Mechanistic Attention Guidance for Agent Memory Refinement**<br><sub>Uses attention evidence to decide which stored memories deserve refinement.</sub> | Tsinghua | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17621) |
+| **Retain or Consolidate? Budget-Dependent Operator Selection for Language Agent Memory**<br><sub>The retain-versus-consolidate choice depends on budget; picking per-case beats either policy.</sub> | Huawei, CityU, HKU | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17545) |
+| **Mechanistic Attention Guidance for Agent Memory Refinement**<br><sub>Uses attention evidence to decide which stored memories deserve refinement.</sub> | Tsinghua | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17621) |
 | **Procedural Memory Distillation: Online Reflection for Self-Improving Language Models**<br><sub>Distils the reasoning inside a rollout into procedural memory, not just its reward.</sub> | Salesforce | ![Jul 1, 2026](https://img.shields.io/badge/Jul_1%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.01480) |
 | **Neural Procedural Memory: Empowering LLM Agents with Implicit Activation Steering**<br><sub>Stores procedures as activation steering directions rather than as retrievable text.</sub> | CASIA, CAS, BAAI | ![Jun 29, 2026](https://img.shields.io/badge/Jun_29%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.29824) |
 | ⭐ **Managing Procedural Memory in LLM Agents: Control, Adaptation, and Evaluation**<br><sub>AFTER benchmark: asks whether procedural memory really yields reusable skills.</sub> | — | ![Jun 22, 2026](https://img.shields.io/badge/Jun_22%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.23127) |
@@ -323,7 +323,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
-| **VLN-AVP: Zero-Shot Vision-Language Navigation with Hybrid Long-Short-Term Memory for Autonomous Valet Parking**<br><sub>Long- and short-term memory replaces the pre-built map in autonomous valet parking.</sub> | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17767) |
+| **VLN-AVP: Zero-Shot Vision-Language Navigation with Hybrid Long-Short-Term Memory for Autonomous Valet Parking**<br><sub>Long- and short-term memory replaces the pre-built map in autonomous valet parking.</sub> | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17767) |
 | ⭐ **VTM-Nav: Harnessing Cross-Episode Experience for Object-Goal Navigation with Hierarchical Visual-Topological Memory**<br><sub>Keeps what was learned about a scene instead of discarding it after each request.</sub> | — | ![Jul 16, 2026](https://img.shields.io/badge/Jul_16%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.14514) |
 | **Parse, Search, and Confirmation: Training-Free Aerial Vision-and-Dialog Navigation with Chain-of-Thought Reasoning and Structured Spatial Memory**<br><sub>Structured spatial memory makes training-free UAV dialog navigation reliable enough to use.</sub> | — | ![Jul 13, 2026](https://img.shields.io/badge/Jul_13%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.11529) |
 | **CLOSER-VLN: Closed-Loop Self-Verified Retrieval-Augmented Reasoning for Aerial Vision-Language Navigation**<br><sub>Self-verification over retrieved experience for zero-shot aerial navigation.</sub> | — | ![Jun 24, 2026](https://img.shields.io/badge/Jun_24%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.28397) |
