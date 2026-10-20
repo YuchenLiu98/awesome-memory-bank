@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--19-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--20-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-19**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-20**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -54,7 +54,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | **MemTools: A Unified Research Framework for Interoperable Agent Memory** | CASIA, CAS, BAAI | ![Jul 23, 2026](https://img.shields.io/badge/Jul_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.21404) |
 | **AttriMem: Attribution-Guided Process Feedback for Agent Memory Learning** | ZJU | ![Jul 23, 2026](https://img.shields.io/badge/Jul_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.21106) |
 | **Memory-Augmented Multimodal Large Language Models for Small Object Understanding in Streaming Aerial Videos** | — | ![Jul 22, 2026](https://img.shields.io/badge/Jul_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19857) |
-| **Supra Cognitive Modes: A Routed Architecture for Agent Memory** | — | ![Jul 21, 2026](https://img.shields.io/badge/Jul_21%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19096) |
+| **Supra Cognitive Modes: A Routed Architecture for Agent Memory** | — | ![Jul 21, 2026](https://img.shields.io/badge/Jul_21%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19096) |
 | **VLN-AVP: Zero-Shot Vision-Language Navigation with Hybrid Long-Short-Term Memory for Autonomous Valet Parking** | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17767) |
 | **SALT: Salience-Aware Lexical Trie for Long-Context Compression** | Florida State University | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17486) |
 | **Retain or Consolidate? Budget-Dependent Operator Selection for Language Agent Memory** | Huawei, CityU, HKU | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17545) |
@@ -72,7 +72,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
 | **MemTools: A Unified Research Framework for Interoperable Agent Memory**<br><sub>Decouples the memory lifecycle stages so competing designs can finally be compared.</sub> | CASIA, CAS, BAAI | ![Jul 23, 2026](https://img.shields.io/badge/Jul_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.21404) |
-| **Supra Cognitive Modes: A Routed Architecture for Agent Memory**<br><sub>Routes lookup, relational reasoning and synthesis queries to different memory mechanisms.</sub> | — | ![Jul 21, 2026](https://img.shields.io/badge/Jul_21%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19096) |
+| **Supra Cognitive Modes: A Routed Architecture for Agent Memory**<br><sub>Routes lookup, relational reasoning and synthesis queries to different memory mechanisms.</sub> | — | ![Jul 21, 2026](https://img.shields.io/badge/Jul_21%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19096) |
 | ⭐ **Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents**<br><sub>Learns when to read and write memory rather than accessing it on a fixed schedule.</sub> | UCLA, University of Washington | ![Jul 15, 2026](https://img.shields.io/badge/Jul_15%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.13591) |
 | **Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents**<br><sub>Treats agent memory as database infrastructure, with the durability guarantees that implies.</sub> | — | ![Jul 14, 2026](https://img.shields.io/badge/Jul_14%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.13157) |
 | **Memory-Orchestrated Semantic System (MOSS): An Auditable Agentic Memory Architecture**<br><sub>Replaces opaque embedding search with an auditable semantic store you can inspect after the fact.</sub> | — | ![Jul 5, 2026](https://img.shields.io/badge/Jul_5%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.04391) |
