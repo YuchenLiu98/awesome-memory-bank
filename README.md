@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--20-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--10--21-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-20**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-10-21**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -53,7 +53,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | **Ground Truth First: A Longitudinal Evaluation Instrument for Agent Memory, and the Tenure Crossover in Memory-Architecture Rankings** | — | ![Jul 24, 2026](https://img.shields.io/badge/Jul_24%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.21962) |
 | **MemTools: A Unified Research Framework for Interoperable Agent Memory** | CASIA, CAS, BAAI | ![Jul 23, 2026](https://img.shields.io/badge/Jul_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.21404) |
 | **AttriMem: Attribution-Guided Process Feedback for Agent Memory Learning** | ZJU | ![Jul 23, 2026](https://img.shields.io/badge/Jul_23%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.21106) |
-| **Memory-Augmented Multimodal Large Language Models for Small Object Understanding in Streaming Aerial Videos** | — | ![Jul 22, 2026](https://img.shields.io/badge/Jul_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19857) |
+| **Memory-Augmented Multimodal Large Language Models for Small Object Understanding in Streaming Aerial Videos** | — | ![Jul 22, 2026](https://img.shields.io/badge/Jul_22%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19857) |
 | **Supra Cognitive Modes: A Routed Architecture for Agent Memory** | — | ![Jul 21, 2026](https://img.shields.io/badge/Jul_21%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19096) |
 | **VLN-AVP: Zero-Shot Vision-Language Navigation with Hybrid Long-Short-Term Memory for Autonomous Valet Parking** | — | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17767) |
 | **SALT: Salience-Aware Lexical Trie for Long-Context Compression** | Florida State University | ![Jul 20, 2026](https://img.shields.io/badge/Jul_20%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.17486) |
@@ -206,7 +206,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 
 | Paper | Institution | Date | Links |
 | --- | --- | --- | --- |
-| **Memory-Augmented Multimodal Large Language Models for Small Object Understanding in Streaming Aerial Videos**<br><sub>Memory lets a UAV keep track of tiny targets it can no longer resolve in the current frame.</sub> | — | ![Jul 22, 2026](https://img.shields.io/badge/Jul_22%2C_2026-red?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19857) |
+| **Memory-Augmented Multimodal Large Language Models for Small Object Understanding in Streaming Aerial Videos**<br><sub>Memory lets a UAV keep track of tiny targets it can no longer resolve in the current frame.</sub> | — | ![Jul 22, 2026](https://img.shields.io/badge/Jul_22%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.19857) |
 | ⭐ **ReflectWorld-MM: An Entity-Oriented Multimodal Memory System for Open-Ended Video Streams**<br><sub>Organizes multimodal memory around entities, so recall survives an open-ended stream.</sub> | — | ![Jul 6, 2026](https://img.shields.io/badge/Jul_6%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2607.09759) |
 | **Towards a Dynamic and Fixed-budget Memory Bank for Efficient Streaming Video Understanding**<br><sub>A fixed-budget memory bank that handles unpredictable query timing in a live stream.</sub> | Xiamen University | ![Jun 24, 2026](https://img.shields.io/badge/Jun_24%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.25658) |
 | **Beyond Visual Memory: Mechanistic Diagnostics of Latent Visual Reasoning**<br><sub>Checks whether latent visual tokens really store visual evidence, and finds the story is more complicated.</sub> | Alibaba | ![May 31, 2026](https://img.shields.io/badge/May_31%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2606.01287) |
