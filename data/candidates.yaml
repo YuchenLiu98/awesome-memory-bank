@@ -4,6 +4,98 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2611.06715'
+  title: 'Reasoning over Non-Parametric Memory in Multilingual LLMs: A Cognitive-Based Analysis of Relational Knowledge'
+  date: '2026-11-04'
+  url: https://arxiv.org/abs/2611.06715
+  section: llm
+  subcategory: retrieval
+  score: 4.8
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: Retrieval-augmented generation (RAG) assumes that language models can reason over relations stated in their context rather than fall back on associations memorized during pretraining. We study this evidence-conditioned relational reasoning in isolation, with the facts supplied directly in the prompt rather than retrieved. \textsc{Rel-Bloom} is a controlled multilingual diagnostic of 450 …
+  found_on: '2026-11-05'
+- arxiv: '2611.06380'
+  title: Does Context Compression Preserve Refusal Alignment?
+  date: '2026-11-04'
+  url: https://arxiv.org/abs/2611.06380
+  section: llm
+  subcategory: kvcache
+  score: 3.9
+  arxiv_categories:
+  - cs.AI
+  - cs.CL
+  abstract: Context compression reduces inference cost by encoding inputs into compact representations while preserving semantic content. An open question is whether semantic preservation alone is sufficient to maintain downstream behaviours such as refusal alignment. We investigate this question and find that encoder-based compression systematically weakens refusal behaviour in instruction-tuned language …
+  found_on: '2026-11-05'
+- arxiv: '2611.06113'
+  title: Semantic Prior-Guided Incomplete Cross-Modal Retrieval with Noisy Labels
+  date: '2026-11-04'
+  url: https://arxiv.org/abs/2611.06113
+  section: vlm
+  subcategory: mm-arch
+  score: 2.6
+  arxiv_categories:
+  - cs.CV
+  abstract: Cross-modal retrieval (CMR) aims to bridge the semantic gaps between modalities by learning shared representations. Unfortunately, due to the dynamism and inconsistencies in real-world data acquisition, multimodal datasets frequently encounter severe modality incompleteness. Existing incomplete CMR methods adhere to a label-driven paradigm, relying heavily on categorical annotations as the …
+  found_on: '2026-11-05'
+- arxiv: '2611.06768'
+  title: 'PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World'
+  date: '2026-11-04'
+  url: https://arxiv.org/abs/2611.06768
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.RO
+  abstract: Coding agents powered by models such as GPT-6-Astra connect spatial reasoning with executable robot behavior, raising the question of how such agents can produce lasting improvements in robot capabilities from physical interaction. In this work, we study embodied recursive self-improvement (RSI) through real-world exploration, code refinement, and deployment using PyRUA-REAL, a framework in which …
+  found_on: '2026-11-05'
+- arxiv: '2611.06084'
+  title: Shallow Encoding Emits Deep Memories
+  date: '2026-11-04'
+  url: https://arxiv.org/abs/2611.06084
+  section: llm
+  subcategory: kvcache
+  score: 1.3
+  arxiv_categories:
+  - cs.LG
+  - cs.DC
+  abstract: 'Hybrid language models interleave a few softmax-attention layers with many linear-attention or state-space layers, so every layer keeps a memory of earlier tokens: a key-value cache or a fixed-size recurrent state. Serving them spends more compute and high-bandwidth memory on these memories than the output requires. The prefill runs every layer for every prompt token, and every decode step loads …'
+  found_on: '2026-11-05'
+- arxiv: '2611.05791'
+  title: 'FlyHash for LLM Agent Memory: An Empirical Validation and a New Application'
+  date: '2026-11-04'
+  url: https://arxiv.org/abs/2611.05791
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.AI
+  - cs.LG
+  abstract: Large language model (LLM) agents increasingly rely on external memory stores to retain information across conversations, typically via dense vector embeddings searched with approximate nearest-neighbor methods. The fruit fly's olfactory circuit computes a locality-sensitive hash of sensory input using a strikingly different mechanism - sparse random projection followed by winner-take-all …
+  found_on: '2026-11-05'
+- arxiv: '2611.06475'
+  title: 'Robocasa-Mem: Benchmarking Environment and Process Memory in Long-Horizon Mobile Manipulation'
+  date: '2026-11-04'
+  url: https://arxiv.org/abs/2611.06475
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.RO
+  abstract: In the real world, mobile manipulation robots must perform complex object interactions and make multi-step decisions, often relying on task-relevant information that is no longer observable. However, existing benchmarks provide limited evaluation of such memory-dependent decision-making in mobile manipulation. To address this gap, we introduce RoboCasa-Mem, a new benchmark comprising nine mobile …
+  found_on: '2026-11-05'
+- arxiv: '2611.06049'
+  title: 'Reglos: A Self-Evolving Personal Memory Agent with Recursive Self-Improvement'
+  date: '2026-11-04'
+  url: https://arxiv.org/abs/2611.06049
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  abstract: Personal agents draw on past conversations to tailor their responses to each user. Their memory systems store and update what each user says, and coding agents now also rewrite the harness that turns this memory into the model's context. Such patches risk overfitting, because one tested only on the failures it targets can fix those cases and help nowhere else. We present Reglos, a training-free …
+  found_on: '2026-11-05'
 - arxiv: '2611.04137'
   title: 'LoopKV: Loop-Aware KV Cache Compression for Serving Looped Transformers'
   date: '2026-11-03'
@@ -125,6 +217,40 @@ candidates:
   - cs.LG
   abstract: Optimizing accelerator code across hardware architectures is difficult. ML compilers search predefined spaces of schedules and micro-kernels, while LLM-guided optimization can explore alternative algorithms, operator decompositions, and hardware-specific techniques. However, existing LLM agents typically target a single programming interface, toolchain, or accelerator family, focus on …
   found_on: '2026-11-04'
+- arxiv: '2611.05731'
+  title: Prospective Memory for Proactive LLM Agents
+  date: '2026-11-03'
+  url: https://arxiv.org/abs/2611.05731
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CL
+  abstract: 'Most memory systems for LLM agents are retrospective, preserving and retrieving past information to inform current decisions. Proactive agents, however, also require prospective memory: retaining future-directed intentions and realizing them when appropriate opportunities arise, even without explicit requests. Crucially, remembering the right intention does not guarantee acting at the right time: …'
+  found_on: '2026-11-05'
+- arxiv: '2611.05753'
+  title: Toward a Compositional Knowledge Architecture for a Shared Organizational Cortex
+  date: '2026-11-03'
+  url: https://arxiv.org/abs/2611.05753
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  - cs.IR
+  abstract: 'Organizations accumulate evidence in conversations, documents, decisions and relationships, but they act on interpretations: judgements assembled from several observations, resting on assumptions, and revised as circumstances change. Existing retrieval, knowledge graphs and agent memory keep the records and lose the interpretation. We propose a four-layer architecture, Signals, Domains, Claims …'
+  found_on: '2026-11-05'
+- arxiv: '2611.05636'
+  title: 'Route to Remember: Adaptive Memory Selection for LLM Agents'
+  date: '2026-11-03'
+  url: https://arxiv.org/abs/2611.05636
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  abstract: 'The memory of production agents is increasingly becoming a bottleneck and is built almost exclusively from text: key points are extracted from out-of-limit context and retrieved into context at query time. Therefore, every new query incurs an additional cost that grows with the accumulated history. Weight memory is a complementary alternative that internalizes knowledge into model parameters and …'
+  found_on: '2026-11-05'
 - arxiv: '2611.02912'
   title: 'A State Change Is Local, Its Consequences Are Not: Dependency-Aware State Revision for Long-Term Agent Memory'
   date: '2026-11-02'
@@ -4506,126 +4632,3 @@ candidates:
   - cs.AI
   abstract: Disaggregated LLM serving places compute heavy prefill and memory heavy decode on separate GPU pools. Systems such as DistServe, Splitwise, and Mooncake make this separation fast, but routing still determines which instances handle each request. We study a router that estimates the additional completion time on each instance using exact prompt length, predicted output length, post admission KV …
   found_on: '2026-09-16'
-- arxiv: '2609.15800'
-  title: 'Navigating Sparse Evidence: Agentic Visual RAG via Explicit Context Selection and Consolidation'
-  date: '2026-09-14'
-  url: https://arxiv.org/abs/2609.15800
-  section: llm
-  subcategory: retrieval
-  score: 1.2
-  arxiv_categories:
-  - cs.AI
-  abstract: Visual Retrieval-Augmented Generation (VRAG) empowers models to navigate and answer queries about visually rich documents by retrieving relevant page images as visual evidence and reasoning over their content. However, effectively utilizing this visual evidence is usually impeded by two main challenges. First, answer-relevant evidence is sparse and may be concentrated in a small region of one …
-  found_on: '2026-09-16'
-- arxiv: '2609.15126'
-  title: 'MoME: Mixture-of-Memory Embeddings for Context-Aware Sparse Lookup'
-  date: '2026-09-14'
-  url: https://arxiv.org/abs/2609.15126
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.CL
-  - cs.AI
-  abstract: 'Scaling large language models efficiently has motivated sparse capacity mechanisms such as Mixture-of-Experts and, more recently, conditional memory: token-indexed embedding tables that augment the backbone with cheap parametric lookups. Existing memory-embedding methods retrieve via a deterministic function of the surface form, which collapses different contextual senses of the same token (e.g., …'
-  found_on: '2026-09-16'
-- arxiv: '2609.15475'
-  title: 'P-POSEMEM: Projective Semantic Memory for Consistent Language Grounding under Pose-Graph Rewrites'
-  date: '2026-09-14'
-  url: https://arxiv.org/abs/2609.15475
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.RO
-  abstract: 'A robot following language instructions needs its semantic memory to keep naming the same physical object while the SLAM pose graph underneath is optimized, loop-closed and compressed. Maps committing each detection to a world coordinate cannot: a closure moves the anchor it was measured from, or the solver marginalizes that anchor, and the query then selects a different object although both …'
-  found_on: '2026-09-16'
-- arxiv: '2609.14984'
-  title: 'Two-Stage Personalized Gait Phase Estimation in Stroke Survivors During Exoskeleton-Assisted Walking: An Offline Feasibility Study'
-  date: '2026-09-14'
-  url: https://arxiv.org/abs/2609.14984
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.RO
-  abstract: This study evaluated personalized gait phase estimation for stroke survivors using functional inertial measurement unit (IMU) alignment and two-stage sequential adaptation of models pre-trained on healthy gait. The estimator used signals from a thigh-mounted IMU. Heel force-sensitive resistor measurements provided reference phase labels for offline adaptation and evaluation. Stage 1 established a …
-  found_on: '2026-09-16'
-- arxiv: '2609.16344'
-  title: 'From Momentary Emotion Inference to Sustained Emotion Support: Evaluating a Companion Agent in a Longitudinal Study'
-  date: '2026-09-14'
-  url: https://arxiv.org/abs/2609.16344
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.HC
-  - cs.AI
-  abstract: Sustained emotional support is a long-horizon interaction task closely tied to human well-being. Recent research demonstrates generative agents' capacity for momentary emotional support, yet how these capabilities sustain support over time remains unclear. To examine this challenge, we deployed PAIR, a theory-based emotion-regulation companion, with 19 participants for 14 days. Across 1,093 …
-  found_on: '2026-09-16'
-- arxiv: '2609.15011'
-  title: 'Semantic-TVM: Structure-Preserving Trustworthy Virtual Memory for Memory-Augmented and Tool-Using Agents'
-  date: '2026-09-14'
-  url: https://arxiv.org/abs/2609.15011
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.AI
-  abstract: Memory-augmented and tool-using agents expose exact private values when remote LLMs process retrieved memory, tool actions, and intermediate observations. One-way masking limits direct exposure but removes values needed for trusted execution and can leak them through later observations. We propose Trustworthy Virtual Memory (TVM), a closed-loop runtime that keeps exact-value state local while …
-  found_on: '2026-09-16'
-- arxiv: '2609.15009'
-  title: 'CoMem: Collective-Individual Memory Synergy for Evolutionary Multi-Agent Systems'
-  date: '2026-09-14'
-  url: https://arxiv.org/abs/2609.15009
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.AI
-  abstract: Designing effective memory mechanisms is crucial for advancing LLM-driven Multi-Agent Systems (MAS), helping agents learn together and perform better over time. While recent work has led to strong cooperation skills, most methods still use flat, unstructured memories, which easily get filled with noise and erase differences between agents. To address this, we introduce the concept of …
-  found_on: '2026-09-16'
-- arxiv: '2609.11192'
-  title: 'FlexComp: One Model for Every Ratio in Context Compression'
-  date: '2026-09-10'
-  url: https://arxiv.org/abs/2609.11192
-  section: llm
-  subcategory: kvcache
-  score: 5.2
-  arxiv_categories:
-  - cs.CL
-  abstract: 'Soft context compression condenses a context into a few memory tokens that a frozen LLM consumes in place of the raw text, but existing compressors fix the compression ratio at training and inference: each deployed ratio requires a separately trained model, and the chosen ratio is applied uniformly to all inputs, whose actual needs vary drastically. We propose FlexComp, a method-agnostic …'
-  found_on: '2026-09-11'
-- arxiv: '2609.11582'
-  title: 'OmniKVQuant: KV Cache Quantization for Omni-LLMs'
-  date: '2026-09-10'
-  url: https://arxiv.org/abs/2609.11582
-  section: llm
-  subcategory: kvcache
-  score: 3.9
-  arxiv_categories:
-  - cs.CV
-  abstract: As Omni-modal large language models (Omni-LLMs) take in audio, video and text together, their KV cache memory cost grows. KV cache quantization is the de facto approach in text-only LLMs, but its application to Omni-LLMs remains unexplored. In this paper, we analyze how TurboQuant, a representative rotation-based KV cache quantization method, behaves on multimodal caches and identify two critical …
-  found_on: '2026-09-11'
-- arxiv: '2609.11875'
-  title: 'UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition Modeling'
-  date: '2026-09-10'
-  url: https://arxiv.org/abs/2609.11875
-  section: vlm
-  subcategory: mm-arch
-  score: 2.6
-  arxiv_categories:
-  - cs.RO
-  abstract: 'Recent advances in Vision-Language-Action (VLA) models have improved robotic manipulation, yet observation-to-action learning remains limited by a fundamental transition realizability gap, manifested in three tightly coupled problems: (i) Transition ambiguity. Visually similar current observations may correspond to different manipulation phases and imply different subsequent transitions. (ii) …'
-  found_on: '2026-09-11'
-- arxiv: '2609.11561'
-  title: 'Memory as Plans: World-Action Modeling with Memory-Grounded Planning'
-  date: '2026-09-10'
-  url: https://arxiv.org/abs/2609.11561
-  section: vlm
-  subcategory: episodic
-  score: 1.4
-  arxiv_categories:
-  - cs.RO
-  abstract: Mainstream robotic policies often adopt a Markovian formulation, but many complex real-world manipulation tasks are inherently non-Markovian, requiring long-horizon memory beyond the current observation. Existing memory mechanisms often rely on language summaries, growing visual windows, or their combinations, and may therefore lose fine-grained visual evidence or face a trade-off between history …
-  found_on: '2026-09-11'
