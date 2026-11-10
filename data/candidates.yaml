@@ -4,6 +4,144 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2611.12068'
+  title: 'MIRIX-2.0: Multi-Agent Memory System'
+  date: '2026-11-09'
+  url: https://arxiv.org/abs/2611.12068
+  section: llm
+  subcategory: multiagent
+  score: 4.2
+  arxiv_categories:
+  - cs.CL
+  abstract: Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search. We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and efficient at once. It is the most accurate of the compared systems on four of …
+  found_on: '2026-11-10'
+- arxiv: '2611.12099'
+  title: 'SAM-VTP: Video Memory and Measured Geometry for Continuous Traversability Segmentation'
+  date: '2026-11-09'
+  url: https://arxiv.org/abs/2611.12099
+  section: vlm
+  subcategory: video
+  score: 4.2
+  arxiv_categories:
+  - cs.RO
+  abstract: Traversability prediction is a core component of autonomous navigation, yet most vision-based methods operate frame-wise and produce temporally inconsistent predictions. We present SAM-VTP (Video Traversability Prediction), which fine-tunes SAM2's video memory pathway for dense, prompt-free traversability segmentation, conditioning each frame on a persistent memory of prior observations. Rather …
+  found_on: '2026-11-10'
+- arxiv: '2611.11761'
+  title: 'BridgeKV: Large-Model Prefill and Small-Model Decoding for LLM Inference via KV Cache Translation'
+  date: '2026-11-09'
+  url: https://arxiv.org/abs/2611.11761
+  section: llm
+  subcategory: kvcache
+  score: 3.9
+  arxiv_categories:
+  - cs.CL
+  abstract: 'LLM inference has two phases with different bottlenecks: LLM prefill runs once per request and is compute-intensive. Decoding repeats for every output token and is limited by memory bandwidth. To address the challenges associated with this issue, different solutions have been proposed. All of these solutions use the same model for both prefill and decode phases. We propose BridgeKV, which uses a …'
+  found_on: '2026-11-10'
+- arxiv: '2611.12374'
+  title: 'TANSAR: Editable and Attributable Correlation Matrix Memories under Correlated Keys, with Rule-Constrained Multi-Hop Knowledge Editing'
+  date: '2026-11-09'
+  url: https://arxiv.org/abs/2611.12374
+  section: llm
+  subcategory: parametric
+  score: 3.9
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Correlation Matrix Memories (CMMs) store associations as sums of rank-one outer products, providing closed-form addressability, exact deletion, and linear attribution. While classical analyses assume random, orthogonal keys, semantic encoders produce correlated representations. We analyse CMMs under correlated keys using frame-theoretic coherence: (i) capacity bounds yielding an …'
+  found_on: '2026-11-10'
+- arxiv: '2611.11840'
+  title: 'Correct Answers from Insufficient Histories: A Controlled Study of Agent Memory Evaluation'
+  date: '2026-11-09'
+  url: https://arxiv.org/abs/2611.11840
+  section: vla
+  subcategory: eval
+  score: 3.9
+  arxiv_categories:
+  - cs.AI
+  abstract: An answer can match the reference for a complete agent history even when the reader's visible history does not determine it. We study this distinction using executable device logs. Our protocol separates reference agreement, certified evidence sufficiency, and context-appropriate behavior. Insufficiency requires two legal histories yielding byte-identical visible contexts but different answers; …
+  found_on: '2026-11-10'
+- arxiv: '2611.12175'
+  title: 'GeoMind: A Benchmark for Spatial Understanding in Robotic Manipulation'
+  date: '2026-11-09'
+  url: https://arxiv.org/abs/2611.12175
+  section: vla
+  subcategory: spatial-map
+  score: 1.5
+  arxiv_categories:
+  - cs.RO
+  - cs.AI
+  abstract: 'Robotic manipulation has advanced rapidly in mapping visual observations and language instructions to actions. However, reliable manipulation in open-world environments requires robust spatial understanding: the ability to identify targets in complex layouts (spatial reasoning) and adapt to scenes that continuously evolve through interaction (spatial memory). Yet existing embodied benchmarks fall …'
+  found_on: '2026-11-10'
+- arxiv: '2611.11929'
+  title: Can LLM Agents Organize Their Own Memory?
+  date: '2026-11-09'
+  url: https://arxiv.org/abs/2611.11929
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  abstract: 'In most LLM agents, weights are fixed after deployment, so new information must be retained in external memory. Existing approaches often rely on predefined records and fixed organizational rules, which cannot readily accommodate evolving tasks and interactions. This raises the question: can LLM agents organize their own memory using ordinary documents? We introduce self-organized memory (SoMem), …'
+  found_on: '2026-11-10'
+- arxiv: '2611.12872'
+  title: 'HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents'
+  date: '2026-11-09'
+  url: https://arxiv.org/abs/2611.12872
+  section: vlm
+  subcategory: mm-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  - cs.LG
+  abstract: As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semantic retrieval over compressed memories and expose predefined representations, which may miss relevant memories and overlook heterogeneous evidence needs across queries. We introduce …
+  found_on: '2026-11-10'
+- arxiv: '2611.11452'
+  title: Semantically Aligned KV Cache Compression for Efficient Agentic Autoregressive Video Generation
+  date: '2026-11-08'
+  url: https://arxiv.org/abs/2611.11452
+  section: llm
+  subcategory: kvcache
+  score: 7.8
+  arxiv_categories:
+  - cs.CV
+  - cs.LG
+  abstract: Agentic autoregressive video generation combines semantic planning, sequential generation, and visual verification for controllable synthesis. Growing visual histories enlarge the key-value (KV) cache, increasing memory use and attention costs across candidate rollouts. Existing compression methods primarily optimize individual generators without the planner's semantic constraints, risking low …
+  found_on: '2026-11-10'
+- arxiv: '2611.11319'
+  title: 'Verify Before You Fetch: Reliable KV Cache Compression for LLM Inference'
+  date: '2026-11-08'
+  url: https://arxiv.org/abs/2611.11319
+  section: llm
+  subcategory: kvcache
+  score: 7.8
+  arxiv_categories:
+  - cs.AI
+  abstract: Long-context applications, long-lived agents, and multi-agent systems require large language models (LLMs) to process and retain extensive information. In these settings, the KV cache can exceed GPU high-bandwidth memory (HBM) capacity, necessitating offloading to host memory, where CPU-to-GPU transfers can dominate inference latency. While KV cache compression can reduce data movement, …
+  found_on: '2026-11-10'
+- arxiv: '2611.11509'
+  title: 'Review the Episodes, Refine the Lessons: Simple Memory Evolution for Embodied Agents'
+  date: '2026-11-08'
+  url: https://arxiv.org/abs/2611.11509
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.RO
+  - cs.AI
+  - cs.LG
+  abstract: Recent studies of embodied agents based on frontier multimodal large language models (MLLMs) develop harness engineering around the MLLM, such as harnesses with post-trained policies and recursive self-improvement loops. Yet whether these additions exceed the native capability of the MLLM remains unexplored. We introduce SimplEvo to explore how far an MLLM can improve under direct control when it …
+  found_on: '2026-11-10'
+- arxiv: '2611.11613'
+  title: Daily Emergency Call Volume Forecasting using Univariate and Multivariate TimeGPT
+  date: '2026-11-08'
+  url: https://arxiv.org/abs/2611.11613
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.LG
+  abstract: This study investigates the potential of TimeGPT, a pretrained foundation model for timeseries, for forecasting daily emergency call volumes. Real-world emergency call data, comprising 2,101 daily observations, are used to evaluate both univariate and multivariate forecasting settings under one-step-ahead and seven-day multi-step-ahead scenarios. The multivariate forecasting incorporates …
+  found_on: '2026-11-10'
 - arxiv: '2611.07920'
   title: 'How Finite Brains Generalize Without Bound: Spatial Memory as a Universal Computer'
   date: '2026-11-05'
@@ -4502,139 +4640,3 @@ candidates:
   - cs.RO
   abstract: Tracking any point of a dynamic scene in metric 3D - in absolute meters, not up to an unknown scale - underpins 3D and 4D reconstruction, robot navigation, and autonomous driving, where decisions are made in meters, not pixels. Our objective is a 3D point tracker accurate in those absolute terms and operating within a single commodity GPU, pose-free, monocular budget. Our method rests on one …
   found_on: '2026-09-29'
-- arxiv: '2609.33169'
-  title: When Does Backpropagating Through Policy Memory Matter? Physical Credit, Optimizer Updates, and Observability
-  date: '2026-09-27'
-  url: https://arxiv.org/abs/2609.33169
-  section: llm
-  subcategory: kvcache
-  score: 1.3
-  arxiv_categories:
-  - cs.LG
-  - cs.RO
-  abstract: 'Policies with memory can learn along two backward paths: through the physical states their actions produce and through the representations they store. Transformer-XL and truncated backpropagation through time cut the second path at stored history while keeping its values. We ask when this cut matters. Holding the forward computation fixed and varying only derivative edges, we measure parameter …'
-  found_on: '2026-09-29'
-- arxiv: '2609.33746'
-  title: 'PQ-HSA: Reusing Product-Quantized Scores for Hybrid Sparse-Approximate Attention'
-  date: '2026-09-27'
-  url: https://arxiv.org/abs/2609.33746
-  section: llm
-  subcategory: kvcache
-  score: 1.3
-  arxiv_categories:
-  - cs.LG
-  abstract: At each decoding step a language model attends over the key-value (KV) cache of every earlier token, so at long context the attention call is bounded by memory bandwidth. Sparse attention reads only a subset of keys chosen by a cheap score estimate, and most methods give the unread tokens zero weight. The output then draws on only a small fraction of the KV cache, and accuracy drops at small …
-  found_on: '2026-09-29'
-- arxiv: '2609.33268'
-  title: 'LSTMem: Hierarchical Long Short-Term Online Memory for Large Language Models'
-  date: '2026-09-27'
-  url: https://arxiv.org/abs/2609.33268
-  section: llm
-  subcategory: eval
-  score: 1.2
-  arxiv_categories:
-  - cs.AI
-  abstract: Large language models increasingly serve as long-horizon assistants and agents, where they must both accumulate information across interactions and make the relevant parts available when later requests depend on them. Existing compact online memories typically use a single persistent state both to accumulate history and to serve readout, so what the memory stores cannot be controlled separately …
-  found_on: '2026-09-29'
-- arxiv: '2609.33226'
-  title: 'Beyond Memory Construction: Rethinking Memory Access for LLM-based Conversational Agents'
-  date: '2026-09-27'
-  url: https://arxiv.org/abs/2609.33226
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.CL
-  abstract: Memory is a core component of conversational agents, enabling coherent and context-aware behavior over long interactions. Recent approaches commonly rely on LLM-based memory construction, where raw interactions are rewritten into structured memory units and later retrieved via a RAG pipeline. While effective in controlled settings, we show that this paradigm breaks down in long-horizon, …
-  found_on: '2026-09-29'
-- arxiv: '2609.33323'
-  title: 'Agentic Multi-Turn Reasoning: A Fairness Approach'
-  date: '2026-09-27'
-  url: https://arxiv.org/abs/2609.33323
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.AI
-  - cs.LG
-  abstract: Recent advances in Large Language Models (LLMs) have enabled agentic systems capable of solving complex tasks through multi-turn planning, tool use, verification, and memory updates. However, learning agentic systems remains difficult due to two fundamental challenges, i.e., (1) long-horizon credit assignment, where supervision is available only at the final outcome, and (2) imbalanced data …
-  found_on: '2026-09-29'
-- arxiv: '2609.33244'
-  title: 'ActiveMem: Dynamic Latent Memory Trees for Long-Horizon Agents'
-  date: '2026-09-27'
-  url: https://arxiv.org/abs/2609.33244
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.AI
-  abstract: Large Language Model (LLM) agents increasingly rely on external memory to support long-horizon reasoning and decision making. Existing memory systems typically retrieve historical trajectories or summaries as independent context fragments, overlooking the procedural dependencies underlying multi-step execution. As memory scales, such flat retrieval introduces context fragmentation and cross-task …
-  found_on: '2026-09-29'
-- arxiv: '2609.33061'
-  title: LLM sequential decision making under uncertainty in biochemical domains
-  date: '2026-09-27'
-  url: https://arxiv.org/abs/2609.33061
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.AI
-  abstract: Large language models (LLMs) are increasingly used to drive scientific discovery. Understanding how LLMs make decisions from new data and memory of the literature is vital before trusting them to design experiments under tight experimental budgets. However, their decision strategies are invisible in the current performance scores used to evaluate research agents. Here, we benchmark five frontier …
-  found_on: '2026-09-29'
-- arxiv: '2609.16797'
-  title: 'TEDi: Temporal Memory-Enhanced and Denoising Transformer for Surgical Instrument Segmentation'
-  date: '2026-09-15'
-  url: https://arxiv.org/abs/2609.16797
-  section: vlm
-  subcategory: video
-  score: 4.2
-  arxiv_categories:
-  - cs.CV
-  abstract: Query-based segmentation methods have shown promising potential for surgical instrument segmentation and recognition, which is essential for scene understanding and downstream tasks in computer assisted surgery. However, most existing approaches predominantly rely on per-frame predictions and overlook cross-frame temporal priors as well as temporal-consistency constraints. This limitation often …
-  found_on: '2026-09-16'
-- arxiv: '2609.17251'
-  title: Persistent Recurrent Memory Between Transformer Layers - Improves Language Model Generalization
-  date: '2026-09-15'
-  url: https://arxiv.org/abs/2609.17251
-  section: llm
-  subcategory: recurrent
-  score: 3.9
-  arxiv_categories:
-  - cs.CL
-  abstract: 'We introduce a simple architectural modification to decoder-only transformers: a persistent recurrent state that observes hidden representations via cross-attention, updates itself through a GRU, and modulates subsequent processing via gated addition. Inserted between the lower and upper halves of a 6-layer transformer, this module adds only 3.7\% additional parameters while reducing evaluation …'
-  found_on: '2026-09-16'
-- arxiv: '2609.16710'
-  title: 'Continuous-Time Machine Learning: A Unified Mathematical Perspective'
-  date: '2026-09-15'
-  url: https://arxiv.org/abs/2609.16710
-  section: llm
-  subcategory: survey
-  score: 1.5
-  arxiv_categories:
-  - cs.LG
-  - cs.AI
-  abstract: Continuous-time (CT) machine learning has emerged as a principled framework for modeling temporal dynamics as a continuous process, particularly when observations are sampled at arbitrary time points or span long-range horizons. However, major branches of CT machine learning have matured in separate research communities, leaving their mathematical relationships and design trade-offs …
-  found_on: '2026-09-16'
-- arxiv: '2609.16752'
-  title: 'Beyond Episodic AI: Cognitive Field Networks for Biologically Inspired Persistent Cognition'
-  date: '2026-09-15'
-  url: https://arxiv.org/abs/2609.16752
-  section: llm
-  subcategory: multiagent
-  score: 1.4
-  arxiv_categories:
-  - cs.AI
-  abstract: Cognitive Field Theory (CFT) proposes that cognition arises from memory-dressed collective dynamics that generate a persistent macroscopic cognitive field. Here we develop a Cognitive Field Network (CFN), a recurrent Transformer in which the organized hidden field re-enters subsequent inference through \[ Φ_{n+1}=F_θ(X_{n+1},Φ_n). \] Rather than prescribing an explicit memory operation, the CFN …
-  found_on: '2026-09-16'
-- arxiv: '2609.17088'
-  title: Interactive Memory Learning for Long-Term Conversations
-  date: '2026-09-15'
-  url: https://arxiv.org/abs/2609.17088
-  section: llm
-  subcategory: memory-arch
-  score: 1.3
-  arxiv_categories:
-  - cs.AI
-  - cs.CL
-  abstract: Recent advancements in large language models have significantly enhanced the capabilities of agents in modeling long-term conversations. Despite these successes, existing approaches typically adopt a static heuristic paradigm, where information is passively archived without adaptive memory valuation. Consequently, these methods fail to self-evolve or align their memory management with evolving …
-  found_on: '2026-09-16'
