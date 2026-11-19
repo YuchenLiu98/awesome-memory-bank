@@ -4,6 +4,123 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2611.23731'
+  title: 'RecallFlow: Episodic Memory as the Source Distribution of Generative Robot Policies'
+  date: '2026-11-18'
+  url: https://arxiv.org/abs/2611.23731
+  section: vlm
+  subcategory: episodic
+  score: 4.2
+  arxiv_categories:
+  - cs.RO
+  abstract: Diffusion and flow-matching policies have become a standard choice for visuomotor imitation learning, owing to their ability to model multimodal action distributions. In memory-dependent manipulation, the robot must act on information that is no longer visible. Existing methods feed the observation history to the policy as an additional condition, while action generation still starts from …
+  found_on: '2026-11-19'
+- arxiv: '2611.24247'
+  title: 'Allocentric Memory, Egocentric Acting: A Dual-Frame VLA for Urban Aerial Navigation'
+  date: '2026-11-18'
+  url: https://arxiv.org/abs/2611.24247
+  section: vla
+  subcategory: spatial-map
+  score: 1.5
+  arxiv_categories:
+  - cs.CV
+  - cs.RO
+  abstract: Language-goal aerial navigation requires a UAV to reach a destination specified in natural language using observations collected during flight. A key challenge is linking changing egocentric perception with spatial evidence anchored to stable locations for long-range navigation. We propose CityNav-VLA, a dual-frame vision-language-action model for urban navigation integrating dynamic egocentric …
+  found_on: '2026-11-19'
+- arxiv: '2611.23774'
+  title: 'Improve How You Improve: Recursive Policy Self-Improvement for Zero-Shot Open-Vocabulary Multi-Object Navigation'
+  date: '2026-11-18'
+  url: https://arxiv.org/abs/2611.23774
+  section: vla
+  subcategory: spatial-map
+  score: 1.5
+  arxiv_categories:
+  - cs.RO
+  abstract: To advance the development of embodied general navigation, zero-shot open-vocabulary multi-object navigation has attracted increasing attention, aiming to enable robots to efficiently search multiple objects in unseen environments without training. For this task, the key lies in improving navigation policies from earlier searches to locate subsequent goals more efficiently. Recent methods …
+  found_on: '2026-11-19'
+- arxiv: '2611.24028'
+  title: Algorithmic Market Making Can Lead to Rough Volatility Through the Order Book
+  date: '2026-11-18'
+  url: https://arxiv.org/abs/2611.24028
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.LG
+  - q-fin.MF
+  - q-fin.TR
+  abstract: Existing work suggests that markets can show volatility with paths rougher than those of Brownian motion. In theory this can happen when the order flow is close to instability with memory that decays as a power law. However, it is not fully clear how such order flow could arise from the predominantly algorithmic market making that characterizes order book dynamics. We show one such consistent …
+  found_on: '2026-11-19'
+- arxiv: '2611.24301'
+  title: 'LoopCache: Accelerating Long-Context Self-Speculative Decoding for Looped Transformers'
+  date: '2026-11-18'
+  url: https://arxiv.org/abs/2611.24301
+  section: llm
+  subcategory: kvcache
+  score: 1.3
+  arxiv_categories:
+  - cs.CL
+  - cs.LG
+  abstract: Looped Transformers achieve large effective depth with compact models by repeatedly applying a weight-shared block across R recurrent steps, each maintaining a loop-specific key-value (KV) cache. To accelerate sequential loop execution, recent wave-style self-speculative methods like WaveFront Decoding (WFD) and LoopSpec pipeline draft and target tokens across loops in a single step. However, …
+  found_on: '2026-11-19'
+- arxiv: '2611.24422'
+  title: Resolution as Attention for Efficient Agent Memory Perception
+  date: '2026-11-18'
+  url: https://arxiv.org/abs/2611.24422
+  section: llm
+  subcategory: memory-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  - cs.CV
+  abstract: LLM-based agents accumulate extensive interaction histories when solving complex, long-horizon tasks, making efficient memory management critical to their performance and scalability. While existing memory management methods primarily focus on what to retain or retrieve, they often overlook how much perceptual detail should be allocated to individual past interactions. We posit that effective …
+  found_on: '2026-11-19'
+- arxiv: '2611.23769'
+  title: 'Keep the Reasoning, Read the Image: On-Demand Visual KV for Multi-Turn Reasoning VLMs'
+  date: '2026-11-18'
+  url: https://arxiv.org/abs/2611.23769
+  section: llm
+  subcategory: kvcache
+  score: 1.3
+  arxiv_categories:
+  - cs.CV
+  abstract: 'Reasoning vision-language models (VLMs) think for thousands of tokens before they answer, and retention policies keep the KV cache affordable by pruning it as the reasoning grows. We find that this pruning sacrifices the image in multi-turn conversations: the image and the reasoning share one budget, so the growing reasoning crowds the visual entries out. A chart question that loses 8 points to …'
+  found_on: '2026-11-19'
+- arxiv: '2611.24294'
+  title: 'KnowledgeClaw: Towards Agentic Knowledge Engineering via Omnimodal Hypergraphs'
+  date: '2026-11-18'
+  url: https://arxiv.org/abs/2611.24294
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.AI
+  abstract: Knowledge engineering (KE) turns raw files into a reasoning-ready knowledge base, a task now within reach of LLM agents. KE has progressed from chunk and graph retrieval-augmented generation (RAG) to memory agents, agentic KE and multimodal KE. However, a live knowledge base needs omnimodality, a closed-loop lifecycle and multi-granular application at once, yet existing systems meet at most two …
+  found_on: '2026-11-19'
+- arxiv: '2611.24039'
+  title: A Capability Framework for Evaluating Agentic AI Platforms in Regulated Enterprises
+  date: '2026-11-18'
+  url: https://arxiv.org/abs/2611.24039
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.AI
+  - cs.MA
+  - stat.ML
+  abstract: Agentic AI platforms-systems in which LLM agents plan, invoke tools, retain memory and coordinate to change the state of enterprise systems-are being procured faster than they can be measured. Public agent benchmarks score models in fixed harnesses; enterprises buy integrated platforms whose orchestration, memory, governance and tooling layers dominate outcomes, and they buy them largely on the …
+  found_on: '2026-11-19'
+- arxiv: '2611.23950'
+  title: 'VOL-Agent: Programming Your Film via Video Orchestration Language Agentic System'
+  date: '2026-11-18'
+  url: https://arxiv.org/abs/2611.23950
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CV
+  abstract: Recent video foundation models generate high-quality and limited-length clips, but orchestrating them into minute-level, story-coherent films remains an open problem. Existing video agents highly rely on natural-language planning or predefined workflows, which make their production hard to program, customize, and extend. Therefore, we introduce VOL-Agent, a programmable video agent built on a …
+  found_on: '2026-11-19'
 - arxiv: '2611.22245'
   title: 'Multi-Agent Memory Inconsistency: Where Factual Conflicts Disappear in LLM Agents'
   date: '2026-11-17'
@@ -140,6 +257,41 @@ candidates:
   - cs.AI
   abstract: 'Large language model agents accumulate experience in memory, and how that memory evolves during interaction is as important as what it stores. Recent methods update memory online, yet both the operators that transform memory and the rules that select them remain fixed by design. We propose EvoDisco, which formulates agent memory evolution as evolutionary strategy discovery: the agent must …'
   found_on: '2026-11-18'
+- arxiv: '2611.23588'
+  title: 'ARISE: Practical Self-Evolving Memory for Accurate and Cost-Efficient Enterprise Agents'
+  date: '2026-11-17'
+  url: https://arxiv.org/abs/2611.23588
+  section: llm
+  subcategory: memory-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  - cs.MA
+  abstract: Enterprise LLM agents operate in dynamic environments where foundation models evolve rapidly, workflows update frequently, and deployments need to satisfy accuracy and cost requirements. We propose ARISE (Agent Refinement through Iterative Self-Evaluation), a practical memory architecture in which the agent's memory evolves from its own failures without updating model weights, tools, or workflow …
+  found_on: '2026-11-19'
+- arxiv: '2611.23476'
+  title: 'GUARD: Stabilizing Recursive Self-Improvement with Regret Guidance'
+  date: '2026-11-17'
+  url: https://arxiv.org/abs/2611.23476
+  section: llm
+  subcategory: parametric
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  - cs.LG
+  abstract: 'Autonomous AI agents pair a frozen base model with an editable harness of prompts, skills, tool rules, and memory. Recursive self-improvement (RSI) adapts this harness from experience without weight updates, yet self-editing without external graders often backfires: reflection and scalar scores conflate what an edit newly broke with what remains unsolved, causing local regressions, skill …'
+  found_on: '2026-11-19'
+- arxiv: '2611.23427'
+  title: 'Stability Does Not Mirror Plasticity: A Module-Level View of Declarative and Procedural Learning in Transformers'
+  date: '2026-11-17'
+  url: https://arxiv.org/abs/2611.23427
+  section: llm
+  subcategory: agent-exp
+  score: 1.3
+  arxiv_categories:
+  - cs.LG
+  abstract: Plasticity and stability in continual learning are typically studied at the entire-model level and in a task-agnostic manner, yet prior work has reported divergent conclusions across settings. Inspired by cognitive distinctions between declarative and procedural memory, we instead study how plasticity and stability vary across transformer modules and task types. In a controlled synthetic …
+  found_on: '2026-11-19'
 - arxiv: '2611.21216'
   title: 'MiSTiQ: MicroScaling Trellis Quantization for Extreme KV Cache Compression'
   date: '2026-11-16'
@@ -4477,156 +4629,3 @@ candidates:
   - cs.AI
   abstract: Persistent spatial memory enables embodied agents to navigate familiar environments across repeated visits. However, targets may move while unobserved, including during navigation, making remembered locations unreliable by the time an agent arrives. Despite advances in memory retrieval and state prediction, accounting for continued hidden world evolution and revising beliefs under limited …
   found_on: '2026-10-01'
-- arxiv: '2609.39794'
-  title: 'Inline Memory Meets Reusable Skills: Memory-centric Framework for Vision-Language-Action Model'
-  date: '2026-09-30'
-  url: https://arxiv.org/abs/2609.39794
-  section: llm
-  subcategory: longterm
-  score: 1.4
-  arxiv_categories:
-  - cs.CV
-  - cs.RO
-  abstract: 'Vision-Language-Action (VLA) models have shown strong promise for general-purpose robotic manipulation, yet adapting them to new tasks and domains remains inefficient: existing methods often rely on parameter tuning, incurring substantial costs and risking catastrophic forgetting of previously learned tasks. To address this, we propose \textbf{Optimus-R}, a memory-centric VLA framework that …'
-  found_on: '2026-10-01'
-- arxiv: '2609.40222'
-  title: 'LOCI: Spatial Linear Memory for Streaming World Models'
-  date: '2026-09-30'
-  url: https://arxiv.org/abs/2609.40222
-  section: llm
-  subcategory: memory-arch
-  score: 1.3
-  arxiv_categories:
-  - cs.CV
-  abstract: When a camera revisits a previously observed region, a video world model should reproduce what was there before. This requires both remembering past observations and retrieving the right one for the current viewpoint. Key-value caches preserve visual detail but grow with video length; recurrent memory is compact but compresses history into a fixed-size state, so individual past observations are …
-  found_on: '2026-10-01'
-- arxiv: '2609.40195'
-  title: 'MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories'
-  date: '2026-09-30'
-  url: https://arxiv.org/abs/2609.40195
-  section: vlm
-  subcategory: mm-arch
-  score: 1.3
-  arxiv_categories:
-  - cs.CV
-  - cs.AI
-  - cs.CL
-  abstract: 'Long-term egocentric video enables personalized AI assistants to reason about daily life. However, as video histories grow to hundreds of hours spanning months or years, reprocessing raw clips for every query becomes computationally prohibitive. Memory systems offer a scalable alternative by compacting videos into text representations, but often fail on practical benchmarks: either the memory …'
-  found_on: '2026-10-01'
-- arxiv: '2609.40079'
-  title: 'LongEmo: Towards Emotion Understanding and Reasoning in Long Videos'
-  date: '2026-09-30'
-  url: https://arxiv.org/abs/2609.40079
-  section: llm
-  subcategory: memory-arch
-  score: 1.3
-  arxiv_categories:
-  - cs.CV
-  - cs.AI
-  abstract: While recent Multimodal Large Language Models (MLLMs) have shown promise in affective computing, their reasoning capabilities are largely confined to short video clips with limited interactions. However, real-world emotions are not merely isolated instantaneous reactions but dynamic and cumulative processes deeply shaped by past experiences and ongoing events. To bridge this gap, we introduce …
-  found_on: '2026-10-01'
-- arxiv: '2609.40169'
-  title: 'Learning from Research: Toward Lifelong Agent Harness Evolution'
-  date: '2026-09-30'
-  url: https://arxiv.org/abs/2609.40169
-  section: llm
-  subcategory: memory-arch
-  score: 1.3
-  arxiv_categories:
-  - cs.AI
-  abstract: Language agents are expected to solve increasingly complex tasks, creating a growing need for continual improvement. One promising approach is to evolve the agent harness, the software that governs tool use, memory management, and task execution, while keeping the underlying language model fixed. Recent methods automate this process by using a meta coding agent to modify the harness based on …
-  found_on: '2026-10-01'
-- arxiv: '2609.39034'
-  title: Switching Linear Attention
-  date: '2026-09-30'
-  url: https://arxiv.org/abs/2609.39034
-  section: llm
-  subcategory: kvcache
-  score: 1.3
-  arxiv_categories:
-  - cs.LG
-  - cs.AI
-  - cs.CL
-  abstract: Designing expressive sequence layers with efficient inference remains a central challenge in modern machine learning. Standard softmax attention achieves excellent sequence modeling performance through rich nonlinear token interactions, but it requires a key-value cache that grows linearly with sequence length, limiting its scalability. Linear attention enables efficient recurrent computation …
-  found_on: '2026-10-01'
-- arxiv: '2609.38886'
-  title: Benchmarking and Enhancing Skill-Level Memory for Partially Observable Robotic Manipulation
-  date: '2026-09-30'
-  url: https://arxiv.org/abs/2609.38886
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.RO
-  abstract: Recent advances in robot learning have enabled manipulation policies to perform increasingly diverse tasks and generalize across environments. However, reliable execution often depends on hidden task states that cannot be determined from current observations alone, making interaction history essential. We introduce $HIDE$, a benchmark for evaluating manipulation memory under partial …
-  found_on: '2026-10-01'
-- arxiv: '2610.00604'
-  title: 'MIKASA-Robo-VLA: Benchmarking Memory in VLA Models for Long-Horizon Manipulation'
-  date: '2026-09-30'
-  url: https://arxiv.org/abs/2610.00604
-  section: vla
-  subcategory: vla-mem
-  score: 4.5
-  arxiv_categories:
-  - cs.LG
-  - cs.AI
-  - cs.RO
-  abstract: Vision-language-action policies often see only one or a few recent frames, which makes it difficult to evaluate how they use information that disappears during a task. We introduce MIKASA-Robo-VLA, a benchmark of 90 language-conditioned manipulation tasks. All but 10 hide the cue an action depends on. Those 10 are reactive controls. MIKASA-Robo, the suite it rebuilds, has 32 tasks and uses …
-  found_on: '2026-10-02'
-- arxiv: '2609.39661'
-  title: 'The Evolution of Attention in Large Language Models: Mechanisms, Trade-offs, and Emerging Trends'
-  date: '2026-09-30'
-  url: https://arxiv.org/abs/2609.39661
-  section: llm
-  subcategory: survey
-  score: 1.5
-  arxiv_categories:
-  - cs.CL
-  abstract: Self-attention gives LLMs fine-grained, query-dependent access to context, but dense token interactions incur quadratic prefill cost and a key--value cache growing with context length. Research thus spans explicit-memory compression, sparse access, recurrent state construction, structured state dynamics, and heterogeneous mechanism composition. This survey analyzes these developments as …
-  found_on: '2026-10-02'
-- arxiv: '2609.40127'
-  title: Learning Functional Subspaces for Neural Network Compression
-  date: '2026-09-30'
-  url: https://arxiv.org/abs/2609.40127
-  section: llm
-  subcategory: kvcache
-  score: 1.3
-  arxiv_categories:
-  - cs.LG
-  - cs.CL
-  abstract: 'Modern transformers pair impressive capabilities with substantial memory and compute demands. Low-rank weight factorization reduces both while keeping the matrices dense, and thus efficient on standard hardware. Existing methods, however, choose the subspace to remove from each weight matrix with local closed-form criteria: activation energy, layer-wise reconstruction error, or a quadratic …'
-  found_on: '2026-10-02'
-- arxiv: '2609.40118'
-  title: Persistent Context Graphs for Efficient Memory Compaction in LLM Agents
-  date: '2026-09-30'
-  url: https://arxiv.org/abs/2609.40118
-  section: llm
-  subcategory: kvcache
-  score: 1.3
-  arxiv_categories:
-  - cs.CL
-  abstract: As LLM capabilities advance, agents are tackling increasingly complex tasks over longer horizons. Their growing interaction histories make memory compaction essential for staying within context windows and reducing prefill cost. Existing methods summarize the history or compress its KV cache, often adding model computation to preserve information for future requests. A new user request can change …
-  found_on: '2026-10-02'
-- arxiv: '2610.00801'
-  title: 'ECoMEM: Explicit Concept Memory for Memory-Dependent Robot Control'
-  date: '2026-09-30'
-  url: https://arxiv.org/abs/2610.00801
-  section: llm
-  subcategory: recurrent
-  score: 1.3
-  arxiv_categories:
-  - cs.RO
-  abstract: A robot may lose sight of an object it must later retrieve, need to recall what a person demonstrated earlier, or track which steps of a task it has already completed. Current vision-language-action (VLA) policies often fail once the information needed for action disappears from the current observation, making memory critical for long-horizon robot behavior. Existing approaches typically provide …
-  found_on: '2026-10-02'
-- arxiv: '2610.00592'
-  title: 'ALER: Adaptive Learnable Experience Rewriting for Reinforcement Learning'
-  date: '2026-09-30'
-  url: https://arxiv.org/abs/2610.00592
-  section: llm
-  subcategory: memory-arch
-  score: 1.3
-  arxiv_categories:
-  - cs.LG
-  - cs.AI
-  abstract: In partially observable reinforcement learning (RL), a later observation can make stored information obsolete or change what it implies for the next decision. Memory architectures and benchmarks for RL mostly test retention, the ability to keep information unchanged until it is needed. We formalize two further requirements. Rewriting sets the decision-relevant content to a value independent of …
-  found_on: '2026-10-02'
