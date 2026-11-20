@@ -4,6 +4,200 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2611.25433'
+  title: 'RoCoKV: Accelerating LLM Inference Serving through Uncertainty and Redundancy Aware KV Cache Compression'
+  date: '2026-11-19'
+  url: https://arxiv.org/abs/2611.25433
+  section: llm
+  subcategory: kvcache
+  score: 7.8
+  arxiv_categories:
+  - cs.CL
+  abstract: KV cache compression is critical for large reasoning models, where most of the cost comes from long generated reasoning traces rather than the input prompt. These traces often contain redundant and low-utility tokens due to looping, self-verification, and corrections. However, such tokens may still receive high attention scores, making it difficult to remove them without harming the reasoning …
+  found_on: '2026-11-20'
+- arxiv: '2611.25861'
+  title: Decoupled Knowledge Retrieval and Compact Memory Enable Reliable Lifelong Model Editing
+  date: '2026-11-19'
+  url: https://arxiv.org/abs/2611.25861
+  section: llm
+  subcategory: parametric
+  score: 5.2
+  arxiv_categories:
+  - cs.AI
+  abstract: Lifelong model editing requires continuously incorporating new facts into deployed large language models (LLMs) without expensive retraining or compromising existing capabilities. Memory-based editors offer an appealing solution by keeping the base parameters untouched, yet their practical use is hindered by linearly growing storage requirements and deteriorating retrieval performance as edits …
+  found_on: '2026-11-20'
+- arxiv: '2611.25849'
+  title: 'EgoWitness: Benchmarking Instance-Level Spatial Memory and Reasoning in Egocentric Video Streams'
+  date: '2026-11-19'
+  url: https://arxiv.org/abs/2611.25849
+  section: vla
+  subcategory: spatial-map
+  score: 4.5
+  arxiv_categories:
+  - cs.CV
+  abstract: Recalling where and when an object was last seen and who saw it requires recognizing it across days and people. Existing long-video benchmarks focus on events, object categories, or relative locations, leaving instance-level spatial memory largely untested in multimodal models. To address this gap, we present EgoWitness, a benchmark for instance-level spatial memory and reasoning in egocentric …
+  found_on: '2026-11-20'
+- arxiv: '2611.25889'
+  title: 'EvoMem: Self-Evolving Skills for Time-Aware Long Video Memory Agents'
+  date: '2026-11-19'
+  url: https://arxiv.org/abs/2611.25889
+  section: vlm
+  subcategory: video
+  score: 4.2
+  arxiv_categories:
+  - cs.CV
+  abstract: Although memory-augmented architectures have expanded the ability of large vision-language models (LVLMs) to process long videos, existing retrieval processes still largely rely on global semantic matching and lack state-driven temporal control, often returning fragmented or redundant evidence and failing to maintain a coherent evidence chain. To address this challenge, we propose EvoMem, a …
+  found_on: '2026-11-20'
+- arxiv: '2611.26427'
+  title: 'MemFolder: Structure-Guided Memory Folding for Efficient Agent Memory Management'
+  date: '2026-11-19'
+  url: https://arxiv.org/abs/2611.26427
+  section: llm
+  subcategory: memory-arch
+  score: 3.9
+  arxiv_categories:
+  - cs.CL
+  - cs.CV
+  abstract: 'Long-term agents accumulate large external memory stores as interactions unfold, increasing the costs of storage, retrieval, and response generation. Efficiency is constrained by two coupled factors: a growing record count increases retrieval overhead, while longer retrieved contexts increase prefill computation and decoding-time attention costs. Existing methods prune or consolidate records, but …'
+  found_on: '2026-11-20'
+- arxiv: '2611.25614'
+  title: 'Don''t Lose the Future: Latent-Aware 4-Bit Quantization of World Action Models'
+  date: '2026-11-19'
+  url: https://arxiv.org/abs/2611.25614
+  section: llm
+  subcategory: kvcache
+  score: 2.6
+  arxiv_categories:
+  - cs.AI
+  abstract: World action models (WAMs) predict how a scene will evolve and condition their actions on this predicted future. Deploying them on a robot's onboard computer calls for 4-bit weights, activations and key-value caches (W4A4KV4). Existing 4-bit quantizers for WAMs preserve the generated action, and estimate sensitivity one denoising step at a time. However, they fail to preserve the fidelity of the …
+  found_on: '2026-11-20'
+- arxiv: '2611.25703'
+  title: From Geographic Memory to Spatial Generalization in Large Language Models
+  date: '2026-11-19'
+  url: https://arxiv.org/abs/2611.25703
+  section: vla
+  subcategory: spatial-map
+  score: 1.5
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  - cs.LG
+  abstract: Large language models (LLMs) can associate places with geographic descriptions, but recovering an observed association does not establish an ability to generalize across geographic space. We distinguish geospatial memory, the recovery of location--description associations observed during training, from spatial generalization, the prediction of descriptions for locations in unobserved regions. We …
+  found_on: '2026-11-20'
+- arxiv: '2611.25925'
+  title: 'SpatialMem: Building Quantitative Spatial Reasoning Agents with Hierarchical Memory'
+  date: '2026-11-19'
+  url: https://arxiv.org/abs/2611.25925
+  section: vla
+  subcategory: spatial-map
+  score: 1.5
+  arxiv_categories:
+  - cs.CV
+  abstract: Vision Language Models (VLMs) have shown remarkable capabilities in qualitative spatial reasoning, but remain limited in quantitative spatial reasoning. Current work leverages the VLM agent to invoke external vision tools to perform computation. However, these methods usually bind each functional requirement to a single predefined vision specialist, implicitly resulting in fixed and rigid tool …
+  found_on: '2026-11-20'
+- arxiv: '2611.25865'
+  title: 'Thinking in Streams: Proactive Spatial Reasoning with Vision-Language Models'
+  date: '2026-11-19'
+  url: https://arxiv.org/abs/2611.25865
+  section: vla
+  subcategory: spatial-map
+  score: 1.5
+  arxiv_categories:
+  - cs.CV
+  abstract: Recognizing when a requested spatial condition holds in streaming video can require maintaining and updating spatial knowledge across changing viewpoints. We study this capability through proactive spatial reasoning, where a model receives a query in advance and determines whether and when to respond as the stream unfolds. We introduce ProSpace-Bench, comprising nine tasks across object, camera, …
+  found_on: '2026-11-20'
+- arxiv: '2611.25705'
+  title: 'STARK: Moving towards Personalized Agents That Truly Learn and Remember'
+  date: '2026-11-19'
+  url: https://arxiv.org/abs/2611.25705
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  - cs.IR
+  abstract: Long-term memory is essential for personalized agentic systems that interact with users over long time periods, yet current architectures only capture what happened while leaving the reasoning of why it happened to be derived later by underlying LLMs.%, and silo knowledge within individual users. These events can, however, convey not only what a user experienced but also how that experience …
+  found_on: '2026-11-20'
+- arxiv: '2611.25583'
+  title: 'DriftGuard: Online Memory-Drift Detection via Causal Attribution for LLM Agents'
+  date: '2026-11-19'
+  url: https://arxiv.org/abs/2611.25583
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Large language model (LLM) agents rely on persistent memory to plan tool calls and complete multi-step tasks, which exposes them to memory drift: an adversarial or misleading memory alters the execution path and final outcome. In this work, we investigate online memory-drift detection, which estimates each retrieved memory''s causal contribution to potential drift at serving time. We identify two …'
+  found_on: '2026-11-20'
+- arxiv: '2611.26438'
+  title: Risk-Controlled Test-Time Adaptation for Vision-Language-Action Models
+  date: '2026-11-19'
+  url: https://arxiv.org/abs/2611.26438
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.CV
+  abstract: Retrieval-augmented vision-language-action (VLA) models enable efficient test-time adaptation by leveraging expert demonstrations as additional context without updating model parameters. However, even when retrieved demonstrations are relevant to the current task, the VLA may fail to effectively utilize the retrieved information, ultimately leading to task failure. To address this challenge, we …
+  found_on: '2026-11-20'
+- arxiv: '2611.25461'
+  title: 'ActMem: From Latent Memory Reasoning to Grounded Robotic Action'
+  date: '2026-11-19'
+  url: https://arxiv.org/abs/2611.25461
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CV
+  - cs.LG
+  abstract: 'Vision-Language-Action (VLA) models have shown promising results in real-world long-horizon manipulation, where memory plays a crucial role. However, existing memory-augmented VLAs either retrieve past observations without reasoning about what they imply, or reason over the full history in a shared context where it crowds out current perception. Cognitive science treats them as distinct systems: …'
+  found_on: '2026-11-20'
+- arxiv: '2611.26341'
+  title: 'Reasoning on Call: Efficient Agentic Robot Control for Long-Horizon Robot Manipulation'
+  date: '2026-11-19'
+  url: https://arxiv.org/abs/2611.26341
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.RO
+  abstract: Large multimodal models can support long-horizon robot manipulation, but frequent model calls incur substantial latency and token costs. The central challenge is determining when agent assistance or intervention is needed and whether errors require correcting robot execution, subtask planning, or both. To address this problem, we propose RoC (Reasoning on Call), an efficient framework that …
+  found_on: '2026-11-20'
+- arxiv: '2611.26361'
+  title: How Much Should an Agent Remember? Deployment Lessons from Self-Distilled Memory for LLM Agents
+  date: '2026-11-19'
+  url: https://arxiv.org/abs/2611.26361
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  abstract: LLM agents on long-horizon tasks fail in recurring, procedural ways. They mis-paginate an API, resolve the wrong entity, or answer when no answer was asked. We built a pipeline that lets an agent learn from its own history. It first mines short \emph{lessons} from the agent's own trajectories, one to three per episode. It then consolidates those lessons into a smaller set of \emph{guidelines}, …
+  found_on: '2026-11-20'
+- arxiv: '2611.25868'
+  title: 'Generalist Meets Specialists: An Evolving Multimodal Agent with Persistent Tool Orchestration for Traffic Scenario Understanding'
+  date: '2026-11-19'
+  url: https://arxiv.org/abs/2611.25868
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  abstract: 'Traffic scenario understanding requires combining fine-grained visual evidence with spatial and temporal reasoning. Tool-augmented vision-language models (VLMs) can use specialized perception tools, but effective collaboration faces two challenges: terminal rewards provide limited guidance for intermediate decisions and error recovery, while repeated planning adds unnecessary cost across similar …'
+  found_on: '2026-11-20'
+- arxiv: '2611.25855'
+  title: 'HabitusMem: Belief Memory over Evolving User Preferences for LLM Agents'
+  date: '2026-11-19'
+  url: https://arxiv.org/abs/2611.25855
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  - cs.NE
+  abstract: Personalized LLM agents must act on a user's current preferences, which change across interactions and are rarely stated in full. Existing memory systems store and retrieve content from the interaction history and leave the agent to work out which preferences still hold and where they apply. Such content does not indicate whether a preference is still current or where it applies, so agents often …
+  found_on: '2026-11-20'
 - arxiv: '2611.23731'
   title: 'RecallFlow: Episodic Memory as the Source Distribution of Generative Robot Policies'
   date: '2026-11-18'
@@ -121,6 +315,30 @@ candidates:
   - cs.CV
   abstract: Recent video foundation models generate high-quality and limited-length clips, but orchestrating them into minute-level, story-coherent films remains an open problem. Existing video agents highly rely on natural-language planning or predefined workflows, which make their production hard to program, customize, and extend. Therefore, we introduce VOL-Agent, a programmable video agent built on a …
   found_on: '2026-11-19'
+- arxiv: '2611.25235'
+  title: 'Some Memories Must Fade: Persistence and Decay of User Memories in Model Parameters'
+  date: '2026-11-18'
+  url: https://arxiv.org/abs/2611.25235
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.LG
+  - cs.AI
+  abstract: Parametric memory allows Large Language Models to internalize knowledge directly into their weights, offering a potentially powerful alternative to retrieval-based memory (RAG). However, existing approaches to parametric memory are difficult to deploy as they largely mirror the Continual Learning (CL) objective of retaining information indefinitely. This is neither sustainable nor sufficient for …
+  found_on: '2026-11-20'
+- arxiv: '2611.25123'
+  title: 'Forget Freely, Grep Later: Lossless, Index-Free Memory for Long-Horizon LLM Agents'
+  date: '2026-11-18'
+  url: https://arxiv.org/abs/2611.25123
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: Long-horizon LLM agents often exceed their context windows, forcing them to discard information that may be needed later. Existing context management strategies rely on summarization, masking, or structured memory, requiring decisions about what to preserve or how to retrieve it before future needs are known. However, these methods can introduce lossy compression, potentially discarding details …
+  found_on: '2026-11-20'
 - arxiv: '2611.22245'
   title: 'Multi-Agent Memory Inconsistency: Where Factual Conflicts Disappear in LLM Agents'
   date: '2026-11-17'
@@ -4410,222 +4628,3 @@ candidates:
   - cs.AI
   abstract: Tabular foundation models (TFMs) outperform established machine learning models on tabular benchmarks through in-context learning. Building on this success, interest is growing in applying them to data streams, where data arrive continuously and evolve over time. On a stream, a TFM adapts by updating its context rather than its parameters, so its accuracy and cost depend on which examples it …
   found_on: '2026-10-06'
-- arxiv: '2610.04868'
-  title: 'From Memory to Guide: Spatio-Temporal Composer for Procedural Coding Memory'
-  date: '2026-10-04'
-  url: https://arxiv.org/abs/2610.04868
-  section: llm
-  subcategory: agent-exp
-  score: 1.3
-  arxiv_categories:
-  - cs.AI
-  abstract: Memory-augmented agents typically integrate procedural knowledge by injecting retrieved skills directly into text prompts. This approach dangerously equates readable text with reliable execution. To bridge this gap, we introduce From Memory to Guide, a novel paradigm that transitions procedural memory from passive text delivery to active, inference-time policy adaptation. We instantiate this …
-  found_on: '2026-10-06'
-- arxiv: '2610.04827'
-  title: 'GRAM: Correcting Frozen Time-Series Foundation Models via Graph-Retrieved Amplitude Memory'
-  date: '2026-10-04'
-  url: https://arxiv.org/abs/2610.04827
-  section: llm
-  subcategory: memory-arch
-  score: 1.3
-  arxiv_categories:
-  - cs.LG
-  abstract: Time-series foundation models (TSFMs) enable zero-shot forecasting through large-scale cross-domain pretraining, while retrieval augmentation further improves their performance by leveraging historical information. However, existing methods typically correct TSFM forecasts using the ground-truth futures of similar historical windows, which contain both predictive components already captured by …
-  found_on: '2026-10-06'
-- arxiv: '2610.05303'
-  title: 'ASCENT: Online Test-Time Training of Long-Horizon Agents via Self-Distillation of Verified Experience'
-  date: '2026-10-04'
-  url: https://arxiv.org/abs/2610.05303
-  section: llm
-  subcategory: retrieval
-  score: 1.2
-  arxiv_categories:
-  - cs.LG
-  abstract: A large language model (LLM) agent solves long-horizon tasks through many reasoning-action turns, with one verification signal at termination. Deployed agents face streams of related tasks, making their trajectories a natural resource for improvement. In-context adaptation agents store reflections, memories, or skills as text, so reuse depends on retrieving the right experience and on a frozen …
-  found_on: '2026-10-06'
-- arxiv: '2610.04838'
-  title: 'MemTrace: State-Consistent Memory for Long-Horizon Coding Agents'
-  date: '2026-10-04'
-  url: https://arxiv.org/abs/2610.04838
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.AI
-  abstract: 'As coding agents take on long-horizon software evolution tasks spanning multiple files and stages, longer execution trajectories introduce two coupled challenges: (1) accumulated histories strain context budgets, and (2) repository changes can invalidate earlier execution evidence. Existing approaches address these challenges through techniques like larger context windows, compression, retrieval, …'
-  found_on: '2026-10-06'
-- arxiv: '2610.01118'
-  title: 'Madeleine: Learning Involuntary Recall for Conversational Memory from Simulated Lives'
-  date: '2026-10-01'
-  url: https://arxiv.org/abs/2610.01118
-  section: llm
-  subcategory: longterm
-  score: 5.6
-  arxiv_categories:
-  - cs.CL
-  - cs.AI
-  - cs.IR
-  abstract: A long-term conversational assistant must recall the right memory at the right moment, yet the memory that matters most is often not similar to what the user says now. Current systems recover such associations by letting an LLM reason at write or read time, at a cost of hundreds to over a thousand LLM calls per memory bank and up to several thousand context tokens per query. We argue that …
-  found_on: '2026-10-02'
-- arxiv: '2610.01513'
-  title: 'Decision Titan: Test-Time Training for Long-Term Memory in Offline Reinforcement Learning'
-  date: '2026-10-01'
-  url: https://arxiv.org/abs/2610.01513
-  section: llm
-  subcategory: longterm
-  score: 4.2
-  arxiv_categories:
-  - cs.AI
-  - cs.LG
-  abstract: 'Long-term dependencies remain a major challenge for sequential decision-making in the field of AI: RNNs suffer from vanishing gradients and the limited expressivity of vector-based hidden states, whilst Transformer-based models are limited by the quadratic scaling of attention. Recent work has proposed tackling this problem with the Test-Time Training (TTT) framework, which stores episodic …'
-  found_on: '2026-10-02'
-- arxiv: '2610.00958'
-  title: Role-aware Heuristic Episodic Attention for Conversational LLMs
-  date: '2026-10-01'
-  url: https://arxiv.org/abs/2610.00958
-  section: vlm
-  subcategory: episodic
-  score: 1.4
-  arxiv_categories:
-  - cs.CL
-  abstract: 'Large language models often lose track of persistent instructions and relevant information as multi-turn conversations grow. We study this cumulative contextual decay through three related failure modes: attention pollution, dilution, and drift. We propose REA (Role-aware Heuristic Episodic Attention), a context-management framework that assigns different persistence and representation policies …'
-  found_on: '2026-10-02'
-- arxiv: '2610.01192'
-  title: 'FlashBack: Knowing When to Remember in Streaming Vision-Language Models'
-  date: '2026-10-01'
-  url: https://arxiv.org/abs/2610.01192
-  section: llm
-  subcategory: longterm
-  score: 1.4
-  arxiv_categories:
-  - cs.CV
-  abstract: 'Streaming vision-language models must process continuously growing video streams under a bounded compute budget, creating a persistent tension between real-time perception and long-term memory. Retrieving historical information provides a natural remedy, yet historical recall is not uniformly beneficial: unnecessary history may introduce irrelevant context into current reasoning and interfere …'
-  found_on: '2026-10-02'
-- arxiv: '2610.00872'
-  title: 'MemFit: Efficient Long-Term Agentic Memory'
-  date: '2026-10-01'
-  url: https://arxiv.org/abs/2610.00872
-  section: llm
-  subcategory: longterm
-  score: 1.4
-  arxiv_categories:
-  - cs.AI
-  abstract: Long-term memory systems for large language models (LLMs) have gained popularity for extending reasoning capabilities across applications. Current memory systems rely on LLM agents to organize and consolidate memory, resulting in costly, inefficient write operations. To address this limitation, we propose MemFit, a long-term memory system for conversational agents that reduces the cost and …
-  found_on: '2026-10-02'
-- arxiv: '2610.02200'
-  title: 'VISTA: A Visual Harness for Reasoning in an Interactive World'
-  date: '2026-10-01'
-  url: https://arxiv.org/abs/2610.02200
-  section: vlm
-  subcategory: mm-arch
-  score: 1.3
-  arxiv_categories:
-  - cs.AI
-  - cs.CV
-  abstract: We show that multimodal models possess strong reasoning abilities and that an appropriate harness can unlock their potential to solve tasks across diverse interactive environments. We introduce VISTA, a visual harness that gives a general-purpose multimodal model long-horizon vision. VISTA allows the model to directly perceive the environment through visual observations and maintains a lossless …
-  found_on: '2026-10-02'
-- arxiv: '2610.02126'
-  title: Local Support Learning
-  date: '2026-10-01'
-  url: https://arxiv.org/abs/2610.02126
-  section: llm
-  subcategory: parametric
-  score: 1.3
-  arxiv_categories:
-  - cs.LG
-  - cs.AI
-  abstract: We explore catastrophic forgetting in the context of large pre-trained models. By considering forgetting as a geometric problem in the input space of each weight matrix, we uncover a natural retention objective under which updates produced by gradient-based optimizers are suboptimal. Following this observation, we propose Local Support Learning (LSL), a general-purpose framework that augments …
-  found_on: '2026-10-02'
-- arxiv: '2610.02150'
-  title: 'From Knowledge Access to Source Learning: Developing Source-Specific Competence'
-  date: '2026-10-01'
-  url: https://arxiv.org/abs/2610.02150
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.CL
-  - cs.AI
-  - cs.LG
-  abstract: Large language model (LLM) agents increasingly rely on persistent external sources to solve sequences of knowledge-intensive tasks. Existing methods improve how source content is accessed and organized, while agent-memory systems preserve reusable knowledge from prior interactions, but repeated use of the same source is still largely treated as repeated access rather than an opportunity to …
-  found_on: '2026-10-02'
-- arxiv: '2610.02040'
-  title: Typological Alignment of Stack-Based Language Models on Mildly Context-Sensitive Artificial Languages
-  date: '2026-10-01'
-  url: https://arxiv.org/abs/2610.02040
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.CL
-  abstract: Some properties of languages, e.g., subject-object-verb (SOV) word order, are more prevalent than others among the thousands of attested natural languages (NLs). Such typological commonality is often attributed to learning biases. Computational simulations, recently with language models (LMs), have facilitated the exploration of this theory. In this paper, we extend existing analyses of the …
-  found_on: '2026-10-02'
-- arxiv: '2610.02002'
-  title: 'Mem++: Non-Destructive Memory for Long-Term Organizational LLM Agents'
-  date: '2026-10-01'
-  url: https://arxiv.org/abs/2610.02002
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.CL
-  - cs.AI
-  abstract: Large Language Model (LLM) agents now take part in organizational work, where many authors record decisions across documents over months. Because a revised decision arrives as a new document rather than an edit, answering a question requires knowing which version held at a given time. However, most memory systems compress the record at write time. By distilling each document into facts, notes or …
-  found_on: '2026-10-02'
-- arxiv: '2610.02070'
-  title: 'Causal Memory Policy: Making Memory Utility Identifiable by Intervening on Retrieval'
-  date: '2026-10-01'
-  url: https://arxiv.org/abs/2610.02070
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.AI
-  abstract: Memory-augmented large language models must decide which memories to retain, and recent systems do so by estimating each memory's effect on task performance. However, these estimates rely entirely on retrieved memories. When a memory is never retrieved, store-level interventions produce identical outcomes, leaving its utility unidentified. This is a retrieval-level positivity violation, invisible …
-  found_on: '2026-10-02'
-- arxiv: '2609.38778'
-  title: Action Conditioned Bisimulation For GUI Agent Memory
-  date: '2026-09-30'
-  url: https://arxiv.org/abs/2609.38778
-  section: vlm
-  subcategory: gui
-  score: 4.5
-  arxiv_categories:
-  - cs.AI
-  abstract: 'An agent that remembers what it did on a web page must decide when two pages count as the same. Memories built on observation similarity merge pages that look alike but behave differently, and GUIs are full of such pages: two tabs of one widget or two rows of one menu answer the same click differently. We define the merge rule as an action-conditioned bisimulation over the empirical predictive …'
-  found_on: '2026-10-01'
-- arxiv: '2609.39915'
-  title: 'NavHarness: Adaptive Goals for Agentic Vision-Language Navigation'
-  date: '2026-09-30'
-  url: https://arxiv.org/abs/2609.39915
-  section: vla
-  subcategory: nav
-  score: 4.2
-  arxiv_categories:
-  - cs.CV
-  - cs.RO
-  abstract: Vision-Language Navigation (VLN) requires embodied agents to generate actions based on instructions and observations. General-purpose multimodal agents offer a promising basis for this task, but selecting plausible local actions does not ensure that execution remains consistent with the intended route, particularly in long-horizon tasks. Moreover, the accumulated interaction history increases the …
-  found_on: '2026-10-01'
-- arxiv: '2609.39151'
-  title: Linear Recurrent Memory Suffices to Distil a World-Model Policy for Robot Air Hockey
-  date: '2026-09-30'
-  url: https://arxiv.org/abs/2609.39151
-  section: llm
-  subcategory: recurrent
-  score: 3.9
-  arxiv_categories:
-  - cs.RO
-  - cs.LG
-  abstract: Does memory-dependent control need nonlinear recurrent dynamics? We study simulated air-hockey defence under temporary loss of puck tracking. A DreamerV3 teacher outperforms a memoryless policy under tracking loss, while resetting the teacher's recurrent state sharply reduces performance, which demonstrates that the task requires memory. We distil this teacher into compact recurrent policies with …
-  found_on: '2026-10-01'
-- arxiv: '2609.39166'
-  title: 'Beyond the Remembered World: Predictive 4D Belief for Persistent Navigation in Evolving Worlds'
-  date: '2026-09-30'
-  url: https://arxiv.org/abs/2609.39166
-  section: vla
-  subcategory: spatial-map
-  score: 1.5
-  arxiv_categories:
-  - cs.AI
-  abstract: Persistent spatial memory enables embodied agents to navigate familiar environments across repeated visits. However, targets may move while unobserved, including during navigation, making remembered locations unreliable by the time an agent arrives. Despite advances in memory retrieval and state prediction, accounting for continued hidden world evolution and revising beliefs under limited …
-  found_on: '2026-10-01'
