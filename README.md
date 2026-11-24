@@ -2,11 +2,11 @@
 
 # Awesome Memory Bank
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--23-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-172-blue?style=flat-square) ![Updated](https://img.shields.io/badge/updated-2026--11--24-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey?style=flat-square)
 
 > A curated, auto-updated collection of papers on memory in foundation models -- long-term and episodic memory, memory architectures, retrieval and consolidation -- split across LLM/Agent, VLM and VLA systems.
 
-**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-11-23**
+**172 papers** · **LLM: 79** · **VLM: 46** · **VLA: 47** · Last updated: **2026-11-24**
 
 📡 **[Daily arXiv feed](daily/)** — refreshed every morning with new papers matched against the taxonomy below.
 
@@ -316,7 +316,7 @@ Other views: **[Timeline](TIMELINE.md)** · **[By institution](BY_INSTITUTION.md
 | **3D-Anchored Lookahead Planning for Persistent Robotic Scene Memory via World-Model-Based MCTS**<br><sub>Persistent scene memory as the rollout oracle for search-based manipulation planning.</sub> | Huawei | ![Apr 13, 2026](https://img.shields.io/badge/Apr_13%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2604.11302) |
 | **GSMem: 3D Gaussian Splatting as Persistent Spatial Memory for Zero-Shot Embodied Exploration and Reasoning**<br><sub>Gaussian splats as scene memory, allowing re-observation from viewpoints never visited.</sub> | Case Western Reserve University | ![Mar 19, 2026](https://img.shields.io/badge/Mar_19%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2603.19137) |
 | **AsyncMDE: Real-Time Monocular Depth Estimation via Asynchronous Spatial Memory**<br><sub>Reuses spatial memory across frames so depth estimation fits on an edge robot.</sub> | — | ![Mar 11, 2026](https://img.shields.io/badge/Mar_11%2C_2026-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2603.10438) |
-| ⭐ **3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning**<br><sub>Memory snapshots of informative views instead of a dense map, keeping exploration decisions tractable.</sub> | UC San Diego, Stanford | ![Nov 23, 2024](https://img.shields.io/badge/Nov_23%2C_2024-blue?style=flat-square) | [Paper](https://arxiv.org/abs/2411.17735) |
+| ⭐ **3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning**<br><sub>Memory snapshots of informative views instead of a dense map, keeping exploration decisions tractable.</sub> | UC San Diego, Stanford | ![Nov 23, 2024](https://img.shields.io/badge/Nov_23%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2411.17735) |
 | **RoboEXP: Action-Conditioned Scene Graph via Interactive Exploration for Robotic Manipulation**<br><sub>Memory that records what actions revealed, not just what was seen, enabling interactive discovery.</sub> | UC San Diego, Tsinghua | ![Feb 23, 2024](https://img.shields.io/badge/Feb_23%2C_2024-lightgrey?style=flat-square) | [Paper](https://arxiv.org/abs/2402.15487) |
 
 ### Navigation Memory (9)

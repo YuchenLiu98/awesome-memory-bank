@@ -4,6 +4,146 @@
 # Everything here is machine-generated; edits are safe to discard.
 
 candidates:
+- arxiv: '2611.30047'
+  title: 'RoboLiveMem: Is Robot Memory Solved When the World Does Not Wait?'
+  date: '2026-11-23'
+  url: https://arxiv.org/abs/2611.30047
+  section: vla
+  subcategory: vla-mem
+  score: 4.5
+  arxiv_categories:
+  - cs.RO
+  - cs.AI
+  abstract: 'Robot agents built on frontier vision-language models now solve most robot memory benchmarks. Does this mean they can remember what they need in a home, where people and machines keep moving things? Existing memory benchmarks cannot answer this question, because they pause the simulator while the model thinks: nothing can change during a decision, so whatever the robot remembers is still true …'
+  found_on: '2026-11-24'
+- arxiv: '2611.29912'
+  title: 'SuperNav-1.5: Structured Spatial Memory For Agentic Navigation Systems'
+  date: '2026-11-23'
+  url: https://arxiv.org/abs/2611.29912
+  section: vla
+  subcategory: spatial-map
+  score: 4.5
+  arxiv_categories:
+  - cs.RO
+  abstract: This paper addresses the challenge of scene-level memory design for efficient navigation across sessions and successive object goals. Recent methods commonly represent a scene using scene graphs or image--text records. However, dense scene-graph representations impose substantial reasoning and context overhead on multimodal large language models, while image--text records cannot be directly …
+  found_on: '2026-11-24'
+- arxiv: '2611.30148'
+  title: 'STMemoLLM: A Spatial-Temporal Memory-Augmented LLM for Robust Traffic Forecasting'
+  date: '2026-11-23'
+  url: https://arxiv.org/abs/2611.30148
+  section: vlm
+  subcategory: video
+  score: 4.2
+  arxiv_categories:
+  - cs.LG
+  abstract: Traffic forecasting is essential for intelligent transportation systems. However, traditional deep-learning models often rely heavily on high-quality observations. Recent LLM-based approaches incorporate pretrained knowledge to improve forecasting, but they remain sensitive to input perturbations and struggle to preserve long-term patterns. To address this, we propose STMemoLLM, a …
+  found_on: '2026-11-24'
+- arxiv: '2611.30412'
+  title: 'DMC-5: Dual-Model Collaboration with Cache-aware Context Compression for Long-horizon Agents'
+  date: '2026-11-23'
+  url: https://arxiv.org/abs/2611.30412
+  section: llm
+  subcategory: kvcache
+  score: 3.9
+  arxiv_categories:
+  - cs.AI
+  abstract: Long-horizon agents repeatedly feed an ever-growing interaction trajectory to a specialized agent model. Prefix caching reuses computation over repeated history, but cannot prevent context growth or remove information irrelevant to the current decision. This is especially costly when the specialized agent lacks the cached-input discounts available to general-purpose models, making trajectory …
+  found_on: '2026-11-24'
+- arxiv: '2611.30181'
+  title: 'Retrieval-Augmented Generation in the Agentic Era: Tradition, Present, and Prospect'
+  date: '2026-11-23'
+  url: https://arxiv.org/abs/2611.30181
+  section: llm
+  subcategory: retrieval
+  score: 3.6
+  arxiv_categories:
+  - cs.CL
+  abstract: Retrieval-augmented generation (RAG) couples frozen language models with external, updatable knowledge, so that generation is grounded in retrieved evidence rather than in parametric memory alone. This work maps RAG in the agentic era by joining them on a single lifecycle axis, from offline indexing through pre-retrieval, retrieval, post-retrieval, and orchestration over these stages. It treats …
+  found_on: '2026-11-24'
+- arxiv: '2611.30287'
+  title: 'MMMem: Self-Improving Agents with Task-Aware Multimodal Experience Consolidation'
+  date: '2026-11-23'
+  url: https://arxiv.org/abs/2611.30287
+  section: vlm
+  subcategory: mm-arch
+  score: 1.3
+  arxiv_categories:
+  - cs.AI
+  abstract: AI agents accumulate conversations, images, and documents through long-term interactions with users. Answering later questions often requires connecting evidence across these records, yet the resulting understanding is rarely retained, allowing mistakes to recur on related questions. Existing multimodal memory methods largely focus on storing and retrieving records, with limited mechanisms for …
+  found_on: '2026-11-24'
+- arxiv: '2611.30404'
+  title: Time Series Foundation Models on the Edge
+  date: '2026-11-23'
+  url: https://arxiv.org/abs/2611.30404
+  section: llm
+  subcategory: kvcache
+  score: 1.3
+  arxiv_categories:
+  - cs.LG
+  abstract: Time series foundation models (TSFMs) forecast zero-shot with accuracy exceeding that of task-specific models, and the smaller ones fit on edge devices. Operational deployments must refresh their forecast as new observations arrive, and privacy and latency requirements often force this refresh onto resource-constrained edge devices. To serve as a forecasting system there, a TSFM must refresh …
+  found_on: '2026-11-24'
+- arxiv: '2611.30027'
+  title: 'Fast 4-bit KV-Cache Decoding on Hopper GPUs: Why Existing Kernels Are Slow and How to Fix Them'
+  date: '2026-11-23'
+  url: https://arxiv.org/abs/2611.30027
+  section: llm
+  subcategory: kvcache
+  score: 1.3
+  arxiv_categories:
+  - cs.LG
+  - cs.DC
+  - cs.PF
+  abstract: 'A 4-bit KV cache reads about half the bytes of FP8, but Hopper GPUs have no FP4 hardware and little instruction-issue capacity per byte of memory bandwidth, so 4-bit values must be decoded in software. On H200, vLLM''s NVFP4 KV path (FlashInfer''s decode) reaches 10-20% of memory bandwidth and is up to 1.7x slower than FP8. NVBit instruction counts show two causes: the kernels behind vLLM''s 4-bit …'
+  found_on: '2026-11-24'
+- arxiv: '2611.29988'
+  title: 'SHAKTI: Evidence-Grounded Conversational AI for Nutrition and Health'
+  date: '2026-11-23'
+  url: https://arxiv.org/abs/2611.29988
+  section: llm
+  subcategory: retrieval
+  score: 1.2
+  arxiv_categories:
+  - cs.CL
+  - cs.IR
+  abstract: Large language models (LLMs) answer many diet and health questions but can state unsupported claims and cite sources that do not support them. We present SHAKTI (Smart Health Advisor for Knowledge-based Tailored Interventions), a conversational assistant that answers only from retrieved scholarly papers and exact food-composition data, and evaluate it with retrieval, generation, grounding, …
+  found_on: '2026-11-24'
+- arxiv: '2611.29303'
+  title: 'From Vanishing Gradients to Recursive Self-Improvement: Evaluating the Most Influential Papers in Large Language Model Evolution (1997-2026)'
+  date: '2026-11-22'
+  url: https://arxiv.org/abs/2611.29303
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: The rapid proliferation of Large Language Model (LLM) research makes it increasingly difficult to distinguish incremental refinements from true paradigm shifts. This review evaluates 22 of the most influential publications spanning nearly three decades (1997-2026), organized through a causal, chronologically anchored taxonomy centered on the author's birth year (1999). Beginning "before 1999" …
+  found_on: '2026-11-24'
+- arxiv: '2611.29155'
+  title: 'ContextFact: Remembering Facts in Context for Long-Term Conversational Agents'
+  date: '2026-11-22'
+  url: https://arxiv.org/abs/2611.29155
+  section: llm
+  subcategory: longterm
+  score: 1.4
+  arxiv_categories:
+  - cs.CL
+  - cs.AI
+  abstract: Agents built on large language models must maintain continuity across repeated interactions with users. However, long-term conversations scatter facts across turns and sessions, making it difficult to retrieve the right evidence with enough context. Memory for such conversations must therefore preserve facts with their context while keeping evidence selectively accessible. We first study how …
+  found_on: '2026-11-24'
+- arxiv: '2611.29255'
+  title: 'NoeVera: Can Knowledge Guide Experiments and Experiments Refine Knowledge?'
+  date: '2026-11-22'
+  url: https://arxiv.org/abs/2611.29255
+  section: unsorted
+  subcategory: unsorted
+  score: 0.0
+  arxiv_categories:
+  - cs.AI
+  - cs.CL
+  - cs.DC
+  abstract: 'With the growing demand for large language model (LLM) services, optimizing LLM serving systems is becoming increasingly complex, and the bottleneck is no longer predicting how a given configuration will perform. The harder problem is deciding what to investigate: which mechanisms matter for a workload, which configurations are worth testing, and what evidence a decision still needs. In this …'
+  found_on: '2026-11-24'
 - arxiv: '2611.25433'
   title: 'RoCoKV: Accelerating LLM Inference Serving through Uncertainty and Redundancy Aware KV Cache Compression'
   date: '2026-11-19'
@@ -4485,146 +4625,3 @@ candidates:
   - cs.AI
   abstract: Agentic memory allows LLM agents to reuse past experience, yet retrieved memories can also distort inference even when they are benign, correctly stored, and appropriately retrieved. We study this failure mode, which we call memory over-reliance. Across benchmarks and memory architectures, we find that memory is useful when past experience transfers to the current task, but can become misleading …
   found_on: '2026-10-07'
-- arxiv: '2610.07309'
-  title: 'The Right Memory in the Wrong Context: Verifying Retrieval Admissibility in Long-Term Agent Memory'
-  date: '2026-10-05'
-  url: https://arxiv.org/abs/2610.07309
-  section: llm
-  subcategory: eval
-  score: 1.2
-  arxiv_categories:
-  - cs.AI
-  - cs.IR
-  - cs.MA
-  abstract: 'Long-term-memory agents can retrieve relevant information that is inadmissible for the current request because it belongs to another principal, violates policy, or reflects an incompatible lifecycle state. Recall and final-answer accuracy do not reveal this: a route can appear safe by missing required evidence, while a correct answer may follow inadmissible prompt exposure. We introduce a …'
-  found_on: '2026-10-07'
-- arxiv: '2610.07100'
-  title: 'When to Remember, When to Abstain: Category-Conditioned Retention for Reliable Agent Memory'
-  date: '2026-10-05'
-  url: https://arxiv.org/abs/2610.07100
-  section: unsorted
-  subcategory: unsorted
-  score: 0.0
-  arxiv_categories:
-  - cs.AI
-  - cs.MA
-  abstract: 'Persistent agent memory is only as reliable as its retention decision: an assertion weakly supported by its source can be stored and later reused as established fact. We study whether the retention decision should be governed by a confidence bar conditioned on the semantic category of the assertion rather than by a single global threshold, retaining well-evidenced categories liberally while …'
-  found_on: '2026-10-07'
-- arxiv: '2610.05526'
-  title: Have I Scene This Before? Spatially Grounded Conversational Memory for Complex Queries in Egocentric Assistants
-  date: '2026-10-04'
-  url: https://arxiv.org/abs/2610.05526
-  section: llm
-  subcategory: longterm
-  score: 4.2
-  arxiv_categories:
-  - cs.AI
-  abstract: 'Egocentric assistants must connect what users say with what they see across long interaction histories. We formalize this challenge as Spatially grounded Conversational Reasoning (SpaCR): cross-scene, recall-oriented, and counterfactual spatial queries that combine user-stated facts with geometric evidence. Direct vision-language models incur high inference costs and context limits as histories …'
-  found_on: '2026-10-06'
-- arxiv: '2610.05097'
-  title: 'ReMAP: Restoring the Perceptual Cycle with Reasoning-Time Latent Visual Memory'
-  date: '2026-10-04'
-  url: https://arxiv.org/abs/2610.05097
-  section: vlm
-  subcategory: mm-arch
-  score: 3.9
-  arxiv_categories:
-  - cs.CV
-  - cs.AI
-  - cs.CL
-  abstract: 'As multimodal large language models (MLLMs) reason for longer, attention to the initial visual input diminishes, weakening visual grounding. Visual memory reintroduces visual evidence during reasoning. We conduct a controlled analysis of visual memory along three axes: curation, organization, and access. We find that local evidence benefits from global context, compact latent representations …'
-  found_on: '2026-10-06'
-- arxiv: '2610.05437'
-  title: 'TeleTune: Evolving Agent Skills From Offline Telemetry'
-  date: '2026-10-04'
-  url: https://arxiv.org/abs/2610.05437
-  section: vlm
-  subcategory: gui
-  score: 1.5
-  arxiv_categories:
-  - cs.AI
-  - cs.CL
-  abstract: 'Computer-use agents need to capture procedural knowledge of how people use software. User telemetry offers a scalable source of this knowledge. However, learning reusable skills from these logs requires addressing three challenges: (1) Goal Underspecification, since logs do not record the goal behind each action; (2) Non-Replayability, since past activity cannot be replayed to evaluate skill …'
-  found_on: '2026-10-06'
-- arxiv: '2610.04916'
-  title: 'PreAct-Nav: Agentic Reasoning Before Action for Urban Navigation'
-  date: '2026-10-04'
-  url: https://arxiv.org/abs/2610.04916
-  section: vla
-  subcategory: nav
-  score: 1.4
-  arxiv_categories:
-  - cs.RO
-  - cs.AI
-  abstract: Urban navigation requires embodied agents to pursue long-horizon goals through local decisions based on egocentric observations. However, existing agentic navigation methods often struggle to translate distant goals into coherent local decisions in large-scale physical environments. Their reliance on linguistic reasoning over transient observations or limited history constrains anticipation of …
-  found_on: '2026-10-06'
-- arxiv: '2610.05334'
-  title: 'AgentDiscover: Autonomous Discovery with Minimal Search Scaffolding'
-  date: '2026-10-04'
-  url: https://arxiv.org/abs/2610.05334
-  section: llm
-  subcategory: longterm
-  score: 1.4
-  arxiv_categories:
-  - cs.AI
-  - cs.LG
-  - cs.NE
-  abstract: 'Frameworks that use large language models for scientific discovery typically rely on a fixed, human-designed algorithm that decides what the model sees at each step, leaving the model only the role of proposer. The model knows nothing of the search beyond what it is shown. As models grow more capable, a question arises: does a search strategy chosen by a human before the run scale better than …'
-  found_on: '2026-10-06'
-- arxiv: '2610.05176'
-  title: 'AECG: Asymmetric Experience Consolidation and Governance In Multi-Agent Systems'
-  date: '2026-10-04'
-  url: https://arxiv.org/abs/2610.05176
-  section: llm
-  subcategory: multiagent
-  score: 1.4
-  arxiv_categories:
-  - cs.AI
-  abstract: 'Large language model (LLM)-based multi-agent systems increasingly rely on memory to transform execution trajectories into reusable procedural knowledge. Yet repeated retrieval also makes memory errors persistent: memory pollution arises when outdated, weakly supported, or spuriously successful procedures become recurring components of future reasoning. Multi-agent execution introduces an …'
-  found_on: '2026-10-06'
-- arxiv: '2610.05162'
-  title: 'Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy'
-  date: '2026-10-04'
-  url: https://arxiv.org/abs/2610.05162
-  section: llm
-  subcategory: longterm
-  score: 1.4
-  arxiv_categories:
-  - cs.AI
-  abstract: Long-term memory enables LLM-based agents to retain and reuse information across tasks and sessions, supporting personalization and long-horizon interactions. However, persistent memories can also induce sycophancy, causing agents to over-align with users' historical beliefs even when they are inaccurate, outdated, or inconsistent with objective evidence. Existing mitigation methods assume that …
-  found_on: '2026-10-06'
-- arxiv: '2610.05124'
-  title: 'Memory Canonicalization: A Framework and Benchmark for Cross-Model Drift in Persistent LLM Memory'
-  date: '2026-10-04'
-  url: https://arxiv.org/abs/2610.05124
-  section: llm
-  subcategory: longterm
-  score: 1.4
-  arxiv_categories:
-  - cs.AI
-  abstract: 'Persistent memory for Large Language Models (LLMs) has matured rapidly: systems such as MemGPT/Letta, Mem0, and Zep now provide agents with tiered, temporally-aware, model-agnostic external storage, while the Model Context Protocol (MCP) standardizes access to memory servers. A less addressed problem is that an identical stored memory object, retrieved by two different LLMs under otherwise …'
-  found_on: '2026-10-06'
-- arxiv: '2610.04862'
-  title: 'GitSwarm: Decentralized Compounding Inference'
-  date: '2026-10-04'
-  url: https://arxiv.org/abs/2610.04862
-  section: llm
-  subcategory: longterm
-  score: 1.4
-  arxiv_categories:
-  - cs.AI
-  - cs.LG
-  abstract: 'Long-horizon problem solving and scientific research require computation to accumulate across successive attempts. Partial solutions, experimental findings, and unsuccessful approaches can inform later work, yet most inference-time computation is organized around individual trajectories or candidates rather than a persistent body of reusable work. We call this paradigm compounding inference: …'
-  found_on: '2026-10-06'
-- arxiv: '2610.05352'
-  title: Rethinking Tabular Foundation Models On Data Streams
-  date: '2026-10-04'
-  url: https://arxiv.org/abs/2610.05352
-  section: llm
-  subcategory: memory-arch
-  score: 1.3
-  arxiv_categories:
-  - cs.LG
-  - cs.AI
-  abstract: Tabular foundation models (TFMs) outperform established machine learning models on tabular benchmarks through in-context learning. Building on this success, interest is growing in applying them to data streams, where data arrive continuously and evolve over time. On a stream, a TFM adapts by updating its context rather than its parameters, so its accuracy and cost depend on which examples it …
-  found_on: '2026-10-06'
